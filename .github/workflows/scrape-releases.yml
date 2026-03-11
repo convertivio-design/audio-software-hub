@@ -2,8 +2,8 @@ name: "Scrape Releases & Deploy"
 
 on:
   schedule:
-    # Run every 24 hours at 06:00 UTC
-    - cron: '0 6 * * *'
+    # Run every 48 hours (Mon, Wed, Fri, Sun at 06:00 UTC)
+    - cron: '0 6 */2 * *'
   workflow_dispatch:
 
 permissions:

@@ -235,11 +235,26 @@ def make_id(url: str, name: str) -> str:
     return hashlib.md5(f"{url}:{name}".encode()).hexdigest()[:12]
 
 
+JUNK_URL_PATTERNS = [
+    r'/forum', r'/forums', r'/ucp\.php', r'/viewtopic', r'/viewforum',
+    r'/category/', r'/categories/', r'/tag/', r'/tags/', r'/page/',
+    r'/free-vst-plugins/?$', r'/free-vst-plugins/\w+/?$',  # BPB category pages
+    r'/search', r'/author/', r'/feed/', r'/rss',
+]
+JUNK_URL_RE = re.compile('|'.join(JUNK_URL_PATTERNS), re.IGNORECASE)
+
+
+def is_junk_url(url: str) -> bool:
+    return bool(JUNK_URL_RE.search(url))
+
+
 def is_junk_title(title: str) -> bool:
     if len(title) < 10:
         return True
     junk = ['page not found', '404', 'login', 'sign in', 'subscribe', 'cookie',
-            'privacy policy', 'terms of', 'search results', 'all plugins', 'latest releases']
+            'privacy policy', 'terms of', 'search results', 'all plugins', 'latest releases',
+            'kvr audio - forum', 'vst plugin, au, aax', 'free vst plugins (20',
+            'best free', 'top 10', 'top 20', 'best plugins']
     tl = title.lower()
     return any(j in tl for j in junk)
 
@@ -302,6 +317,8 @@ def scrape_releases():
                     continue
                 if is_junk_title(title):
                     continue
+                if is_junk_url(url):
+                    continue
                 if not is_whitelisted(url):
                     continue
                 if url in existing_urls:
@@ -345,7 +362,7 @@ def scrape_releases():
                 saved += 1
                 print(f'  [+] {name} ({category_id}) — {url[:60]}')
 
-            print(f'  → saved {saved} new entries from this query')
+            print(f'  -> saved {saved} new entries from this query')
 
     # Merge: new first, then existing, drop old entries
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
