@@ -7,3 +7,4 @@ out
 .pnpm-store
 
 .vercel
+scripts/__pycache__/
