@@ -25,6 +25,12 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${product.name} — Audio Software Hub`,
     description: product.shortDescription,
+    alternates: { canonical: `/products/${product.slug}` },
+    openGraph: {
+      title: `${product.name} — Audio Software Hub`,
+      description: product.shortDescription,
+      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: product.name }],
+    },
   }
 }
 
@@ -258,6 +264,33 @@ export default function ProductPage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      {/* JSON-LD: SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'SoftwareApplication',
+            name: product.name,
+            applicationCategory: 'MultimediaApplication',
+            operatingSystem: product.os.join(', '),
+            description: product.shortDescription,
+            offers: {
+              '@type': 'Offer',
+              price: product.price ?? 0,
+              priceCurrency: 'USD',
+            },
+            ...(product.ratingCount > 0 && {
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: product.rating,
+                ratingCount: product.ratingCount,
+              },
+            }),
+          }),
+        }}
+      />
 
       {/* Related products */}
       {related.length > 0 && (

@@ -1,10 +1,13 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Search, Package } from 'lucide-react'
 import { searchProducts, categories } from '@/lib/data'
 import { ProductCard } from '@/components/ProductCard'
 
-export const metadata = {
-  title: 'Search — Audio Software Hub',
+export const metadata: Metadata = {
+  title: 'Search Music Production Software',
+  description: 'Search 3,000+ professional music production tools by name, category, or features.',
+  robots: { index: false, follow: true },
 }
 
 interface Props {

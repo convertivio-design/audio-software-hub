@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight, Monitor, Waves, SlidersHorizontal, Library, Drum, Gauge, Cable, Mic, Guitar, Wrench, Sparkles } from 'lucide-react'
 import { categories, getProductCount } from '@/lib/data'
@@ -17,9 +18,10 @@ const categoryIcons: Record<string, any> = {
   experimental: Sparkles,
 }
 
-export const metadata = {
-  title: 'Categories — Audio Software Hub',
-  description: 'Browse all music production tool categories.',
+export const metadata: Metadata = {
+  title: 'Browse All Categories',
+  description: 'Explore 11 categories of music production software: DAWs, synthesizers, effects plugins, samplers, drum machines, and more.',
+  alternates: { canonical: '/categories' },
 }
 
 export default function CategoriesPage() {

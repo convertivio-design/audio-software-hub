@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Package } from 'lucide-react'
@@ -8,12 +9,17 @@ interface Props {
   params: { slug: string }
 }
 
-export async function generateMetadata({ params }: Props) {
-  const cat = getCategoryBySlug(params.slug)
-  if (!cat) return {}
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const category = getCategoryBySlug(params.slug)
+  if (!category) return {}
   return {
-    title: `${cat.name} — Audio Software Hub`,
-    description: cat.description,
+    title: `${category.name} Software & Plugins`,
+    description: `Browse ${category.name.toLowerCase()} plugins and software. ${category.description}`,
+    alternates: { canonical: `/categories/${category.slug}` },
+    openGraph: {
+      title: `${category.name} — Audio Software Hub`,
+      description: category.description,
+    },
   }
 }
 
@@ -26,8 +32,37 @@ export default function CategoryPage({ params }: Props) {
   const rest = products.filter(p => !p.isFeatured)
   const sorted = [...featured, ...rest]
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://audio-software-hub.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Categories',
+        item: 'https://audio-software-hub.com/categories',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: category.name,
+        item: `https://audio-software-hub.com/categories/${category.slug}`,
+      },
+    ],
+  }
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <div className="px-6 md:px-20 lg:px-40 py-12">
         {/* Breadcrumb */}
         <div className="mb-8 flex items-center gap-2">

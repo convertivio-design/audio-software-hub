@@ -10,6 +10,7 @@ const navLinks = [
   { href: '/categories/daws', label: 'DAWs' },
   { href: '/categories/synthesizers', label: 'Synths' },
   { href: '/categories/effects', label: 'Effects' },
+  { href: '/compare', label: 'Compare' },
 ]
 
 export function Navbar() {
