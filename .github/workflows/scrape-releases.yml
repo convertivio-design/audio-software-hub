@@ -1,0 +1,64 @@
+name: "Scrape Releases & Deploy"
+
+on:
+  schedule:
+    # Run every 24 hours at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install Python dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run release scraper
+      run: python scripts/scrape_releases.py
+      env:
+        PYTHONUNBUFFERED: "1"
+
+    - name: Check for changes
+      id: check
+      run: |
+        if git diff --quiet data/releases.json; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No new releases found"
+        else
+          COUNT=$(python -c "import json; d=json.load(open('data/releases.json')); print(len(d))")
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "releases.json updated — $COUNT entries"
+        fi
+
+    - name: Commit and push
+      if: steps.check.outputs.changed == 'true'
+      run: |
+        git config --local user.email "${{ secrets.VERCEL_GIT_EMAIL }}"
+        git config --local user.name "Release Scraper"
+        git add data/releases.json
+        git commit -m "auto-scrape: $(date '+%Y-%m-%d %H:%M UTC') — releases updated"
+        git push
+
+    - name: Deploy to Vercel
+      if: steps.check.outputs.changed == 'true'
+      run: |
+        npm i -g vercel
+        vercel pull --yes --token=${{ secrets.VERCEL_TOKEN }}
+        vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+        vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+      env:
+        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Inter', var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #000000; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+/* Thin border utility */
+.border-thin {
+  border-width: 0.5px;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Boutique card hover */
+.boutique-card {
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+.boutique-card:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Grid lines background */
+.grid-lines {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+/* Decorative vertical lines */
+.hero-lines::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.15;
+  background-image:
+    linear-gradient(to right, transparent 24.9%, white 25%, white 25.1%, transparent 25.1%),
+    linear-gradient(to right, transparent 49.9%, white 50%, white 50.1%, transparent 50.1%),
+    linear-gradient(to right, transparent 74.9%, white 75%, white 75.1%, transparent 75.1%);
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .font-mono-num { font-variant-numeric: tabular-nums; }
+  .tracking-tighter-custom { letter-spacing: -0.05em; }
+}
