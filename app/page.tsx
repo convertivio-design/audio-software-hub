@@ -37,8 +37,8 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-12 leading-[1.1] font-display">
-            Find Your Perfect <br />
-            <span className="italic font-normal">Music Tool</span>
+            Find the audio tool<br />
+            <span className="italic font-normal">you need today</span>
           </h1>
 
           <p className="max-w-2xl text-xl text-white/50 font-light mb-16 leading-relaxed">
@@ -120,11 +120,11 @@ export default function HomePage() {
           </div>
 
           {/* Featured grid — boutique card style */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-x divide-y divide-white/10 border border-white/10">
             {featured.slice(0, 4).map(product => {
               const developer = product.developer ?? 'Unknown'
               return (
-                <div key={product.id} className="boutique-card p-8 bg-black">
+                <div key={product.id} className="group p-8 bg-black hover:bg-white/[0.02] transition-colors cursor-pointer">
                   <div className="flex justify-between items-start mb-12">
                     <div className="w-16 h-16 border border-white/20 flex items-center justify-center">
                       <span className="text-white/30 text-2xl font-display font-bold">{product.name.charAt(0)}</span>
@@ -173,7 +173,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {newReleases.map(product => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} detailHref={`/releases/${product.slug}`} />
             ))}
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function HomePage() {
                   className="group flex flex-col justify-between p-8 border border-white/10 hover:border-white/40 transition-all h-64 cursor-pointer"
                 >
                   <div className="flex justify-between items-start">
-                    <Icon className="w-6 h-6 text-white/60" />
+                    <Icon className="w-10 h-10 text-white/70" />
                     <ArrowUpRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity text-white/60" />
                   </div>
                   <div>

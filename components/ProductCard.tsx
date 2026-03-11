@@ -7,11 +7,13 @@ interface ProductCardProps {
   product: Product
   className?: string
   compact?: boolean
+  detailHref?: string
 }
 
-export function ProductCard({ product, className, compact = false }: ProductCardProps) {
+export function ProductCard({ product, className, compact = false, detailHref }: ProductCardProps) {
   const category = getCategoryById(product.categoryId)
   const developer = getProductDeveloper(product)
+  const href = detailHref ?? `/products/${product.slug}`
 
   return (
     <div
@@ -38,7 +40,7 @@ export function ProductCard({ product, className, compact = false }: ProductCard
             <span className="text-[10px] text-white">&#9733; {formatRating(product.rating)}</span>
           </div>
           <Link
-            href={`/products/${product.slug}`}
+            href={href}
             className="text-lg font-medium tracking-tight text-white hover:text-white/80 transition-colors font-display block"
           >
             {product.name}
@@ -67,7 +69,7 @@ export function ProductCard({ product, className, compact = false }: ProductCard
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
             <Link
-              href={`/products/${product.slug}`}
+              href={href}
               className="px-5 py-1.5 bg-white text-black text-xs font-bold rounded-full hover:bg-zinc-200 transition-colors"
             >
               Details
