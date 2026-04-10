@@ -1,0 +1,4 @@
+# Allow unrs-resolver postinstall (native binding helper). Required for pnpm v10+ dependency build sandbox.
+# See: https://pnpm.io/cli/approve-builds
+allowBuilds:
+  unrs-resolver: true
