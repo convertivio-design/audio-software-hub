@@ -1,5 +1,141 @@
 [
   {
+    "id": "666f8d49f7fa",
+    "slug": "menuhttpssynthanatomycom202604gs-music-bree6-ke",
+    "name": "[MENU](https://synthanatomy.com/2026/04/gs-music-bree6-ke...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
+    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
+    "officialUrl": "https://synthanatomy.com/2026/04/gs-music-bree6-keyboard-the-analog-polyphonic-synthesizer-now-with-keys.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T13:21:08.213483+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/gs-music-bree6-keyboard-the-analog-polyphonic-synthesizer-now-with-keys.html#)"
+  },
+  {
+    "id": "f51c59029295",
+    "slug": "menuhttpssynthanatomycom202604synthfest-france",
+    "name": "[MENU](https://synthanatomy.com/2026/04/synthfest-france-...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
+    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
+    "officialUrl": "https://synthanatomy.com/2026/04/synthfest-france-2026-come-along-on-a-big-synthesizer-tour.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T13:21:01.541151+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/synthfest-france-2026-come-along-on-a-big-synthesizer-tour.html#)"
+  },
+  {
+    "id": "4e0d40a8a4d7",
+    "slug": "menuhttpssynthanatomycom202604nrsynth-quatuor-a",
+    "name": "[MENU](https://synthanatomy.com/2026/04/nrsynth-quatuor-a...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
+    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
+    "officialUrl": "https://synthanatomy.com/2026/04/nrsynth-quatuor-a-clone-of-the-oberheim-four-voice-for-synthfest-france-2026.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T13:20:55.223477+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/nrsynth-quatuor-a-clone-of-the-oberheim-four-voice-for-synthfest-france-2026.htm"
+  },
+  {
+    "id": "d144530fa3ed",
+    "slug": "menuhttpssynthanatomycom202604analog-sweden-swe",
+    "name": "[MENU](https://synthanatomy.com/2026/04/analog-sweden-swe...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
+    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
+    "officialUrl": "https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T13:20:28.984582+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html#)"
+  },
+  {
     "id": "4ace99eb3596",
     "slug": "menuhttpssynthanatomycom202604casio",
     "name": "[MENU](https://synthanatomy.com/2026/04/casio",
@@ -1003,101 +1139,5 @@
     "targetAudience": "Mixing engineers and producers",
     "dateAdded": "2026-03-03T10:00:00+00:00",
     "sourceTitle": "Oeksound Bloom released"
-  },
-  {
-    "id": "dev009",
-    "slug": "devious-machines-infiltrator-2",
-    "name": "Infiltrator 2",
-    "developer": "Devious Machines",
-    "categoryId": "effects",
-    "price": 79,
-    "priceType": "one-time",
-    "shortDescription": "Multi-effects sequencer updated with 12 new effect modules including granular processing, improved MIDI learn, and a randomize function for instant creative variation.",
-    "longDescription": "Infiltrator 2 chains up to two parallel banks of 10 effects, all synced to your DAW's tempo. Version 2 adds vocal effects, granular processing, and an overhauled preset browser with 500+ new patches.",
-    "officialUrl": "https://devious-machines.com/infiltrator",
-    "rating": 4.6,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [
-      "Sequenced multi-effects",
-      "2 parallel chains",
-      "Tempo sync",
-      "500+ presets",
-      "Granular module"
-    ],
-    "pros": [
-      "Creative and unique",
-      "Tempo-synced effects",
-      "Great for sound design"
-    ],
-    "cons": [
-      "Can be CPU heavy with many modules"
-    ],
-    "tags": [
-      "effects",
-      "multi-fx",
-      "sequencer"
-    ],
-    "targetAudience": "Electronic producers and sound designers",
-    "dateAdded": "2026-03-02T09:00:00+00:00",
-    "sourceTitle": "Devious Machines Infiltrator 2 launched"
-  },
-  {
-    "id": "spf010",
-    "slug": "spitfire-labs-free-piano-2",
-    "name": "LABS Free Piano 2",
-    "developer": "Spitfire",
-    "categoryId": "sampler",
-    "price": 0,
-    "priceType": "free",
-    "shortDescription": "Spitfire's beloved free piano library updated with new mic perspectives, expanded dynamic layers, and compatibility with the latest LABS player including convolution reverb.",
-    "longDescription": "LABS Free Piano 2 provides a new collection of intimate acoustic piano tones recorded at Abbey Road Studios. The updated LABS player adds convolution reverb and improved velocity mapping.",
-    "officialUrl": "https://labs.spitfireaudio.com/",
-    "rating": 4.8,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX",
-      "Standalone"
-    ],
-    "features": [
-      "Multiple mic perspectives",
-      "Expanded velocity layers",
-      "Convolution reverb",
-      "Abbey Road recording"
-    ],
-    "pros": [
-      "Free",
-      "Professional quality",
-      "Easy to use"
-    ],
-    "cons": [
-      "Requires LABS player"
-    ],
-    "tags": [
-      "sampler",
-      "piano",
-      "free"
-    ],
-    "targetAudience": "Composers and producers needing quality piano",
-    "dateAdded": "2026-03-01T08:00:00+00:00",
-    "sourceTitle": "Spitfire LABS Free Piano 2 released"
   }
 ]

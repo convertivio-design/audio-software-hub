@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T04:39:49.343724+00:00",
-  "finishedAt": "2026-04-26T04:40:58.260020+00:00",
+  "startedAt": "2026-04-26T13:18:47.288225+00:00",
+  "finishedAt": "2026-04-26T13:21:20.782118+00:00",
   "dryRun": false,
-  "existingEntries": 23,
-  "newEntries": 5,
-  "outputEntries": 28,
+  "existingEntries": 28,
+  "newEntries": 4,
+  "outputEntries": 30,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -29,7 +29,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 5
+      "entriesAdded": 4
     },
     {
       "source": "Rekkerd",
