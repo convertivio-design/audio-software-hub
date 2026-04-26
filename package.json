@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "validate:releases": "node scripts/validate_releases.js",
+    "test:release-junk": "node scripts/release_nav_artifact_test.mjs",
     "scrape:releases": "python scripts/scrape_releases.py",
     "scrape:releases:dry-run": "python scripts/scrape_releases.py --dry-run"
   },

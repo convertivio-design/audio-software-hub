@@ -309,9 +309,12 @@ def is_junk_body_line(line: str) -> bool:
 
 
 SCRAPED_JUNK_RE = re.compile(
-    r'(\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|'
-    r'bedroom producers blog|!\[[^\]]*\]\(https?://|\]\(https?://|'
-    r'\\\s*[^\]]+\]\(https?://|\[\\?\[)',
+    r'(\[menu\]|\[close\s*menu\]|closemenu|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|'
+    r'bedroom producers blog|news ticker|can\'t find the page|cannot find the page|page you were looking for|'
+    r'we\'re sorry|we are sorry|\btypo\b|try one of these options|\bfree drum kits\b|\bdrum kits\b|'
+    r'\bdigital audio workstations\b|\bthese are the best\b|\bhigh-quality\b|\bincluded fully free\b|\bbpb\b|\bbpb’s\b|\bbpb\'s\b|'
+    r'!\[[^\]]*\]\(https?://|\]\(https?://|'
+    r'\\\s*[^\]]+\]\(https?://|\[\\?\[|\*\*|\\\\|\s\\\s)',
     re.IGNORECASE,
 )
 
@@ -418,13 +421,13 @@ def validate_entry(entry: dict) -> tuple[bool, str]:
         return False, 'slug_contains_junk'
     if contains_ip_address(slug):
         return False, 'slug_contains_ip_address'
-    if contains_scraped_junk(desc) or contains_scraped_junk(long_desc):
+    if contains_scraped_junk(short_raw) or contains_scraped_junk(long_raw):
         return False, 'description_contains_scraped_junk'
     if contains_ip_address(desc) or contains_ip_address(long_desc):
         return False, 'description_contains_ip_address'
     if looks_like_roundup_copy(short_raw) or looks_like_roundup_copy(long_raw):
         return False, 'description_looks_like_roundup_or_error_page'
-    if contains_scraped_junk(source_title):
+    if contains_scraped_junk(source_title_raw):
         return False, 'source_title_contains_scraped_junk'
     if contains_ip_address(source_title):
         return False, 'source_title_contains_ip_address'

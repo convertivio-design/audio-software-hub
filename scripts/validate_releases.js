@@ -2,8 +2,16 @@ const fs = require('fs')
 const path = require('path')
 
 const RELEASES_PATH = path.join(process.cwd(), 'data', 'releases.json')
-const JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|news ticker|can't find the page|cannot find the page|page you were looking for|we're sorry|we are sorry|typo|try one of these options|\bfree drum kits\b|\bdrum kits\b|\bdigital audio workstations\b|\bthese are the best\b|\bhigh-quality\b|\bincluded fully free\b|\bbpb\b|\bbpb’s\b|\bbpb's\b|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[|\*\*|\\\\|\s\\\s|— newly released\.|— recently released\./i
+const JUNK_PATTERN = /\[menu\]|\[close\s*menu\]|closemenu|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|news ticker|can't find the page|cannot find the page|page you were looking for|we're sorry|we are sorry|typo|try one of these options|\bfree drum kits\b|\bdrum kits\b|\bdigital audio workstations\b|\bthese are the best\b|\bhigh-quality\b|\bincluded fully free\b|\bbpb\b|\bbpb’s\b|\bbpb's\b|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[|\*\*|\\\\|\s\\\s/i
 const IP_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b|\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b/i
+
+function slugHasNavArtifact(slug) {
+  const s = String(slug || '').trim().toLowerCase()
+  if (!s) return true
+  if (s.includes('http') || s.includes('menuhttp') || s.includes('closemenu')) return true
+  if (/[\[\]#]/.test(String(slug || ''))) return true
+  return false
+}
 
 function normalizeOfficialUrl(url) {
   let u = String(url || '').trim()
@@ -62,6 +70,7 @@ function main() {
     const shortDescription = typeof entry.shortDescription === 'string' ? entry.shortDescription.trim() : ''
 
     if (!slug) issues.push(`${label}: missing slug`)
+    if (slugHasNavArtifact(slug)) issues.push(`${label}: slug looks like nav/url corruption`)
     if (!name) issues.push(`${label}: missing name`)
     if (!shortDescription) issues.push(`${label}: missing shortDescription`)
     if (isGenericName(name)) issues.push(`${label}: name is too generic`)
