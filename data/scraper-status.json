@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T15:47:22.266887+00:00",
-  "finishedAt": "2026-04-26T15:48:36.046015+00:00",
+  "startedAt": "2026-04-26T16:22:49.557606+00:00",
+  "finishedAt": "2026-04-26T16:23:56.245309+00:00",
   "dryRun": false,
-  "existingEntries": 12,
-  "cleanedExistingEntries": 4,
-  "newEntries": 4,
-  "rejectedEntries": 16,
-  "outputEntries": 8,
+  "existingEntries": 0,
+  "cleanedExistingEntries": 0,
+  "newEntries": 11,
+  "rejectedEntries": 4,
+  "outputEntries": 11,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 0,
-      "entriesRejected": 8
+      "entriesAdded": 6,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
@@ -24,8 +24,8 @@
       "listingScraped": true,
       "candidateLinks": 3,
       "articlesScraped": 3,
-      "entriesAdded": 3,
-      "entriesRejected": 0
+      "entriesAdded": 0,
+      "entriesRejected": 3
     },
     {
       "source": "Synthanatomy",
@@ -33,7 +33,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 1,
+      "entriesAdded": 5,
       "entriesRejected": 0
     },
     {
@@ -58,100 +58,28 @@
   "errors": [],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/the-kvr-developer-challenge-2026-is-go-66735/0/9456 \"The KVR Developer Challenge 2026 Is Go\"",
-      "reason": "name_contains_ip_address",
-      "name": "2600:1005:b08f:21e2:0:55:c74e:d401",
-      "slug": "26001005b08f21e2055c74ed401"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/arturia-releases-augmented-persia-66744 \"Arturia releases Augmented Persia\"",
-      "reason": "name_contains_ip_address",
-      "name": "2600:1005:b080:f11e:0:3:aede:401",
-      "slug": "26001005b080f11e03aede401"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/dlp-releases-smoke-mono-1---free-monophonic-synthesizer-plugin-vst3-and-au-66743 \"DLP releases Smoke Mono 1 - Free Monophonic Synthesizer Plugin (VST3 & AU",
-      "reason": "name_contains_ip_address",
-      "name": "2600:1005:b06b:1c51:0:47:98c7:301",
-      "slug": "26001005b06b1c5104798c7301"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/tom-wolfe-releases-mist-for-omnisphere-3---ethereal-ambient-presets-66686 \"Tom Wolfe releases 'Mist' for Omnisphere 3 - Ethereal Ambient Presets\"",
-      "reason": "name_contains_ip_address",
-      "name": "172.58.131.6",
-      "slug": "172581316"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/cableguys-update-shaperbox-3-snapback-kickstart-2-halftime-filtershaper-xl-and-midishaper-66668 \"Cableguys Update ShaperBox 3, Snapback, Kickstart 2, HalfTime, FilterShaper XL and MidiShaper\"",
-      "reason": "name_contains_ip_address",
-      "name": "172.58.134.94",
-      "slug": "1725813494"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/aqeel-aadam-sound-updates-waymaker-to-v1-1-66741 \"Aqeel Aadam Sound updates Waymaker to v1.1\"",
-      "reason": "name_contains_ip_address",
-      "name": "174.197.131.38",
-      "slug": "17419713138"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/feelyoursound-updates-free-songengine-to-v1-1-0-adds-new-chords-builder-features-66740 \"FeelYourSound updates free SongEngine to v1.1.0, adds new chords builder features\"",
-      "reason": "name_contains_ip_address",
-      "name": "172.56.161.57",
-      "slug": "1725616157"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/carbonated-audio-releases-pour---m-s-stereo-imager-plugin-vst3-au-aax-66723 \"Carbonated Audio releases Pour - M/S Stereo Imager Plugin (VST3, AU, AAX",
-      "reason": "name_contains_ip_address",
-      "name": "174.197.131.38",
-      "slug": "17419713138"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/gooey-audio-releases-the-snake-v2-0-66707 \"Gooey Audio Releases The Snake v2.0\"",
-      "reason": "existing_name_contains_ip_address",
-      "name": "172.58.135.9",
-      "slug": "172581359"
-    },
-    {
       "url": "https://www.kvraudio.com/news/apu-software-updates-loudness-series-to-v5-4-7-66750 \"APU Software updates Loudness Series to v5.4.7\"",
-      "reason": "existing_name_contains_ip_address",
-      "name": "2600:1005:b05d:35c9:0:13:148a:8b01",
-      "slug": "26001005b05d35c9013148a8b01"
+      "reason": "description_contains_ip_address",
+      "name": "Apu Software Updates Loudness Series To V5 4 7 66750",
+      "slug": "apu-software-updates-loudness-series-to-v5-4-7-66750"
     },
     {
-      "url": "https://www.kvraudio.com/news/sound-magic-releases-supreme-drums-china---traditional-chinese-percussion-instruments-66749 \"Sound Magic Releases Supreme Drums China - Traditional Chinese Percussion Instruments\"",
-      "reason": "existing_name_contains_ip_address",
-      "name": "172.58.133.30",
-      "slug": "1725813330"
+      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
+      "reason": "name_too_generic",
+      "name": "Software",
+      "slug": "software"
     },
     {
-      "url": "https://www.kvraudio.com/news/best-service-releases-bassam-ayoubs-qanun-for-engine-player-66753 \"Best Service releases Bassam Ayoub's \\\"Qanun\\\" for Engine Player\"",
-      "reason": "existing_name_contains_ip_address",
-      "name": "172.58.135.57",
-      "slug": "1725813557"
+      "url": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
+      "reason": "name_contains_scraped_junk",
+      "name": "Free Drum Kits",
+      "slug": "free-drum-kits"
     },
     {
-      "url": "https://www.kvraudio.com/news/peter-semiletov-releases-roker-pack---free-guitar-vst3-fx-tuners-for-windows-and-linux-66757 \"Peter Semiletov releases Roker Pack - Free Guitar VST3 FX/Tuners for Windows and Linux\"",
-      "reason": "existing_name_contains_ip_address",
-      "name": "172.56.34.11",
-      "slug": "172563411"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/black-salt-audio-releases-instinct-eq-vst3-au-and-aax-66758 \"Black Salt Audio releases Instinct EQ (VST3, AU & AAX",
-      "reason": "existing_name_contains_ip_address",
-      "name": "172.58.135.122",
-      "slug": "17258135122"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/authentic-soundware-release-space-age-colors-for-kontakt-66755 \"Authentic Soundware release Space Age Colors for Kontakt\"",
-      "reason": "existing_name_contains_ip_address",
-      "name": "174.211.101.254",
-      "slug": "174211101254"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/session-loops-updates-vocalnet-to-v1-6-with-ara-support-66763 \"Session Loops updates VocalNet to v1.6 with ARA support\"",
-      "reason": "existing_name_contains_ip_address",
-      "name": "172.58.133.49",
-      "slug": "1725813349"
+      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
+      "reason": "name_too_generic",
+      "name": "Software",
+      "slug": "software"
     }
   ]
 }

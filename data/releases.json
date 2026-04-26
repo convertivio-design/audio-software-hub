@@ -1,1 +1,374 @@
-[]
+[
+  {
+    "id": "b2d54425cb5c",
+    "slug": "for-fans-of-mobile-music-production-the-selection-has",
+    "name": "For fans of mobile music production, the selection has...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "I rarely play electronic pianos, but they’re part of my arsenal when I need warm and soft melodies. Until now, I’ve mostly used them on the AstroLab hardware in the studio or in Ableton Live plugins. ",
+    "longDescription": "I rarely play electronic pianos, but they’re part of my arsenal when I need warm and soft melodies. Until now, I’ve mostly used them on the AstroLab hardware in the studio or in Ableton Live plugins. For fans of mobile music production, the selection has been rather limited so far. But now there’s a new app that brings new sounds to iOS. AudioKit Pro has released Retro Keys, a new electro piano virtual instrument for your iPhone and iPad. Retro Keys is a new standalone and AUv3 virtual electro p",
+    "officialUrl": "https://synthanatomy.com/2026/04/audiokit-pro-retro-keys-brings-vintage-electro-pianos-to-your-ios-device.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS",
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:51.756569+00:00",
+    "sourceTitle": "For fans of mobile music production, the selection has been rather limited so far. But now there’s a new app that brings"
+  },
+  {
+    "id": "7cc49e106bc5",
+    "slug": "retro-gaming-has-a-distinctive-sonic-character-shaped",
+    "name": "Retro gaming has a distinctive sonic character, shaped...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Retro gaming has a distinctive sonic character, shaped by chip-powered engines. One of the most legendary and influential is undoubtedly the SID chip, which was used in the Commodore 64, among other d",
+    "longDescription": "Retro gaming has a distinctive sonic character, shaped by chip-powered engines. One of the most legendary and influential is undoubtedly the SID chip, which was used in the Commodore 64, among other devices. Bitcrust is a new polyphonic Synthesizer plugin for macOS, Linux, Windows, and iOS built around a SID-style voice architecture. Once installed, the plugin offers 14 UI skins. The UI immediately gave me a vibe-coded/AI vibes, as the plugin market has been flooded with them in recent weeks. Bu",
+    "officialUrl": "https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:49.176431+00:00",
+    "sourceTitle": "Retro gaming has a distinctive sonic character, shaped by chip-powered engines. One of the most legendary and influentia"
+  },
+  {
+    "id": "78fcc34a64fb",
+    "slug": "things-have-been-quite-busy-in-the-ios-world-these-past",
+    "name": "Things have been quite busy in the iOS world these past...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Things have been quite busy in the iOS world these past few weeks. Besides Bitcrush, there’s another new synthesizer on iOS. Steffen Mølgaard Larsen of Feral-Aud.io, the developer of the Gorilla Synth",
+    "longDescription": "Things have been quite busy in the iOS world these past few weeks. Besides Bitcrush, there’s another new synthesizer on iOS. Steffen Mølgaard Larsen of Feral-Aud.io, the developer of the Gorilla Synth, which was initially free, has released his second Synthesizer, RAVEN. RAVEN is a new Synthesizer plugin for iOS and macOS.  Feral-Aud.io opted for a very simple, almost generic UI for RAVEN. This immediately raised some red flags for me, as it strongly suggests AI-generated design. I can neither c",
+    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "AUv3",
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:45.816146+00:00",
+    "sourceTitle": "Things have been quite busy in the iOS world these past few weeks. Besides Bitcrush, there’s another new synthesizer on "
+  },
+  {
+    "id": "6a053bb8bf9e",
+    "slug": "most-of-the-time-synth-classics-like-the-sh-101",
+    "name": "Most of the time, synth classics like the SH-101,...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusual, strange machines that have almost been forgotten. Rarely are they given a se",
+    "longDescription": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusual, strange machines that have almost been forgotten. Rarely are they given a second life. That was the case not with this release. This weekend (April 25-26), the first edition of the Music Machines Summit is taking place in Stockholm, Sweden, where several developers are showcasing their products. Analog Sweden is also present, unveiling the SWEN2, which will also be on displ",
+    "officialUrl": "https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:43.298345+00:00",
+    "sourceTitle": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusu"
+  },
+  {
+    "id": "76c407231b5f",
+    "slug": "it-seems-we-cant-find-what-youre-looking-for-perhaps",
+    "name": "It seems we can’t find what you’re looking for. Perhaps...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "It seems we can’t find what you’re looking for. Perhaps searching can help.",
+    "longDescription": "It seems we can’t find what you’re looking for. Perhaps searching can help.",
+    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:31.403765+00:00",
+    "sourceTitle": "It seems we can’t find what you’re looking for. Perhaps searching can help."
+  },
+  {
+    "id": "be3a77dc95e2",
+    "slug": "sound-magic-releases-supreme-drums-china-traditional",
+    "name": "Sound Magic Releases Supreme Drums China Traditional...",
+    "developer": null,
+    "categoryId": "drums",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Sound Magic Releases Supreme Drums China Traditional... — newly released.",
+    "longDescription": "Sound Magic Releases Supreme Drums China Traditional... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/sound-magic-releases-supreme-drums-china---traditional-chinese-percussion-instruments-66749",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:10.151428+00:00",
+    "sourceTitle": "Sound Magic Releases Supreme Drums China Traditional Chinese Percussion Instruments 66749"
+  },
+  {
+    "id": "7d17004cdca9",
+    "slug": "best-service-releases-bassam-ayoubs-qanun-for-engine",
+    "name": "Best Service Releases Bassam Ayoubs Qanun For Engine...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Best Service Releases Bassam Ayoubs Qanun For Engine... — newly released.",
+    "longDescription": "Best Service Releases Bassam Ayoubs Qanun For Engine... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/best-service-releases-bassam-ayoubs-qanun-for-engine-player-66753",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:06.925768+00:00",
+    "sourceTitle": "Best Service Releases Bassam Ayoubs Qanun For Engine Player 66753"
+  },
+  {
+    "id": "8f65a2db214f",
+    "slug": "peter-semiletov-releases-roker-pack-free-guitar-vst3-fx",
+    "name": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx...",
+    "developer": null,
+    "categoryId": "guitar",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx... — newly released.",
+    "longDescription": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/peter-semiletov-releases-roker-pack---free-guitar-vst3-fx-tuners-for-windows-and-linux-66757",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "Linux"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "guitar"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:03.717162+00:00",
+    "sourceTitle": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx Tuners For Windows And Linux 66757"
+  },
+  {
+    "id": "faa406bc8474",
+    "slug": "black-salt-audio-releases-instinct-eq-vst3-au-and-aax-66758",
+    "name": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758",
+    "developer": null,
+    "categoryId": "effects",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758 — newly released.",
+    "longDescription": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/black-salt-audio-releases-instinct-eq-vst3-au-and-aax-66758",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:23:00.168712+00:00",
+    "sourceTitle": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758"
+  },
+  {
+    "id": "af4c54a1c4ee",
+    "slug": "authentic-soundware-release-space-age-colors-for-kontakt",
+    "name": "Authentic Soundware Release Space Age Colors For Kontakt...",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Authentic Soundware Release Space Age Colors For Kontakt... — newly released.",
+    "longDescription": "Authentic Soundware Release Space Age Colors For Kontakt... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/authentic-soundware-release-space-age-colors-for-kontakt-66755",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:22:57.450970+00:00",
+    "sourceTitle": "Authentic Soundware Release Space Age Colors For Kontakt 66755"
+  },
+  {
+    "id": "a709982d42b4",
+    "slug": "session-loops-updates-vocalnet-to-v1-6-with-ara-support",
+    "name": "Session Loops Updates Vocalnet To V1 6 With Ara Support...",
+    "developer": null,
+    "categoryId": "vocal",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Session Loops Updates Vocalnet To V1 6 With Ara Support... — newly released.",
+    "longDescription": "Session Loops Updates Vocalnet To V1 6 With Ara Support... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/session-loops-updates-vocalnet-to-v1-6-with-ara-support-66763",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "vocal"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T16:22:54.735503+00:00",
+    "sourceTitle": "Session Loops Updates Vocalnet To V1 6 With Ara Support 66763"
+  }
+]
