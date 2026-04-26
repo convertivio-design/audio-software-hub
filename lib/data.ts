@@ -439,7 +439,9 @@ export function getFeaturedProducts(): Product[] {
 
 export type SanitizedRelease = Product & { dateAdded?: string; sourceTitle?: string }
 
-const RELEASE_JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|news ticker|can't find the page|cannot find the page|page you were looking for|we're sorry|we are sorry|typo|try one of these options|\bfree drum kits\b|\bdrum kits\b|\bdigital audio workstations\b|\bthese are the best\b|\bhigh-quality\b|\bincluded fully free\b|\bbpb\b|\bbpb’s\b|\bbpb's\b|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[|\*\*|\\\\|\s\\\s|— newly released\.|— recently released\./i
+// Nav / markdown extraction garbage (WordPress "Menu" links, glued URLs in slugs, etc.).
+// Do not include our own default copy suffix "— recently released." here — it is not junk.
+const RELEASE_JUNK_PATTERN = /\[menu\]|\[close\s*menu\]|closemenu|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|news ticker|can't find the page|cannot find the page|page you were looking for|we're sorry|we are sorry|typo|try one of these options|\bfree drum kits\b|\bdrum kits\b|\bdigital audio workstations\b|\bthese are the best\b|\bhigh-quality\b|\bincluded fully free\b|\bbpb\b|\bbpb’s\b|\bbpb's\b|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[|\*\*|\\\\|\s\\\s/i
 const RELEASE_IP_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b|\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b/i
 
 function normalizeOfficialUrl(url: string): string {
@@ -502,9 +504,18 @@ function toSafePriceType(value: unknown): PriceType {
     : 'one-time'
 }
 
+function releaseSlugHasNavArtifact(slug: string): boolean {
+  const s = slug.trim().toLowerCase()
+  if (!s) return true
+  if (s.includes('http') || s.includes('menuhttp') || s.includes('closemenu')) return true
+  if (/[\[\]#]/.test(slug)) return true
+  return false
+}
+
 function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
   if (!entry || typeof entry !== 'object') return null
   if (!isSafeReleaseField(entry.slug) || !isSafeReleaseField(entry.name)) return null
+  if (releaseSlugHasNavArtifact(String(entry.slug ?? ''))) return null
   if (!isSafeReleaseField(entry.shortDescription ?? `${entry.name} — recently released.`)) return null
   if (typeof entry.longDescription === 'string' && !isSafeReleaseField(entry.longDescription)) return null
   if (!isSafeReleaseField(entry.officialUrl ?? '#')) return null
@@ -517,7 +528,10 @@ function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
   const safeName = entry.name.trim()
   if (isGenericReleaseName(safeName)) return null
   if ((safeName.startsWith('"') && safeName.endsWith('"')) || (safeName.startsWith('“') && safeName.endsWith('”'))) return null
-  if (typeof entry.sourceTitle === 'string' && isGenericReleaseName(entry.sourceTitle.trim())) return null
+  if (typeof entry.sourceTitle === 'string' && entry.sourceTitle.trim()) {
+    if (!isSafeReleaseField(entry.sourceTitle)) return null
+    if (isGenericReleaseName(entry.sourceTitle.trim())) return null
+  }
 
   const shortDesc = (entry.shortDescription ?? `${safeName} — recently released.`).trim()
   const longDesc = typeof entry.longDescription === 'string' ? entry.longDescription.trim() : shortDesc
@@ -550,7 +564,10 @@ function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
       ? entry.targetAudience.trim()
       : 'Music producers and audio engineers',
     dateAdded: typeof entry.dateAdded === 'string' ? entry.dateAdded : undefined,
-    sourceTitle: typeof entry.sourceTitle === 'string' ? entry.sourceTitle : undefined,
+    sourceTitle:
+      typeof entry.sourceTitle === 'string' && isSafeReleaseField(entry.sourceTitle)
+        ? entry.sourceTitle.trim()
+        : undefined,
   }
 }
 
