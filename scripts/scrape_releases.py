@@ -22,7 +22,8 @@ import random
 import hashlib
 import subprocess
 import tempfile
-from datetime import datetime, timezone, timedelta
+import argparse
+from datetime import datetime, timezone
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -31,9 +32,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 RELEASES_FILE = ROOT / "data" / "releases.json"
+STATUS_FILE = ROOT / "data" / "scraper-status.json"
 
 MAX_KEEP = 30
-MAX_AGE_DAYS = 14
 MAX_ARTICLES_PER_SOURCE = 8  # articles to scrape per listing page
 
 # Listing pages that contain links to individual release articles
@@ -42,7 +43,7 @@ LISTING_PAGES = [
         "url": "https://www.kvraudio.com/news/",
         "name": "KVR Audio News",
         "link_pattern": r"kvraudio\.com/product/",
-        "alt_pattern": r"kvraudio\.com/news/\d",
+        "alt_pattern": r"kvraudio\.com/news/[^\s\)]+-\d+",
     },
     {
         "url": "https://bedroomproducersblog.com/category/free-vst-plugins/",
@@ -126,6 +127,18 @@ def slugify(text: str) -> str:
 
 def make_id(url: str, name: str) -> str:
     return hashlib.md5(f"{url}:{name}".encode()).hexdigest()[:12]
+
+
+def write_status(status: str, started_at: str, **extra) -> None:
+    """Write a small health file so the scheduler cannot fail silently."""
+    STATUS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "status": status,
+        "startedAt": started_at,
+        "finishedAt": datetime.now(timezone.utc).isoformat(),
+        **extra,
+    }
+    STATUS_FILE.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding='utf-8')
 
 
 def detect_category(text: str) -> str:
@@ -369,7 +382,10 @@ def parse_release_from_content(url: str, content: str) -> dict | None:
 # Main
 # ---------------------------------------------------------------------------
 
-def scrape_releases():
+def scrape_releases(dry_run: bool = False):
+    started_at = datetime.now(timezone.utc).isoformat()
+    source_stats: list[dict] = []
+    errors: list[str] = []
     print('[releases] starting Firecrawl scraper...')
 
     # Verify firecrawl is available
@@ -377,7 +393,15 @@ def scrape_releases():
         result = subprocess.run(['firecrawl', '--version'], capture_output=True, text=True, timeout=10)
         print(f'[releases] firecrawl version: {result.stdout.strip() or result.stderr.strip()}')
     except FileNotFoundError:
-        print('[releases] ERROR: firecrawl CLI not found. Install: npm install -g firecrawl-cli')
+        message = 'firecrawl CLI not found. Install: npm install -g firecrawl-cli'
+        print(f'[releases] ERROR: {message}')
+        write_status('failure', started_at, error=message)
+        sys.exit(1)
+
+    if not os.environ.get('FIRECRAWL_API_KEY'):
+        message = 'FIRECRAWL_API_KEY is not set'
+        print(f'[releases] ERROR: {message}')
+        write_status('failure', started_at, error=message)
         sys.exit(1)
 
     # Load existing releases
@@ -397,6 +421,14 @@ def scrape_releases():
         tmp = Path(tmpdir)
 
         for source_idx, source in enumerate(LISTING_PAGES):
+            stat = {
+                "source": source["name"],
+                "listingUrl": source["url"],
+                "listingScraped": False,
+                "candidateLinks": 0,
+                "articlesScraped": 0,
+                "entriesAdded": 0,
+            }
             print(f'\n[releases] === Source {source_idx+1}/{len(LISTING_PAGES)}: {source["name"]} ===')
             print(f'[releases] Scraping listing page: {source["url"]}')
 
@@ -405,9 +437,13 @@ def scrape_releases():
             success = run_firecrawl_scrape(source['url'], listing_file)
 
             if not success:
-                print(f'  [!] Could not scrape listing page, skipping')
+                message = f'Could not scrape listing page: {source["url"]}'
+                errors.append(message)
+                source_stats.append(stat)
+                print(f'  [!] {message}, skipping')
                 continue
 
+            stat["listingScraped"] = True
             content = Path(listing_file).read_text(encoding='utf-8', errors='replace')
             print(f'  [+] Got {len(content)} chars from listing page')
 
@@ -429,10 +465,12 @@ def scrape_releases():
                     article_links_deduped.append(u)
 
             article_links = article_links_deduped[:MAX_ARTICLES_PER_SOURCE]
+            stat["candidateLinks"] = len(article_links)
             print(f'  [+] Found {len(article_links)} new article links to scrape')
 
             if not article_links:
                 print(f'  [!] No new articles found')
+                source_stats.append(stat)
                 continue
 
             # Step 3: Scrape each article
@@ -447,9 +485,12 @@ def scrape_releases():
                 ok = run_firecrawl_scrape(article_url, article_file)
 
                 if not ok:
-                    print(f'    [!] Scrape failed, skipping')
+                    message = f'Scrape failed: {article_url}'
+                    errors.append(message)
+                    print(f'    [!] {message}, skipping')
                     continue
 
+                stat["articlesScraped"] += 1
                 article_content = Path(article_file).read_text(encoding='utf-8', errors='replace')
 
                 # Step 4: Parse structured data
@@ -463,6 +504,7 @@ def scrape_releases():
                     continue
 
                 new_entries.append(entry)
+                stat["entriesAdded"] += 1
                 existing_urls.add(article_url)
                 existing_slugs.add(entry['slug'])
                 print(f'    [+] {entry["name"]} ({entry["categoryId"]}) [{entry["priceType"]}]')
@@ -473,8 +515,22 @@ def scrape_releases():
             if source_idx < len(LISTING_PAGES) - 1:
                 time.sleep(random.uniform(3.0, 5.0))
 
-    # Merge: new first, then existing, drop old
-    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+            source_stats.append(stat)
+
+    if source_stats and not any(s["listingScraped"] for s in source_stats):
+        message = 'All listing pages failed to scrape'
+        print(f'[releases] ERROR: {message}')
+        write_status('failure', started_at, sources=source_stats, errors=errors + [message])
+        sys.exit(1)
+
+    if errors and not any(s["articlesScraped"] for s in source_stats):
+        message = 'Article scraping failed for all candidate sources'
+        print(f'[releases] ERROR: {message}')
+        write_status('failure', started_at, sources=source_stats, errors=errors + [message])
+        sys.exit(1)
+
+    # Merge: new first, then existing. Keep older entries rather than wiping the
+    # homepage when sources have no fresh candidates.
     merged = new_entries + existing
 
     # Deduplicate by slug
@@ -492,12 +548,28 @@ def scrape_releases():
             return datetime.min.replace(tzinfo=timezone.utc)
 
     deduped.sort(key=entry_date, reverse=True)
-    deduped = [e for e in deduped if entry_date(e) > cutoff][:MAX_KEEP]
+    deduped = deduped[:MAX_KEEP]
 
-    RELEASES_FILE.write_text(json.dumps(deduped, indent=2, ensure_ascii=False), encoding='utf-8')
+    if dry_run:
+        print('[releases] dry-run enabled; not writing releases.json')
+    else:
+        RELEASES_FILE.write_text(json.dumps(deduped, indent=2, ensure_ascii=False), encoding='utf-8')
+        write_status(
+            'success',
+            started_at,
+            dryRun=False,
+            existingEntries=len(existing),
+            newEntries=len(new_entries),
+            outputEntries=len(deduped),
+            sources=source_stats,
+            errors=errors,
+        )
     print(f'\n[releases] done. {len(new_entries)} new entries scraped, {len(deduped)} total in releases.json')
     return len(new_entries)
 
 
 if __name__ == '__main__':
-    scrape_releases()
+    parser = argparse.ArgumentParser(description='Scrape recent audio software releases into data/releases.json')
+    parser.add_argument('--dry-run', action='store_true', help='Run discovery and parsing without writing releases.json')
+    args = parser.parse_args()
+    scrape_releases(dry_run=args.dry_run)

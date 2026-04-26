@@ -1,0 +1,14 @@
+---
+description: Audio Software Hub SEO, scraper freshness, and content quality guardrails
+globs: **/*
+alwaysApply: false
+---
+
+# Audio Software Hub
+
+- **Voice:** Utility-first, specific, no hype. Prefer product facts over slogans: developer, category, price model, OS, plugin formats, official URL, and last checked date.
+- **Taxonomy:** Use the site categories consistently: DAWs, Synthesizers, Effects & Processing, Samplers & Libraries, Drum Machines, Mixing & Mastering, MIDI & Utilities, Guitar & Bass, Analysis & Utility, Experimental, Vocal Tools.
+- **Scraper pipeline:** `source -> scripts/scrape_releases.py -> data/releases.json -> GitHub Actions -> commit -> Vercel deploy -> homepage/releases/sitemap`.
+- **Reliability protocol:** Diagnose scheduler, extraction, dedupe, output, deploy, and cache before changing behavior. Restore forward updates before backfilling.
+- **Publishing guard:** Do not mass backfill, reset dedupe state, or publish generated content without explicit approval. Keep `data/scraper-status.json` as the visible freshness/health marker.
+- **SEO quality gate:** New pages need a primary keyword, search intent, title/meta, canonical slug, source notes, useful internal links, and a freshness date. Do not ship thin or generic pages.

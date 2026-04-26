@@ -2,7 +2,7 @@ name: "Scrape Releases & Deploy"
 
 on:
   schedule:
-    # Run every 48 hours (Mon, Wed, Fri, Sun at 06:00 UTC)
+    # Run every 2 days at 06:00 UTC
     - cron: '0 6 */2 * *'
   workflow_dispatch:
 
@@ -23,24 +23,33 @@ jobs:
       with:
         python-version: '3.11'
 
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+
     - name: Install Python dependencies
       run: pip install -r requirements.txt
+
+    - name: Install Firecrawl CLI
+      run: npm install -g firecrawl-cli
 
     - name: Run release scraper
       run: python scripts/scrape_releases.py
       env:
         PYTHONUNBUFFERED: "1"
+        FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
 
     - name: Check for changes
       id: check
       run: |
-        if git diff --quiet data/releases.json; then
+        if [ -z "$(git status --porcelain -- data/releases.json data/scraper-status.json)" ]; then
           echo "changed=false" >> $GITHUB_OUTPUT
-          echo "No new releases found"
+          echo "No release or scraper-status changes found"
         else
           COUNT=$(python -c "import json; d=json.load(open('data/releases.json')); print(len(d))")
           echo "changed=true" >> $GITHUB_OUTPUT
-          echo "releases.json updated — $COUNT entries"
+          echo "release data/status updated — $COUNT entries"
         fi
 
     - name: Commit and push
@@ -48,7 +57,7 @@ jobs:
       run: |
         git config --local user.email "${{ secrets.VERCEL_GIT_EMAIL }}"
         git config --local user.name "Release Scraper"
-        git add data/releases.json
+        git add data/releases.json data/scraper-status.json
         git commit -m "auto-scrape: $(date '+%Y-%m-%d %H:%M UTC') — releases updated"
         git push
 

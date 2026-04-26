@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scrape:releases": "python scripts/scrape_releases.py",
+    "scrape:releases:dry-run": "python scripts/scrape_releases.py --dry-run"
   },
   "dependencies": {
     "clsx": "^2.1.1",

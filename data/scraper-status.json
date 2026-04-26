@@ -1,0 +1,6 @@
+{
+  "status": "unknown",
+  "startedAt": null,
+  "finishedAt": null,
+  "note": "Updated by scripts/scrape_releases.py on each scheduled scrape run."
+}
