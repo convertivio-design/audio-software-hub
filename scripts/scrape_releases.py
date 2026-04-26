@@ -241,9 +241,13 @@ def extract_os(text: str) -> list:
 
 def run_firecrawl_scrape(url: str, output_path: str) -> bool:
     """Run firecrawl scrape CLI command. Returns True on success."""
+    api_key = os.environ.get('FIRECRAWL_API_KEY')
+    cmd = ['firecrawl', 'scrape', url, '--only-main-content', '-o', output_path]
+    if api_key:
+        cmd.extend(['-k', api_key])
     try:
         result = subprocess.run(
-            ['firecrawl', 'scrape', url, '--only-main-content', '-o', output_path],
+            cmd,
             capture_output=True, text=True, timeout=60
         )
         return result.returncode == 0 and Path(output_path).exists() and Path(output_path).stat().st_size > 100
@@ -254,9 +258,13 @@ def run_firecrawl_scrape(url: str, output_path: str) -> bool:
 
 def run_firecrawl_map(url: str, output_path: str) -> list:
     """Get all URLs from a site using firecrawl map. Returns list of URLs."""
+    api_key = os.environ.get('FIRECRAWL_API_KEY')
+    cmd = ['firecrawl', 'scrape', url, '--format', 'links', '-o', output_path]
+    if api_key:
+        cmd.extend(['-k', api_key])
     try:
         result = subprocess.run(
-            ['firecrawl', 'scrape', url, '--format', 'links', '-o', output_path],
+            cmd,
             capture_output=True, text=True, timeout=60
         )
         if result.returncode == 0 and Path(output_path).exists():
