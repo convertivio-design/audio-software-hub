@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T13:18:47.288225+00:00",
-  "finishedAt": "2026-04-26T13:21:20.782118+00:00",
+  "startedAt": "2026-04-26T14:40:14.693979+00:00",
+  "finishedAt": "2026-04-26T14:42:29.919551+00:00",
   "dryRun": false,
-  "existingEntries": 28,
-  "newEntries": 4,
+  "existingEntries": 30,
+  "newEntries": 2,
   "outputEntries": 30,
   "sources": [
     {
@@ -27,9 +27,9 @@
       "source": "Synthanatomy",
       "listingUrl": "https://www.synthanatomy.com/",
       "listingScraped": true,
-      "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 4
+      "candidateLinks": 6,
+      "articlesScraped": 6,
+      "entriesAdded": 2
     },
     {
       "source": "Rekkerd",

@@ -1,5 +1,74 @@
 [
   {
+    "id": "22d0d199f656",
+    "slug": "menuhttpssynthanatomycom202604knobula-drum-farm",
+    "name": "[MENU](https://synthanatomy.com/2026/04/knobula-drum-farm...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
+    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
+    "officialUrl": "https://synthanatomy.com/2026/04/knobula-drum-farm-synthesis-and-sampling-merged-in-a-unique-drum-voice-module.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T14:42:16.973699+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/knobula-drum-farm-synthesis-and-sampling-merged-in-a-unique-drum-voice-module.ht"
+  },
+  {
+    "id": "ae6a504c96ba",
+    "slug": "menuhttpssynthanatomycom202604cre8audio-program",
+    "name": "[MENU](https://synthanatomy.com/2026/04/cre8audio-program...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
+    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
+    "officialUrl": "https://synthanatomy.com/2026/04/cre8audio-programm.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS",
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T14:42:10.563215+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/cre8audio-programm.html#)"
+  },
+  {
     "id": "666f8d49f7fa",
     "slug": "menuhttpssynthanatomycom202604gs-music-bree6-ke",
     "name": "[MENU](https://synthanatomy.com/2026/04/gs-music-bree6-ke...",
@@ -1043,101 +1112,5 @@
     "targetAudience": "EDM and hip-hop producers",
     "dateAdded": "2026-03-05T11:00:00+00:00",
     "sourceTitle": "Baby Audio Transit released"
-  },
-  {
-    "id": "kilo007",
-    "slug": "kilohearts-phase-plant-2",
-    "name": "Kilohearts Phase Plant 2",
-    "developer": "Kilohearts",
-    "categoryId": "synth",
-    "price": 149,
-    "priceType": "one-time",
-    "shortDescription": "Modular synthesizer plugin with reworked visual routing, a new LFO editor, drag-and-drop module slots, and a redesigned effects lane. Now with 1000+ factory presets.",
-    "longDescription": "Phase Plant 2 overhauls the UI while keeping the beloved modular architecture. New features include improved connection system, redesigned oscilloscope, CLAP support, and a library of 1000+ factory presets.",
-    "officialUrl": "https://kilohearts.com/products/phase_plant",
-    "rating": 4.7,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX",
-      "CLAP"
-    ],
-    "features": [
-      "Modular synthesis",
-      "Drag-and-drop routing",
-      "1000+ factory presets",
-      "Integrated effects lane",
-      "MPE support"
-    ],
-    "pros": [
-      "Extremely flexible",
-      "Beautiful interface",
-      "Great factory content"
-    ],
-    "cons": [
-      "Complex for beginners"
-    ],
-    "tags": [
-      "synth",
-      "modular"
-    ],
-    "targetAudience": "Advanced synthesizer users and sound designers",
-    "dateAdded": "2026-03-04T16:00:00+00:00",
-    "sourceTitle": "Kilohearts Phase Plant 2 launched"
-  },
-  {
-    "id": "oks008",
-    "slug": "oeksound-bloom",
-    "name": "Oeksound Bloom",
-    "developer": "Oeksound",
-    "categoryId": "effects",
-    "price": 99,
-    "priceType": "one-time",
-    "shortDescription": "Spectral transient and dynamics processor from the makers of Soothe2. Tracks and shapes attack and sustain of individual frequency bands independently.",
-    "longDescription": "Following Soothe2, Oeksound's Bloom brings spectral-aware processing to transient shaping. Each frequency band has independent attack and sustain treatment — great for drums and complex mixes.",
-    "officialUrl": "https://oeksound.com/plugins/bloom/",
-    "rating": 4.8,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [
-      "Spectral transient shaping",
-      "Per-band attack/sustain",
-      "Adaptive processing",
-      "Delta monitoring"
-    ],
-    "pros": [
-      "Unique spectral approach",
-      "Transparent processing",
-      "From trusted developer"
-    ],
-    "cons": [
-      "CPU intensive",
-      "Learning curve"
-    ],
-    "tags": [
-      "effects",
-      "dynamics",
-      "transient"
-    ],
-    "targetAudience": "Mixing engineers and producers",
-    "dateAdded": "2026-03-03T10:00:00+00:00",
-    "sourceTitle": "Oeksound Bloom released"
   }
 ]
