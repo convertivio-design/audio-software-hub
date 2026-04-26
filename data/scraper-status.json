@@ -1,10 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T14:40:14.693979+00:00",
-  "finishedAt": "2026-04-26T14:42:29.919551+00:00",
+  "startedAt": "2026-04-26T14:58:17.422777+00:00",
+  "finishedAt": "2026-04-26T15:00:05.592490+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "newEntries": 2,
+  "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
     {
@@ -13,7 +14,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 0
+      "entriesAdded": 0,
+      "entriesRejected": 0
     },
     {
       "source": "BPB Free VST",
@@ -21,15 +23,17 @@
       "listingScraped": true,
       "candidateLinks": 1,
       "articlesScraped": 1,
-      "entriesAdded": 0
+      "entriesAdded": 1,
+      "entriesRejected": 0
     },
     {
       "source": "Synthanatomy",
       "listingUrl": "https://www.synthanatomy.com/",
       "listingScraped": true,
-      "candidateLinks": 6,
-      "articlesScraped": 6,
-      "entriesAdded": 2
+      "candidateLinks": 4,
+      "articlesScraped": 4,
+      "entriesAdded": 1,
+      "entriesRejected": 0
     },
     {
       "source": "Rekkerd",
@@ -37,7 +41,8 @@
       "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
-      "entriesAdded": 0
+      "entriesAdded": 0,
+      "entriesRejected": 0
     },
     {
       "source": "CDM",
@@ -45,8 +50,10 @@
       "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
-      "entriesAdded": 0
+      "entriesAdded": 0,
+      "entriesRejected": 0
     }
   ],
-  "errors": []
+  "errors": [],
+  "rejections": []
 }

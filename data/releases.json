@@ -1,5 +1,73 @@
 [
   {
+    "id": "32285f9f4f8c",
+    "slug": "news-ticker",
+    "name": "News Ticker",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "- [\\[ April 26, 2026 \\] \\\\ Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-ana",
+    "longDescription": "- [\\[ April 26, 2026 \\] \\\\ Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") - [\\[ April 26, 2026 \\] \\\\ Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\",
+    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T14:59:47.353097+00:00",
+    "sourceTitle": "News Ticker"
+  },
+  {
+    "id": "7ede1e170b89",
+    "slug": "bedroom-producers",
+    "name": "![Bedroom Producers...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "free",
+    "shortDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/20",
+    "longDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/2021/07/02/free-drum-kits/#) - [Free VST](https://bedroomproducersblog.com/free-vst-plugins/ \"Free VST plugins\") - [Free DAW](https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\")",
+    "officialUrl": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T14:59:39.695394+00:00",
+    "sourceTitle": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png)"
+  },
+  {
     "id": "22d0d199f656",
     "slug": "menuhttpssynthanatomycom202604knobula-drum-farm",
     "name": "[MENU](https://synthanatomy.com/2026/04/knobula-drum-farm...",
@@ -1016,101 +1084,5 @@
     "targetAudience": "Mastering engineers and producers finishing tracks",
     "dateAdded": "2026-03-07T09:00:00+00:00",
     "sourceTitle": "iZotope Ozone 12 released"
-  },
-  {
-    "id": "art005",
-    "slug": "arturia-pigments-5",
-    "name": "Arturia Pigments 5",
-    "developer": "Arturia",
-    "categoryId": "synth",
-    "price": 199,
-    "priceType": "one-time",
-    "shortDescription": "Arturia's flagship software synthesizer gains a new Harmonic engine, improved arpeggiator/sequencer, and deeper modulation routing with up to 16 modulation slots per patch.",
-    "longDescription": "Pigments 5 adds a brand-new Harmonic oscillator engine alongside wavetable, virtual analog, sample, and granular synthesis. The updated sequencer supports per-step probability and polyrhythmic patterns.",
-    "officialUrl": "https://www.arturia.com/products/software-instruments/pigments/overview",
-    "rating": 4.8,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX",
-      "Standalone"
-    ],
-    "features": [
-      "Harmonic oscillator engine",
-      "Wavetable synthesis",
-      "Granular synthesis",
-      "Advanced sequencer",
-      "16 modulation slots"
-    ],
-    "pros": [
-      "Stunning visual interface",
-      "Versatile synthesis engines",
-      "Excellent factory content"
-    ],
-    "cons": [
-      "Resource intensive"
-    ],
-    "tags": [
-      "synth",
-      "wavetable",
-      "granular"
-    ],
-    "targetAudience": "Sound designers and electronic music producers",
-    "dateAdded": "2026-03-06T14:00:00+00:00",
-    "sourceTitle": "Arturia Pigments 5 announced"
-  },
-  {
-    "id": "baby006",
-    "slug": "baby-audio-transit",
-    "name": "Baby Audio Transit",
-    "developer": "Baby Audio",
-    "categoryId": "effects",
-    "price": 49,
-    "priceType": "one-time",
-    "shortDescription": "Automation-friendly transition plugin that controls up to 12 effects simultaneously via a single macro — stutter, pitch rise, filter sweep, reverb swell all at once.",
-    "longDescription": "Transit is Baby Audio's answer to cluttered transition workflows: one macro controls up to 12 effects simultaneously, automatable over any bar length. Perfect for EDM, hip-hop, and cinematic productions.",
-    "officialUrl": "https://babyaud.io/transit",
-    "rating": 4.6,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [
-      "12 simultaneous effects",
-      "One-macro control",
-      "Automatable transitions",
-      "Stutter, pitch, filter, reverb"
-    ],
-    "pros": [
-      "Extremely simple workflow",
-      "Sounds great out of the box",
-      "Affordable"
-    ],
-    "cons": [
-      "Limited deep customization"
-    ],
-    "tags": [
-      "effects",
-      "transition",
-      "automation"
-    ],
-    "targetAudience": "EDM and hip-hop producers",
-    "dateAdded": "2026-03-05T11:00:00+00:00",
-    "sourceTitle": "Baby Audio Transit released"
   }
 ]
