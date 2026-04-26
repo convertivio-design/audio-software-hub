@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const RELEASES_PATH = path.join(process.cwd(), 'data', 'releases.json')
-const JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu/i
+const JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[/i
 
 function assert(condition, message) {
   if (!condition) {
@@ -27,10 +27,10 @@ function main() {
     if (!name) issues.push(`${label}: missing name`)
     if (!shortDescription) issues.push(`${label}: missing shortDescription`)
 
-    ;['slug', 'name', 'shortDescription', 'sourceTitle', 'officialUrl'].forEach((field) => {
+    ;['slug', 'name', 'shortDescription', 'longDescription', 'sourceTitle', 'officialUrl'].forEach((field) => {
       const value = entry[field]
       if (typeof value === 'string' && JUNK_PATTERN.test(value)) {
-        issues.push(`${label}: ${field} contains menu artifact`)
+        issues.push(`${label}: ${field} contains scraped junk`)
       }
     })
   })

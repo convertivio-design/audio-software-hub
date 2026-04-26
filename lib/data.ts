@@ -439,7 +439,7 @@ export function getFeaturedProducts(): Product[] {
 
 export type SanitizedRelease = Product & { dateAdded?: string; sourceTitle?: string }
 
-const RELEASE_JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu/i
+const RELEASE_JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[/i
 
 function isSafeReleaseField(value: unknown): value is string {
   return typeof value === 'string' && value.trim().length > 0 && !RELEASE_JUNK_PATTERN.test(value)
@@ -464,6 +464,7 @@ function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
   if (!entry || typeof entry !== 'object') return null
   if (!isSafeReleaseField(entry.slug) || !isSafeReleaseField(entry.name)) return null
   if (!isSafeReleaseField(entry.shortDescription ?? `${entry.name} — recently released.`)) return null
+  if (typeof entry.longDescription === 'string' && !isSafeReleaseField(entry.longDescription)) return null
   if (!isSafeReleaseField(entry.officialUrl ?? '#')) return null
 
   const safeName = entry.name.trim()

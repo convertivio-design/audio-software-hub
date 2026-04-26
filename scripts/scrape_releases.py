@@ -258,6 +258,8 @@ def extract_name_from_url(url: str) -> str:
 def is_junk_title_line(line: str) -> bool:
     """Detect obvious navigation/utility lines that should not be used as titles."""
     line_lower = line.lower()
+    if contains_scraped_junk(line):
+        return True
     if re.match(r'^\[[^\]]+\]\(https?://[^\)]+\)$', line.strip(), flags=re.IGNORECASE):
         return True
     junk_tokens = [
@@ -273,6 +275,8 @@ def is_junk_body_line(line: str) -> bool:
     lowered = stripped.lower()
     if not stripped:
         return True
+    if contains_scraped_junk(stripped):
+        return True
     if stripped.startswith('#'):
         return True
     if re.match(r'^\[[^\]]+\]\(https?://[^\)]+\)$', stripped, flags=re.IGNORECASE):
@@ -287,21 +291,41 @@ def is_junk_body_line(line: str) -> bool:
     return len(stripped) < 25
 
 
+SCRAPED_JUNK_RE = re.compile(
+    r'(\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|'
+    r'bedroom producers blog|!\[[^\]]*\]\(https?://|\]\(https?://|'
+    r'\\\s*[^\]]+\]\(https?://|\[\\?\[)',
+    re.IGNORECASE,
+)
+
+
+def contains_scraped_junk(value: str) -> bool:
+    return bool(value and SCRAPED_JUNK_RE.search(value))
+
+
 def validate_entry(entry: dict) -> tuple[bool, str]:
     """Return (is_valid, reason). Reject obvious parsing garbage."""
     name = str(entry.get('name', '')).strip()
     slug = str(entry.get('slug', '')).strip().lower()
     desc = str(entry.get('shortDescription', '')).strip().lower()
+    long_desc = str(entry.get('longDescription', '')).strip().lower()
     official_url = str(entry.get('officialUrl', '')).strip().lower()
+    source_title = str(entry.get('sourceTitle', '')).strip().lower()
 
     if not name:
         return False, 'name_missing'
+    if contains_scraped_junk(name):
+        return False, 'name_contains_scraped_junk'
     if name.startswith('[') and '](' in name:
         return False, 'name_is_markdown_link'
     if len(name) < 5 or len(name) > 100:
         return False, 'name_length_invalid'
     if 'menu' in slug or 'http' in slug:
         return False, 'slug_contains_junk'
+    if contains_scraped_junk(desc) or contains_scraped_junk(long_desc):
+        return False, 'description_contains_scraped_junk'
+    if contains_scraped_junk(source_title):
+        return False, 'source_title_contains_scraped_junk'
     if any(token in desc for token in ['subscribe', 'newsletter', 'follow us']):
         return False, 'description_is_boilerplate'
     if '\\n' in official_url or '\n' in official_url:
@@ -650,9 +674,22 @@ def scrape_releases(dry_run: bool = False):
         write_status('failure', started_at, sources=source_stats, errors=errors + [message])
         sys.exit(1)
 
+    cleaned_existing: list[dict] = []
+    for entry in existing:
+        is_valid, reason = validate_entry(entry)
+        if is_valid:
+            cleaned_existing.append(entry)
+            continue
+        rejected_entries.append({
+            "url": entry.get("officialUrl", ""),
+            "reason": f"existing_{reason}",
+            "name": entry.get("name", ""),
+            "slug": entry.get("slug", ""),
+        })
+
     # Merge: new first, then existing. Keep older entries rather than wiping the
     # homepage when sources have no fresh candidates.
-    merged = new_entries + existing
+    merged = new_entries + cleaned_existing
 
     # Deduplicate by slug
     seen_slugs: set = set()
@@ -680,6 +717,7 @@ def scrape_releases(dry_run: bool = False):
             started_at,
             dryRun=False,
             existingEntries=len(existing),
+            cleanedExistingEntries=len(cleaned_existing),
             newEntries=len(new_entries),
             rejectedEntries=len(rejected_entries),
             outputEntries=len(deduped),
