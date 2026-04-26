@@ -1,47 +1,49 @@
 [
   {
-    "id": "6429e5d7ca65",
-    "slug": "172581359",
-    "name": "172.58.135.9",
+    "id": "32285f9f4f8c",
+    "slug": "news-ticker",
+    "name": "News Ticker",
     "developer": null,
-    "categoryId": "utility",
+    "categoryId": "synth",
     "price": 0.0,
     "priceType": "paid",
-    "shortDescription": "172.58.135.9 — newly released.",
-    "longDescription": "172.58.135.9 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/gooey-audio-releases-the-snake-v2-0-66707 \"Gooey Audio Releases The Snake v2.0\"",
+    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ Anode Labs Bitcrust: a cross-platform SID-style pol",
+    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ Audiokit Pro Retro Keys brings vintage electro pianos to your iOS device \\\\ Morphor Echon 6, analog polyphonic BBD Resonator Synthesizer: available now + deep dive \\\\",
+    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\"",
     "rating": 4.0,
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
     "os": [
-      "Windows",
-      "macOS"
+      "macOS",
+      "iOS"
     ],
-    "formats": [],
+    "formats": [
+      "iOS"
+    ],
     "features": [],
     "pros": [],
     "cons": [
       "New — limited reviews"
     ],
     "tags": [
-      "utility"
+      "synth"
     ],
     "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:38:06.964073+00:00",
-    "sourceTitle": "172.58.135.9"
+    "dateAdded": "2026-04-26T15:48:08.912757+00:00",
+    "sourceTitle": "News Ticker"
   },
   {
-    "id": "69ed941d37da",
-    "slug": "26001005b05d35c9013148a8b01",
-    "name": "2600:1005:b05d:35c9:0:13:148a:8b01",
+    "id": "db3df02eb7fe",
+    "slug": "software",
+    "name": "Software",
     "developer": null,
-    "categoryId": "utility",
+    "categoryId": "daw",
     "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "2600:1005:b05d:35c9:0:13:148a:8b01",
-    "longDescription": "2600:1005:b05d:35c9:0:13:148a:8b01",
-    "officialUrl": "https://www.kvraudio.com/news/apu-software-updates-loudness-series-to-v5-4-7-66750 \"APU Software updates Loudness Series to v5.4.7\"",
+    "priceType": "free",
+    "shortDescription": "These are the best free **digital audio workstations** (DAWs) for recording, beatmaking, and music production on Windows, macOS, Linux, and the web. I included fully free tools and hardware-bundled ed",
+    "longDescription": "These are the best free **digital audio workstations** (DAWs) for recording, beatmaking, and music production on Windows, macOS, Linux, and the web. I included fully free tools and hardware-bundled editions of commercial software. Choosing a digital audio workstation is the most important software decision you’ll make when building a home studio. Your DAW handles recording, editing, MIDI sequencing, arranging, mixing, and exporting. Everything happens inside it, so picking the right one matters ",
+    "officialUrl": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
     "rating": 4.0,
     "ratingCount": 0,
     "isNew": true,
@@ -50,30 +52,32 @@
       "Windows",
       "macOS"
     ],
-    "formats": [],
+    "formats": [
+      "VST"
+    ],
     "features": [],
     "pros": [],
     "cons": [
       "New — limited reviews"
     ],
     "tags": [
-      "utility"
+      "daw"
     ],
     "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:38:03.280117+00:00",
-    "sourceTitle": "2600:1005:b05d:35c9:0:13:148a:8b01"
+    "dateAdded": "2026-04-26T15:48:03.625130+00:00",
+    "sourceTitle": "Free Daw Software"
   },
   {
-    "id": "4f9a7c3a596a",
-    "slug": "1725813330",
-    "name": "172.58.133.30",
+    "id": "372c0c0f7fe8",
+    "slug": "free-drum-kits",
+    "name": "Free Drum Kits",
     "developer": null,
-    "categoryId": "utility",
+    "categoryId": "daw",
     "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "172.58.133.30 — newly released.",
-    "longDescription": "172.58.133.30 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/sound-magic-releases-supreme-drums-china---traditional-chinese-percussion-instruments-66749 \"Sound Magic Releases Supreme Drums China - Traditional Chinese Percussion Instruments\"",
+    "priceType": "free",
+    "shortDescription": "Every music producer needs high-quality **drum kits** in their sample arsenal. I featured hundreds of drum sample packs in BPB’s news section and listed my favorites in this article. It’s easy to down",
+    "longDescription": "Every music producer needs high-quality **drum kits** in their sample arsenal. I featured hundreds of drum sample packs in BPB’s news section and listed my favorites in this article. It’s easy to download dozens of drum kits that add nothing but clutter to your production workflow. Browsing through endless similar sounds while searching for the “perfect snare” kills creativity. The smarter approach is to keep a small selection of high-quality drum packs ready to go in your DAW or sampler of choi",
+    "officialUrl": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
     "rating": 4.0,
     "ratingCount": 0,
     "isNew": true,
@@ -82,30 +86,32 @@
       "Windows",
       "macOS"
     ],
-    "formats": [],
+    "formats": [
+      "VST"
+    ],
     "features": [],
     "pros": [],
     "cons": [
       "New — limited reviews"
     ],
     "tags": [
-      "utility"
+      "daw"
     ],
     "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:37:59.619293+00:00",
-    "sourceTitle": "172.58.133.30"
+    "dateAdded": "2026-04-26T15:48:00.860631+00:00",
+    "sourceTitle": "Free Drum Kits"
   },
   {
-    "id": "f339c743367e",
-    "slug": "1725813557",
-    "name": "172.58.135.57",
+    "id": "c144ce62c9a7",
+    "slug": "free-digital-audio-workstations",
+    "name": "\"Free Digital Audio Workstations\"",
     "developer": null,
-    "categoryId": "utility",
+    "categoryId": "daw",
     "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "172.58.135.57 — newly released.",
-    "longDescription": "172.58.135.57 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/best-service-releases-bassam-ayoubs-qanun-for-engine-player-66753 \"Best Service releases Bassam Ayoub's \\\"Qanun\\\" for Engine Player\"",
+    "priceType": "free",
+    "shortDescription": "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it and we'll try to fix it. In the meantime, try one of these options: Typ",
+    "longDescription": "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it and we'll try to fix it. In the meantime, try one of these options: Type above and press _Enter_ to search. Press _Esc_ to cancel.",
+    "officialUrl": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
     "rating": 4.0,
     "ratingCount": 0,
     "isNew": true,
@@ -114,146 +120,20 @@
       "Windows",
       "macOS"
     ],
-    "formats": [],
+    "formats": [
+      "VST"
+    ],
     "features": [],
     "pros": [],
     "cons": [
       "New — limited reviews"
     ],
     "tags": [
-      "utility"
+      "daw"
     ],
     "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:37:55.617635+00:00",
-    "sourceTitle": "172.58.135.57"
-  },
-  {
-    "id": "82e278f54944",
-    "slug": "172563411",
-    "name": "172.56.34.11",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "172.56.34.11 — newly released.",
-    "longDescription": "172.56.34.11 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/peter-semiletov-releases-roker-pack---free-guitar-vst3-fx-tuners-for-windows-and-linux-66757 \"Peter Semiletov releases Roker Pack - Free Guitar VST3 FX/Tuners for Windows and Linux\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:37:53.105657+00:00",
-    "sourceTitle": "172.56.34.11"
-  },
-  {
-    "id": "38ecfd09bebc",
-    "slug": "17258135122",
-    "name": "172.58.135.122",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "172.58.135.122 — newly released.",
-    "longDescription": "172.58.135.122 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/black-salt-audio-releases-instinct-eq-vst3-au-and-aax-66758 \"Black Salt Audio releases Instinct EQ (VST3, AU & AAX",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:37:49.614856+00:00",
-    "sourceTitle": "172.58.135.122"
-  },
-  {
-    "id": "5b211e67467d",
-    "slug": "174211101254",
-    "name": "174.211.101.254",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "174.211.101.254 — newly released.",
-    "longDescription": "174.211.101.254 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/authentic-soundware-release-space-age-colors-for-kontakt-66755 \"Authentic Soundware release Space Age Colors for Kontakt\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:37:46.155480+00:00",
-    "sourceTitle": "174.211.101.254"
-  },
-  {
-    "id": "64ca7b4b07ac",
-    "slug": "1725813349",
-    "name": "172.58.133.49",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "172.58.133.49 — newly released.",
-    "longDescription": "172.58.133.49 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/session-loops-updates-vocalnet-to-v1-6-with-ara-support-66763 \"Session Loops updates VocalNet to v1.6 with ARA support\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T15:37:43.341770+00:00",
-    "sourceTitle": "172.58.133.49"
+    "dateAdded": "2026-04-26T15:47:57.895873+00:00",
+    "sourceTitle": "\"Free Digital Audio Workstations\""
   },
   {
     "id": "fab001",
