@@ -440,9 +440,10 @@ export function getFeaturedProducts(): Product[] {
 export type SanitizedRelease = Product & { dateAdded?: string; sourceTitle?: string }
 
 const RELEASE_JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[/i
+const RELEASE_IP_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b|\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b/i
 
 function isSafeReleaseField(value: unknown): value is string {
-  return typeof value === 'string' && value.trim().length > 0 && !RELEASE_JUNK_PATTERN.test(value)
+  return typeof value === 'string' && value.trim().length > 0 && !RELEASE_JUNK_PATTERN.test(value) && !RELEASE_IP_PATTERN.test(value)
 }
 
 function toSafeStringArray(value: unknown, fallback: string[]): string[] {

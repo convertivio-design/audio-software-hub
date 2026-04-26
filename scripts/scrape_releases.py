@@ -298,9 +298,18 @@ SCRAPED_JUNK_RE = re.compile(
     re.IGNORECASE,
 )
 
+IPV4_RE = re.compile(r'\b(?:\d{1,3}\.){3}\d{1,3}\b')
+IPV6_RE = re.compile(r'\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b', re.IGNORECASE)
+
 
 def contains_scraped_junk(value: str) -> bool:
     return bool(value and SCRAPED_JUNK_RE.search(value))
+
+
+def contains_ip_address(value: str) -> bool:
+    if not value:
+        return False
+    return bool(IPV4_RE.search(value) or IPV6_RE.search(value))
 
 
 def validate_entry(entry: dict) -> tuple[bool, str]:
@@ -316,16 +325,24 @@ def validate_entry(entry: dict) -> tuple[bool, str]:
         return False, 'name_missing'
     if contains_scraped_junk(name):
         return False, 'name_contains_scraped_junk'
+    if contains_ip_address(name):
+        return False, 'name_contains_ip_address'
     if name.startswith('[') and '](' in name:
         return False, 'name_is_markdown_link'
     if len(name) < 5 or len(name) > 100:
         return False, 'name_length_invalid'
     if 'menu' in slug or 'http' in slug:
         return False, 'slug_contains_junk'
+    if contains_ip_address(slug):
+        return False, 'slug_contains_ip_address'
     if contains_scraped_junk(desc) or contains_scraped_junk(long_desc):
         return False, 'description_contains_scraped_junk'
+    if contains_ip_address(desc) or contains_ip_address(long_desc):
+        return False, 'description_contains_ip_address'
     if contains_scraped_junk(source_title):
         return False, 'source_title_contains_scraped_junk'
+    if contains_ip_address(source_title):
+        return False, 'source_title_contains_ip_address'
     if any(token in desc for token in ['subscribe', 'newsletter', 'follow us']):
         return False, 'description_is_boilerplate'
     if '\\n' in official_url or '\n' in official_url:

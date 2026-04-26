@@ -3,6 +3,7 @@ const path = require('path')
 
 const RELEASES_PATH = path.join(process.cwd(), 'data', 'releases.json')
 const JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[/i
+const IP_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b|\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b/i
 
 function assert(condition, message) {
   if (!condition) {
@@ -31,6 +32,9 @@ function main() {
       const value = entry[field]
       if (typeof value === 'string' && JUNK_PATTERN.test(value)) {
         issues.push(`${label}: ${field} contains scraped junk`)
+      }
+      if (typeof value === 'string' && IP_PATTERN.test(value)) {
+        issues.push(`${label}: ${field} contains IP/address artifact`)
       }
     })
   })
