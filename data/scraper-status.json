@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T04:33:29.438629+00:00",
-  "finishedAt": "2026-04-26T04:35:35.847740+00:00",
+  "startedAt": "2026-04-26T04:36:44.004156+00:00",
+  "finishedAt": "2026-04-26T04:37:46.671231+00:00",
   "dryRun": false,
-  "existingEntries": 10,
-  "newEntries": 8,
-  "outputEntries": 18,
+  "existingEntries": 18,
+  "newEntries": 5,
+  "outputEntries": 23,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -13,15 +13,15 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 1
+      "entriesAdded": 0
     },
     {
       "source": "BPB Free VST",
       "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
       "listingScraped": true,
-      "candidateLinks": 3,
-      "articlesScraped": 3,
-      "entriesAdded": 2
+      "candidateLinks": 1,
+      "articlesScraped": 1,
+      "entriesAdded": 0
     },
     {
       "source": "Synthanatomy",
