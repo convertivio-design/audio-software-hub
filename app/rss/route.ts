@@ -1,26 +1,12 @@
 import { NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
+import { getSanitizedReleases, type SanitizedRelease } from '@/lib/data'
 
 export const dynamic = 'force-dynamic'
 
-interface Release {
-  id: string
-  slug: string
-  name: string
-  developer?: string | null
-  shortDescription: string
-  dateAdded: string
-  officialUrl: string
-  categoryId: string
-}
+type Release = SanitizedRelease
 
 export async function GET() {
-  let releases: Release[] = []
-  try {
-    const raw = fs.readFileSync(path.join(process.cwd(), 'data', 'releases.json'), 'utf-8')
-    releases = JSON.parse(raw)
-  } catch {}
+  const releases: Release[] = getSanitizedReleases()
 
   const BASE = 'https://audio-software-hub.com'
   const items = releases.slice(0, 20).map(r => `
@@ -29,7 +15,7 @@ export async function GET() {
       <link>${BASE}/releases/${r.slug}</link>
       <guid>${BASE}/releases/${r.slug}</guid>
       <description><![CDATA[${r.shortDescription}]]></description>
-      <pubDate>${new Date(r.dateAdded).toUTCString()}</pubDate>
+      <pubDate>${new Date(r.dateAdded ?? Date.now()).toUTCString()}</pubDate>
       <category>${r.categoryId}</category>
     </item>
   `).join('')

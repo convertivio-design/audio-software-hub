@@ -437,40 +437,87 @@ export function getFeaturedProducts(): Product[] {
   return _featured
 }
 
-export function getNewProducts(): Product[] {
+export type SanitizedRelease = Product & { dateAdded?: string; sourceTitle?: string }
+
+const RELEASE_JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu/i
+
+function isSafeReleaseField(value: unknown): value is string {
+  return typeof value === 'string' && value.trim().length > 0 && !RELEASE_JUNK_PATTERN.test(value)
+}
+
+function toSafeStringArray(value: unknown, fallback: string[]): string[] {
+  if (!Array.isArray(value)) return fallback
+  const cleaned = value
+    .filter((item): item is string => typeof item === 'string')
+    .map(item => item.trim())
+    .filter(item => item.length > 0 && !RELEASE_JUNK_PATTERN.test(item))
+  return cleaned.length > 0 ? cleaned : fallback
+}
+
+function toSafePriceType(value: unknown): PriceType {
+  return value === 'free' || value === 'freemium' || value === 'subscription' || value === 'one-time'
+    ? value
+    : 'one-time'
+}
+
+function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
+  if (!entry || typeof entry !== 'object') return null
+  if (!isSafeReleaseField(entry.slug) || !isSafeReleaseField(entry.name)) return null
+  if (!isSafeReleaseField(entry.shortDescription ?? `${entry.name} — recently released.`)) return null
+  if (!isSafeReleaseField(entry.officialUrl ?? '#')) return null
+
+  const safeName = entry.name.trim()
+  return {
+    id: (typeof entry.id === 'string' && entry.id.trim().length > 0 ? entry.id : entry.slug).trim(),
+    slug: entry.slug.trim(),
+    name: safeName,
+    developer: isSafeReleaseField(entry.developer) ? entry.developer.trim() : undefined,
+    categoryId: typeof entry.categoryId === 'string' && entry.categoryId.trim().length > 0 ? entry.categoryId : 'utility',
+    price: typeof entry.price === 'number' ? entry.price : 0,
+    priceType: toSafePriceType(entry.priceType),
+    shortDescription: (entry.shortDescription ?? `${safeName} — recently released.`).trim(),
+    longDescription: typeof entry.longDescription === 'string'
+      ? entry.longDescription.trim()
+      : (entry.shortDescription ?? '').trim(),
+    officialUrl: (entry.officialUrl ?? '#').trim(),
+    rating: typeof entry.rating === 'number' ? entry.rating : 4.0,
+    ratingCount: typeof entry.ratingCount === 'number' ? entry.ratingCount : 0,
+    isNew: true,
+    isFeatured: false,
+    os: toSafeStringArray(entry.os, ['Windows', 'macOS']),
+    formats: toSafeStringArray(entry.formats, []),
+    features: toSafeStringArray(entry.features, ['New release']),
+    pros: toSafeStringArray(entry.pros, ['Recently released']),
+    cons: toSafeStringArray(entry.cons, ['New - limited reviews']),
+    tags: toSafeStringArray(entry.tags, [entry.categoryId ?? 'audio']),
+    targetAudience: typeof entry.targetAudience === 'string' && entry.targetAudience.trim().length > 0
+      ? entry.targetAudience.trim()
+      : 'Music producers and audio engineers',
+    dateAdded: typeof entry.dateAdded === 'string' ? entry.dateAdded : undefined,
+    sourceTitle: typeof entry.sourceTitle === 'string' ? entry.sourceTitle : undefined,
+  }
+}
+
+export function getSanitizedReleases(): SanitizedRelease[] {
   try {
     const releasesPath = path.join(process.cwd(), 'data', 'releases.json')
     const raw = fs.readFileSync(releasesPath, 'utf-8')
     const scraped: any[] = JSON.parse(raw)
-    if (scraped.length > 0) {
-      return scraped.map(p => ({
-        id: p.id ?? p.slug,
-        slug: p.slug,
-        name: p.name,
-        developer: p.developer ?? undefined,
-        categoryId: p.categoryId ?? 'utility',
-        price: typeof p.price === 'number' ? p.price : 0,
-        priceType: (p.priceType as PriceType) ?? 'paid',
-        shortDescription: p.shortDescription ?? `${p.name} — recently released.`,
-        longDescription: p.longDescription ?? p.shortDescription ?? '',
-        officialUrl: p.officialUrl ?? '#',
-        rating: p.rating ?? 4.0,
-        ratingCount: p.ratingCount ?? 0,
-        isNew: true,
-        isFeatured: false,
-        os: p.os ?? ['Windows', 'macOS'],
-        formats: p.formats ?? [],
-        features: p.features ?? ['New release'],
-        pros: p.pros ?? ['Recently released'],
-        cons: p.cons ?? ['New — limited reviews'],
-        tags: p.tags ?? [p.categoryId ?? 'audio'],
-        targetAudience: p.targetAudience ?? 'Music producers and audio engineers',
-      } as Product))
-    }
+    if (!Array.isArray(scraped) || scraped.length === 0) return []
+
+    const sanitized = scraped
+      .map(sanitizeReleaseEntry)
+      .filter((entry): entry is SanitizedRelease => entry !== null)
+
+    return sanitized
   } catch {
-    // releases.json missing or empty — fall through
+    return []
   }
-  return _newReleases
+}
+
+export function getNewProducts(): Product[] {
+  const sanitized = getSanitizedReleases()
+  return sanitized.length > 0 ? sanitized : _newReleases
 }
 
 export function searchProducts(query: string): Product[] {

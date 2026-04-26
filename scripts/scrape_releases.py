@@ -23,6 +23,7 @@ import hashlib
 import subprocess
 import tempfile
 import argparse
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -239,10 +240,80 @@ def extract_os(text: str) -> list:
     return os_list
 
 
+def extract_name_from_url(url: str) -> str:
+    """Extract a readable product-style name from article URL slug."""
+    path = re.sub(r'^https?://[^/]+/', '', url).strip('/')
+    if not path:
+        return ''
+    slug_part = path.split('/')[-1]
+    slug_part = re.sub(r'\.(html?|php)$', '', slug_part, flags=re.IGNORECASE)
+    slug_part = re.sub(r'^[0-9]+-', '', slug_part)
+    slug_part = slug_part.replace('-', ' ').replace('_', ' ')
+    slug_part = re.sub(r'\s+', ' ', slug_part).strip()
+    if not slug_part:
+        return ''
+    return slug_part.title()
+
+
+def is_junk_title_line(line: str) -> bool:
+    """Detect obvious navigation/utility lines that should not be used as titles."""
+    line_lower = line.lower()
+    if re.match(r'^\[[^\]]+\]\(https?://[^\)]+\)$', line.strip(), flags=re.IGNORECASE):
+        return True
+    junk_tokens = [
+        '[menu]', '[home]', '[about]', '[contact]', 'share this', 'newsletter',
+        'subscribe', 'privacy policy', 'cookie policy', 'terms of use',
+    ]
+    return any(token in line_lower for token in junk_tokens)
+
+
+def is_junk_body_line(line: str) -> bool:
+    """Detect sidebar/meta lines that should not be used for product description."""
+    stripped = line.strip()
+    lowered = stripped.lower()
+    if not stripped:
+        return True
+    if stripped.startswith('#'):
+        return True
+    if re.match(r'^\[[^\]]+\]\(https?://[^\)]+\)$', stripped, flags=re.IGNORECASE):
+        return True
+    junk_snippets = [
+        'subscribe', 'newsletter', 'follow us', 'share this', 'related posts',
+        'categories:', 'tags:', 'cookie', 'privacy policy', 'terms of use',
+        'advertisement',
+    ]
+    if any(snippet in lowered for snippet in junk_snippets):
+        return True
+    return len(stripped) < 25
+
+
+def validate_entry(entry: dict) -> tuple[bool, str]:
+    """Return (is_valid, reason). Reject obvious parsing garbage."""
+    name = str(entry.get('name', '')).strip()
+    slug = str(entry.get('slug', '')).strip().lower()
+    desc = str(entry.get('shortDescription', '')).strip().lower()
+    official_url = str(entry.get('officialUrl', '')).strip().lower()
+
+    if not name:
+        return False, 'name_missing'
+    if name.startswith('[') and '](' in name:
+        return False, 'name_is_markdown_link'
+    if len(name) < 5 or len(name) > 100:
+        return False, 'name_length_invalid'
+    if 'menu' in slug or 'http' in slug:
+        return False, 'slug_contains_junk'
+    if any(token in desc for token in ['subscribe', 'newsletter', 'follow us']):
+        return False, 'description_is_boilerplate'
+    if '\\n' in official_url or '\n' in official_url:
+        return False, 'official_url_contains_newline'
+    return True, ''
+
+
 def run_firecrawl_scrape(url: str, output_path: str) -> bool:
     """Run firecrawl scrape CLI command. Returns True on success."""
     api_key = os.environ.get('FIRECRAWL_API_KEY')
-    cmd = ['firecrawl', 'scrape', url, '--only-main-content', '-o', output_path]
+    firecrawl_exe = shutil.which('firecrawl') or shutil.which('firecrawl.cmd') or 'firecrawl'
+    cmd = [firecrawl_exe, 'scrape', url, '--only-main-content', '-o', output_path]
     if api_key:
         cmd.extend(['-k', api_key])
     try:
@@ -259,7 +330,8 @@ def run_firecrawl_scrape(url: str, output_path: str) -> bool:
 def run_firecrawl_map(url: str, output_path: str) -> list:
     """Get all URLs from a site using firecrawl map. Returns list of URLs."""
     api_key = os.environ.get('FIRECRAWL_API_KEY')
-    cmd = ['firecrawl', 'scrape', url, '--format', 'links', '-o', output_path]
+    firecrawl_exe = shutil.which('firecrawl') or shutil.which('firecrawl.cmd') or 'firecrawl'
+    cmd = [firecrawl_exe, 'scrape', url, '--format', 'links', '-o', output_path]
     if api_key:
         cmd.extend(['-k', api_key])
     try:
@@ -295,7 +367,12 @@ def extract_links_from_markdown(content: str, base_domain: str) -> list:
     for match in re.finditer(r'https?://[^\s\)\]"\'<>]+', content):
         u = match.group(0).rstrip('.,;:')
         links.append(u)
-    return list(dict.fromkeys(links))  # dedupe preserving order
+    cleaned_links = []
+    for link in links:
+        link = link.replace('\\n', '').replace('\n', '').strip()
+        if link.startswith('http'):
+            cleaned_links.append(link)
+    return list(dict.fromkeys(cleaned_links))  # dedupe preserving order
 
 
 def is_article_url(url: str, pattern: str, alt_pattern: str = None) -> bool:
@@ -315,17 +392,28 @@ def parse_release_from_content(url: str, content: str) -> dict | None:
     if not lines:
         return None
 
-    # Title: usually the first H1 or largest heading in the content
+    # Title: first meaningful heading, excluding nav/menu lines.
     title = ''
     for line in lines[:20]:
+        if is_junk_title_line(line):
+            continue
         if line.startswith('# '):
             title = line[2:].strip()
             break
         if line.startswith('## '):
             title = line[3:].strip()
             break
-    if not title and lines:
-        title = lines[0][:120]
+    if not title:
+        for line in lines[:25]:
+            if is_junk_title_line(line):
+                continue
+            if len(line) >= 10:
+                title = line[:120]
+                break
+    if not title:
+        title = extract_name_from_url(url)
+    if not title:
+        return None
 
     # Skip junk titles
     junk_titles = ['page not found', '404', 'login', 'sign in', 'cookie',
@@ -334,19 +422,22 @@ def parse_release_from_content(url: str, content: str) -> dict | None:
     if len(title) < 10 or any(j in title.lower() for j in junk_titles):
         return None
 
-    # Body text: everything after title
+    # Body text: prefer meaningful article lines, skip boilerplate.
     body_lines = []
-    for line in lines[1:40]:
-        if line.startswith('#'):
+    for line in lines[1:60]:
+        if is_junk_body_line(line):
             continue
-        if len(line) > 30:
-            body_lines.append(line)
+        body_lines.append(line)
         if len(body_lines) >= 5:
             break
     body = ' '.join(body_lines)
 
     full_text = title + ' ' + content[:2000]
     name = extract_product_name(title, full_text)
+    if is_junk_title_line(name):
+        url_name = extract_name_from_url(url)
+        if url_name:
+            name = extract_product_name(url_name, full_text)
     developer = extract_developer(full_text)
     category_id = detect_category(full_text)
     price, price_type = detect_price(full_text)
@@ -394,11 +485,20 @@ def scrape_releases(dry_run: bool = False):
     started_at = datetime.now(timezone.utc).isoformat()
     source_stats: list[dict] = []
     errors: list[str] = []
+    rejected_entries: list[dict] = []
     print('[releases] starting Firecrawl scraper...')
 
     # Verify firecrawl is available
+    firecrawl_exe = shutil.which('firecrawl') or shutil.which('firecrawl.cmd')
+    if not firecrawl_exe:
+        roaming_bin = Path(os.environ.get('APPDATA', '')) / 'npm' / 'firecrawl.cmd'
+        if roaming_bin.exists():
+            firecrawl_exe = str(roaming_bin)
+
     try:
-        result = subprocess.run(['firecrawl', '--version'], capture_output=True, text=True, timeout=10)
+        if not firecrawl_exe:
+            raise FileNotFoundError('firecrawl executable not found')
+        result = subprocess.run([firecrawl_exe, '--version'], capture_output=True, text=True, timeout=10)
         print(f'[releases] firecrawl version: {result.stdout.strip() or result.stderr.strip()}')
     except FileNotFoundError:
         message = 'firecrawl CLI not found. Install: npm install -g firecrawl-cli'
@@ -436,6 +536,7 @@ def scrape_releases(dry_run: bool = False):
                 "candidateLinks": 0,
                 "articlesScraped": 0,
                 "entriesAdded": 0,
+                "entriesRejected": 0,
             }
             print(f'\n[releases] === Source {source_idx+1}/{len(LISTING_PAGES)}: {source["name"]} ===')
             print(f'[releases] Scraping listing page: {source["url"]}')
@@ -511,6 +612,18 @@ def scrape_releases(dry_run: bool = False):
                     print(f'    [~] Duplicate slug: {entry["slug"]}, skipping')
                     continue
 
+                is_valid, reason = validate_entry(entry)
+                if not is_valid:
+                    stat["entriesRejected"] += 1
+                    rejected_entries.append({
+                        "url": article_url,
+                        "reason": reason,
+                        "name": entry.get("name", ""),
+                        "slug": entry.get("slug", ""),
+                    })
+                    print(f'    [!] Rejected entry: {reason}')
+                    continue
+
                 new_entries.append(entry)
                 stat["entriesAdded"] += 1
                 existing_urls.add(article_url)
@@ -568,9 +681,11 @@ def scrape_releases(dry_run: bool = False):
             dryRun=False,
             existingEntries=len(existing),
             newEntries=len(new_entries),
+            rejectedEntries=len(rejected_entries),
             outputEntries=len(deduped),
             sources=source_stats,
             errors=errors,
+            rejections=rejected_entries[:50],
         )
     print(f'\n[releases] done. {len(new_entries)} new entries scraped, {len(deduped)} total in releases.json')
     return len(new_entries)

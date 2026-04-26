@@ -1,17 +1,10 @@
 import { MetadataRoute } from 'next'
-import { products, categories } from '@/lib/data'
-import fs from 'fs'
-import path from 'path'
+import { products, categories, getSanitizedReleases } from '@/lib/data'
 
 const BASE_URL = 'https://audio-software-hub.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Load releases
-  let releases: { slug: string }[] = []
-  try {
-    const raw = fs.readFileSync(path.join(process.cwd(), 'data', 'releases.json'), 'utf-8')
-    releases = JSON.parse(raw)
-  } catch {}
+  const releases = getSanitizedReleases()
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },

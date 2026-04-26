@@ -3,42 +3,14 @@ export const dynamic = 'force-dynamic'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ExternalLink, ArrowLeft, Calendar, Tag } from 'lucide-react'
-import fs from 'fs'
-import path from 'path'
 import { formatPrice, priceTypeBadge } from '@/lib/utils'
-import { getCategoryById } from '@/lib/data'
+import { getCategoryById, getSanitizedReleases, type SanitizedRelease } from '@/lib/data'
 
-interface Release {
-  id: string
-  slug: string
-  name: string
-  developer?: string | null
-  categoryId: string
-  price: number
-  priceType: string
-  shortDescription: string
-  longDescription?: string
-  officialUrl: string
-  rating: number
-  os: string[]
-  formats: string[]
-  features: string[]
-  pros: string[]
-  cons: string[]
-  tags: string[]
-  dateAdded: string
-  sourceTitle?: string
-}
+type Release = SanitizedRelease
 
 function getReleaseBySlug(slug: string): Release | null {
-  try {
-    const filePath = path.join(process.cwd(), 'data', 'releases.json')
-    const raw = fs.readFileSync(filePath, 'utf-8')
-    const releases: Release[] = JSON.parse(raw)
-    return releases.find(r => r.slug === slug) ?? null
-  } catch {
-    return null
-  }
+  const releases = getSanitizedReleases()
+  return releases.find(r => r.slug === slug) ?? null
 }
 
 interface Props {
