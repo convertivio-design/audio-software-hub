@@ -1,6 +1,52 @@
 {
-  "status": "unknown",
-  "startedAt": null,
-  "finishedAt": null,
-  "note": "Updated by scripts/scrape_releases.py on each scheduled scrape run."
+  "status": "success",
+  "startedAt": "2026-04-26T04:33:29.438629+00:00",
+  "finishedAt": "2026-04-26T04:35:35.847740+00:00",
+  "dryRun": false,
+  "existingEntries": 10,
+  "newEntries": 8,
+  "outputEntries": 18,
+  "sources": [
+    {
+      "source": "KVR Audio News",
+      "listingUrl": "https://www.kvraudio.com/news/",
+      "listingScraped": true,
+      "candidateLinks": 8,
+      "articlesScraped": 8,
+      "entriesAdded": 1
+    },
+    {
+      "source": "BPB Free VST",
+      "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
+      "listingScraped": true,
+      "candidateLinks": 3,
+      "articlesScraped": 3,
+      "entriesAdded": 2
+    },
+    {
+      "source": "Synthanatomy",
+      "listingUrl": "https://www.synthanatomy.com/",
+      "listingScraped": true,
+      "candidateLinks": 8,
+      "articlesScraped": 8,
+      "entriesAdded": 5
+    },
+    {
+      "source": "Rekkerd",
+      "listingUrl": "https://www.rekkerd.org/",
+      "listingScraped": true,
+      "candidateLinks": 0,
+      "articlesScraped": 0,
+      "entriesAdded": 0
+    },
+    {
+      "source": "CDM",
+      "listingUrl": "https://cdm.link/",
+      "listingScraped": true,
+      "candidateLinks": 0,
+      "articlesScraped": 0,
+      "entriesAdded": 0
+    }
+  ],
+  "errors": []
 }

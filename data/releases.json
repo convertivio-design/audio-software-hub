@@ -1,5 +1,277 @@
 [
   {
+    "id": "eec7dba443e4",
+    "slug": "menuhttpssynthanatomycom202604feral",
+    "name": "[MENU](https://synthanatomy.com/2026/04/feral",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
+    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
+    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "AUv3",
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:35:13.836300+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html#)"
+  },
+  {
+    "id": "c99527389a52",
+    "slug": "menuhttpssynthanatomycom202604morphor-echon-6-a",
+    "name": "[MENU](https://synthanatomy.com/2026/04/morphor-echon-6-a...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
+    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
+    "officialUrl": "https://synthanatomy.com/2026/04/morphor-echon-6-analog-polyphonic-bbd-resonator-synthesizer.html \"Morphor Echon 6, analog polyphonic BBD Resonator Synthesizer: available now + deep dive\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:35:09.414698+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/morphor-echon-6-analog-polyphonic-bbd-resonator-synthesizer.html%20%22Morphor%20"
+  },
+  {
+    "id": "5d103a0daa97",
+    "slug": "menuhttpssynthanatomycom202604audiokit-pro-retr",
+    "name": "[MENU](https://synthanatomy.com/2026/04/audiokit-pro-retr...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
+    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
+    "officialUrl": "https://synthanatomy.com/2026/04/audiokit-pro-retro-keys-brings-vintage-electro-pianos-to-your-ios-device.html \"Audiokit Pro Retro Keys brings vintage electro pianos to your iOS device\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:35:04.494641+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/audiokit-pro-retro-keys-brings-vintage-electro-pianos-to-your-ios-device.html%20"
+  },
+  {
+    "id": "8dc74e2a7631",
+    "slug": "menuhttpssynthanatomycom202604",
+    "name": "[MENU](https://synthanatomy.com/2026/04#)",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
+    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
+    "officialUrl": "https://synthanatomy.com/2026/04",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "AUv3",
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:34:59.772608+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04#)"
+  },
+  {
+    "id": "fcb57e8ef81d",
+    "slug": "menuhttpssynthanatomycom202604anode-labs-bitcru",
+    "name": "[MENU](https://synthanatomy.com/2026/04/anode-labs-bitcru...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
+    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
+    "officialUrl": "https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:34:55.395029+00:00",
+    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.htm"
+  },
+  {
+    "id": "76772ac2f6d0",
+    "slug": "close-menuhttpsbedroomproducersblogcomfree",
+    "name": "[Close Menu](https://bedroomproducersblog.com/free",
+    "developer": null,
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "free",
+    "shortDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/fr",
+    "longDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/free-vst-plugins/daw/#) - [Free VST](https://bedroomproducersblog.com/free-vst-plugins/ \"Free VST plugins\") - [Free DAW](https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\")",
+    "officialUrl": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:34:45.989239+00:00",
+    "sourceTitle": "[Close Menu](https://bedroomproducersblog.com/free-vst-plugins/daw/#)"
+  },
+  {
+    "id": "3d3680a9ab2d",
+    "slug": "close",
+    "name": "[Close...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "free",
+    "shortDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/20",
+    "longDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/2015/11/11/free-daw-software/%20%22Free%20digital%20audio%20workstations#) - [Free VST](https://bedroomproducersblog.com/free-vst-plugins/ \"Free VST plugins\") - [Free DAW](https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\")",
+    "officialUrl": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:34:37.347091+00:00",
+    "sourceTitle": "[Close Menu](https://bedroomproducersblog.com/2015/11/11/free-daw-software/%20%22Free%20digital%20audio%20workstations#)"
+  },
+  {
+    "id": "40ab81a24063",
+    "slug": "403-forbidden",
+    "name": "403 - Forbidden",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Please go to [www.kvraudio.com](https://www.kvraudio.com/) to find what you seek. 2600:1005:b08f:21e2:0:55:c74e:d401 If this error is persistent please [delete all cookies](https://www.google.com/sear",
+    "longDescription": "Please go to [www.kvraudio.com](https://www.kvraudio.com/) to find what you seek. 2600:1005:b08f:21e2:0:55:c74e:d401 If this error is persistent please [delete all cookies](https://www.google.com/search?q=how+to+delete+cookies+for+single+website) for kvraudio.com and try again",
+    "officialUrl": "https://www.kvraudio.com/news/the-kvr-developer-challenge-2026-is-go-66735/0/9456 \"The KVR Developer Challenge 2026 Is Go\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T04:33:32.207346+00:00",
+    "sourceTitle": "403 - Forbidden"
+  },
+  {
     "id": "fab001",
     "slug": "fabfilter-pro-q-4",
     "name": "FabFilter Pro-Q 4",
@@ -14,12 +286,36 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX", "CLAP"],
-    "features": ["96-band parametric EQ", "Dynamic EQ with sidechain", "Mid/side processing", "Natural phase mode", "Spectrum analyzer with collision detection"],
-    "pros": ["Industry-standard sound quality", "Highly visual workflow", "Linear phase option"],
-    "cons": ["Premium price point"],
-    "tags": ["effects", "eq", "mixing"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX",
+      "CLAP"
+    ],
+    "features": [
+      "96-band parametric EQ",
+      "Dynamic EQ with sidechain",
+      "Mid/side processing",
+      "Natural phase mode",
+      "Spectrum analyzer with collision detection"
+    ],
+    "pros": [
+      "Industry-standard sound quality",
+      "Highly visual workflow",
+      "Linear phase option"
+    ],
+    "cons": [
+      "Premium price point"
+    ],
+    "tags": [
+      "effects",
+      "eq",
+      "mixing"
+    ],
     "targetAudience": "Mixing and mastering engineers",
     "dateAdded": "2026-03-10T10:00:00+00:00",
     "sourceTitle": "FabFilter Pro-Q 4 released"
@@ -39,12 +335,38 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS", "Linux"],
-    "formats": ["VST3", "AU", "CLAP", "Standalone"],
-    "features": ["Hybrid oscillator architecture", "Expanded modulation matrix", "MPE support", "CLAP plugin format", "Open source"],
-    "pros": ["Completely free", "Extremely deep sound design", "Active development", "Cross-platform"],
-    "cons": ["Steep learning curve"],
-    "tags": ["synth", "free", "open-source"],
+    "os": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "CLAP",
+      "Standalone"
+    ],
+    "features": [
+      "Hybrid oscillator architecture",
+      "Expanded modulation matrix",
+      "MPE support",
+      "CLAP plugin format",
+      "Open source"
+    ],
+    "pros": [
+      "Completely free",
+      "Extremely deep sound design",
+      "Active development",
+      "Cross-platform"
+    ],
+    "cons": [
+      "Steep learning curve"
+    ],
+    "tags": [
+      "synth",
+      "free",
+      "open-source"
+    ],
     "targetAudience": "Sound designers and electronic music producers",
     "dateAdded": "2026-03-09T08:00:00+00:00",
     "sourceTitle": "Surge XT 2.3 released"
@@ -64,12 +386,36 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX"],
-    "features": ["24+ reverb and delay algorithms", "Resizable UI", "Low CPU usage", "Massive reverb tails"],
-    "pros": ["Free", "Unique sound character", "Low CPU", "No registration required"],
-    "cons": ["Limited modulation options"],
-    "tags": ["effects", "reverb", "delay", "free"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [
+      "24+ reverb and delay algorithms",
+      "Resizable UI",
+      "Low CPU usage",
+      "Massive reverb tails"
+    ],
+    "pros": [
+      "Free",
+      "Unique sound character",
+      "Low CPU",
+      "No registration required"
+    ],
+    "cons": [
+      "Limited modulation options"
+    ],
+    "tags": [
+      "effects",
+      "reverb",
+      "delay",
+      "free"
+    ],
     "targetAudience": "Music producers and sound designers",
     "dateAdded": "2026-03-08T12:00:00+00:00",
     "sourceTitle": "Valhalla Supermassive 2 released"
@@ -89,12 +435,37 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX"],
-    "features": ["AI Master Assistant", "Stem-aware Master Rebalance", "Dynamic EQ", "Maximizer", "Imager", "Low End Focus"],
-    "pros": ["Best-in-class AI mastering", "Comprehensive toolset", "Excellent presets"],
-    "cons": ["Expensive", "Heavy CPU usage"],
-    "tags": ["mastering", "ai", "loudness"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [
+      "AI Master Assistant",
+      "Stem-aware Master Rebalance",
+      "Dynamic EQ",
+      "Maximizer",
+      "Imager",
+      "Low End Focus"
+    ],
+    "pros": [
+      "Best-in-class AI mastering",
+      "Comprehensive toolset",
+      "Excellent presets"
+    ],
+    "cons": [
+      "Expensive",
+      "Heavy CPU usage"
+    ],
+    "tags": [
+      "mastering",
+      "ai",
+      "loudness"
+    ],
     "targetAudience": "Mastering engineers and producers finishing tracks",
     "dateAdded": "2026-03-07T09:00:00+00:00",
     "sourceTitle": "iZotope Ozone 12 released"
@@ -114,12 +485,36 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX", "Standalone"],
-    "features": ["Harmonic oscillator engine", "Wavetable synthesis", "Granular synthesis", "Advanced sequencer", "16 modulation slots"],
-    "pros": ["Stunning visual interface", "Versatile synthesis engines", "Excellent factory content"],
-    "cons": ["Resource intensive"],
-    "tags": ["synth", "wavetable", "granular"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX",
+      "Standalone"
+    ],
+    "features": [
+      "Harmonic oscillator engine",
+      "Wavetable synthesis",
+      "Granular synthesis",
+      "Advanced sequencer",
+      "16 modulation slots"
+    ],
+    "pros": [
+      "Stunning visual interface",
+      "Versatile synthesis engines",
+      "Excellent factory content"
+    ],
+    "cons": [
+      "Resource intensive"
+    ],
+    "tags": [
+      "synth",
+      "wavetable",
+      "granular"
+    ],
     "targetAudience": "Sound designers and electronic music producers",
     "dateAdded": "2026-03-06T14:00:00+00:00",
     "sourceTitle": "Arturia Pigments 5 announced"
@@ -139,12 +534,34 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX"],
-    "features": ["12 simultaneous effects", "One-macro control", "Automatable transitions", "Stutter, pitch, filter, reverb"],
-    "pros": ["Extremely simple workflow", "Sounds great out of the box", "Affordable"],
-    "cons": ["Limited deep customization"],
-    "tags": ["effects", "transition", "automation"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [
+      "12 simultaneous effects",
+      "One-macro control",
+      "Automatable transitions",
+      "Stutter, pitch, filter, reverb"
+    ],
+    "pros": [
+      "Extremely simple workflow",
+      "Sounds great out of the box",
+      "Affordable"
+    ],
+    "cons": [
+      "Limited deep customization"
+    ],
+    "tags": [
+      "effects",
+      "transition",
+      "automation"
+    ],
     "targetAudience": "EDM and hip-hop producers",
     "dateAdded": "2026-03-05T11:00:00+00:00",
     "sourceTitle": "Baby Audio Transit released"
@@ -164,12 +581,35 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX", "CLAP"],
-    "features": ["Modular synthesis", "Drag-and-drop routing", "1000+ factory presets", "Integrated effects lane", "MPE support"],
-    "pros": ["Extremely flexible", "Beautiful interface", "Great factory content"],
-    "cons": ["Complex for beginners"],
-    "tags": ["synth", "modular"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX",
+      "CLAP"
+    ],
+    "features": [
+      "Modular synthesis",
+      "Drag-and-drop routing",
+      "1000+ factory presets",
+      "Integrated effects lane",
+      "MPE support"
+    ],
+    "pros": [
+      "Extremely flexible",
+      "Beautiful interface",
+      "Great factory content"
+    ],
+    "cons": [
+      "Complex for beginners"
+    ],
+    "tags": [
+      "synth",
+      "modular"
+    ],
     "targetAudience": "Advanced synthesizer users and sound designers",
     "dateAdded": "2026-03-04T16:00:00+00:00",
     "sourceTitle": "Kilohearts Phase Plant 2 launched"
@@ -189,12 +629,35 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX"],
-    "features": ["Spectral transient shaping", "Per-band attack/sustain", "Adaptive processing", "Delta monitoring"],
-    "pros": ["Unique spectral approach", "Transparent processing", "From trusted developer"],
-    "cons": ["CPU intensive", "Learning curve"],
-    "tags": ["effects", "dynamics", "transient"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [
+      "Spectral transient shaping",
+      "Per-band attack/sustain",
+      "Adaptive processing",
+      "Delta monitoring"
+    ],
+    "pros": [
+      "Unique spectral approach",
+      "Transparent processing",
+      "From trusted developer"
+    ],
+    "cons": [
+      "CPU intensive",
+      "Learning curve"
+    ],
+    "tags": [
+      "effects",
+      "dynamics",
+      "transient"
+    ],
     "targetAudience": "Mixing engineers and producers",
     "dateAdded": "2026-03-03T10:00:00+00:00",
     "sourceTitle": "Oeksound Bloom released"
@@ -214,12 +677,35 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX"],
-    "features": ["Sequenced multi-effects", "2 parallel chains", "Tempo sync", "500+ presets", "Granular module"],
-    "pros": ["Creative and unique", "Tempo-synced effects", "Great for sound design"],
-    "cons": ["Can be CPU heavy with many modules"],
-    "tags": ["effects", "multi-fx", "sequencer"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [
+      "Sequenced multi-effects",
+      "2 parallel chains",
+      "Tempo sync",
+      "500+ presets",
+      "Granular module"
+    ],
+    "pros": [
+      "Creative and unique",
+      "Tempo-synced effects",
+      "Great for sound design"
+    ],
+    "cons": [
+      "Can be CPU heavy with many modules"
+    ],
+    "tags": [
+      "effects",
+      "multi-fx",
+      "sequencer"
+    ],
     "targetAudience": "Electronic producers and sound designers",
     "dateAdded": "2026-03-02T09:00:00+00:00",
     "sourceTitle": "Devious Machines Infiltrator 2 launched"
@@ -239,12 +725,35 @@
     "ratingCount": 0,
     "isNew": true,
     "isFeatured": false,
-    "os": ["Windows", "macOS"],
-    "formats": ["VST3", "AU", "AAX", "Standalone"],
-    "features": ["Multiple mic perspectives", "Expanded velocity layers", "Convolution reverb", "Abbey Road recording"],
-    "pros": ["Free", "Professional quality", "Easy to use"],
-    "cons": ["Requires LABS player"],
-    "tags": ["sampler", "piano", "free"],
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX",
+      "Standalone"
+    ],
+    "features": [
+      "Multiple mic perspectives",
+      "Expanded velocity layers",
+      "Convolution reverb",
+      "Abbey Road recording"
+    ],
+    "pros": [
+      "Free",
+      "Professional quality",
+      "Easy to use"
+    ],
+    "cons": [
+      "Requires LABS player"
+    ],
+    "tags": [
+      "sampler",
+      "piano",
+      "free"
+    ],
     "targetAudience": "Composers and producers needing quality piano",
     "dateAdded": "2026-03-01T08:00:00+00:00",
     "sourceTitle": "Spitfire LABS Free Piano 2 released"
