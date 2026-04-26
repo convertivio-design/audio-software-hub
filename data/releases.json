@@ -1,870 +1,15 @@
 [
   {
-    "id": "32285f9f4f8c",
-    "slug": "news-ticker",
-    "name": "News Ticker",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "- [\\[ April 26, 2026 \\] \\\\ Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-ana",
-    "longDescription": "- [\\[ April 26, 2026 \\] \\\\ Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") - [\\[ April 26, 2026 \\] \\\\ Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\",
-    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T14:59:47.353097+00:00",
-    "sourceTitle": "News Ticker"
-  },
-  {
-    "id": "7ede1e170b89",
-    "slug": "bedroom-producers",
-    "name": "![Bedroom Producers...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "free",
-    "shortDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/20",
-    "longDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/2021/07/02/free-drum-kits/#) - [Free VST](https://bedroomproducersblog.com/free-vst-plugins/ \"Free VST plugins\") - [Free DAW](https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\")",
-    "officialUrl": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T14:59:39.695394+00:00",
-    "sourceTitle": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png)"
-  },
-  {
-    "id": "22d0d199f656",
-    "slug": "menuhttpssynthanatomycom202604knobula-drum-farm",
-    "name": "[MENU](https://synthanatomy.com/2026/04/knobula-drum-farm...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
-    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
-    "officialUrl": "https://synthanatomy.com/2026/04/knobula-drum-farm-synthesis-and-sampling-merged-in-a-unique-drum-voice-module.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T14:42:16.973699+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/knobula-drum-farm-synthesis-and-sampling-merged-in-a-unique-drum-voice-module.ht"
-  },
-  {
-    "id": "ae6a504c96ba",
-    "slug": "menuhttpssynthanatomycom202604cre8audio-program",
-    "name": "[MENU](https://synthanatomy.com/2026/04/cre8audio-program...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
-    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
-    "officialUrl": "https://synthanatomy.com/2026/04/cre8audio-programm.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS",
-      "Standalone"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T14:42:10.563215+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/cre8audio-programm.html#)"
-  },
-  {
-    "id": "666f8d49f7fa",
-    "slug": "menuhttpssynthanatomycom202604gs-music-bree6-ke",
-    "name": "[MENU](https://synthanatomy.com/2026/04/gs-music-bree6-ke...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
-    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
-    "officialUrl": "https://synthanatomy.com/2026/04/gs-music-bree6-keyboard-the-analog-polyphonic-synthesizer-now-with-keys.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T13:21:08.213483+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/gs-music-bree6-keyboard-the-analog-polyphonic-synthesizer-now-with-keys.html#)"
-  },
-  {
-    "id": "f51c59029295",
-    "slug": "menuhttpssynthanatomycom202604synthfest-france",
-    "name": "[MENU](https://synthanatomy.com/2026/04/synthfest-france-...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
-    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
-    "officialUrl": "https://synthanatomy.com/2026/04/synthfest-france-2026-come-along-on-a-big-synthesizer-tour.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T13:21:01.541151+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/synthfest-france-2026-come-along-on-a-big-synthesizer-tour.html#)"
-  },
-  {
-    "id": "4e0d40a8a4d7",
-    "slug": "menuhttpssynthanatomycom202604nrsynth-quatuor-a",
-    "name": "[MENU](https://synthanatomy.com/2026/04/nrsynth-quatuor-a...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
-    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
-    "officialUrl": "https://synthanatomy.com/2026/04/nrsynth-quatuor-a-clone-of-the-oberheim-four-voice-for-synthfest-france-2026.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T13:20:55.223477+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/nrsynth-quatuor-a-clone-of-the-oberheim-four-voice-for-synthfest-france-2026.htm"
-  },
-  {
-    "id": "d144530fa3ed",
-    "slug": "menuhttpssynthanatomycom202604analog-sweden-swe",
-    "name": "[MENU](https://synthanatomy.com/2026/04/analog-sweden-swe...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analo",
-    "longDescription": "Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer \\\\ Hardware](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html \"Analog Sweden SWEN2: the evolution of the SWENIGISER analog Synthesizer\") Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Sy",
-    "officialUrl": "https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T13:20:28.984582+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html#)"
-  },
-  {
-    "id": "4ace99eb3596",
-    "slug": "menuhttpssynthanatomycom202604casio",
-    "name": "[MENU](https://synthanatomy.com/2026/04/casio",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/casio-previews-a-portable-standalone-sampler.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS",
-      "Standalone"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:40:53.317318+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/casio-previews-a-portable-standalone-sampler.html#)"
-  },
-  {
-    "id": "b04bb9043d77",
-    "slug": "menuhttpssynthanatomycom202604system-flow-2-the",
-    "name": "[MENU](https://synthanatomy.com/2026/04/system-flow-2-the...",
-    "developer": "Native Instruments",
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/system-flow-2-the-new-granular-sampler-for-reaktor-6-by-synthesizer-studio-berlin.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:40:48.652630+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/system-flow-2-the-new-granular-sampler-for-reaktor-6-by-synthesizer-studio-berli"
-  },
-  {
-    "id": "63b990a115d6",
-    "slug": "menuhttpssynthanatomycom202604fred-s-lab-angler",
-    "name": "[MENU](https://synthanatomy.com/2026/04/fred-s-lab-angler...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/fred-s-lab-angler-desktop-analog-synthesizer-and-stereo-fx-processor.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:40:43.291335+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/fred-s-lab-angler-desktop-analog-synthesizer-and-stereo-fx-processor.html#)"
-  },
-  {
-    "id": "52f2bf26169d",
-    "slug": "menuhttpssynthanatomycom202604din-sync-r-101-a",
-    "name": "[MENU](https://synthanatomy.com/2026/04/din-sync-r-101-a-...",
-    "developer": "Roland",
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/din-sync-r-101-a-rackmount-roland-sh-101-synthesizer-replica.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:40:38.738034+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/din-sync-r-101-a-rackmount-roland-sh-101-synthesizer-replica.html#)"
-  },
-  {
-    "id": "b9a5ce667c07",
-    "slug": "menuhttpssynthanatomycom202604temecula-dsp-mcv",
-    "name": "[MENU](https://synthanatomy.com/2026/04/temecula-dsp-mcv-...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/temecula-dsp-mcv-i-a-free-alesis-microverb-reverb-emulation.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:40:33.207469+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/temecula-dsp-mcv-i-a-free-alesis-microverb-reverb-emulation.html#)"
-  },
-  {
-    "id": "773edcca1ca1",
-    "slug": "menuhttpssynthanatomycom202604analogfx-larynx-t",
-    "name": "[MENU](https://synthanatomy.com/2026/04/analogfx-larynx-t...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/analogfx-larynx-the-ser-2020-formant-analog-keyboard-synthesizer-with-extras.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:37:40.606891+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/analogfx-larynx-the-ser-2020-formant-analog-keyboard-synthesizer-with-extras.htm"
-  },
-  {
-    "id": "5688579d45eb",
-    "slug": "menuhttpssynthanatomycom202604pylobolus-alkove",
-    "name": "[MENU](https://synthanatomy.com/2026/04/pylobolus-alkove-...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/pylobolus-alkove-a-12-voice-binaural-multi-timbral-hybrid-synthesizer.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:37:36.680020+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/pylobolus-alkove-a-12-voice-binaural-multi-timbral-hybrid-synthesizer.html#)"
-  },
-  {
-    "id": "4635175999a9",
-    "slug": "menuhttpssynthanatomycom202604cyma-forma-altht",
-    "name": "[MENU](https://synthanatomy.com/2026/04/cyma-forma-alt.ht...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/cyma-forma-alt.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:37:32.197125+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/cyma-forma-alt.html#)"
-  },
-  {
-    "id": "0af5b5d1a87c",
-    "slug": "menuhttpssynthanatomycom202604vongon-rosetones",
-    "name": "[MENU](https://synthanatomy.com/2026/04/vongon-rosetones-...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/vongon-rosetones-a-polyphonic-resonant-string-synthesizer-in-a-pedal.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:37:28.299103+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/vongon-rosetones-a-polyphonic-resonant-string-synthesizer-in-a-pedal.html#)"
-  },
-  {
-    "id": "7acfd733ad56",
-    "slug": "menuhttpssynthanatomycom202604union",
-    "name": "[MENU](https://synthanatomy.com/2026/04/union",
-    "developer": "Moog",
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/union-audio-area-6-a-cv-controllable-performance-mixer-for-eurorack.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:37:25.570497+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/union-audio-area-6-a-cv-controllable-performance-mixer-for-eurorack.html#)"
-  },
-  {
-    "id": "eec7dba443e4",
-    "slug": "menuhttpssynthanatomycom202604feral",
-    "name": "[MENU](https://synthanatomy.com/2026/04/feral",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "AUv3",
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:35:13.836300+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html#)"
-  },
-  {
-    "id": "c99527389a52",
-    "slug": "menuhttpssynthanatomycom202604morphor-echon-6-a",
-    "name": "[MENU](https://synthanatomy.com/2026/04/morphor-echon-6-a...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/morphor-echon-6-analog-polyphonic-bbd-resonator-synthesizer.html \"Morphor Echon 6, analog polyphonic BBD Resonator Synthesizer: available now + deep dive\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:35:09.414698+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/morphor-echon-6-analog-polyphonic-bbd-resonator-synthesizer.html%20%22Morphor%20"
-  },
-  {
-    "id": "5d103a0daa97",
-    "slug": "menuhttpssynthanatomycom202604audiokit-pro-retr",
-    "name": "[MENU](https://synthanatomy.com/2026/04/audiokit-pro-retr...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/audiokit-pro-retro-keys-brings-vintage-electro-pianos-to-your-ios-device.html \"Audiokit Pro Retro Keys brings vintage electro pianos to your iOS device\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:35:04.494641+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/audiokit-pro-retro-keys-brings-vintage-electro-pianos-to-your-ios-device.html%20"
-  },
-  {
-    "id": "8dc74e2a7631",
-    "slug": "menuhttpssynthanatomycom202604",
-    "name": "[MENU](https://synthanatomy.com/2026/04#)",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "AUv3",
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:34:59.772608+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04#)"
-  },
-  {
-    "id": "fcb57e8ef81d",
-    "slug": "menuhttpssynthanatomycom202604anode-labs-bitcru",
-    "name": "[MENU](https://synthanatomy.com/2026/04/anode-labs-bitcru...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io",
-    "longDescription": "Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS \\\\ iOS](https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\") Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin \\\\ iOS](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform",
-    "officialUrl": "https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:34:55.395029+00:00",
-    "sourceTitle": "[MENU](https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.htm"
-  },
-  {
-    "id": "76772ac2f6d0",
-    "slug": "close-menuhttpsbedroomproducersblogcomfree",
-    "name": "[Close Menu](https://bedroomproducersblog.com/free",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "free",
-    "shortDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/fr",
-    "longDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/free-vst-plugins/daw/#) - [Free VST](https://bedroomproducersblog.com/free-vst-plugins/ \"Free VST plugins\") - [Free DAW](https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\")",
-    "officialUrl": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:34:45.989239+00:00",
-    "sourceTitle": "[Close Menu](https://bedroomproducersblog.com/free-vst-plugins/daw/#)"
-  },
-  {
-    "id": "3d3680a9ab2d",
-    "slug": "close",
-    "name": "[Close...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "free",
-    "shortDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/20",
-    "longDescription": "![Bedroom Producers Blog](https://bedroomproducersblog.com/wp-content/uploads/2024/08/bpb-logo-retina.png) - [Home](https://bedroomproducersblog.com/) - [Favorites](https://bedroomproducersblog.com/2015/11/11/free-daw-software/%20%22Free%20digital%20audio%20workstations#) - [Free VST](https://bedroomproducersblog.com/free-vst-plugins/ \"Free VST plugins\") - [Free DAW](https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\")",
-    "officialUrl": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:34:37.347091+00:00",
-    "sourceTitle": "[Close Menu](https://bedroomproducersblog.com/2015/11/11/free-daw-software/%20%22Free%20digital%20audio%20workstations#)"
-  },
-  {
-    "id": "40ab81a24063",
-    "slug": "403-forbidden",
-    "name": "403 - Forbidden",
+    "id": "6429e5d7ca65",
+    "slug": "172581359",
+    "name": "172.58.135.9",
     "developer": null,
     "categoryId": "utility",
     "price": 0.0,
     "priceType": "paid",
-    "shortDescription": "Please go to [www.kvraudio.com](https://www.kvraudio.com/) to find what you seek. 2600:1005:b08f:21e2:0:55:c74e:d401 If this error is persistent please [delete all cookies](https://www.google.com/sear",
-    "longDescription": "Please go to [www.kvraudio.com](https://www.kvraudio.com/) to find what you seek. 2600:1005:b08f:21e2:0:55:c74e:d401 If this error is persistent please [delete all cookies](https://www.google.com/search?q=how+to+delete+cookies+for+single+website) for kvraudio.com and try again",
-    "officialUrl": "https://www.kvraudio.com/news/the-kvr-developer-challenge-2026-is-go-66735/0/9456 \"The KVR Developer Challenge 2026 Is Go\"",
+    "shortDescription": "172.58.135.9 — newly released.",
+    "longDescription": "172.58.135.9 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/gooey-audio-releases-the-snake-v2-0-66707 \"Gooey Audio Releases The Snake v2.0\"",
     "rating": 4.0,
     "ratingCount": 0,
     "isNew": true,
@@ -883,8 +28,232 @@
       "utility"
     ],
     "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T04:33:32.207346+00:00",
-    "sourceTitle": "403 - Forbidden"
+    "dateAdded": "2026-04-26T15:38:06.964073+00:00",
+    "sourceTitle": "172.58.135.9"
+  },
+  {
+    "id": "69ed941d37da",
+    "slug": "26001005b05d35c9013148a8b01",
+    "name": "2600:1005:b05d:35c9:0:13:148a:8b01",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "2600:1005:b05d:35c9:0:13:148a:8b01",
+    "longDescription": "2600:1005:b05d:35c9:0:13:148a:8b01",
+    "officialUrl": "https://www.kvraudio.com/news/apu-software-updates-loudness-series-to-v5-4-7-66750 \"APU Software updates Loudness Series to v5.4.7\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T15:38:03.280117+00:00",
+    "sourceTitle": "2600:1005:b05d:35c9:0:13:148a:8b01"
+  },
+  {
+    "id": "4f9a7c3a596a",
+    "slug": "1725813330",
+    "name": "172.58.133.30",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "172.58.133.30 — newly released.",
+    "longDescription": "172.58.133.30 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/sound-magic-releases-supreme-drums-china---traditional-chinese-percussion-instruments-66749 \"Sound Magic Releases Supreme Drums China - Traditional Chinese Percussion Instruments\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T15:37:59.619293+00:00",
+    "sourceTitle": "172.58.133.30"
+  },
+  {
+    "id": "f339c743367e",
+    "slug": "1725813557",
+    "name": "172.58.135.57",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "172.58.135.57 — newly released.",
+    "longDescription": "172.58.135.57 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/best-service-releases-bassam-ayoubs-qanun-for-engine-player-66753 \"Best Service releases Bassam Ayoub's \\\"Qanun\\\" for Engine Player\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T15:37:55.617635+00:00",
+    "sourceTitle": "172.58.135.57"
+  },
+  {
+    "id": "82e278f54944",
+    "slug": "172563411",
+    "name": "172.56.34.11",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "172.56.34.11 — newly released.",
+    "longDescription": "172.56.34.11 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/peter-semiletov-releases-roker-pack---free-guitar-vst3-fx-tuners-for-windows-and-linux-66757 \"Peter Semiletov releases Roker Pack - Free Guitar VST3 FX/Tuners for Windows and Linux\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T15:37:53.105657+00:00",
+    "sourceTitle": "172.56.34.11"
+  },
+  {
+    "id": "38ecfd09bebc",
+    "slug": "17258135122",
+    "name": "172.58.135.122",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "172.58.135.122 — newly released.",
+    "longDescription": "172.58.135.122 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/black-salt-audio-releases-instinct-eq-vst3-au-and-aax-66758 \"Black Salt Audio releases Instinct EQ (VST3, AU & AAX",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T15:37:49.614856+00:00",
+    "sourceTitle": "172.58.135.122"
+  },
+  {
+    "id": "5b211e67467d",
+    "slug": "174211101254",
+    "name": "174.211.101.254",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "174.211.101.254 — newly released.",
+    "longDescription": "174.211.101.254 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/authentic-soundware-release-space-age-colors-for-kontakt-66755 \"Authentic Soundware release Space Age Colors for Kontakt\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T15:37:46.155480+00:00",
+    "sourceTitle": "174.211.101.254"
+  },
+  {
+    "id": "64ca7b4b07ac",
+    "slug": "1725813349",
+    "name": "172.58.133.49",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "172.58.133.49 — newly released.",
+    "longDescription": "172.58.133.49 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/session-loops-updates-vocalnet-to-v1-6-with-ara-support-66763 \"Session Loops updates VocalNet to v1.6 with ARA support\"",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-26T15:37:43.341770+00:00",
+    "sourceTitle": "172.58.133.49"
   },
   {
     "id": "fab001",

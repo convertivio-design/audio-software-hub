@@ -1,12 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T14:58:17.422777+00:00",
-  "finishedAt": "2026-04-26T15:00:05.592490+00:00",
+  "startedAt": "2026-04-26T15:37:41.307647+00:00",
+  "finishedAt": "2026-04-26T15:38:22.741128+00:00",
   "dryRun": false,
   "existingEntries": 30,
-  "newEntries": 2,
-  "rejectedEntries": 0,
-  "outputEntries": 30,
+  "cleanedExistingEntries": 4,
+  "newEntries": 8,
+  "rejectedEntries": 26,
+  "outputEntries": 12,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -14,25 +15,25 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 0,
+      "entriesAdded": 8,
       "entriesRejected": 0
     },
     {
       "source": "BPB Free VST",
       "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
       "listingScraped": true,
-      "candidateLinks": 1,
-      "articlesScraped": 1,
-      "entriesAdded": 1,
+      "candidateLinks": 0,
+      "articlesScraped": 0,
+      "entriesAdded": 0,
       "entriesRejected": 0
     },
     {
       "source": "Synthanatomy",
       "listingUrl": "https://www.synthanatomy.com/",
       "listingScraped": true,
-      "candidateLinks": 4,
-      "articlesScraped": 4,
-      "entriesAdded": 1,
+      "candidateLinks": 3,
+      "articlesScraped": 3,
+      "entriesAdded": 0,
       "entriesRejected": 0
     },
     {
@@ -55,5 +56,162 @@
     }
   ],
   "errors": [],
-  "rejections": []
+  "rejections": [
+    {
+      "url": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html \"Feral-Aud.io RAVEN: a wavetable-morphing Synthesizer for iOS and macOS\"",
+      "reason": "existing_description_contains_scraped_junk",
+      "name": "News Ticker",
+      "slug": "news-ticker"
+    },
+    {
+      "url": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
+      "reason": "existing_description_contains_scraped_junk",
+      "name": "![Bedroom Producers...",
+      "slug": "bedroom-producers"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/knobula-drum-farm-synthesis-and-sampling-merged-in-a-unique-drum-voice-module.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/knobula-drum-farm...",
+      "slug": "menuhttpssynthanatomycom202604knobula-drum-farm"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/cre8audio-programm.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/cre8audio-program...",
+      "slug": "menuhttpssynthanatomycom202604cre8audio-program"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/gs-music-bree6-keyboard-the-analog-polyphonic-synthesizer-now-with-keys.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/gs-music-bree6-ke...",
+      "slug": "menuhttpssynthanatomycom202604gs-music-bree6-ke"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/synthfest-france-2026-come-along-on-a-big-synthesizer-tour.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/synthfest-france-...",
+      "slug": "menuhttpssynthanatomycom202604synthfest-france"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/nrsynth-quatuor-a-clone-of-the-oberheim-four-voice-for-synthfest-france-2026.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/nrsynth-quatuor-a...",
+      "slug": "menuhttpssynthanatomycom202604nrsynth-quatuor-a"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/analog-sweden-swe...",
+      "slug": "menuhttpssynthanatomycom202604analog-sweden-swe"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/casio-previews-a-portable-standalone-sampler.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/casio",
+      "slug": "menuhttpssynthanatomycom202604casio"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/system-flow-2-the-new-granular-sampler-for-reaktor-6-by-synthesizer-studio-berlin.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/system-flow-2-the...",
+      "slug": "menuhttpssynthanatomycom202604system-flow-2-the"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/fred-s-lab-angler-desktop-analog-synthesizer-and-stereo-fx-processor.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/fred-s-lab-angler...",
+      "slug": "menuhttpssynthanatomycom202604fred-s-lab-angler"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/din-sync-r-101-a-rackmount-roland-sh-101-synthesizer-replica.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/din-sync-r-101-a-...",
+      "slug": "menuhttpssynthanatomycom202604din-sync-r-101-a"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/temecula-dsp-mcv-i-a-free-alesis-microverb-reverb-emulation.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/temecula-dsp-mcv-...",
+      "slug": "menuhttpssynthanatomycom202604temecula-dsp-mcv"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/analogfx-larynx-the-ser-2020-formant-analog-keyboard-synthesizer-with-extras.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/analogfx-larynx-t...",
+      "slug": "menuhttpssynthanatomycom202604analogfx-larynx-t"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/pylobolus-alkove-a-12-voice-binaural-multi-timbral-hybrid-synthesizer.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/pylobolus-alkove-...",
+      "slug": "menuhttpssynthanatomycom202604pylobolus-alkove"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/cyma-forma-alt.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/cyma-forma-alt.ht...",
+      "slug": "menuhttpssynthanatomycom202604cyma-forma-altht"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/vongon-rosetones-a-polyphonic-resonant-string-synthesizer-in-a-pedal.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/vongon-rosetones-...",
+      "slug": "menuhttpssynthanatomycom202604vongon-rosetones"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/union-audio-area-6-a-cv-controllable-performance-mixer-for-eurorack.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/union",
+      "slug": "menuhttpssynthanatomycom202604union"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/feral",
+      "slug": "menuhttpssynthanatomycom202604feral"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/morphor-echon-6-analog-polyphonic-bbd-resonator-synthesizer.html \"Morphor Echon 6, analog polyphonic BBD Resonator Synthesizer: available now + deep dive\"",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/morphor-echon-6-a...",
+      "slug": "menuhttpssynthanatomycom202604morphor-echon-6-a"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/audiokit-pro-retro-keys-brings-vintage-electro-pianos-to-your-ios-device.html \"Audiokit Pro Retro Keys brings vintage electro pianos to your iOS device\"",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/audiokit-pro-retr...",
+      "slug": "menuhttpssynthanatomycom202604audiokit-pro-retr"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04#)",
+      "slug": "menuhttpssynthanatomycom202604"
+    },
+    {
+      "url": "https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html \"Anode Labs Bitcrust: a cross-platform SID-style polyphonic Synthesizer plugin\"",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[MENU](https://synthanatomy.com/2026/04/anode-labs-bitcru...",
+      "slug": "menuhttpssynthanatomycom202604anode-labs-bitcru"
+    },
+    {
+      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "[Close Menu](https://bedroomproducersblog.com/free",
+      "slug": "close-menuhttpsbedroomproducersblogcomfree"
+    },
+    {
+      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
+      "reason": "existing_description_contains_scraped_junk",
+      "name": "[Close...",
+      "slug": "close"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/the-kvr-developer-challenge-2026-is-go-66735/0/9456 \"The KVR Developer Challenge 2026 Is Go\"",
+      "reason": "existing_name_contains_scraped_junk",
+      "name": "403 - Forbidden",
+      "slug": "403-forbidden"
+    }
+  ]
 }
