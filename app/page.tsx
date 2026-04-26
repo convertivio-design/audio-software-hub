@@ -171,11 +171,18 @@ export default function HomePage() {
               <h2 className="text-5xl font-light tracking-tight font-display">New Releases</h2>
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {newReleases.map(product => (
-              <ProductCard key={product.id} product={product} detailHref={`/releases/${product.slug}`} />
-            ))}
-          </div>
+          {newReleases.length === 0 ? (
+            <p className="text-sm text-white/40 max-w-2xl leading-relaxed">
+              Fresh release cards are temporarily empty while the feed is being rebuilt from clean sources.
+              The scraper will repopulate this section on the next successful run.
+            </p>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {newReleases.map(product => (
+                <ProductCard key={product.id} product={product} detailHref={`/releases/${product.slug}`} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
