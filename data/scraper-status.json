@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T04:36:44.004156+00:00",
-  "finishedAt": "2026-04-26T04:37:46.671231+00:00",
+  "startedAt": "2026-04-26T04:39:49.343724+00:00",
+  "finishedAt": "2026-04-26T04:40:58.260020+00:00",
   "dryRun": false,
-  "existingEntries": 18,
+  "existingEntries": 23,
   "newEntries": 5,
-  "outputEntries": 23,
+  "outputEntries": 28,
   "sources": [
     {
       "source": "KVR Audio News",
