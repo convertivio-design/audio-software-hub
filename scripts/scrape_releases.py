@@ -258,6 +258,13 @@ def extract_name_from_url(url: str) -> str:
 def is_junk_title_line(line: str) -> bool:
     """Detect obvious navigation/utility lines that should not be used as titles."""
     line_lower = line.lower()
+    if contains_ip_address(line):
+        return True
+    stripped = line.lstrip('#').strip()
+    if re.fullmatch(r'(?:\d{1,3}\.){3}\d{1,3}', stripped):
+        return True
+    if re.fullmatch(r'(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}', stripped, flags=re.IGNORECASE):
+        return True
     if contains_scraped_junk(line):
         return True
     if re.match(r'^\[[^\]]+\]\(https?://[^\)]+\)$', line.strip(), flags=re.IGNORECASE):
@@ -265,6 +272,8 @@ def is_junk_title_line(line: str) -> bool:
     junk_tokens = [
         '[menu]', '[home]', '[about]', '[contact]', 'share this', 'newsletter',
         'subscribe', 'privacy policy', 'cookie policy', 'terms of use',
+        'news ticker', 'ticker', 'software', 'plugins', 'plugin', 'free drum kits',
+        'digital audio workstations', 'free digital audio workstations',
     ]
     return any(token in line_lower for token in junk_tokens)
 
@@ -285,8 +294,16 @@ def is_junk_body_line(line: str) -> bool:
         'subscribe', 'newsletter', 'follow us', 'share this', 'related posts',
         'categories:', 'tags:', 'cookie', 'privacy policy', 'terms of use',
         'advertisement',
+        'these are the best', 'digital audio workstations', 'free drum kits',
+        'high-quality', 'drum kits', 'sample packs', 'bpb', "bpb's", 'bpb’s',
+        "can't find the page", 'cannot find the page', "we're sorry", 'we are sorry',
+        'page you were looking for', 'try one of these options',
     ]
     if any(snippet in lowered for snippet in junk_snippets):
+        return True
+    if stripped.count('**') >= 2:
+        return True
+    if stripped.count('\\\\') >= 1 or re.search(r'\s\\\s', stripped):
         return True
     return len(stripped) < 25
 
@@ -312,14 +329,76 @@ def contains_ip_address(value: str) -> bool:
     return bool(IPV4_RE.search(value) or IPV6_RE.search(value))
 
 
+def is_generic_release_name(name: str) -> bool:
+    n = name.strip().lower()
+    if not n:
+        return True
+    if n in {'software', 'plugin', 'plugins', 'news', 'news ticker'}:
+        return True
+    if len(n) < 6:
+        return True
+    if not re.search(r'[a-z]', n, flags=re.IGNORECASE):
+        return True
+    return False
+
+
+def looks_like_roundup_copy(text: str) -> bool:
+    t = text.lower()
+    if 'these are the best' in t:
+        return True
+    if 'high-quality' in t and 'drum kits' in t:
+        return True
+    if 'free' in t and 'digital audio workstations' in t:
+        return True
+    if 'bpb' in t or 'bpb’s' in t or "bpb's" in t:
+        return True
+    if "can't find the page" in t or 'cannot find the page' in t:
+        return True
+    if "we're sorry" in t or 'we are sorry' in t:
+        return True
+    if 'page you were looking for' in t:
+        return True
+    if 'try one of these options' in t:
+        return True
+    if 'typo' in t and 'options' in t:
+        return True
+    if 'hundreds of drum sample packs' in t or 'listed my favorites' in t:
+        return True
+    if 'included fully free tools' in t or 'included fully free' in t:
+        return True
+    if text.count('**') >= 2:
+        return True
+    if text.count('\\\\') >= 1:
+        return True
+    if re.search(r'\s\\\s', text):
+        return True
+    return False
+
+
+def normalize_official_url(url: str) -> str:
+    """Strip accidental concatenation from markdown link extraction (title glued after URL)."""
+    if not url:
+        return ''
+    u = url.strip()
+    for sep in (' "', " '", '\t', '\n', '\r', '<'):
+        if sep in u:
+            u = u.split(sep, 1)[0].strip()
+    u = u.rstrip('.,);')
+    return u
+
+
 def validate_entry(entry: dict) -> tuple[bool, str]:
     """Return (is_valid, reason). Reject obvious parsing garbage."""
     name = str(entry.get('name', '')).strip()
     slug = str(entry.get('slug', '')).strip().lower()
     desc = str(entry.get('shortDescription', '')).strip().lower()
     long_desc = str(entry.get('longDescription', '')).strip().lower()
-    official_url = str(entry.get('officialUrl', '')).strip().lower()
+    official_raw = normalize_official_url(str(entry.get('officialUrl', '')).strip())
+    official_url = official_raw.lower()
     source_title = str(entry.get('sourceTitle', '')).strip().lower()
+    short_raw = str(entry.get('shortDescription', '')).strip()
+    long_raw = str(entry.get('longDescription', '')).strip()
+    source_title_raw = str(entry.get('sourceTitle', '')).strip()
 
     if not name:
         return False, 'name_missing'
@@ -327,6 +406,10 @@ def validate_entry(entry: dict) -> tuple[bool, str]:
         return False, 'name_contains_scraped_junk'
     if contains_ip_address(name):
         return False, 'name_contains_ip_address'
+    if is_generic_release_name(name):
+        return False, 'name_too_generic'
+    if (name.startswith('"') and name.endswith('"')) or (name.startswith('“') and name.endswith('”')):
+        return False, 'name_is_quoted_title_fragment'
     if name.startswith('[') and '](' in name:
         return False, 'name_is_markdown_link'
     if len(name) < 5 or len(name) > 100:
@@ -339,12 +422,20 @@ def validate_entry(entry: dict) -> tuple[bool, str]:
         return False, 'description_contains_scraped_junk'
     if contains_ip_address(desc) or contains_ip_address(long_desc):
         return False, 'description_contains_ip_address'
+    if looks_like_roundup_copy(short_raw) or looks_like_roundup_copy(long_raw):
+        return False, 'description_looks_like_roundup_or_error_page'
     if contains_scraped_junk(source_title):
         return False, 'source_title_contains_scraped_junk'
     if contains_ip_address(source_title):
         return False, 'source_title_contains_ip_address'
+    if source_title_raw and is_generic_release_name(source_title_raw):
+        return False, 'source_title_too_generic'
     if any(token in desc for token in ['subscribe', 'newsletter', 'follow us']):
         return False, 'description_is_boilerplate'
+    if not official_raw.startswith('http'):
+        return False, 'official_url_missing_or_invalid'
+    if ' ' in official_raw or '"' in official_raw or "'" in official_raw:
+        return False, 'official_url_contains_whitespace_or_quotes'
     if '\\n' in official_url or '\n' in official_url:
         return False, 'official_url_contains_newline'
     return True, ''
@@ -429,6 +520,10 @@ def is_article_url(url: str, pattern: str, alt_pattern: str = None) -> bool:
 
 def parse_release_from_content(url: str, content: str) -> dict | None:
     """Parse a release entry from scraped article content."""
+    url = normalize_official_url(url)
+    if not url or ' ' in url or '"' in url or "'" in url:
+        return None
+
     lines = [l.strip() for l in content.splitlines() if l.strip()]
     if not lines:
         return None

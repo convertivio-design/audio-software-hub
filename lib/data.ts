@@ -439,11 +439,52 @@ export function getFeaturedProducts(): Product[] {
 
 export type SanitizedRelease = Product & { dateAdded?: string; sourceTitle?: string }
 
-const RELEASE_JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[/i
+const RELEASE_JUNK_PATTERN = /\[menu\]|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|news ticker|can't find the page|cannot find the page|page you were looking for|we're sorry|we are sorry|typo|try one of these options|\bfree drum kits\b|\bdrum kits\b|\bdigital audio workstations\b|\bthese are the best\b|\bhigh-quality\b|\bincluded fully free\b|\bbpb\b|\bbpb’s\b|\bbpb's\b|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[|\*\*|\\\\|\s\\\s|— newly released\.|— recently released\./i
 const RELEASE_IP_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b|\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b/i
 
+function normalizeOfficialUrl(url: string): string {
+  let u = url.trim()
+  for (const sep of [' "', " '", '\t', '\n', '\r', '<']) {
+    const i = u.indexOf(sep)
+    if (i !== -1) u = u.slice(0, i).trim()
+  }
+  return u.replace(/[.,);]+$/g, '')
+}
+
 function isSafeReleaseField(value: unknown): value is string {
-  return typeof value === 'string' && value.trim().length > 0 && !RELEASE_JUNK_PATTERN.test(value) && !RELEASE_IP_PATTERN.test(value)
+  if (typeof value !== 'string') return false
+  const v = value.includes('http') && (value.includes('://') || value.startsWith('http'))
+    ? normalizeOfficialUrl(value)
+    : value.trim()
+  return v.length > 0 && !RELEASE_JUNK_PATTERN.test(v) && !RELEASE_IP_PATTERN.test(v)
+}
+
+function isGenericReleaseName(name: string): boolean {
+  const n = name.trim().toLowerCase()
+  if (!n) return true
+  if (n === 'software' || n === 'plugin' || n === 'plugins' || n === 'news' || n === 'news ticker') return true
+  if (n.length < 6) return true
+  if (!/[a-z]/i.test(n)) return true
+  return false
+}
+
+function looksLikeRoundupCopy(text: string): boolean {
+  const t = text.toLowerCase()
+  if (/\bthese are the best\b/.test(t)) return true
+  if (/\bhigh-quality\b/.test(t) && /\bdrum kits\b/.test(t)) return true
+  if (/\bfree\b/.test(t) && /\bdigital audio workstations\b/.test(t)) return true
+  if (/\bbpb\b/.test(t) || /\bbpb’s\b/.test(t) || /\bbpb's\b/.test(t)) return true
+  if (/\bcan't find the page\b/.test(t) || /\bcannot find the page\b/.test(t)) return true
+  if (/\bwe're sorry\b/.test(t) || /\bwe are sorry\b/.test(t)) return true
+  if (/\bpage you were looking for\b/.test(t)) return true
+  if (/\btry one of these options\b/.test(t)) return true
+  if (/\btypo\b/.test(t) && /\boptions\b/.test(t)) return true
+  if (/\bhundreds of drum sample packs\b/.test(t) || /\blisted my favorites\b/.test(t)) return true
+  if (/\bincluded fully free tools\b/.test(t) || /\bincluded fully free\b/.test(t)) return true
+  if ((text.match(/\*\*/g) ?? []).length >= 2) return true
+  if ((text.match(/\\\\/g) ?? []).length >= 1) return true
+  if ((text.match(/\s\\\s/g) ?? []).length >= 1) return true
+  return false
 }
 
 function toSafeStringArray(value: unknown, fallback: string[]): string[] {
@@ -451,7 +492,7 @@ function toSafeStringArray(value: unknown, fallback: string[]): string[] {
   const cleaned = value
     .filter((item): item is string => typeof item === 'string')
     .map(item => item.trim())
-    .filter(item => item.length > 0 && !RELEASE_JUNK_PATTERN.test(item))
+    .filter(item => item.length > 0 && !RELEASE_JUNK_PATTERN.test(item) && !RELEASE_IP_PATTERN.test(item))
   return cleaned.length > 0 ? cleaned : fallback
 }
 
@@ -468,7 +509,20 @@ function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
   if (typeof entry.longDescription === 'string' && !isSafeReleaseField(entry.longDescription)) return null
   if (!isSafeReleaseField(entry.officialUrl ?? '#')) return null
 
+  const official = normalizeOfficialUrl(String(entry.officialUrl ?? '').trim())
+  if (!official.startsWith('http') || official.includes(' ') || official.includes('"') || official.includes("'")) {
+    return null
+  }
+
   const safeName = entry.name.trim()
+  if (isGenericReleaseName(safeName)) return null
+  if ((safeName.startsWith('"') && safeName.endsWith('"')) || (safeName.startsWith('“') && safeName.endsWith('”'))) return null
+  if (typeof entry.sourceTitle === 'string' && isGenericReleaseName(entry.sourceTitle.trim())) return null
+
+  const shortDesc = (entry.shortDescription ?? `${safeName} — recently released.`).trim()
+  const longDesc = typeof entry.longDescription === 'string' ? entry.longDescription.trim() : shortDesc
+  if (looksLikeRoundupCopy(shortDesc) || looksLikeRoundupCopy(longDesc)) return null
+
   return {
     id: (typeof entry.id === 'string' && entry.id.trim().length > 0 ? entry.id : entry.slug).trim(),
     slug: entry.slug.trim(),
@@ -481,7 +535,7 @@ function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
     longDescription: typeof entry.longDescription === 'string'
       ? entry.longDescription.trim()
       : (entry.shortDescription ?? '').trim(),
-    officialUrl: (entry.officialUrl ?? '#').trim(),
+    officialUrl: normalizeOfficialUrl((entry.officialUrl ?? '#').trim()),
     rating: typeof entry.rating === 'number' ? entry.rating : 4.0,
     ratingCount: typeof entry.ratingCount === 'number' ? entry.ratingCount : 0,
     isNew: true,
@@ -519,7 +573,8 @@ export function getSanitizedReleases(): SanitizedRelease[] {
 
 export function getNewProducts(): Product[] {
   const sanitized = getSanitizedReleases()
-  return sanitized.length > 0 ? sanitized : _newReleases
+  // Never fall back to bundled seed "new releases" — that masks broken scrapes and ships fake cards.
+  return sanitized
 }
 
 export function searchProducts(query: string): Product[] {
