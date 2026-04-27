@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-04-26T16:22:49.557606+00:00",
-  "finishedAt": "2026-04-26T16:23:56.245309+00:00",
+  "startedAt": "2026-04-27T08:13:10.590954+00:00",
+  "finishedAt": "2026-04-27T08:14:13.901277+00:00",
   "dryRun": false,
-  "existingEntries": 0,
-  "cleanedExistingEntries": 0,
-  "newEntries": 11,
+  "existingEntries": 11,
+  "cleanedExistingEntries": 11,
+  "newEntries": 4,
   "rejectedEntries": 4,
-  "outputEntries": 11,
+  "outputEntries": 15,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,7 +15,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 6,
+      "entriesAdded": 0,
       "entriesRejected": 1
     },
     {
@@ -33,7 +33,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 5,
+      "entriesAdded": 4,
       "entriesRejected": 0
     },
     {
