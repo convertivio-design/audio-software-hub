@@ -1,5 +1,327 @@
 [
   {
+    "id": "e7a58d2a1bb4",
+    "slug": "last-november-ableton-released-live-123-a-new-update",
+    "name": "Last November, Ableton released Live 12.3, a new update...",
+    "developer": "Ableton",
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Last November, Ableton released Live 12.3, a new update to its DAW, featuring STEM separation, Splice integration, and more. Version 12.4 is already available as a public beta, introducing additional ",
+    "longDescription": "Last November, Ableton released Live 12.3, a new update to its DAW, featuring STEM separation, Splice integration, and more. Version 12.4 is already available as a public beta, introducing additional exciting new features. In my opinion, one of the best features of recent years is the Link protocol, which allows you to sync other Link-supported hardware or software, even iOS apps, over Wi-Fi. In Live 12.4, Ableton extends this functionality to include audio called Link Audio. Audio from other pl",
+    "officialUrl": "https://synthanatomy.com/2026/04/ableton-live-12-stay-creative-and-in-focus-an-overview-of-the-new-features.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:09:43.644105+00:00",
+    "sourceTitle": "Last November, Ableton released Live 12.3, a new update to its DAW, featuring STEM separation, Splice integration, and m"
+  },
+  {
+    "id": "38855b1a5a93",
+    "slug": "tone2-has-today-released-rayblaster-35-a-major-update",
+    "name": "Tone2 has today released RayBlaster 3.5, a major update...",
+    "developer": "Ableton",
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Tone2 has today released RayBlaster 3.5, a major update for the unique impulse modeling Synthesizer. The new update 3.5 is a free download for all Tone2 RayBlaster 3 users. This version doesn’t change",
+    "longDescription": "Tone2 has today released RayBlaster 3.5, a major update for the unique impulse modeling Synthesizer. The new update 3.5 is a free download for all Tone2 RayBlaster 3 users. This version doesn’t change anything about the innovative impulse modeling synthesis or add new features. Just like version 3.0, however, it overhauls many parts of the sound engine. First, it significantly enhances the sound quality when 44 kHz or 22 kHz is used as the DAW’s samplerate. In this case, the aliasing is reduced ",
+    "officialUrl": "https://synthanatomy.com/2026/04/tone2-rayblaster-3-innovative-impulse-modeling-synthesizer-plugin-gets-a-major-upgrade.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:09:38.640587+00:00",
+    "sourceTitle": "Tone2 has today released RayBlaster 3.5, a major update for the unique impulse modeling Synthesizer."
+  },
+  {
+    "id": "088d8ac863ea",
+    "slug": "in-mid-october-2025-elta-music-announced-the",
+    "name": "In mid-October 2025, ELTA Music announced the...",
+    "developer": "Ableton",
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "In mid-October 2025, ELTA Music announced the development of the POLYVOX 8, a new polyphonic analog Synthesizer based on the legendary raw-sounding Soviet Synthesizer. Just in time for Superbooth 2026",
+    "longDescription": "In mid-October 2025, ELTA Music announced the development of the POLYVOX 8, a new polyphonic analog Synthesizer based on the legendary raw-sounding Soviet Synthesizer. Just in time for Superbooth 2026, ELTA Music has released the first image of the POLYVOX 8 Synthesizer hardware on FB/IG story. The first image shows a Synthesizer whose desktop design is somewhat similar to the Novation Peak. The front panel layout, including the knobs, buttons, and screen, is different. The display, which is sur",
+    "officialUrl": "https://synthanatomy.com/2026/04/elta-music-polyvox-8-an-mpe-analog-polyphonic-synthesizer-inspired-by-the-polivoks-synths.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:09:34.493636+00:00",
+    "sourceTitle": "In mid-October 2025, ELTA Music announced the development of the POLYVOX 8, a new polyphonic analog Synthesizer based on"
+  },
+  {
+    "id": "51ccf0f515de",
+    "slug": "many-many-synthesizers-were-on-display-at-this-years",
+    "name": "Many, many synthesizers were on display at this year’s...",
+    "developer": "Ableton",
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Many, many synthesizers were on display at this year’s SynthFest France. A large portion were classic keyboard synthesizers. But there were also some more fascinating, unusual ones. One of these was b",
+    "longDescription": "Many, many synthesizers were on display at this year’s SynthFest France. A large portion were classic keyboard synthesizers. But there were also some more fascinating, unusual ones. One of these was brought along by the developers of the open-source PGB-1 groovebox. Wee Noise Makers showcased the digitization of the classic paper music box. Music boxes have a long history, dating back to 1885, when the Symphonium company produced the first. Nowadays, they are more like mementos of the past than ",
+    "officialUrl": "https://synthanatomy.com/2026/04/wee-noise-makers-turned-a-paper-music-box-into-a-digital-synth-and-sequencer.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:09:32.398385+00:00",
+    "sourceTitle": "Many, many synthesizers were on display at this year’s SynthFest France. A large portion were classic keyboard synthesiz"
+  },
+  {
+    "id": "49842888b66b",
+    "slug": "elastic-sounds-releases-infernus-strings-solo-horror",
+    "name": "Elastic Sounds Releases Infernus Strings Solo Horror...",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Elastic Sounds Releases Infernus Strings Solo Horror... — newly released.",
+    "longDescription": "Elastic Sounds Releases Infernus Strings Solo Horror... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/elastic-sounds-releases-infernus-strings---solo-horror-string-library-for-kontakt-66771",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:08:51.773122+00:00",
+    "sourceTitle": "Elastic Sounds Releases Infernus Strings Solo Horror String Library For Kontakt 66771"
+  },
+  {
+    "id": "f904a4cad49d",
+    "slug": "wavsen-updates-wavsen-mix-delivery-and-approval-platform",
+    "name": "Wavsen Updates Wavsen Mix Delivery And Approval Platform...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Wavsen Updates Wavsen Mix Delivery And Approval Platform... — newly released.",
+    "longDescription": "Wavsen Updates Wavsen Mix Delivery And Approval Platform... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/wavsen-updates-wavsen-mix-delivery-and-approval-platform-to-v1-2-1-66772",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:08:47.464728+00:00",
+    "sourceTitle": "Wavsen Updates Wavsen Mix Delivery And Approval Platform To V1 2 1 66772"
+  },
+  {
+    "id": "65f14cb096eb",
+    "slug": "xeni-audio-releases-mcplugins-compressor-suite-vst3-and",
+    "name": "Xeni Audio Releases Mcplugins Compressor Suite Vst3 And...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Xeni Audio Releases Mcplugins Compressor Suite Vst3 And... — newly released.",
+    "longDescription": "Xeni Audio Releases Mcplugins Compressor Suite Vst3 And... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/xeni-audio-releases-mcplugins-compressor-suite-vst3-and-clap-66779",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:08:18.241874+00:00",
+    "sourceTitle": "Xeni Audio Releases Mcplugins Compressor Suite Vst3 And Clap 66779"
+  },
+  {
+    "id": "a410de8763c3",
+    "slug": "open-planet-software-releases-sessions-8-0-for-mac-and",
+    "name": "Open Planet Software Releases Sessions 8 0 For Mac And...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Open Planet Software Releases Sessions 8 0 For Mac And... — newly released.",
+    "longDescription": "Open Planet Software Releases Sessions 8 0 For Mac And... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/open-planet-software-releases-sessions-8-0-for-mac-and-ipad-66751",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:08:15.043696+00:00",
+    "sourceTitle": "Open Planet Software Releases Sessions 8 0 For Mac And Ipad 66751"
+  },
+  {
+    "id": "455f47c6513a",
+    "slug": "discodsp-updates-fx-bundle-to-v3-8-with-thrillme",
+    "name": "Discodsp Updates Fx Bundle To V3 8 With Thrillme...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Discodsp Updates Fx Bundle To V3 8 With Thrillme... — newly released.",
+    "longDescription": "Discodsp Updates Fx Bundle To V3 8 With Thrillme... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-fx-bundle-to-v3-8-with-thrillme-compressor-v3-11-66777",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:08:10.520616+00:00",
+    "sourceTitle": "Discodsp Updates Fx Bundle To V3 8 With Thrillme Compressor V3 11 66777"
+  },
+  {
+    "id": "3ef2cec14f94",
+    "slug": "bremmers-audio-design-updates-multitrackstudio-to-v11-4",
+    "name": "Bremmers Audio Design Updates Multitrackstudio To V11 4...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Bremmers Audio Design Updates Multitrackstudio To V11 4... — newly released.",
+    "longDescription": "Bremmers Audio Design Updates Multitrackstudio To V11 4... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/bremmers-audio-design-updates-multitrackstudio-to-v11-4-supports-arm64ec-66774",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-04-29T08:08:06.066848+00:00",
+    "sourceTitle": "Bremmers Audio Design Updates Multitrackstudio To V11 4 Supports Arm64Ec 66774"
+  },
+  {
     "id": "62e2ad840d38",
     "slug": "at-the-end-of-summer-2025-the-young-french-company-cyma",
     "name": "At the end of Summer 2025, the young French company Cyma...",

@@ -1,22 +1,22 @@
 {
   "status": "success",
-  "startedAt": "2026-04-27T08:13:10.590954+00:00",
-  "finishedAt": "2026-04-27T08:14:13.901277+00:00",
+  "startedAt": "2026-04-29T08:07:58.856182+00:00",
+  "finishedAt": "2026-04-29T08:09:51.738762+00:00",
   "dryRun": false,
-  "existingEntries": 11,
-  "cleanedExistingEntries": 11,
-  "newEntries": 4,
-  "rejectedEntries": 4,
-  "outputEntries": 15,
+  "existingEntries": 15,
+  "cleanedExistingEntries": 15,
+  "newEntries": 10,
+  "rejectedEntries": 3,
+  "outputEntries": 25,
   "sources": [
     {
       "source": "KVR Audio News",
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 0,
-      "entriesRejected": 1
+      "articlesScraped": 7,
+      "entriesAdded": 6,
+      "entriesRejected": 0
     },
     {
       "source": "BPB Free VST",
@@ -55,14 +55,10 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Scrape failed: https://www.kvraudio.com/news/apulsoft-updates-apqualizr2-to-v2-7-7-66733 \"apulSoft updates apQualizr2 to v2.7.7\""
+  ],
   "rejections": [
-    {
-      "url": "https://www.kvraudio.com/news/apu-software-updates-loudness-series-to-v5-4-7-66750 \"APU Software updates Loudness Series to v5.4.7\"",
-      "reason": "description_contains_ip_address",
-      "name": "Apu Software Updates Loudness Series To V5 4 7 66750",
-      "slug": "apu-software-updates-loudness-series-to-v5-4-7-66750"
-    },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
       "reason": "name_too_generic",
