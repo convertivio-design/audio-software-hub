@@ -1,22 +1,22 @@
 {
   "status": "success",
-  "startedAt": "2026-04-29T08:07:58.856182+00:00",
-  "finishedAt": "2026-04-29T08:09:51.738762+00:00",
+  "startedAt": "2026-05-01T08:06:11.152899+00:00",
+  "finishedAt": "2026-05-01T08:07:39.088444+00:00",
   "dryRun": false,
-  "existingEntries": 15,
-  "cleanedExistingEntries": 15,
-  "newEntries": 10,
-  "rejectedEntries": 3,
-  "outputEntries": 25,
+  "existingEntries": 25,
+  "cleanedExistingEntries": 25,
+  "newEntries": 8,
+  "rejectedEntries": 5,
+  "outputEntries": 30,
   "sources": [
     {
       "source": "KVR Audio News",
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 6,
-      "entriesRejected": 0
+      "articlesScraped": 8,
+      "entriesAdded": 4,
+      "entriesRejected": 2
     },
     {
       "source": "BPB Free VST",
@@ -55,10 +55,20 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/apulsoft-updates-apqualizr2-to-v2-7-7-66733 \"apulSoft updates apQualizr2 to v2.7.7\""
-  ],
+  "errors": [],
   "rejections": [
+    {
+      "url": "https://www.kvraudio.com/news/sound-magic-releases-supreme-piano-5-and-piano-one-apple-silicon-native-version-66807 \"Sound Magic releases Supreme Piano 5 and Piano One Apple Silicon Native Version\"",
+      "reason": "description_contains_ip_address",
+      "name": "Sound Magic Releases Supreme Piano 5 And Piano One Apple...",
+      "slug": "sound-magic-releases-supreme-piano-5-and-piano-one-apple"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/excite-audio-releases-bloom-drum-kits---live-drums-with-character-and-realism-66800 \"Excite Audio Releases Bloom Drum Kits - \\\"Live Drums with Character and Realism\\\"\"",
+      "reason": "name_contains_scraped_junk",
+      "name": "Excite Audio Releases Bloom Drum Kits Live Drums With...",
+      "slug": "excite-audio-releases-bloom-drum-kits-live-drums-with"
+    },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
       "reason": "name_too_generic",

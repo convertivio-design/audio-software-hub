@@ -1,5 +1,262 @@
 [
   {
+    "id": "c6b914412cc5",
+    "slug": "his-goal-is-to-achieve-a-daw-less-workflow-on-the",
+    "name": "His goal is to achieve a DAW-less workflow on the...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "When you hear the word “software” in the music world, you immediately think of VST plugins. But with Giorgio Sancristoforo, it’s different. The developer consistently takes a different approach, relea",
+    "longDescription": "When you hear the word “software” in the music world, you immediately think of VST plugins. But with Giorgio Sancristoforo, it’s different. The developer consistently takes a different approach, releasing his tools as standalone applications. His goal is to achieve a DAW-less workflow on the computer. After a long break, Giorgio Sancristoforo has done his homework and released a new exciting sound tool. Yes, it’s called Homework and is again a standalone software. Giorgio Sancristoforo describes",
+    "officialUrl": "https://synthanatomy.com/2026/04/giorgio-sancristoforo-homework-a-tape-style-software-workstation-with-modular-synths-and-fxs.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:07:33.187263+00:00",
+    "sourceTitle": "His goal is to achieve a DAW-less workflow on the computer. After a long break, Giorgio Sancristoforo has done his homew"
+  },
+  {
+    "id": "31ec43933daf",
+    "slug": "last-october-i-reported-on-the-track8-hardware-arranger",
+    "name": "Last October, I reported on the Track8 hardware arranger...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Last October, I reported on the Track8 hardware arranger from the young German one-man company Thingstone.  Track8 has been on the market for several months and has also expanded its capabilities. The",
+    "longDescription": "Last October, I reported on the Track8 hardware arranger from the young German one-man company Thingstone.  Track8 has been on the market for several months and has also expanded its capabilities. The latest update 1.1.0 introduces a new External Audio feature that expands the internal I/O capabilities. By connecting class-compliant USB audio interfaces, the system can scale up to 48 inputs and 18 outputs This enables recording of up to 8 stereo sources simultaneously, while providing a dedicate",
+    "officialUrl": "https://synthanatomy.com/2026/04/thingstone-track8-a-standalone-hardware-arranger-for-dawless-musicians.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:07:28.375577+00:00",
+    "sourceTitle": "Last October, I reported on the Track8 hardware arranger from the young German one-man company Thingstone.  Track8 has b"
+  },
+  {
+    "id": "f548a679ece1",
+    "slug": "ahead-of-superbooth-2026-the-developer-is-handing-the",
+    "name": "Ahead of Superbooth 2026, the developer is handing the...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Ahead of Superbooth 2026, the developer is handing the reins to the customer. Tubbutec now offers customers the option to design their own MIDI controller with the specifications they need. Was the ri",
+    "longDescription": "Ahead of Superbooth 2026, the developer is handing the reins to the customer. Tubbutec now offers customers the option to design their own MIDI controller with the specifications they need. Was the right hardware controller not available before? No worries, now you can get it. Tubbutec has launched the Controller Designer web application, which lets you design your own custom hardware MIDI controller. They are based on the very compact design of the Synth Mods controllers, so the format is not c",
+    "officialUrl": "https://synthanatomy.com/2026/04/tubbutec-now-lets-you-design-a-custom-midi-controller.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:07:23.572899+00:00",
+    "sourceTitle": "Ahead of Superbooth 2026, the developer is handing the reins to the customer. Tubbutec now offers customers the option t"
+  },
+  {
+    "id": "4ff00e7a2f90",
+    "slug": "news-for-superbooth-2026-is-slowly-getting-going-quite",
+    "name": "news for Superbooth 2026 is slowly getting going. Quite...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Synth news for Superbooth 2026 is slowly getting going. Quite late this year, but they are coming. There are new from the developers of the Metal Fetishist drum Synthesizer. Ahead of Superbooth 2026, ",
+    "longDescription": "Synth news for Superbooth 2026 is slowly getting going. Quite late this year, but they are coming. There are new from the developers of the Metal Fetishist drum Synthesizer. Ahead of Superbooth 2026, Body Synths has unveiled the Laboratory, a new dual FX processor that can be turned into a Synthesizer. The Laboratory is not a traditional Synthesizer, as it lacks classic oscillators. It’s a dual-channel effect processor that can become a drony synth. At the core of the Body Synths Laboratory is a",
+    "officialUrl": "https://synthanatomy.com/2026/04/body-synths-laboratory-a-dual-fx-box-with-a-feedback-synth-twist.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:07:18.656594+00:00",
+    "sourceTitle": "Synth news for Superbooth 2026 is slowly getting going. Quite late this year, but they are coming. There are new from th"
+  },
+  {
+    "id": "c8466fbdde41",
+    "slug": "live-workflow-tools-updates-liveset-cleaner-to-v1-1-0-66806",
+    "name": "Live Workflow Tools Updates Liveset Cleaner To V1 1 0 66806",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Live Workflow Tools Updates Liveset Cleaner To V1 1 0 66806 — newly released.",
+    "longDescription": "Live Workflow Tools Updates Liveset Cleaner To V1 1 0 66806 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/live-workflow-tools-updates-liveset-cleaner-to-v1-1-0-66806",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:06:48.636274+00:00",
+    "sourceTitle": "Live Workflow Tools Updates Liveset Cleaner To V1 1 0 66806"
+  },
+  {
+    "id": "0920f842df84",
+    "slug": "antelope-audio-releases-native-version-of-impresser-a",
+    "name": "Antelope Audio Releases Native Version Of Impresser A...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Antelope Audio Releases Native Version Of Impresser A... — newly released.",
+    "longDescription": "Antelope Audio Releases Native Version Of Impresser A... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/antelope-audio-releases-native-version-of-impresser---a-stereo-knee-compressor-66797",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:06:40.118260+00:00",
+    "sourceTitle": "Antelope Audio Releases Native Version Of Impresser A Stereo Knee Compressor 66797"
+  },
+  {
+    "id": "db4e15015da9",
+    "slug": "nikolozi-updates-mela-to-v7-7-for-macos-and-ios-66810",
+    "name": "Nikolozi Updates Mela To V7 7 For Macos And Ios 66810",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Nikolozi Updates Mela To V7 7 For Macos And Ios 66810 — newly released.",
+    "longDescription": "Nikolozi Updates Mela To V7 7 For Macos And Ios 66810 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/nikolozi-updates-mela-to-v7-7-for-macos-and-ios-66810",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:06:30.062388+00:00",
+    "sourceTitle": "Nikolozi Updates Mela To V7 7 For Macos And Ios 66810"
+  },
+  {
+    "id": "832fcfdd5f74",
+    "slug": "sketch-audio-updates-effects-to-v2-windows-support-and",
+    "name": "Sketch Audio Updates Effects To V2 Windows Support And...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Sketch Audio Updates Effects To V2 Windows Support And... — newly released.",
+    "longDescription": "Sketch Audio Updates Effects To V2 Windows Support And... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/sketch-audio-updates-effects-to-v2---windows-support-and-new-formats-66805",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-01T08:06:26.492673+00:00",
+    "sourceTitle": "Sketch Audio Updates Effects To V2 Windows Support And New Formats 66805"
+  },
+  {
     "id": "e7a58d2a1bb4",
     "slug": "last-november-ableton-released-live-123-a-new-update",
     "name": "Last November, Ableton released Live 12.3, a new update...",
@@ -728,105 +985,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-04-26T16:23:03.717162+00:00",
     "sourceTitle": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx Tuners For Windows And Linux 66757"
-  },
-  {
-    "id": "faa406bc8474",
-    "slug": "black-salt-audio-releases-instinct-eq-vst3-au-and-aax-66758",
-    "name": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758",
-    "developer": null,
-    "categoryId": "effects",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758 — newly released.",
-    "longDescription": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/black-salt-audio-releases-instinct-eq-vst3-au-and-aax-66758",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:00.168712+00:00",
-    "sourceTitle": "Black Salt Audio Releases Instinct Eq Vst3 Au And Aax 66758"
-  },
-  {
-    "id": "af4c54a1c4ee",
-    "slug": "authentic-soundware-release-space-age-colors-for-kontakt",
-    "name": "Authentic Soundware Release Space Age Colors For Kontakt...",
-    "developer": null,
-    "categoryId": "sampler",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Authentic Soundware Release Space Age Colors For Kontakt... — newly released.",
-    "longDescription": "Authentic Soundware Release Space Age Colors For Kontakt... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/authentic-soundware-release-space-age-colors-for-kontakt-66755",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "sampler"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:22:57.450970+00:00",
-    "sourceTitle": "Authentic Soundware Release Space Age Colors For Kontakt 66755"
-  },
-  {
-    "id": "a709982d42b4",
-    "slug": "session-loops-updates-vocalnet-to-v1-6-with-ara-support",
-    "name": "Session Loops Updates Vocalnet To V1 6 With Ara Support...",
-    "developer": null,
-    "categoryId": "vocal",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Session Loops Updates Vocalnet To V1 6 With Ara Support... — newly released.",
-    "longDescription": "Session Loops Updates Vocalnet To V1 6 With Ara Support... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/session-loops-updates-vocalnet-to-v1-6-with-ara-support-66763",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "vocal"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:22:54.735503+00:00",
-    "sourceTitle": "Session Loops Updates Vocalnet To V1 6 With Ara Support 66763"
   }
 ]
