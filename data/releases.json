@@ -1,5 +1,298 @@
 [
   {
+    "id": "8a72bbda783f",
+    "slug": "fractal-synthesis-what-the-f-is-that-i-tried-to",
+    "name": "Fractal Synthesis – what the f… is that? I tried to...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Fractal Synthesis – what the f… is that? I tried to answer that question in my SFF video with Gilles from Kaona Modular, even though it’s not easy. It’s very mathematical, and fractal synthesis is cer",
+    "longDescription": "Fractal Synthesis – what the f… is that? I tried to answer that question in my SFF video with Gilles from Kaona Modular, even though it’s not easy. It’s very mathematical, and fractal synthesis is certainly a very avant-garde form of synthesis. And fractal synthesis can be explored in Kaona Modular’s new module, Fractaos. It’s a polyphonic oscillator and synth voice. Kaona Fractaos: A Polyphonic Oscillator For Synthesis Scientists \\| SynthFest France 2026 - YouTube Classic analog designs are ver",
+    "officialUrl": "https://synthanatomy.com/2026/05/kaona-fractaos-a-polyphonc-oscillator-and-synth-voice-using-fractal-synthesis.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:57:01.640943+00:00",
+    "sourceTitle": "Fractal Synthesis – what the f… is that? I tried to answer that question in my SFF video with Gilles from Kaona Modular,"
+  },
+  {
+    "id": "9c210cd20cfc",
+    "slug": "the-odd-1-granular-synthesizer-has-been-in-development",
+    "name": "The ODD-1 granular Synthesizer has been in development...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "The ODD-1 granular Synthesizer has been in development for over two years. Oddment Audio is also showcasing the ODD-1 at Superbooth (W206) this year. As a reminder: ODD-1 is a granular Synthesizer wit",
+    "longDescription": "The ODD-1 granular Synthesizer has been in development for over two years. Oddment Audio is also showcasing the ODD-1 at Superbooth (W206) this year. As a reminder: ODD-1 is a granular Synthesizer with up to 8-voice polyphony, shared across 2 multitimbral layers, and eight simultaneous stereo samples up to 60s at 48kHz. You have four independent playheads per layer with flexible assignment to the four samples. You can use the synth as a multi-timbral synth, expressive sampler, multi-track looper",
+    "officialUrl": "https://synthanatomy.com/2026/05/oddment-audio-odd-1-desktop-hardware-granular-synthesizer.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:56:58.338006+00:00",
+    "sourceTitle": "The ODD-1 granular Synthesizer has been in development for over two years. Oddment Audio is also showcasing the ODD-1 at"
+  },
+  {
+    "id": "8be8805df62b",
+    "slug": "when-making-electronic-music-one-usually-uses-a-synth",
+    "name": "When making electronic music, one usually uses a synth...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "When making electronic music, one usually uses a synth bass rather than a classic electric bass. The first question is: which synth? More importantly, the bass sound must fit the overall sound. Depend",
+    "longDescription": "When making electronic music, one usually uses a synth bass rather than a classic electric bass. The first question is: which synth? More importantly, the bass sound must fit the overall sound. Depending on the chosen sound, the bass must be further adjusted to blend seamlessly with the track. Developer Pascal Demez from the Belgium company Beatsurfing finds this step too cumbersome and has developed Low, a bass synth plugin that already integrates this right in the sound engine. LOW is a bass-f",
+    "officialUrl": "https://synthanatomy.com/2026/05/beatsurfing-low-a-bass-synthesizer-with-an-evolving-character.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:56:55.255084+00:00",
+    "sourceTitle": "When making electronic music, one usually uses a synth bass rather than a classic electric bass. The first question is: "
+  },
+  {
+    "id": "283b6e8fc6d7",
+    "slug": "it-seems-the-trend-hasnt-leveled-off-yet-schik-which",
+    "name": "It seems the trend hasn’t leveled off yet. Schik, which...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "It seems the trend hasn’t leveled off yet. Schik, which was successful with the N32B controller, will show the S32 at Superbooth 2026. The Shik is a new performance-oriented MIDI controller. It is Shi",
+    "longDescription": "It seems the trend hasn’t leveled off yet. Schik, which was successful with the N32B controller, will show the S32 at Superbooth 2026. The Shik is a new performance-oriented MIDI controller. It is Shik’s first flagship MIDI controller and can be seen as the superior version of the 32 series. It’s described as a compact device with an all-metal enclosure. 32 high-resolution knobs knobs form the core of S32, and each knob supports MIDI CC with MIDI learn, 14-bit CC, NRPN, program change, SysEx, an",
+    "officialUrl": "https://synthanatomy.com/2026/05/shik-s32-high-res-performance-midi-controller-with-optional-cv-expansion.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:56:51.799087+00:00",
+    "sourceTitle": "It seems the trend hasn’t leveled off yet. Schik, which was successful with the N32B controller, will show the S32 at Su"
+  },
+  {
+    "id": "95b2899d3db3",
+    "slug": "audio-midi",
+    "name": "Audio & MIDI",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Audio & MIDI — newly released.",
+    "longDescription": "Audio & MIDI — newly released.",
+    "officialUrl": "https://synthanatomy.com/2026/05",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:56:36.179965+00:00",
+    "sourceTitle": "Audio & MIDI"
+  },
+  {
+    "id": "1f0754490a4a",
+    "slug": "rockheyday-releases-ceilix-l-parallel-saturation-hybrid",
+    "name": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid... — newly released.",
+    "longDescription": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/rockheyday-releases-ceilix-l---parallel-saturation-hybrid-limiter-plugin-66824",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:56:10.166964+00:00",
+    "sourceTitle": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid Limiter Plugin 66824"
+  },
+  {
+    "id": "f227ccd4355e",
+    "slug": "otium-releases-sidechainx-visual-sidechain-ducking-and",
+    "name": "Otium Releases Sidechainx Visual Sidechain Ducking And...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Otium Releases Sidechainx Visual Sidechain Ducking And... — newly released.",
+    "longDescription": "Otium Releases Sidechainx Visual Sidechain Ducking And... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/otium-releases-sidechainx---visual-sidechain-ducking-and-kickfit-assisted-kick-bass-separation-windows-vst3-66828",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:56:02.677193+00:00",
+    "sourceTitle": "Otium Releases Sidechainx Visual Sidechain Ducking And Kickfit Assisted Kick Bass Separation Windows Vst3 66828"
+  },
+  {
+    "id": "f2934ed9c58c",
+    "slug": "rncbc-org-updates-qtractor-to-v1-6-0-and-vee-one-suite",
+    "name": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite... — newly released.",
+    "longDescription": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/rncbc-org-updates-qtractor-to-v1-6-0-and-vee-one-suite-to-v1-4-2-for-linux-66821",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Linux"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:55:50.062124+00:00",
+    "sourceTitle": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite To V1 4 2 For Linux 66821"
+  },
+  {
+    "id": "93fa22f99ed6",
+    "slug": "innermost47-updates-obsidian-neural-to-v2-1-0-multi",
+    "name": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi... — newly released.",
+    "longDescription": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/innermost47-updates-obsidian-neural-to-v2-1-0---multi-model-era-new-ui-and-performance-controls-66831",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-03T07:55:45.960894+00:00",
+    "sourceTitle": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi Model Era New Ui And Performance Controls 66831"
+  },
+  {
     "id": "c6b914412cc5",
     "slug": "his-goal-is-to-achieve-a-daw-less-workflow-on-the",
     "name": "His goal is to achieve a DAW-less workflow on the...",
@@ -679,311 +972,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-04-27T08:14:03.758343+00:00",
     "sourceTitle": "With the 60HP synths, Moog sparked a trend in analog synthesizers a few years ago. Many synthesizers from Behringer and "
-  },
-  {
-    "id": "6848f57620fb",
-    "slug": "after-morph-radical-acoustics-previewed-the-echon-6-at",
-    "name": "After Morph Radical Acoustics previewed the Echon 6 at...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "After Morph Radical Acoustics previewed the Echon 6 at Superbooth a year ago, the multi-timbral analog BBD-based resonator/physical modeling Synthesizer is now complete. According to Morphor, the firs",
-    "longDescription": "After Morph Radical Acoustics previewed the Echon 6 at Superbooth a year ago, the multi-timbral analog BBD-based resonator/physical modeling Synthesizer is now complete. According to Morphor, the first batch was shipped to retailers recently. As a big fan of resonators and physical modeling synthesis, I’ve followed this project with great interest in the past month. Boris, the initiator and product specialist of the Echon 6, gave me a deep dive into patch design at SynthFest France 2026. - 6-voi",
-    "officialUrl": "https://synthanatomy.com/2026/04/morphor-echon-6-analog-polyphonic-bbd-resonator-synthesizer.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-27T08:14:00.735683+00:00",
-    "sourceTitle": "After Morph Radical Acoustics previewed the Echon 6 at Superbooth a year ago, the multi-timbral analog BBD-based resonat"
-  },
-  {
-    "id": "b2d54425cb5c",
-    "slug": "for-fans-of-mobile-music-production-the-selection-has",
-    "name": "For fans of mobile music production, the selection has...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "I rarely play electronic pianos, but they’re part of my arsenal when I need warm and soft melodies. Until now, I’ve mostly used them on the AstroLab hardware in the studio or in Ableton Live plugins. ",
-    "longDescription": "I rarely play electronic pianos, but they’re part of my arsenal when I need warm and soft melodies. Until now, I’ve mostly used them on the AstroLab hardware in the studio or in Ableton Live plugins. For fans of mobile music production, the selection has been rather limited so far. But now there’s a new app that brings new sounds to iOS. AudioKit Pro has released Retro Keys, a new electro piano virtual instrument for your iPhone and iPad. Retro Keys is a new standalone and AUv3 virtual electro p",
-    "officialUrl": "https://synthanatomy.com/2026/04/audiokit-pro-retro-keys-brings-vintage-electro-pianos-to-your-ios-device.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS",
-      "Standalone"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:51.756569+00:00",
-    "sourceTitle": "For fans of mobile music production, the selection has been rather limited so far. But now there’s a new app that brings"
-  },
-  {
-    "id": "7cc49e106bc5",
-    "slug": "retro-gaming-has-a-distinctive-sonic-character-shaped",
-    "name": "Retro gaming has a distinctive sonic character, shaped...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Retro gaming has a distinctive sonic character, shaped by chip-powered engines. One of the most legendary and influential is undoubtedly the SID chip, which was used in the Commodore 64, among other d",
-    "longDescription": "Retro gaming has a distinctive sonic character, shaped by chip-powered engines. One of the most legendary and influential is undoubtedly the SID chip, which was used in the Commodore 64, among other devices. Bitcrust is a new polyphonic Synthesizer plugin for macOS, Linux, Windows, and iOS built around a SID-style voice architecture. Once installed, the plugin offers 14 UI skins. The UI immediately gave me a vibe-coded/AI vibes, as the plugin market has been flooded with them in recent weeks. Bu",
-    "officialUrl": "https://synthanatomy.com/2026/04/anode-labs-bitcrust-a-cross-platform-sid-style-polyphonic-synthesizer-plugin.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS",
-      "Linux",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:49.176431+00:00",
-    "sourceTitle": "Retro gaming has a distinctive sonic character, shaped by chip-powered engines. One of the most legendary and influentia"
-  },
-  {
-    "id": "78fcc34a64fb",
-    "slug": "things-have-been-quite-busy-in-the-ios-world-these-past",
-    "name": "Things have been quite busy in the iOS world these past...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Things have been quite busy in the iOS world these past few weeks. Besides Bitcrush, there’s another new synthesizer on iOS. Steffen Mølgaard Larsen of Feral-Aud.io, the developer of the Gorilla Synth",
-    "longDescription": "Things have been quite busy in the iOS world these past few weeks. Besides Bitcrush, there’s another new synthesizer on iOS. Steffen Mølgaard Larsen of Feral-Aud.io, the developer of the Gorilla Synth, which was initially free, has released his second Synthesizer, RAVEN. RAVEN is a new Synthesizer plugin for iOS and macOS.  Feral-Aud.io opted for a very simple, almost generic UI for RAVEN. This immediately raised some red flags for me, as it strongly suggests AI-generated design. I can neither c",
-    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "AUv3",
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:45.816146+00:00",
-    "sourceTitle": "Things have been quite busy in the iOS world these past few weeks. Besides Bitcrush, there’s another new synthesizer on "
-  },
-  {
-    "id": "6a053bb8bf9e",
-    "slug": "most-of-the-time-synth-classics-like-the-sh-101",
-    "name": "Most of the time, synth classics like the SH-101,...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusual, strange machines that have almost been forgotten. Rarely are they given a se",
-    "longDescription": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusual, strange machines that have almost been forgotten. Rarely are they given a second life. That was the case not with this release. This weekend (April 25-26), the first edition of the Music Machines Summit is taking place in Stockholm, Sweden, where several developers are showcasing their products. Analog Sweden is also present, unveiling the SWEN2, which will also be on displ",
-    "officialUrl": "https://synthanatomy.com/2026/04/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:43.298345+00:00",
-    "sourceTitle": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusu"
-  },
-  {
-    "id": "76c407231b5f",
-    "slug": "it-seems-we-cant-find-what-youre-looking-for-perhaps",
-    "name": "It seems we can’t find what you’re looking for. Perhaps...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "It seems we can’t find what you’re looking for. Perhaps searching can help.",
-    "longDescription": "It seems we can’t find what you’re looking for. Perhaps searching can help.",
-    "officialUrl": "https://synthanatomy.com/2026/04/feral-aud-io-raven-a-wavetable-morphing-synthesizer-for-ios-and-macos.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:31.403765+00:00",
-    "sourceTitle": "It seems we can’t find what you’re looking for. Perhaps searching can help."
-  },
-  {
-    "id": "be3a77dc95e2",
-    "slug": "sound-magic-releases-supreme-drums-china-traditional",
-    "name": "Sound Magic Releases Supreme Drums China Traditional...",
-    "developer": null,
-    "categoryId": "drums",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Sound Magic Releases Supreme Drums China Traditional... — newly released.",
-    "longDescription": "Sound Magic Releases Supreme Drums China Traditional... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/sound-magic-releases-supreme-drums-china---traditional-chinese-percussion-instruments-66749",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:10.151428+00:00",
-    "sourceTitle": "Sound Magic Releases Supreme Drums China Traditional Chinese Percussion Instruments 66749"
-  },
-  {
-    "id": "7d17004cdca9",
-    "slug": "best-service-releases-bassam-ayoubs-qanun-for-engine",
-    "name": "Best Service Releases Bassam Ayoubs Qanun For Engine...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Best Service Releases Bassam Ayoubs Qanun For Engine... — newly released.",
-    "longDescription": "Best Service Releases Bassam Ayoubs Qanun For Engine... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/best-service-releases-bassam-ayoubs-qanun-for-engine-player-66753",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:06.925768+00:00",
-    "sourceTitle": "Best Service Releases Bassam Ayoubs Qanun For Engine Player 66753"
-  },
-  {
-    "id": "8f65a2db214f",
-    "slug": "peter-semiletov-releases-roker-pack-free-guitar-vst3-fx",
-    "name": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx...",
-    "developer": null,
-    "categoryId": "guitar",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx... — newly released.",
-    "longDescription": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/peter-semiletov-releases-roker-pack---free-guitar-vst3-fx-tuners-for-windows-and-linux-66757",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "Linux"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "guitar"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-04-26T16:23:03.717162+00:00",
-    "sourceTitle": "Peter Semiletov Releases Roker Pack Free Guitar Vst3 Fx Tuners For Windows And Linux 66757"
   }
 ]
