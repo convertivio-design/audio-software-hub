@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-05-03T07:55:08.894318+00:00",
-  "finishedAt": "2026-05-03T07:57:08.922012+00:00",
+  "startedAt": "2026-05-05T08:01:06.385192+00:00",
+  "finishedAt": "2026-05-05T08:03:05.104934+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 9,
-  "rejectedEntries": 5,
+  "newEntries": 10,
+  "rejectedEntries": 3,
   "outputEntries": 30,
   "sources": [
     {
@@ -14,9 +14,9 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
+      "articlesScraped": 8,
       "entriesAdded": 4,
-      "entriesRejected": 2
+      "entriesRejected": 0
     },
     {
       "source": "BPB Free VST",
@@ -33,7 +33,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 5,
+      "entriesAdded": 6,
       "entriesRejected": 0
     },
     {
@@ -55,22 +55,8 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/w-a-production-releases-particle-pie-dual-fx-plugin-with-70-off-intro-offer-66823 \"W. A. Production releases \\\"Particle Pie\\\" Dual FX plugin with 70% off intro offer\""
-  ],
+  "errors": [],
   "rejections": [
-    {
-      "url": "https://www.kvraudio.com/news/tone2-updates-rayblaster-to-3-5-66773 \"Tone2 updates RayBlaster to 3.5\"",
-      "reason": "description_contains_ip_address",
-      "name": "Tone2 Updates Rayblaster To 3 5 66773",
-      "slug": "tone2-updates-rayblaster-to-3-5-66773"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/universal-audio-releases-uad-enigmatic-82-overdrive-special-amp---native-d-style-plugin-66827 \"Universal Audio releases UAD Enigmatic '82 Overdrive Special Amp - Native D-Style Plugin\"",
-      "reason": "description_contains_ip_address",
-      "name": "Universal Audio Releases Uad Enigmatic 82 Overdrive...",
-      "slug": "universal-audio-releases-uad-enigmatic-82-overdrive"
-    },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
       "reason": "name_too_generic",
