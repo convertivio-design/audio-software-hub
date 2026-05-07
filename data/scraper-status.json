@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-05-05T08:01:06.385192+00:00",
-  "finishedAt": "2026-05-05T08:03:05.104934+00:00",
+  "startedAt": "2026-05-07T08:26:20.452756+00:00",
+  "finishedAt": "2026-05-07T08:28:14.336568+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 10,
-  "rejectedEntries": 3,
+  "newEntries": 11,
+  "rejectedEntries": 4,
   "outputEntries": 30,
   "sources": [
     {
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 4,
-      "entriesRejected": 0
+      "entriesAdded": 6,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
@@ -33,7 +33,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 6,
+      "entriesAdded": 5,
       "entriesRejected": 0
     },
     {
@@ -57,6 +57,12 @@
   ],
   "errors": [],
   "rejections": [
+    {
+      "url": "https://www.kvraudio.com/news/native-instruments-releases-komplete-26---absynth-6-returns-with-190-and-instruments-and-izotope-mixing-tools-66874 \"Native Instruments Releases Komplete 26 - Absynth 6 Returns with 190+ Instruments and iZotope Mixing Tools\"",
+      "reason": "description_contains_ip_address",
+      "name": "Native Instruments Releases Komplete 26 Absynth 6...",
+      "slug": "native-instruments-releases-komplete-26-absynth-6"
+    },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
       "reason": "name_too_generic",
