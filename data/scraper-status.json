@@ -1,7 +1,7 @@
 {
   "status": "success",
-  "startedAt": "2026-05-07T08:26:20.452756+00:00",
-  "finishedAt": "2026-05-07T08:28:14.336568+00:00",
+  "startedAt": "2026-05-09T07:49:19.270884+00:00",
+  "finishedAt": "2026-05-09T07:50:39.108905+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
@@ -58,10 +58,10 @@
   "errors": [],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/native-instruments-releases-komplete-26---absynth-6-returns-with-190-and-instruments-and-izotope-mixing-tools-66874 \"Native Instruments Releases Komplete 26 - Absynth 6 Returns with 190+ Instruments and iZotope Mixing Tools\"",
+      "url": "https://www.kvraudio.com/news/bjt2-updates-free-crescendo-programmable-vst-plugin-to-v1-0-192-for-windows-66886 \"Bjt2 Updates Free \\\"Crescendo\\\" Programmable VST Plugin to v1.0.192 for Windows\"",
       "reason": "description_contains_ip_address",
-      "name": "Native Instruments Releases Komplete 26 Absynth 6...",
-      "slug": "native-instruments-releases-komplete-26-absynth-6"
+      "name": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To...",
+      "slug": "bjt2-updates-free-crescendo-programmable-vst-plugin-to"
     },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",

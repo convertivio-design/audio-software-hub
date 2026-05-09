@@ -1,5 +1,357 @@
 [
   {
+    "id": "ce197a304954",
+    "slug": "berlin-is-a-hotspot-for-music-tech-developers-its-also",
+    "name": "Berlin is a hotspot for music tech developers. It’s also...",
+    "developer": "Ableton",
+    "categoryId": "daw",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Berlin is a hotspot for music tech developers. It’s also home to many of the best-known companies, such as Ableton, Native Instruments, u-he, and more. Many talented minds in Berlin are involved in ot",
+    "longDescription": "Berlin is a hotspot for music tech developers. It’s also home to many of the best-known companies, such as Ableton, Native Instruments, u-he, and more. Many talented minds in Berlin are involved in other projects alongside their main jobs. Johannes Elias Lohbihler, previously at Korg Berlin and creator of the dadamachines automat toolkit, Benjamin Weiss, aka Nerk (former Maschine, modstep…), and other collaborators have teamed up for an exciting project, the TBD-16, which they will showcase at S",
+    "officialUrl": "https://synthanatomy.com/2026/05/dadamachines-tbd-16-this-groovebox-is-playful-deep-and-hackable.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:50:34.866158+00:00",
+    "sourceTitle": "Berlin is a hotspot for music tech developers. It’s also home to many of the best-known companies, such as Ableton, Nati"
+  },
+  {
+    "id": "80fde629d9ce",
+    "slug": "elastic-osc-desktop",
+    "name": "### Elastic OSC Desktop",
+    "developer": "Native Instruments",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "At Superbooth 2026, a big step many have been waiting for is being taken: Elastic OSC is now also available as a desktop plugin for macOS and Windows. Elastic OSC desktop is a direct port of the iOS/A",
+    "longDescription": "At Superbooth 2026, a big step many have been waiting for is being taken: Elastic OSC is now also available as a desktop plugin for macOS and Windows. Elastic OSC desktop is a direct port of the iOS/Android app. It offers all the features of the original version now for macOS and Windows. Like the iOS/Android version, the oscillator core is based on the Mutable Instruments Plaits algorithms. There are 24 different ones, covering a wide range of super-accessible synthesis methods. They range from",
+    "officialUrl": "https://synthanatomy.com/2026/05/elastic-osc-the-moving-plaits-based-synthesizer-as-a-desktop-plugin.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:50:29.685331+00:00",
+    "sourceTitle": "### Elastic OSC Desktop"
+  },
+  {
+    "id": "654be9b82da4",
+    "slug": "after-many-years-on-the-market-and-specs-that-were",
+    "name": "After many years on the market and specs that were...",
+    "developer": "Native Instruments",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Granular samplers or synthesizers are very popular these days, whether in hardware or software. Early on, even before this wave, the Dutch company Tasty Chips Electronics had its GR-1 granular sampler",
+    "longDescription": "Granular samplers or synthesizers are very popular these days, whether in hardware or software. Early on, even before this wave, the Dutch company Tasty Chips Electronics had its GR-1 granular sampler. Then came the flagship with the GR-Mega in 2025. After many years on the market and specs that were pushing the limits, it’s time for a successor. Tasty Chips will be showcasing the GR-2 at Superbooth 2026, and it’s available for pre-order now on Kickstarter. GR-2 is the next generation of its mul",
+    "officialUrl": "https://synthanatomy.com/2026/05/tasty-chips-gr-2-the-second-generation-of-the-hardware-granular-sampler.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:50:24.847873+00:00",
+    "sourceTitle": "After many years on the market and specs that were pushing the limits, it’s time for a successor. Tasty Chips will be sh"
+  },
+  {
+    "id": "9ab07a726dcb",
+    "slug": "alex-from-twisted-electrons-has-consistently-pursued-his",
+    "name": "Alex from Twisted Electrons has consistently pursued his...",
+    "developer": "Native Instruments",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Alex from Twisted Electrons has consistently pursued his own exciting paths with his instruments over the past few years. For example, the BlastBeast is a vintage FM groovebox based on the YMF-262 FM ",
+    "longDescription": "Alex from Twisted Electrons has consistently pursued his own exciting paths with his instruments over the past few years. For example, the BlastBeast is a vintage FM groovebox based on the YMF-262 FM chip. Twisted Electrons will also be presenting something new at Superbooth 2026: the FLEXFM, an upcoming hybrid groovebox. There’s only one picture of the new Twisted Electrons FLEXFM. It’s from his Instagram page. I’ll add more when I’m at Superbooth. However, I was already able to briefly communi",
+    "officialUrl": "https://synthanatomy.com/2026/05/twisted-electrons-flexfm-a-hybrid-sampling-fm-groovebox.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:50:22.150059+00:00",
+    "sourceTitle": "Alex from Twisted Electrons has consistently pursued his own exciting paths with his instruments over the past few years"
+  },
+  {
+    "id": "c487c2d5c738",
+    "slug": "as-every-year-the-polish-developers-from-xaoc-devices",
+    "name": "As every year, the Polish developers from Xaoc Devices...",
+    "developer": "Native Instruments",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "As every year, the Polish developers from Xaoc Devices will be at Superbooth. For the 2026 edition, they’ve brought news – specifically, two exciting new modules. Ahead of Superbooth 2026, Xaoc Device",
+    "longDescription": "As every year, the Polish developers from Xaoc Devices will be at Superbooth. For the 2026 edition, they’ve brought news – specifically, two exciting new modules. Ahead of Superbooth 2026, Xaoc Devices has announced the Budapeszt & Skopje modules, a more experimental-flavored stereo processor, and a super handy tool. Two very different releases are coming this year from Xaoc Devices, but let’s start with the more experimental one, the Budapeszt. Yes, the names still come from cities. This time, ",
+    "officialUrl": "https://synthanatomy.com/2026/05/xaoc-devices-budapeszt-skopje-stereo-dual-spectral-processor-and-dual-quantizer.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:50:17.078807+00:00",
+    "sourceTitle": "As every year, the Polish developers from Xaoc Devices will be at Superbooth. For the 2026 edition, they’ve brought news"
+  },
+  {
+    "id": "960bd4a7af6c",
+    "slug": "the-very-loud-indeed-co-releases-omnisphere-saga-66880",
+    "name": "The Very Loud Indeed Co Releases Omnisphere Saga 66880",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "The Very Loud Indeed Co Releases Omnisphere Saga 66880 — newly released.",
+    "longDescription": "The Very Loud Indeed Co Releases Omnisphere Saga 66880 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/the-very-loud-indeed-co-releases-omnisphere-saga-66880",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:49:50.392008+00:00",
+    "sourceTitle": "The Very Loud Indeed Co Releases Omnisphere Saga 66880"
+  },
+  {
+    "id": "4b8064a44369",
+    "slug": "shed-valley-labs-releases-chief-lp-2-free-looper-for",
+    "name": "Shed Valley Labs Releases Chief Lp 2 Free Looper For...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Shed Valley Labs Releases Chief Lp 2 Free Looper For... — newly released.",
+    "longDescription": "Shed Valley Labs Releases Chief Lp 2 Free Looper For... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/shed-valley-labs-releases-chief-lp-2---free-looper-for-windows-66879",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:49:46.587621+00:00",
+    "sourceTitle": "Shed Valley Labs Releases Chief Lp 2 Free Looper For Windows 66879"
+  },
+  {
+    "id": "bc13b1a04d7c",
+    "slug": "sound-magic-releases-neo-doublebass-hybrid-modelling",
+    "name": "Sound Magic Releases Neo Doublebass Hybrid Modelling...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Sound Magic Releases Neo Doublebass Hybrid Modelling... — newly released.",
+    "longDescription": "Sound Magic Releases Neo Doublebass Hybrid Modelling... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/sound-magic-releases-neo-doublebass---hybrid-modelling-double-bass-virtual-instrument-66882",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:49:42.991976+00:00",
+    "sourceTitle": "Sound Magic Releases Neo Doublebass Hybrid Modelling Double Bass Virtual Instrument 66882"
+  },
+  {
+    "id": "10f55156103c",
+    "slug": "feelyoursound-updates-free-songengine-to-v1-2-0-adds-new",
+    "name": "Feelyoursound Updates Free Songengine To V1 2 0 Adds New...",
+    "developer": null,
+    "categoryId": "midi",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Feelyoursound Updates Free Songengine To V1 2 0 Adds New... — newly released.",
+    "longDescription": "Feelyoursound Updates Free Songengine To V1 2 0 Adds New... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/feelyoursound-updates-free-songengine-to-v1-2-0-adds-new-midi-to-chordpad-mass-converter-66881",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:49:38.278452+00:00",
+    "sourceTitle": "Feelyoursound Updates Free Songengine To V1 2 0 Adds New Midi To Chordpad Mass Converter 66881"
+  },
+  {
+    "id": "f3899c04b130",
+    "slug": "wire-grind-releases-unagated-2-vst3-gating-plugin-for",
+    "name": "Wire Grind Releases Unagated 2 Vst3 Gating Plugin For...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Wire Grind Releases Unagated 2 Vst3 Gating Plugin For... — newly released.",
+    "longDescription": "Wire Grind Releases Unagated 2 Vst3 Gating Plugin For... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/wire-grind-releases-unagated-2---vst3-gating-plugin-for-windows-66877",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:49:34.662365+00:00",
+    "sourceTitle": "Wire Grind Releases Unagated 2 Vst3 Gating Plugin For Windows 66877"
+  },
+  {
+    "id": "0547563ef1e1",
+    "slug": "polyend-announces-drums-analog-and-digital-drum-machine",
+    "name": "Polyend Announces Drums Analog And Digital Drum Machine...",
+    "developer": null,
+    "categoryId": "drums",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Polyend Announces Drums Analog And Digital Drum Machine... — newly released.",
+    "longDescription": "Polyend Announces Drums Analog And Digital Drum Machine... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/polyend-announces-drums---analog-and-digital-drum-machine-debuted-at-superbooth-2026-66887",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-09T07:49:25.789213+00:00",
+    "sourceTitle": "Polyend Announces Drums Analog And Digital Drum Machine Debuted At Superbooth 2026 66887"
+  },
+  {
     "id": "53e9503760aa",
     "slug": "i-already-reported-at-machina-bristronica-2025-on-a-new",
     "name": "I already reported at Machina Bristronica 2025 on a new...",
@@ -607,362 +959,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-05-05T08:01:46.456130+00:00",
     "sourceTitle": "Tone2 Updates Rayblaster To 3 5 66773"
-  },
-  {
-    "id": "febe606b9a17",
-    "slug": "discodsp-updates-vertigo-synthesizer-to-v5-2-66835",
-    "name": "Discodsp Updates Vertigo Synthesizer To V5 2 66835",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Discodsp Updates Vertigo Synthesizer To V5 2 66835 — newly released.",
-    "longDescription": "Discodsp Updates Vertigo Synthesizer To V5 2 66835 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-vertigo-synthesizer-to-v5-2-66835",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:01:25.973644+00:00",
-    "sourceTitle": "Discodsp Updates Vertigo Synthesizer To V5 2 66835"
-  },
-  {
-    "id": "6b0c803bb275",
-    "slug": "izotope-releases-rx-12-66802",
-    "name": "Izotope Releases Rx 12 66802",
-    "developer": "iZotope",
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Izotope Releases Rx 12 66802 — newly released.",
-    "longDescription": "Izotope Releases Rx 12 66802 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/izotope-releases-rx-12-66802",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:01:14.065311+00:00",
-    "sourceTitle": "Izotope Releases Rx 12 66802"
-  },
-  {
-    "id": "8a72bbda783f",
-    "slug": "fractal-synthesis-what-the-f-is-that-i-tried-to",
-    "name": "Fractal Synthesis – what the f… is that? I tried to...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Fractal Synthesis – what the f… is that? I tried to answer that question in my SFF video with Gilles from Kaona Modular, even though it’s not easy. It’s very mathematical, and fractal synthesis is cer",
-    "longDescription": "Fractal Synthesis – what the f… is that? I tried to answer that question in my SFF video with Gilles from Kaona Modular, even though it’s not easy. It’s very mathematical, and fractal synthesis is certainly a very avant-garde form of synthesis. And fractal synthesis can be explored in Kaona Modular’s new module, Fractaos. It’s a polyphonic oscillator and synth voice. Kaona Fractaos: A Polyphonic Oscillator For Synthesis Scientists \\| SynthFest France 2026 - YouTube Classic analog designs are ver",
-    "officialUrl": "https://synthanatomy.com/2026/05/kaona-fractaos-a-polyphonc-oscillator-and-synth-voice-using-fractal-synthesis.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:57:01.640943+00:00",
-    "sourceTitle": "Fractal Synthesis – what the f… is that? I tried to answer that question in my SFF video with Gilles from Kaona Modular,"
-  },
-  {
-    "id": "9c210cd20cfc",
-    "slug": "the-odd-1-granular-synthesizer-has-been-in-development",
-    "name": "The ODD-1 granular Synthesizer has been in development...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "The ODD-1 granular Synthesizer has been in development for over two years. Oddment Audio is also showcasing the ODD-1 at Superbooth (W206) this year. As a reminder: ODD-1 is a granular Synthesizer wit",
-    "longDescription": "The ODD-1 granular Synthesizer has been in development for over two years. Oddment Audio is also showcasing the ODD-1 at Superbooth (W206) this year. As a reminder: ODD-1 is a granular Synthesizer with up to 8-voice polyphony, shared across 2 multitimbral layers, and eight simultaneous stereo samples up to 60s at 48kHz. You have four independent playheads per layer with flexible assignment to the four samples. You can use the synth as a multi-timbral synth, expressive sampler, multi-track looper",
-    "officialUrl": "https://synthanatomy.com/2026/05/oddment-audio-odd-1-desktop-hardware-granular-synthesizer.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:56:58.338006+00:00",
-    "sourceTitle": "The ODD-1 granular Synthesizer has been in development for over two years. Oddment Audio is also showcasing the ODD-1 at"
-  },
-  {
-    "id": "8be8805df62b",
-    "slug": "when-making-electronic-music-one-usually-uses-a-synth",
-    "name": "When making electronic music, one usually uses a synth...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "When making electronic music, one usually uses a synth bass rather than a classic electric bass. The first question is: which synth? More importantly, the bass sound must fit the overall sound. Depend",
-    "longDescription": "When making electronic music, one usually uses a synth bass rather than a classic electric bass. The first question is: which synth? More importantly, the bass sound must fit the overall sound. Depending on the chosen sound, the bass must be further adjusted to blend seamlessly with the track. Developer Pascal Demez from the Belgium company Beatsurfing finds this step too cumbersome and has developed Low, a bass synth plugin that already integrates this right in the sound engine. LOW is a bass-f",
-    "officialUrl": "https://synthanatomy.com/2026/05/beatsurfing-low-a-bass-synthesizer-with-an-evolving-character.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:56:55.255084+00:00",
-    "sourceTitle": "When making electronic music, one usually uses a synth bass rather than a classic electric bass. The first question is: "
-  },
-  {
-    "id": "283b6e8fc6d7",
-    "slug": "it-seems-the-trend-hasnt-leveled-off-yet-schik-which",
-    "name": "It seems the trend hasn’t leveled off yet. Schik, which...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "It seems the trend hasn’t leveled off yet. Schik, which was successful with the N32B controller, will show the S32 at Superbooth 2026. The Shik is a new performance-oriented MIDI controller. It is Shi",
-    "longDescription": "It seems the trend hasn’t leveled off yet. Schik, which was successful with the N32B controller, will show the S32 at Superbooth 2026. The Shik is a new performance-oriented MIDI controller. It is Shik’s first flagship MIDI controller and can be seen as the superior version of the 32 series. It’s described as a compact device with an all-metal enclosure. 32 high-resolution knobs knobs form the core of S32, and each knob supports MIDI CC with MIDI learn, 14-bit CC, NRPN, program change, SysEx, an",
-    "officialUrl": "https://synthanatomy.com/2026/05/shik-s32-high-res-performance-midi-controller-with-optional-cv-expansion.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:56:51.799087+00:00",
-    "sourceTitle": "It seems the trend hasn’t leveled off yet. Schik, which was successful with the N32B controller, will show the S32 at Su"
-  },
-  {
-    "id": "95b2899d3db3",
-    "slug": "audio-midi",
-    "name": "Audio & MIDI",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Audio & MIDI — newly released.",
-    "longDescription": "Audio & MIDI — newly released.",
-    "officialUrl": "https://synthanatomy.com/2026/05",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:56:36.179965+00:00",
-    "sourceTitle": "Audio & MIDI"
-  },
-  {
-    "id": "1f0754490a4a",
-    "slug": "rockheyday-releases-ceilix-l-parallel-saturation-hybrid",
-    "name": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid...",
-    "developer": null,
-    "categoryId": "effects",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid... — newly released.",
-    "longDescription": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/rockheyday-releases-ceilix-l---parallel-saturation-hybrid-limiter-plugin-66824",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:56:10.166964+00:00",
-    "sourceTitle": "Rockheyday Releases Ceilix L Parallel Saturation Hybrid Limiter Plugin 66824"
-  },
-  {
-    "id": "f227ccd4355e",
-    "slug": "otium-releases-sidechainx-visual-sidechain-ducking-and",
-    "name": "Otium Releases Sidechainx Visual Sidechain Ducking And...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Otium Releases Sidechainx Visual Sidechain Ducking And... — newly released.",
-    "longDescription": "Otium Releases Sidechainx Visual Sidechain Ducking And... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/otium-releases-sidechainx---visual-sidechain-ducking-and-kickfit-assisted-kick-bass-separation-windows-vst3-66828",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:56:02.677193+00:00",
-    "sourceTitle": "Otium Releases Sidechainx Visual Sidechain Ducking And Kickfit Assisted Kick Bass Separation Windows Vst3 66828"
-  },
-  {
-    "id": "f2934ed9c58c",
-    "slug": "rncbc-org-updates-qtractor-to-v1-6-0-and-vee-one-suite",
-    "name": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite... — newly released.",
-    "longDescription": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/rncbc-org-updates-qtractor-to-v1-6-0-and-vee-one-suite-to-v1-4-2-for-linux-66821",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Linux"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:55:50.062124+00:00",
-    "sourceTitle": "Rncbc Org Updates Qtractor To V1 6 0 And Vee One Suite To V1 4 2 For Linux 66821"
-  },
-  {
-    "id": "93fa22f99ed6",
-    "slug": "innermost47-updates-obsidian-neural-to-v2-1-0-multi",
-    "name": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi... — newly released.",
-    "longDescription": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/innermost47-updates-obsidian-neural-to-v2-1-0---multi-model-era-new-ui-and-performance-controls-66831",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-03T07:55:45.960894+00:00",
-    "sourceTitle": "Innermost47 Updates Obsidian Neural To V2 1 0 Multi Model Era New Ui And Performance Controls 66831"
   }
 ]
