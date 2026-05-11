@@ -1,5 +1,289 @@
 [
   {
+    "id": "9f393789a962",
+    "slug": "apæron-afour",
+    "name": "### Apæron AFOUR",
+    "developer": "Native Instruments",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "According to the website, Apæron is a new company based in Malmö, southern Sweden. The first product of Apæron will be the new AFOUR Synthesizer. The interface shows that the knobs cover the main feat",
+    "longDescription": "According to the website, Apæron is a new company based in Malmö, southern Sweden. The first product of Apæron will be the new AFOUR Synthesizer. The interface shows that the knobs cover the main features, including VCOs, filter, etc, making the synth very hands-on and immediate. It’s nice that each knob has its own LED ring. Plus, there is a large LED display that provides visual feedback on the parameters. The synthesis method is synthesis, with 4 channels/4 layers. A look at the user interfac",
+    "officialUrl": "https://synthanatomy.com/2026/05/apaeron-afour-a-new-knobby-polyphonic-synthesizer-from-sweden.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:33:13.083531+00:00",
+    "sourceTitle": "### Apæron AFOUR"
+  },
+  {
+    "id": "f901daeab515",
+    "slug": "the-second-day-of-superbooth-2026-began-quietlyuntil-a",
+    "name": "The second day of Superbooth 2026 began quietly—until a...",
+    "developer": "Moog",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "The second day of Superbooth 2026 began quietly—until a piece of news made the rounds that became the topic of the day: Native Instruments has a new home. Jack O’Donnell’s inMusic will, in all likelih",
+    "longDescription": "The second day of Superbooth 2026 began quietly—until a piece of news made the rounds that became the topic of the day: Native Instruments has a new home. Jack O’Donnell’s inMusic will, in all likelihood, acquire Native Instruments in the coming weeks. The final signatures are still pending; therefore, it is not yet a finalized acquisition. > inMusic and Native Instruments today announced that inMusic has signed a definitive agreement to acquire Native Instruments, the Berlin-based music technol",
+    "officialUrl": "https://synthanatomy.com/2026/05/native-instruments-will-acquire-native-instruments-joining-the-portfolio-with-akai-and-moog.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:33:07.197442+00:00",
+    "sourceTitle": "The second day of Superbooth 2026 began quietly—until a piece of news made the rounds that became the topic of the day: "
+  },
+  {
+    "id": "a8995afbea94",
+    "slug": "good-news-from-waldorf-at-superbooth-2026-after-the",
+    "name": "Good news from Waldorf at Superbooth 2026. After the...",
+    "developer": "Native Instruments",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Good news from Waldorf at Superbooth 2026. After the company released the Iridium Mk2 in March, an upgrade option is now also available for Mk1 users. Starting mid-August, the new features of the Irid",
+    "longDescription": "Good news from Waldorf at Superbooth 2026. After the company released the Iridium Mk2 in March, an upgrade option is now also available for Mk1 users. Starting mid-August, the new features of the Iridium Mk2 desktop will also be available as a hardware upgrade for all Iridium models, including keyboard, Core, and desktop. This upgrade includes a new SOM board, offering increased RAM and flash memory, but the same CPU. These are the same specs used in the Iridium Mk2, unlocking the Seeds synthesi",
+    "officialUrl": "https://synthanatomy.com/2026/05/waldorf-iridium-mk2.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:33:02.065612+00:00",
+    "sourceTitle": "Good news from Waldorf at Superbooth 2026. After the company released the Iridium Mk2 in March, an upgrade option is now"
+  },
+  {
+    "id": "14f939d33c8e",
+    "slug": "most-of-the-time-synth-classics-like-the-sh-101",
+    "name": "Most of the time, synth classics like the SH-101,...",
+    "developer": "Native Instruments",
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusual, strange machines that have almost been forgotten. Rarely are they given a se",
+    "longDescription": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusual, strange machines that have almost been forgotten. Rarely are they given a second life. That was the case not with this release. This weekend (April 25-26), the first edition of the Music Machines Summit is taking place in Stockholm, Sweden, where several developers are showcasing their products. Analog Sweden is also present, unveiling the SWEN2, which will also be on displ",
+    "officialUrl": "https://synthanatomy.com/2026/05/analog-sweden-swen2-the-evolution-of-the-swenigiser-analog-synthesizer.html",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:32:57.326248+00:00",
+    "sourceTitle": "Most of the time, synth classics like the SH-101, Minimoog, TB-303, and others are revived. A different story with unusu"
+  },
+  {
+    "id": "44b1a97d42e9",
+    "slug": "modal-electronics-introduces-element-one-8-voice",
+    "name": "Modal Electronics Introduces Element One 8 Voice...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Modal Electronics Introduces Element One 8 Voice... — newly released.",
+    "longDescription": "Modal Electronics Introduces Element One 8 Voice... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/modal-electronics-introduces-element-one---8-voice-synthesizer-with-cobalt-derived-engine-and-simplified-interface-66930",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:32:08.635733+00:00",
+    "sourceTitle": "Modal Electronics Introduces Element One 8 Voice Synthesizer With Cobalt Derived Engine And Simplified Interface 66930"
+  },
+  {
+    "id": "c4910165ce85",
+    "slug": "vgtrumpet-updates-vg-wind-ensemble-to-v2-6-built-in",
+    "name": "Vgtrumpet Updates Vg Wind Ensemble To V2 6 Built In...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Vgtrumpet Updates Vg Wind Ensemble To V2 6 Built In... — newly released.",
+    "longDescription": "Vgtrumpet Updates Vg Wind Ensemble To V2 6 Built In... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/vgtrumpet-updates-vg-wind-ensemble-to-v2-6-built-in-harmonizer-and-new-sounds-66932",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:31:51.708509+00:00",
+    "sourceTitle": "Vgtrumpet Updates Vg Wind Ensemble To V2 6 Built In Harmonizer And New Sounds 66932"
+  },
+  {
+    "id": "9648c6b5bdfa",
+    "slug": "morphulus-updates-spectrus-to-v1-2-0-adds-stutterus",
+    "name": "Morphulus Updates Spectrus To V1 2 0 Adds Stutterus...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Morphulus Updates Spectrus To V1 2 0 Adds Stutterus... — newly released.",
+    "longDescription": "Morphulus Updates Spectrus To V1 2 0 Adds Stutterus... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/morphulus-updates-spectrus-to-v1-2-0---adds-stutterus-glitch-repeater-mix-lock-and-more-66905",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:31:44.609686+00:00",
+    "sourceTitle": "Morphulus Updates Spectrus To V1 2 0 Adds Stutterus Glitch Repeater Mix Lock And More 66905"
+  },
+  {
+    "id": "a1c5624c04a8",
+    "slug": "rockheyday-releases-krum-c-spectral-dynamics-compressor",
+    "name": "Rockheyday Releases Krum C Spectral Dynamics Compressor...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Rockheyday Releases Krum C Spectral Dynamics Compressor... — newly released.",
+    "longDescription": "Rockheyday Releases Krum C Spectral Dynamics Compressor... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/rockheyday-releases-krum-c---spectral-dynamics-compressor-66911",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:31:34.798208+00:00",
+    "sourceTitle": "Rockheyday Releases Krum C Spectral Dynamics Compressor 66911"
+  },
+  {
+    "id": "a76f98040594",
+    "slug": "frctl-releases-dlay-multi-tap-delay-with-interactive-bar",
+    "name": "Frctl Releases Dlay Multi Tap Delay With Interactive Bar...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": 0.0,
+    "priceType": "paid",
+    "shortDescription": "Frctl Releases Dlay Multi Tap Delay With Interactive Bar... — newly released.",
+    "longDescription": "Frctl Releases Dlay Multi Tap Delay With Interactive Bar... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/frctl-releases-dlay---multi-tap-delay-with-interactive-bar-editor-66936",
+    "rating": 4.0,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-11T09:31:22.424077+00:00",
+    "sourceTitle": "Frctl Releases Dlay Multi Tap Delay With Interactive Bar Editor 66936"
+  },
+  {
     "id": "ce197a304954",
     "slug": "berlin-is-a-hotspot-for-music-tech-developers-its-also",
     "name": "Berlin is a hotspot for music tech developers. It’s also...",
@@ -672,292 +956,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-05-07T08:26:40.073046+00:00",
     "sourceTitle": "Xeniaudio Updates Mcplugins Compressor Suite To V1 3 2 Hardware Calibrated 66832"
-  },
-  {
-    "id": "0366b5ea8a91",
-    "slug": "music-announces-blackbox-2-sampler-with-2x-power",
-    "name": "Music Announces Blackbox 2 Sampler With 2X Power...",
-    "developer": null,
-    "categoryId": "sampler",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Music Announces Blackbox 2 Sampler With 2X Power... — newly released.",
-    "longDescription": "Music Announces Blackbox 2 Sampler With 2X Power... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/1010-music-announces-blackbox-2-sampler-with-2x-power-shredder-instrument-and-3-hour-battery-66870",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "sampler"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-07T08:26:30.835960+00:00",
-    "sourceTitle": "Music Announces Blackbox 2 Sampler With 2X Power Shredder Instrument And 3 Hour Battery 66870"
-  },
-  {
-    "id": "dc1b7bc692f1",
-    "slug": "in-december-syntesla-announced-the-megahertz-a-5u",
-    "name": "In December, SynTesla announced the MegaHertz, a 5U...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "In December, SynTesla announced the MegaHertz, a 5U modular synthesizer based on the Hans Zimmer Giorgio III, which the developers created from scratch in 10 months. Pierre Jean Tardiveau and Yves Uss",
-    "longDescription": "In December, SynTesla announced the MegaHertz, a 5U modular synthesizer based on the Hans Zimmer Giorgio III, which the developers created from scratch in 10 months. Pierre Jean Tardiveau and Yves Usson, the developers, were at SynthFest France 2026, where I met them for a long interview about their collaboration with Hans Zimmer. They also showed me the Syntesla Megahertz. In mid-October, with the start of the new The Next Level Tour, I reported on the SynTesla Giorgio III monster synth, which ",
-    "officialUrl": "https://synthanatomy.com/2026/05/syntesla-megahertz-a-piece-of-hans-zimmers-5u-monster-synthesizer-for-your-studio.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:02:57.230807+00:00",
-    "sourceTitle": "In December, SynTesla announced the MegaHertz, a 5U modular synthesizer based on the Hans Zimmer Giorgio III, which the "
-  },
-  {
-    "id": "f8b4afc5480c",
-    "slug": "the-young-finnish-company-ferry-island-modular-launched",
-    "name": "The young Finnish company Ferry Island Modular launched...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "The young Finnish company Ferry Island Modular launched a year ago with the Four Seas, an exciting 4D wavetable oscillator for Eurorack. This year, the company is expanding its portfolio with two new ",
-    "longDescription": "The young Finnish company Ferry Island Modular launched a year ago with the Four Seas, an exciting 4D wavetable oscillator for Eurorack. This year, the company is expanding its portfolio with two new modules. Ahead of Superbooth 2026, Ferry Island Modular announced Undertwo and Beacon. Undertow is a new 16HP two-dimensional wavetable VCO and LFO matrix for Eurorack. Unlike Four Seas, the Ferry Island Modular Undertow is primarily a modulation module for complex, evolving signals. It can also be ",
-    "officialUrl": "https://synthanatomy.com/2026/05/ferry-island-modular-undertow-beacon.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:02:52.399757+00:00",
-    "sourceTitle": "The young Finnish company Ferry Island Modular launched a year ago with the Four Seas, an exciting 4D wavetable oscillat"
-  },
-  {
-    "id": "86a3f4d7c091",
-    "slug": "there-are-countless-synthesizers-many-of-them-are-no",
-    "name": "There are countless synthesizers. Many of them are no...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "There are countless synthesizers. Many of them are no longer available today. To preserve them for posterity, companies clone them or develop emulations. The developers of the Schmidt Synthesizer have",
-    "longDescription": "There are countless synthesizers. Many of them are no longer available today. To preserve them for posterity, companies clone them or develop emulations. The developers of the Schmidt Synthesizer have now decided to do the latter. Ahead of Superbooth 2026, Schmidt Synthesizer has announced the Schmidt Vi and deck software products. The Schmidt Vi is an upcoming authentic emulation of the flagship Schmidt Synthesizer. It is being developed in collaboration with the plugin developer Ujam. Accordin",
-    "officialUrl": "https://synthanatomy.com/2026/05/schmidt-vi-deck-the-flagship-schmidt-synthesizer-as-a-plugin-for-your-daw.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:02:48.394323+00:00",
-    "sourceTitle": "There are countless synthesizers. Many of them are no longer available today. To preserve them for posterity, companies "
-  },
-  {
-    "id": "deb8087a279b",
-    "slug": "is-your-nintendo-game-boy-advance-gathering-dust",
-    "name": "Is your Nintendo Game Boy Advance gathering dust...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Is your Nintendo Game Boy Advance gathering dust somewhere in your apartment because you haven’t played it in ages? And you have a flashcart that lets you load ROMs, then you should read on. Fors, the",
-    "longDescription": "Is your Nintendo Game Boy Advance gathering dust somewhere in your apartment because you haven’t played it in ages? And you have a flashcart that lets you load ROMs, then you should read on. Fors, the developer of the Elektron Digitone I engine, has just released FMS, a custom ROM that turns your Nintendo Game Boy into an FM groovebox. Better, it also works with GBA emulators. FMS is a groovebox for the Nintendo Game Boy Advance handheld video game console. According to Fors, FMS focuses on quic",
-    "officialUrl": "https://synthanatomy.com/2026/05/fors-fms-an-fm-groovebox-for-your-game-boy-advance-or-emulator.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:02:43.677380+00:00",
-    "sourceTitle": "Is your Nintendo Game Boy Advance gathering dust somewhere in your apartment because you haven’t played it in ages? And "
-  },
-  {
-    "id": "78d56314fa67",
-    "slug": "many-new-instruments-and-other-audio-tools-will-be",
-    "name": "Many new instruments and other audio tools will be...",
-    "developer": "Many",
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Many new instruments and other audio tools will be presented in the coming days. Superbooth also has news for people who occasionally want to swap their synthesizer for a good book. Bjooks will presen",
-    "longDescription": "Many new instruments and other audio tools will be presented in the coming days. Superbooth also has news for people who occasionally want to swap their synthesizer for a good book. Bjooks will present this year at their Superbooth 2026 booth the upcoming BEAT GEMS, a book about drum machines in modern music. This book continues the GEM series, which they started a few years ago with the SYNTH GEMS by Mike Metlay – a highly recommended book. BEAT GEMS offers readers an in-depth exploration of th",
-    "officialUrl": "https://synthanatomy.com/2026/05/bjooks-beat-gems-inside-drum-machines-and-their-sounds-circuits-and-history.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:02:39.244223+00:00",
-    "sourceTitle": "Many new instruments and other audio tools will be presented in the coming days. Superbooth also has news for people who"
-  },
-  {
-    "id": "07b5cf050a98",
-    "slug": "it-seems-we-cant-find-what-youre-looking-for-perhaps",
-    "name": "It seems we can’t find what you’re looking for. Perhaps...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "It seems we can’t find what you’re looking for. Perhaps searching can help.",
-    "longDescription": "It seems we can’t find what you’re looking for. Perhaps searching can help.",
-    "officialUrl": "https://synthanatomy.com/2026/05/fors-fms-an-fm-groovebox-for-your-game-boy-advance-or-emulator.html",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:02:21.638920+00:00",
-    "sourceTitle": "It seems we can’t find what you’re looking for. Perhaps searching can help."
-  },
-  {
-    "id": "33fafe49612d",
-    "slug": "universal-audio-releases-uad-enigmatic-82-overdrive",
-    "name": "Universal Audio Releases Uad Enigmatic 82 Overdrive...",
-    "developer": "Universal Audio",
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Universal Audio Releases Uad Enigmatic 82 Overdrive... — newly released.",
-    "longDescription": "Universal Audio Releases Uad Enigmatic 82 Overdrive... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/universal-audio-releases-uad-enigmatic-82-overdrive-special-amp---native-d-style-plugin-66827",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:01:51.176577+00:00",
-    "sourceTitle": "Universal Audio Releases Uad Enigmatic 82 Overdrive Special Amp Native D Style Plugin 66827"
-  },
-  {
-    "id": "1d5c92968804",
-    "slug": "tone2-updates-rayblaster-to-3-5-66773",
-    "name": "Tone2 Updates Rayblaster To 3 5 66773",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "paid",
-    "shortDescription": "Tone2 Updates Rayblaster To 3 5 66773 — newly released.",
-    "longDescription": "Tone2 Updates Rayblaster To 3 5 66773 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/tone2-updates-rayblaster-to-3-5-66773",
-    "rating": 4.0,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-05T08:01:46.456130+00:00",
-    "sourceTitle": "Tone2 Updates Rayblaster To 3 5 66773"
   }
 ]

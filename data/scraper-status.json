@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-05-09T07:49:19.270884+00:00",
-  "finishedAt": "2026-05-09T07:50:39.108905+00:00",
+  "startedAt": "2026-05-11T09:30:59.437262+00:00",
+  "finishedAt": "2026-05-11T09:33:20.870622+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 11,
+  "newEntries": 9,
   "rejectedEntries": 4,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 6,
+      "articlesScraped": 7,
+      "entriesAdded": 5,
       "entriesRejected": 1
     },
     {
@@ -33,7 +33,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 5,
+      "entriesAdded": 4,
       "entriesRejected": 0
     },
     {
@@ -55,13 +55,15 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Scrape failed: https://www.kvraudio.com/news/sonicware-announces-deconstruct-minimal---battery-powered-groovebox-aimed-at-techno-and-house-66929 \"Sonicware Announces Deconstruct Minimal - Battery-Powered Groovebox Aimed at Techno and House\""
+  ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/bjt2-updates-free-crescendo-programmable-vst-plugin-to-v1-0-192-for-windows-66886 \"Bjt2 Updates Free \\\"Crescendo\\\" Programmable VST Plugin to v1.0.192 for Windows\"",
+      "url": "https://www.kvraudio.com/news/jagernot-updates-din-is-noise-to-v64-2-for-macos-windows-and-linux-66931 \"Jagernot updates DIN Is Noise to v64.2 for macOS, Windows and Linux\"",
       "reason": "description_contains_ip_address",
-      "name": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To...",
-      "slug": "bjt2-updates-free-crescendo-programmable-vst-plugin-to"
+      "name": "Jagernot Updates Din Is Noise To V64 2 For Macos Windows...",
+      "slug": "jagernot-updates-din-is-noise-to-v64-2-for-macos-windows"
     },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
