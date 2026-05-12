@@ -2,7 +2,7 @@ import productsJson from '../data/products.json'
 import fs from 'fs'
 import path from 'path'
 
-export type PriceType = 'free' | 'freemium' | 'one-time' | 'subscription'
+export type PriceType = 'free' | 'freemium' | 'one-time' | 'subscription' | 'unknown'
 
 export interface Category {
   id: string
@@ -33,7 +33,7 @@ export interface Product {
   price: number | null
   priceType: PriceType
   officialUrl: string
-  rating: number
+  rating: number | null
   ratingCount: number
   os: string[]
   formats: string[]
@@ -470,6 +470,23 @@ function isGenericReleaseName(name: string): boolean {
   return false
 }
 
+// Strip residual scraper noise that should never appear in rendered titles:
+//   "### Elastic OSC Desktop"        -> "Elastic OSC Desktop"
+//   "[Some Title](https://...)"      -> "Some Title"
+// Sanitizer-side defense in depth for what the Python parser should have caught.
+function cleanReleaseName(name: string): string {
+  let n = name.trim()
+  n = n.replace(/^\s*#{1,6}\s+/, '').trim()
+  const linkMatch = n.match(/^\[([^\]]+)\]\(https?:\/\/[^\)]+\)\s*$/)
+  if (linkMatch) n = linkMatch[1].trim()
+  return n
+}
+
+function nameLooksLikeJunkArticleId(name: string): boolean {
+  // Catches "...To V5 4 7 66750" style KVR article-ID leakage.
+  return /\b\d{4,}$/.test(name.trim())
+}
+
 function looksLikeRoundupCopy(text: string): boolean {
   const t = text.toLowerCase()
   if (/\bthese are the best\b/.test(t)) return true
@@ -499,9 +516,9 @@ function toSafeStringArray(value: unknown, fallback: string[]): string[] {
 }
 
 function toSafePriceType(value: unknown): PriceType {
-  return value === 'free' || value === 'freemium' || value === 'subscription' || value === 'one-time'
+  return value === 'free' || value === 'freemium' || value === 'subscription' || value === 'one-time' || value === 'unknown'
     ? value
-    : 'one-time'
+    : 'unknown'
 }
 
 function releaseSlugHasNavArtifact(slug: string): boolean {
@@ -525,9 +542,11 @@ function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
     return null
   }
 
-  const safeName = entry.name.trim()
+  const safeName = cleanReleaseName(entry.name)
+  if (!safeName) return null
   if (isGenericReleaseName(safeName)) return null
   if ((safeName.startsWith('"') && safeName.endsWith('"')) || (safeName.startsWith('“') && safeName.endsWith('”'))) return null
+  if (nameLooksLikeJunkArticleId(safeName)) return null
   if (typeof entry.sourceTitle === 'string' && entry.sourceTitle.trim()) {
     if (!isSafeReleaseField(entry.sourceTitle)) return null
     if (isGenericReleaseName(entry.sourceTitle.trim())) return null
@@ -543,14 +562,16 @@ function sanitizeReleaseEntry(entry: any): SanitizedRelease | null {
     name: safeName,
     developer: isSafeReleaseField(entry.developer) ? entry.developer.trim() : undefined,
     categoryId: typeof entry.categoryId === 'string' && entry.categoryId.trim().length > 0 ? entry.categoryId : 'utility',
-    price: typeof entry.price === 'number' ? entry.price : 0,
+    price: typeof entry.price === 'number' ? entry.price : null,
     priceType: toSafePriceType(entry.priceType),
-    shortDescription: (entry.shortDescription ?? `${safeName} — recently released.`).trim(),
+    shortDescription: cleanReleaseName(entry.shortDescription ?? `${safeName} — recently released.`),
     longDescription: typeof entry.longDescription === 'string'
-      ? entry.longDescription.trim()
-      : (entry.shortDescription ?? '').trim(),
+      ? cleanReleaseName(entry.longDescription)
+      : cleanReleaseName(entry.shortDescription ?? ''),
     officialUrl: normalizeOfficialUrl((entry.officialUrl ?? '#').trim()),
-    rating: typeof entry.rating === 'number' ? entry.rating : 4.0,
+    // rating: pass null through. The hardcoded 4.0 fallback used to ship fake quality
+    // signals on every scraped card. Render layer hides the star when rating is null.
+    rating: typeof entry.rating === 'number' ? entry.rating : null,
     ratingCount: typeof entry.ratingCount === 'number' ? entry.ratingCount : 0,
     isNew: true,
     isFeatured: false,

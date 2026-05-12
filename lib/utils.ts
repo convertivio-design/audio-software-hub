@@ -8,7 +8,8 @@ export function cn(...inputs: ClassValue[]) {
 
 export function formatPrice(price: number | null, priceType: PriceType): string {
   if (priceType === 'free') return 'Free'
-  if (price === null) return 'Price TBA'
+  if (priceType === 'unknown') return 'Pricing TBA'
+  if (price === null) return 'Pricing TBA'
 
   const formatted = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -25,7 +26,10 @@ export function formatPrice(price: number | null, priceType: PriceType): string 
   }
 }
 
-export function formatRating(rating: number): string {
+// Returns the rating as a one-decimal string, or '' when rating is null.
+// Callers should gate the surrounding star icon on a non-null rating.
+export function formatRating(rating: number | null): string {
+  if (rating === null) return ''
   return rating.toFixed(1)
 }
 
@@ -40,5 +44,6 @@ export function priceTypeBadge(priceType: PriceType): string {
     case 'freemium': return 'Freemium'
     case 'one-time': return 'One-time'
     case 'subscription': return 'Subscription'
+    case 'unknown': return 'TBA'
   }
 }

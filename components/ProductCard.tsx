@@ -37,7 +37,9 @@ export function ProductCard({ product, className, compact = false, detailHref }:
             {developer && (
               <span className="text-[10px] uppercase tracking-widest text-white/40">{developer}</span>
             )}
-            <span className="text-[10px] text-white">&#9733; {formatRating(product.rating)}</span>
+            {product.rating !== null && (
+              <span className="text-[10px] text-white">&#9733; {formatRating(product.rating)}</span>
+            )}
           </div>
           <Link
             href={href}

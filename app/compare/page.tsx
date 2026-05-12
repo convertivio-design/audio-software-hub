@@ -171,16 +171,24 @@ export default function ComparePage({ searchParams }: Props) {
               {
                 label: 'Rating',
                 renderA: () => (
-                  <div>
-                    <span className="text-sm text-white">&#9733; {formatRating(productA.rating)}</span>
-                    <span className="text-xs text-white/30 ml-2">({formatRatingCount(productA.ratingCount)})</span>
-                  </div>
+                  productA.rating !== null && productA.ratingCount > 0 ? (
+                    <div>
+                      <span className="text-sm text-white">&#9733; {formatRating(productA.rating)}</span>
+                      <span className="text-xs text-white/30 ml-2">({formatRatingCount(productA.ratingCount)})</span>
+                    </div>
+                  ) : (
+                    <span className="text-xs text-white/30">No ratings yet</span>
+                  )
                 ),
                 renderB: () => (
-                  <div>
-                    <span className="text-sm text-white">&#9733; {formatRating(productB.rating)}</span>
-                    <span className="text-xs text-white/30 ml-2">({formatRatingCount(productB.ratingCount)})</span>
-                  </div>
+                  productB.rating !== null && productB.ratingCount > 0 ? (
+                    <div>
+                      <span className="text-sm text-white">&#9733; {formatRating(productB.rating)}</span>
+                      <span className="text-xs text-white/30 ml-2">({formatRatingCount(productB.ratingCount)})</span>
+                    </div>
+                  ) : (
+                    <span className="text-xs text-white/30">No ratings yet</span>
+                  )
                 ),
               },
               {

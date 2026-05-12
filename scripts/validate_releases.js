@@ -80,6 +80,23 @@ function main() {
     ) {
       issues.push(`${label}: name is a quoted title fragment`)
     }
+    // Scraper-content-quality checks added 2026-05-12 (NEW-92):
+    //  - reject names that start with a markdown heading marker ("### Foo")
+    //  - reject names that end in a long numeric article ID ("...To V5 4 7 66750")
+    //  - reject names that are a whole-string markdown link ("[Foo](https://...)")
+    //  - reject hardcoded rating: 4.0 literal (placeholder masquerading as quality)
+    if (/^#{1,6}\s/.test(name)) {
+      issues.push(`${label}: name starts with markdown heading marker`)
+    }
+    if (/\b\d{4,}$/.test(name)) {
+      issues.push(`${label}: name ends with numeric article id`)
+    }
+    if (/^\[[^\]]+\]\(https?:\/\//.test(name)) {
+      issues.push(`${label}: name is a markdown link`)
+    }
+    if (entry.rating === 4.0) {
+      issues.push(`${label}: rating is the hardcoded 4.0 placeholder (use null when no real ratings)`)
+    }
     if (typeof entry.sourceTitle === 'string' && isGenericName(entry.sourceTitle)) {
       issues.push(`${label}: sourceTitle is too generic`)
     }

@@ -104,10 +104,12 @@ export default function ProductPage({ params }: Props) {
 
             <p className="text-white/50 text-lg font-light leading-relaxed mb-8 max-w-2xl">{product.shortDescription}</p>
 
-            <div className="flex items-center gap-4">
-              <span className="text-sm text-white">&#9733; {formatRating(product.rating)}</span>
-              <span className="text-xs text-white/30">({formatRatingCount(product.ratingCount)} ratings)</span>
-            </div>
+            {product.rating !== null && product.ratingCount > 0 && (
+              <div className="flex items-center gap-4">
+                <span className="text-sm text-white">&#9733; {formatRating(product.rating)}</span>
+                <span className="text-xs text-white/30">({formatRatingCount(product.ratingCount)} ratings)</span>
+              </div>
+            )}
           </div>
 
           {/* Right: Price + CTA */}

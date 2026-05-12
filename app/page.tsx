@@ -130,13 +130,21 @@ export default function HomePage() {
                       <span className="text-white/30 text-2xl font-display font-bold">{product.name.charAt(0)}</span>
                     </div>
                     <span className="text-[10px] px-2 py-0.5 border border-white/30 uppercase tracking-tighter text-white/40 italic">
-                      {product.priceType === 'free' ? 'Free' : product.priceType === 'subscription' ? 'Sub' : 'One-Time'}
+                      {product.priceType === 'free'
+                        ? 'Free'
+                        : product.priceType === 'subscription'
+                          ? 'Sub'
+                          : product.priceType === 'unknown'
+                            ? 'TBA'
+                            : 'One-Time'}
                     </span>
                   </div>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
                       <span className="text-[10px] uppercase tracking-widest text-white/40">{developer}</span>
-                      <span className="flex items-center gap-1 text-[10px] text-white">&#9733; {formatRating(product.rating)}</span>
+                      {product.rating !== null && (
+                        <span className="flex items-center gap-1 text-[10px] text-white">&#9733; {formatRating(product.rating)}</span>
+                      )}
                     </div>
                     <Link href={`/products/${product.slug}`} className="block">
                       <h3 className="text-2xl font-medium tracking-tight font-display hover:text-white/80 transition-colors">{product.name}</h3>

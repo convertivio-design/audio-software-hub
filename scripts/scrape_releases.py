@@ -38,7 +38,11 @@ STATUS_FILE = ROOT / "data" / "scraper-status.json"
 MAX_KEEP = 30
 MAX_ARTICLES_PER_SOURCE = 8  # articles to scrape per listing page
 
-# Listing pages that contain links to individual release articles
+# Listing pages that contain links to individual release articles.
+#
+# Editorial sources (Synthanatomy, CDM) were dropped 2026-05-12: their pages are
+# commentary / news, not product releases. Their articles passed the URL filter
+# but produced misattributed cards on the live site. See NEW-92.
 LISTING_PAGES = [
     {
         "url": "https://www.kvraudio.com/news/",
@@ -52,19 +56,9 @@ LISTING_PAGES = [
         "link_pattern": r"bedroomproducersblog\.com/20\d\d/",
     },
     {
-        "url": "https://www.synthanatomy.com/",
-        "name": "Synthanatomy",
-        "link_pattern": r"synthanatomy\.com/20\d\d/",
-    },
-    {
         "url": "https://www.rekkerd.org/",
         "name": "Rekkerd",
         "link_pattern": r"rekkerd\.org/20\d\d/",
-    },
-    {
-        "url": "https://cdm.link/",
-        "name": "CDM",
-        "link_pattern": r"cdm\.link/20\d\d/",
     },
 ]
 
@@ -160,34 +154,55 @@ def detect_price(text: str) -> tuple:
         return float(price_match.group(1)), 'one-time'
     if any(w in text_lower for w in ['/month', '/year', 'subscription', 'annual plan', 'per month']):
         return 9.99, 'subscription'
-    return 0.0, 'paid'
+    # No price signal at all — emit unknown rather than fake "One-Time / $0".
+    return None, 'unknown'
 
 
-def extract_developer(text: str) -> str:
-    match = BRAND_PATTERN.search(text)
+def extract_developer(title: str, body: str) -> str | None:
+    """Return a brand name only if it appears in the title or first 300 chars of body.
+
+    The previous implementation scanned the first 2000 chars of body, which caused
+    editorial articles to be tagged with whatever brand happened to be mentioned in
+    passing (e.g. an NI acquisition story showing up as "Moog"). Restricting the
+    search radius removes that false-positive class. See NEW-92.
+    """
+    title_str = title or ''
+    body_str = (body or '')[:300]
+    haystack = title_str + ' ' + body_str
+
+    match = BRAND_PATTERN.search(haystack)
     if match:
         found = match.group(1)
         for brand in KNOWN_BRANDS:
             if brand.lower() == found.lower():
                 return brand
         return found
+
     patterns = [
         r'by\s+([A-Z][A-Za-z0-9\s\-]+?)[\s,\.\-]',
         r'^([A-Z][A-Za-z0-9\-]+)\s+(?:releases?|launches?|announces?|introduces?|unveils?)',
         r'^([A-Z][A-Za-z0-9\-]+)(?:\'s)?\s+new\b',
     ]
     for pat in patterns:
-        m = re.search(pat, text[:200])
+        m = re.search(pat, haystack[:200])
         if m:
             candidate = m.group(1).strip()
             if 2 < len(candidate) < 40:
                 return candidate
-    return ''
+    return None
 
 
 def extract_product_name(title: str, text: str) -> str:
     """Extract clean product name from title."""
     name = title
+
+    # Strip leading markdown heading markers (e.g. "### Elastic OSC Desktop")
+    name = re.sub(r'^\s*#{1,6}\s+', '', name).strip()
+
+    # Unwrap "[text](url)" -> "text" when the whole name is a markdown link.
+    md_link = re.match(r'^\[([^\]]+)\]\(https?://[^\)]+\)\s*$', name)
+    if md_link:
+        name = md_link.group(1).strip()
 
     # Strip leading noise
     noise_prefixes = [
@@ -248,6 +263,17 @@ def extract_name_from_url(url: str) -> str:
     slug_part = path.split('/')[-1]
     slug_part = re.sub(r'\.(html?|php)$', '', slug_part, flags=re.IGNORECASE)
     slug_part = re.sub(r'^[0-9]+-', '', slug_part)
+    # Strip trailing KVR-style numeric article IDs (e.g. "...-66750") so we don't
+    # render junk titles like "Apu Software Updates Loudness Series To V5 4 7 66750".
+    slug_part = re.sub(r'-\d{4,}$', '', slug_part)
+    # Normalize dash-separated version segments before the dash-to-space pass:
+    #   v5-4-7 -> v5.4.7, v2-1 -> v2.1
+    slug_part = re.sub(
+        r'\bv(\d+)-(\d+)-(\d+)\b', r'v\1.\2.\3', slug_part, flags=re.IGNORECASE
+    )
+    slug_part = re.sub(
+        r'\bv(\d+)-(\d+)\b', r'v\1.\2', slug_part, flags=re.IGNORECASE
+    )
     slug_part = slug_part.replace('-', ' ').replace('_', ' ')
     slug_part = re.sub(r'\s+', ' ', slug_part).strip()
     if not slug_part:
@@ -415,6 +441,10 @@ def validate_entry(entry: dict) -> tuple[bool, str]:
         return False, 'name_is_quoted_title_fragment'
     if name.startswith('[') and '](' in name:
         return False, 'name_is_markdown_link'
+    if name.lstrip().startswith('#'):
+        return False, 'name_starts_with_markdown_heading'
+    if re.search(r'\b\d{4,}$', name):
+        return False, 'name_ends_with_numeric_article_id'
     if len(name) < 5 or len(name) > 100:
         return False, 'name_length_invalid'
     if 'menu' in slug or 'http' in slug:
@@ -571,13 +601,17 @@ def parse_release_from_content(url: str, content: str) -> dict | None:
             break
     body = ' '.join(body_lines)
 
-    full_text = title + ' ' + content[:2000]
+    body_text = content[:2000]
+    full_text = title + ' ' + body_text
     name = extract_product_name(title, full_text)
     if is_junk_title_line(name):
         url_name = extract_name_from_url(url)
         if url_name:
             name = extract_product_name(url_name, full_text)
-    developer = extract_developer(full_text)
+    # extract_developer takes title + body separately and only searches the
+    # title plus first 300 chars of body, to avoid attaching random brand
+    # names from unrelated parts of editorial articles. See NEW-92.
+    developer = extract_developer(title, body_text)
     category_id = detect_category(full_text)
     price, price_type = detect_price(full_text)
     formats = extract_formats(full_text)
@@ -600,7 +634,10 @@ def parse_release_from_content(url: str, content: str) -> dict | None:
         "shortDescription": short_desc,
         "longDescription": long_desc,
         "officialUrl": url,
-        "rating": 4.0,
+        # rating: null is intentional. Scraped releases have no real reviews; the
+        # frontend renders nothing when this is null. A hardcoded 4.0 placeholder
+        # used to ship fake quality signals on every card. See NEW-92.
+        "rating": None,
         "ratingCount": 0,
         "isNew": True,
         "isFeatured": False,
