@@ -5,7 +5,7 @@ import {
   Search, ArrowRight, ArrowUpRight,
   Monitor, Waves, SlidersHorizontal, Library, Drum, Gauge, Cable, Mic, Guitar, Wrench, Sparkles, Zap,
 } from 'lucide-react'
-import { categories, getFeaturedProducts, getNewProducts, getProductCount } from '@/lib/data'
+import { categories, getFeaturedProducts, getNewProducts, getProductCount, getProductDeveloper } from '@/lib/data'
 import { formatPrice, formatRating } from '@/lib/utils'
 import { ProductCard } from '@/components/ProductCard'
 
@@ -122,7 +122,10 @@ export default function HomePage() {
           {/* Featured grid — boutique card style */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-x divide-y divide-white/10 border border-white/10">
             {featured.slice(0, 4).map(product => {
-              const developer = product.developer ?? 'Unknown'
+              // Use the helper so brandId-based developers (e.g. Ableton -> "Ableton")
+              // resolve correctly. Returns '' when nothing is known, which the markup
+              // below renders as an empty span rather than the word "Unknown".
+              const developer = getProductDeveloper(product)
               return (
                 <div key={product.id} className="group p-8 bg-black hover:bg-white/[0.02] transition-colors cursor-pointer">
                   <div className="flex justify-between items-start mb-12">
@@ -141,7 +144,11 @@ export default function HomePage() {
                   </div>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
-                      <span className="text-[10px] uppercase tracking-widest text-white/40">{developer}</span>
+                      {developer ? (
+                        <span className="text-[10px] uppercase tracking-widest text-white/40">{developer}</span>
+                      ) : (
+                        <span />
+                      )}
                       {product.rating !== null && (
                         <span className="flex items-center gap-1 text-[10px] text-white">&#9733; {formatRating(product.rating)}</span>
                       )}
