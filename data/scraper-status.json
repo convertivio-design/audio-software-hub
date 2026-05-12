@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-05-11T09:30:59.437262+00:00",
-  "finishedAt": "2026-05-11T09:33:20.870622+00:00",
+  "startedAt": "2026-05-12T18:40:48.303262+00:00",
+  "finishedAt": "2026-05-12T18:42:22.464567+00:00",
   "dryRun": false,
-  "existingEntries": 30,
-  "cleanedExistingEntries": 30,
-  "newEntries": 9,
-  "rejectedEntries": 4,
-  "outputEntries": 30,
+  "existingEntries": 0,
+  "cleanedExistingEntries": 0,
+  "newEntries": 6,
+  "rejectedEntries": 3,
+  "outputEntries": 6,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 7,
-      "entriesAdded": 5,
-      "entriesRejected": 1
+      "entriesAdded": 6,
+      "entriesRejected": 0
     },
     {
       "source": "BPB Free VST",
@@ -28,26 +28,8 @@
       "entriesRejected": 3
     },
     {
-      "source": "Synthanatomy",
-      "listingUrl": "https://www.synthanatomy.com/",
-      "listingScraped": true,
-      "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 4,
-      "entriesRejected": 0
-    },
-    {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
-      "candidateLinks": 0,
-      "articlesScraped": 0,
-      "entriesAdded": 0,
-      "entriesRejected": 0
-    },
-    {
-      "source": "CDM",
-      "listingUrl": "https://cdm.link/",
       "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
@@ -56,15 +38,9 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/sonicware-announces-deconstruct-minimal---battery-powered-groovebox-aimed-at-techno-and-house-66929 \"Sonicware Announces Deconstruct Minimal - Battery-Powered Groovebox Aimed at Techno and House\""
+    "Scrape failed: https://www.kvraudio.com/news/earmaster-30th-anniversary-sale-30-off-66883 \"EarMaster 30th Anniversary Sale – 30% Off\""
   ],
   "rejections": [
-    {
-      "url": "https://www.kvraudio.com/news/jagernot-updates-din-is-noise-to-v64-2-for-macos-windows-and-linux-66931 \"Jagernot updates DIN Is Noise to v64.2 for macOS, Windows and Linux\"",
-      "reason": "description_contains_ip_address",
-      "name": "Jagernot Updates Din Is Noise To V64 2 For Macos Windows...",
-      "slug": "jagernot-updates-din-is-noise-to-v64-2-for-macos-windows"
-    },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
       "reason": "name_too_generic",
