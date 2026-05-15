@@ -1,22 +1,22 @@
 {
   "status": "success",
-  "startedAt": "2026-05-13T08:46:02.095690+00:00",
-  "finishedAt": "2026-05-13T08:46:47.824295+00:00",
+  "startedAt": "2026-05-15T08:50:41.302356+00:00",
+  "finishedAt": "2026-05-15T08:51:37.967666+00:00",
   "dryRun": false,
   "existingEntries": 6,
   "cleanedExistingEntries": 6,
-  "newEntries": 0,
-  "rejectedEntries": 3,
-  "outputEntries": 6,
+  "newEntries": 5,
+  "rejectedEntries": 5,
+  "outputEntries": 11,
   "sources": [
     {
       "source": "KVR Audio News",
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 0,
-      "entriesRejected": 0
+      "articlesScraped": 8,
+      "entriesAdded": 5,
+      "entriesRejected": 2
     },
     {
       "source": "BPB Free VST",
@@ -37,10 +37,20 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/earmaster-30th-anniversary-sale-30-off-66883 \"EarMaster 30th Anniversary Sale – 30% Off\""
-  ],
+  "errors": [],
   "rejections": [
+    {
+      "url": "https://www.kvraudio.com/news/091audio-releases-hpdoctor---free-precision-high-pass-filter-plugin-vst3-and-au-66981 \"091Audio Releases HPDoctor - Free Precision High-Pass Filter Plugin (VST3 & AU",
+      "reason": "description_contains_ip_address",
+      "name": "091Audio Releases Hpdoctor Free Precision High Pass...",
+      "slug": "091audio-releases-hpdoctor-free-precision-high-pass"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/ueberschall-releases-jazz-ballads-elastik-loop-pack-66968 \"Ueberschall releases Jazz Ballads (Elastik Loop Pack",
+      "reason": "description_contains_ip_address",
+      "name": "Ueberschall Releases Jazz Ballads Elastik Loop Pack",
+      "slug": "ueberschall-releases-jazz-ballads-elastik-loop-pack"
+    },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
       "reason": "name_too_generic",

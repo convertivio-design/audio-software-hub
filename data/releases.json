@@ -1,5 +1,170 @@
 [
   {
+    "id": "3dd26211123c",
+    "slug": "dynamix-audio-releases-sampling-master-autosampling-and",
+    "name": "Dynamix Audio Releases Sampling Master Autosampling And...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Dynamix Audio Releases Sampling Master Autosampling And... — newly released.",
+    "longDescription": "Dynamix Audio Releases Sampling Master Autosampling And... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/dynamix-audio-releases-sampling-master-autosampling-and-sample-mapping-tool-for-macos-and-windows-66978",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-15T08:51:16.274605+00:00",
+    "sourceTitle": "Dynamix Audio Releases Sampling Master Autosampling And Sample Mapping Tool For Macos And Windows"
+  },
+  {
+    "id": "3b2ad2801930",
+    "slug": "bjt2-updates-free-crescendo-programmable-vst-plugin-to",
+    "name": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To... — newly released.",
+    "longDescription": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/bjt2-updates-free-crescendo-programmable-vst-plugin-to-v1-0-196-for-windows-66982",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-15T08:51:09.169934+00:00",
+    "sourceTitle": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To V1.0.196 For Windows"
+  },
+  {
+    "id": "c63d8412bdd5",
+    "slug": "bogren-digital-releases-irdx-studio-ir-loader-with",
+    "name": "Bogren Digital Releases Irdx Studio Ir Loader With...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Bogren Digital Releases Irdx Studio Ir Loader With... — newly released.",
+    "longDescription": "Bogren Digital Releases Irdx Studio Ir Loader With... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/bogren-digital-releases-irdx-studio---ir-loader-with-optional-irdx-technology-speaker-emulation-66984",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-15T08:51:05.496657+00:00",
+    "sourceTitle": "Bogren Digital Releases Irdx Studio Ir Loader With Optional Irdx Technology Speaker Emulation"
+  },
+  {
+    "id": "b89f66d9da6c",
+    "slug": "three-body-technology-releases-unmask-dynamic-eq-plugin",
+    "name": "Three Body Technology Releases Unmask Dynamic Eq Plugin...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Three Body Technology Releases Unmask Dynamic Eq Plugin... — newly released.",
+    "longDescription": "Three Body Technology Releases Unmask Dynamic Eq Plugin... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/three-body-technology-releases-unmask-dynamic-eq-plugin-vst-au-and-aax-66987",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-15T08:51:01.445454+00:00",
+    "sourceTitle": "Three Body Technology Releases Unmask Dynamic Eq Plugin Vst Au And Aax"
+  },
+  {
+    "id": "572a6b45dd05",
+    "slug": "audiothing-releases-environments-acoustic-spaces-reverb",
+    "name": "Audiothing Releases Environments Acoustic Spaces Reverb...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Audiothing Releases Environments Acoustic Spaces Reverb... — newly released.",
+    "longDescription": "Audiothing Releases Environments Acoustic Spaces Reverb... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/audiothing-releases-environments---acoustic-spaces-reverb-plugin-66986",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-15T08:50:57.462896+00:00",
+    "sourceTitle": "Audiothing Releases Environments Acoustic Spaces Reverb Plugin"
+  },
+  {
     "id": "696022631d24",
     "slug": "nikolozi-updates-mela-to-v78-for-macos-and-ios",
     "name": "Nikolozi Updates Mela To V7.8 For Macos And Ios",
