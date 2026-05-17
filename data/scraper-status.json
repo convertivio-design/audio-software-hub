@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-05-15T08:50:41.302356+00:00",
-  "finishedAt": "2026-05-15T08:51:37.967666+00:00",
+  "startedAt": "2026-05-17T08:22:41.495963+00:00",
+  "finishedAt": "2026-05-17T08:23:23.890180+00:00",
   "dryRun": false,
-  "existingEntries": 6,
-  "cleanedExistingEntries": 6,
-  "newEntries": 5,
-  "rejectedEntries": 5,
-  "outputEntries": 11,
+  "existingEntries": 11,
+  "cleanedExistingEntries": 11,
+  "newEntries": 2,
+  "rejectedEntries": 6,
+  "outputEntries": 13,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 5,
-      "entriesRejected": 2
+      "entriesAdded": 2,
+      "entriesRejected": 3
     },
     {
       "source": "BPB Free VST",
@@ -40,16 +40,22 @@
   "errors": [],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/091audio-releases-hpdoctor---free-precision-high-pass-filter-plugin-vst3-and-au-66981 \"091Audio Releases HPDoctor - Free Precision High-Pass Filter Plugin (VST3 & AU",
+      "url": "https://www.kvraudio.com/news/muse-group-updates-musescore-to-v4-7-66995 \"Muse Group updates Musescore to v4.7\"",
       "reason": "description_contains_ip_address",
-      "name": "091Audio Releases Hpdoctor Free Precision High Pass...",
-      "slug": "091audio-releases-hpdoctor-free-precision-high-pass"
+      "name": "Muse Group Updates Musescore To V4.7",
+      "slug": "muse-group-updates-musescore-to-v47"
     },
     {
-      "url": "https://www.kvraudio.com/news/ueberschall-releases-jazz-ballads-elastik-loop-pack-66968 \"Ueberschall releases Jazz Ballads (Elastik Loop Pack",
+      "url": "https://www.kvraudio.com/news/killihu-releases-simpler-sample-loader-for-ableton-live-66991 \"killihu releases Simpler Sample Loader for Ableton Live\"",
       "reason": "description_contains_ip_address",
-      "name": "Ueberschall Releases Jazz Ballads Elastik Loop Pack",
-      "slug": "ueberschall-releases-jazz-ballads-elastik-loop-pack"
+      "name": "Killihu Releases Simpler Sample Loader For Ableton Live",
+      "slug": "killihu-releases-simpler-sample-loader-for-ableton-live"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/inlet-audio-releases-rebuilt-upright---rebuilt-upright-piano-from-1880-for-kontakt-66989 \"Inlet Audio releases Rebuilt Upright - Rebuilt Upright Piano from 1880 for Kontakt\"",
+      "reason": "description_contains_ip_address",
+      "name": "Inlet Audio Releases Rebuilt Upright Rebuilt Upright...",
+      "slug": "inlet-audio-releases-rebuilt-upright-rebuilt-upright"
     },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",

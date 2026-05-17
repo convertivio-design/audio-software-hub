@@ -1,5 +1,69 @@
 [
   {
+    "id": "dca1e50032ae",
+    "slug": "audioblast-updates-mininndrum-to-v21",
+    "name": "Audioblast Updates Mininndrum To V2.1",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Audioblast Updates Mininndrum To V2.1 — newly released.",
+    "longDescription": "Audioblast Updates Mininndrum To V2.1 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/audioblast-updates-mininndrum-to-v2-1-66997",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-17T08:22:50.120666+00:00",
+    "sourceTitle": "Audioblast Updates Mininndrum To V2.1"
+  },
+  {
+    "id": "87f056e93106",
+    "slug": "accsone-updates-crusher-x-to-v1212",
+    "name": "Accsone Updates Crusher X To V12.12",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Accsone Updates Crusher X To V12.12 — newly released.",
+    "longDescription": "Accsone Updates Crusher X To V12.12 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/accsone-updates-crusher-x-to-v12-12-66999",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-17T08:22:46.765305+00:00",
+    "sourceTitle": "Accsone Updates Crusher X To V12.12"
+  },
+  {
     "id": "3dd26211123c",
     "slug": "dynamix-audio-releases-sampling-master-autosampling-and",
     "name": "Dynamix Audio Releases Sampling Master Autosampling And...",
