@@ -1,5 +1,135 @@
 [
   {
+    "id": "75a7f822932b",
+    "slug": "beat-viral-releases-phatso-circuit-colour-plugins-vst3",
+    "name": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3... — newly released.",
+    "longDescription": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/beat-viral-releases-phatso-circuit-colour-plugins-vst3-and-au-67019",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-19T09:46:19.057122+00:00",
+    "sourceTitle": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3 And Au"
+  },
+  {
+    "id": "4924765c8afc",
+    "slug": "bremmers-audio-design-updates-multitrackstudio-for-ipad",
+    "name": "Bremmers Audio Design Updates Multitrackstudio For Ipad...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Bremmers Audio Design Updates Multitrackstudio For Ipad... — newly released.",
+    "longDescription": "Bremmers Audio Design Updates Multitrackstudio For Ipad... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/bremmers-audio-design-updates-multitrackstudio-for-ipad-to-v5-4-67020",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-19T09:46:14.596246+00:00",
+    "sourceTitle": "Bremmers Audio Design Updates Multitrackstudio For Ipad To V5.4"
+  },
+  {
+    "id": "e8d16d916bc4",
+    "slug": "the-bob-moog-foundation-announces-fundraising-raffle-for",
+    "name": "The Bob Moog Foundation Announces Fundraising Raffle For...",
+    "developer": "Moog",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "The Bob Moog Foundation Announces Fundraising Raffle For... — newly released.",
+    "longDescription": "The Bob Moog Foundation Announces Fundraising Raffle For... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/the-bob-moog-foundation-announces-fundraising-raffle-for-bob-moog-tribute-edition-minimoog-serial-number-001-67022",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-19T09:46:10.690833+00:00",
+    "sourceTitle": "The Bob Moog Foundation Announces Fundraising Raffle For Bob Moog Tribute Edition Minimoog Serial Number 001"
+  },
+  {
+    "id": "bde2c75979b7",
+    "slug": "discodsp-updates-vertigo-additive-synth-to-v53-and",
+    "name": "Discodsp Updates Vertigo Additive Synth To V5.3 And...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Discodsp Updates Vertigo Additive Synth To V5.3 And... — newly released.",
+    "longDescription": "Discodsp Updates Vertigo Additive Synth To V5.3 And... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-vertigo-additive-synth-to-v5-3-and-retromulator-to-v1-4-67003",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-19T09:46:05.333833+00:00",
+    "sourceTitle": "Discodsp Updates Vertigo Additive Synth To V5.3 And Retromulator To V1.4"
+  },
+  {
     "id": "dca1e50032ae",
     "slug": "audioblast-updates-mininndrum-to-v21",
     "name": "Audioblast Updates Mininndrum To V2.1",
