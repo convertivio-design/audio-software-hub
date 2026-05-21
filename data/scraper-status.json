@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-05-19T09:45:59.719322+00:00",
-  "finishedAt": "2026-05-19T09:46:54.277355+00:00",
+  "startedAt": "2026-05-21T09:42:43.196432+00:00",
+  "finishedAt": "2026-05-21T09:43:30.315584+00:00",
   "dryRun": false,
-  "existingEntries": 13,
-  "cleanedExistingEntries": 13,
-  "newEntries": 4,
-  "rejectedEntries": 7,
-  "outputEntries": 17,
+  "existingEntries": 17,
+  "cleanedExistingEntries": 17,
+  "newEntries": 2,
+  "rejectedEntries": 9,
+  "outputEntries": 19,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 4,
-      "entriesRejected": 4
+      "entriesAdded": 2,
+      "entriesRejected": 6
     },
     {
       "source": "BPB Free VST",
@@ -40,28 +40,40 @@
   "errors": [],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/dawjunkie-releases-menace-and-mini-menace-analog-inspired-synth-plugins-vst-au-and-aax-67018 \"DAWJunkie releases Menace and Mini-Menace Analog-Inspired Synth Plugins (VST, AU & AAX",
+      "url": "https://www.kvraudio.com/news/satk-releases-overdub-studio---focused-voiceover-daw-for-video-clips-and-sports-highlights-67043 \"SATK releases Overdub Studio - Focused Voiceover DAW for Video Clips & Sports Highlights\"",
       "reason": "description_contains_ip_address",
-      "name": "Dawjunkie Releases Menace And Mini Menace Analog...",
-      "slug": "dawjunkie-releases-menace-and-mini-menace-analog"
+      "name": "Satk Releases Overdub Studio Focused Voiceover Daw For...",
+      "slug": "satk-releases-overdub-studio-focused-voiceover-daw-for"
     },
     {
-      "url": "https://www.kvraudio.com/news/musicdevelopments-updates-rapidcomposer-to-v6-1-3-67017 \"MusicDevelopments updates RapidComposer to v6.1.3\"",
+      "url": "https://www.kvraudio.com/news/apu-software-updates-loudness-series-to-v5-5-4-67050 \"APU Software updates Loudness Series to v5.5.4\"",
       "reason": "description_contains_ip_address",
-      "name": "Musicdevelopments Updates Rapidcomposer To V6.1.3",
-      "slug": "musicdevelopments-updates-rapidcomposer-to-v613"
+      "name": "Apu Software Updates Loudness Series To V5.5.4",
+      "slug": "apu-software-updates-loudness-series-to-v554"
     },
     {
-      "url": "https://www.kvraudio.com/news/viiri-audio-releases-aava-creative-convolution-processor-vst3-and-clap-67015 \"Viiri Audio releases Aava – Creative Convolution Processor (VST3 & CLAP",
+      "url": "https://www.kvraudio.com/news/tone-projects-releases-uni-l-master-limiter-67049 \"Tone Projects releases Uni-L Master Limiter\"",
       "reason": "description_contains_ip_address",
-      "name": "Viiri Audio Releases Aava Creative Convolution Processor...",
-      "slug": "viiri-audio-releases-aava-creative-convolution-processor"
+      "name": "Tone Projects Releases Uni L Master Limiter",
+      "slug": "tone-projects-releases-uni-l-master-limiter"
     },
     {
-      "url": "https://www.kvraudio.com/news/pspaudioware-updates-psp-oldtimer-to-v2-3-0-67014 \"PSPaudioware updates PSP oldTimer to v2.3.0\"",
+      "url": "https://www.kvraudio.com/news/ardour-9-5-released-with-midi-editing-improvements-67047 \"Ardour 9.5 released with MIDI editing improvements\"",
       "reason": "description_contains_ip_address",
-      "name": "Pspaudioware Updates Psp Oldtimer To V2.3.0",
-      "slug": "pspaudioware-updates-psp-oldtimer-to-v230"
+      "name": "Ardour 9 5 Released With Midi Editing Improvements",
+      "slug": "ardour-9-5-released-with-midi-editing-improvements"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/rockheyday-releases-tintar-s---analog-color-saturator-vst3-windows-67042 \"Rockheyday releases Tintar-S - Analog Color Saturator (VST3 Windows",
+      "reason": "description_contains_ip_address",
+      "name": "Rockheyday Releases Tintar S Analog Color Saturator Vst3...",
+      "slug": "rockheyday-releases-tintar-s-analog-color-saturator-vst3"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/metric-halo-and-make-believe-studios-release-mb-davids-2bus-67038 \"Metric Halo and Make Believe Studios release MB David's 2Bus\"",
+      "reason": "description_contains_ip_address",
+      "name": "Metric Halo And Make Believe Studios Release Mb Davids 2Bus",
+      "slug": "metric-halo-and-make-believe-studios-release-mb-davids-2bus"
     },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",

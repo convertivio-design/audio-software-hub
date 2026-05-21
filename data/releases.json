@@ -1,5 +1,69 @@
 [
   {
+    "id": "7539f306e824",
+    "slug": "toontrack-releases-classic-rock-ebx-expansion-for-ezbass",
+    "name": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass — newly released.",
+    "longDescription": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/toontrack-releases-classic-rock-ebx-expansion-for-ezbass-67040",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-21T09:43:09.800347+00:00",
+    "sourceTitle": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass"
+  },
+  {
+    "id": "84af59825fc4",
+    "slug": "arturia-releases-keylab-mk3-firmware-update-1-5",
+    "name": "Arturia Releases Keylab Mk3 Firmware Update 1 5...",
+    "developer": "Arturia",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Arturia Releases Keylab Mk3 Firmware Update 1 5... — newly released.",
+    "longDescription": "Arturia Releases Keylab Mk3 Firmware Update 1 5... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/arturia-releases-keylab-mk3-firmware-update-1-5---mainstage-integration-and-workflow-improvements-67046",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-21T09:43:05.124362+00:00",
+    "sourceTitle": "Arturia Releases Keylab Mk3 Firmware Update 1 5 Mainstage Integration And Workflow Improvements"
+  },
+  {
     "id": "75a7f822932b",
     "slug": "beat-viral-releases-phatso-circuit-colour-plugins-vst3",
     "name": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3...",
