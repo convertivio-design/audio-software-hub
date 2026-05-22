@@ -1,22 +1,22 @@
 {
   "status": "success",
-  "startedAt": "2026-05-21T09:42:43.196432+00:00",
-  "finishedAt": "2026-05-21T09:43:30.315584+00:00",
+  "startedAt": "2026-05-22T20:19:15.711493+00:00",
+  "finishedAt": "2026-05-22T20:20:37.590032+00:00",
   "dryRun": false,
-  "existingEntries": 17,
-  "cleanedExistingEntries": 17,
-  "newEntries": 2,
-  "rejectedEntries": 9,
-  "outputEntries": 19,
+  "existingEntries": 19,
+  "cleanedExistingEntries": 19,
+  "newEntries": 6,
+  "rejectedEntries": 4,
+  "outputEntries": 25,
   "sources": [
     {
       "source": "KVR Audio News",
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 2,
-      "entriesRejected": 6
+      "articlesScraped": 7,
+      "entriesAdded": 6,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
@@ -37,43 +37,15 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Scrape failed: https://www.kvraudio.com/news/w-a-production-releases-denoizzer-fx-plugin-with-67-off-intro-offer-67069 \"W. A. Production releases \\\"DeNoizzer\\\" FX plugin with 67% off intro offer\""
+  ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/satk-releases-overdub-studio---focused-voiceover-daw-for-video-clips-and-sports-highlights-67043 \"SATK releases Overdub Studio - Focused Voiceover DAW for Video Clips & Sports Highlights\"",
+      "url": "https://www.kvraudio.com/news/patchpool-releases-future-proof-for-serum-2-67070 \"patchpool releases Future-Proof for Serum 2\"",
       "reason": "description_contains_ip_address",
-      "name": "Satk Releases Overdub Studio Focused Voiceover Daw For...",
-      "slug": "satk-releases-overdub-studio-focused-voiceover-daw-for"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/apu-software-updates-loudness-series-to-v5-5-4-67050 \"APU Software updates Loudness Series to v5.5.4\"",
-      "reason": "description_contains_ip_address",
-      "name": "Apu Software Updates Loudness Series To V5.5.4",
-      "slug": "apu-software-updates-loudness-series-to-v554"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/tone-projects-releases-uni-l-master-limiter-67049 \"Tone Projects releases Uni-L Master Limiter\"",
-      "reason": "description_contains_ip_address",
-      "name": "Tone Projects Releases Uni L Master Limiter",
-      "slug": "tone-projects-releases-uni-l-master-limiter"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/ardour-9-5-released-with-midi-editing-improvements-67047 \"Ardour 9.5 released with MIDI editing improvements\"",
-      "reason": "description_contains_ip_address",
-      "name": "Ardour 9 5 Released With Midi Editing Improvements",
-      "slug": "ardour-9-5-released-with-midi-editing-improvements"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/rockheyday-releases-tintar-s---analog-color-saturator-vst3-windows-67042 \"Rockheyday releases Tintar-S - Analog Color Saturator (VST3 Windows",
-      "reason": "description_contains_ip_address",
-      "name": "Rockheyday Releases Tintar S Analog Color Saturator Vst3...",
-      "slug": "rockheyday-releases-tintar-s-analog-color-saturator-vst3"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/metric-halo-and-make-believe-studios-release-mb-davids-2bus-67038 \"Metric Halo and Make Believe Studios release MB David's 2Bus\"",
-      "reason": "description_contains_ip_address",
-      "name": "Metric Halo And Make Believe Studios Release Mb Davids 2Bus",
-      "slug": "metric-halo-and-make-believe-studios-release-mb-davids-2bus"
+      "name": "Patchpool Releases Future Proof For Serum 2",
+      "slug": "patchpool-releases-future-proof-for-serum-2"
     },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",

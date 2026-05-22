@@ -1,5 +1,203 @@
 [
   {
+    "id": "f2029fb6bb95",
+    "slug": "blue-cat-audio-updates-patchwork-to-v278-plug-in",
+    "name": "Blue Cat Audio Updates Patchwork To V2.78 Plug In...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Blue Cat Audio Updates Patchwork To V2.78 Plug In... — newly released.",
+    "longDescription": "Blue Cat Audio Updates Patchwork To V2.78 Plug In... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/blue-cat-audio-updates-patchwork-to-v2-78---plug-in-management-features-and-auv3-support-67060",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "AUv3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-22T20:20:17.672592+00:00",
+    "sourceTitle": "Blue Cat Audio Updates Patchwork To V2.78 Plug In Management Features And Auv3 Support"
+  },
+  {
+    "id": "8ad3cfc6377b",
+    "slug": "zak-sound-releases-deep-waters-2-neural-reverb-plugin",
+    "name": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin — newly released.",
+    "longDescription": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/zak-sound-releases-deep-waters-2-neural-reverb-plugin-67057",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-22T20:20:13.193134+00:00",
+    "sourceTitle": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin"
+  },
+  {
+    "id": "d944ada317a7",
+    "slug": "discodsp-updates-ob-xd-virtual-analog-synth-to-v321",
+    "name": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21 — newly released.",
+    "longDescription": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21 — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-ob-xd-virtual-analog-synth-to-v3-21-67063",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-22T20:20:00.305601+00:00",
+    "sourceTitle": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21"
+  },
+  {
+    "id": "0f7701c74fed",
+    "slug": "accentize-releases-free-dxlevel-plugin-loudness-leveling",
+    "name": "Accentize Releases Free Dxlevel Plugin Loudness Leveling...",
+    "developer": null,
+    "categoryId": "mastering",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Accentize Releases Free Dxlevel Plugin Loudness Leveling... — newly released.",
+    "longDescription": "Accentize Releases Free Dxlevel Plugin Loudness Leveling... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/accentize-releases-free-dxlevel-plugin---loudness-leveling-for-speech-post-production-67066",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "mastering"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-22T20:19:54.898275+00:00",
+    "sourceTitle": "Accentize Releases Free Dxlevel Plugin Loudness Leveling For Speech Post Production"
+  },
+  {
+    "id": "6b2541aedffc",
+    "slug": "mntra-releases-quasar-106-juno-inspired-filter-chorus",
+    "name": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus... — newly released.",
+    "longDescription": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/mntra-releases-quasar-106---juno-inspired-filter-chorus-and-drive-plugin-67067",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-22T20:19:50.445938+00:00",
+    "sourceTitle": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus And Drive Plugin"
+  },
+  {
+    "id": "0bbaaa0b7d51",
+    "slug": "teletone-audio-releases-hype-expressive-explosive-drums",
+    "name": "Teletone Audio Releases Hype Expressive Explosive Drums...",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Teletone Audio Releases Hype Expressive Explosive Drums... — newly released.",
+    "longDescription": "Teletone Audio Releases Hype Expressive Explosive Drums... — newly released.",
+    "officialUrl": "https://www.kvraudio.com/news/teletone-audio-releases-hype---expressive-explosive-drums-plugin-vst3-au-and-aax-67068",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-22T20:19:46.816572+00:00",
+    "sourceTitle": "Teletone Audio Releases Hype Expressive Explosive Drums Plugin Vst3 Au And Aax"
+  },
+  {
     "id": "7539f306e824",
     "slug": "toontrack-releases-classic-rock-ebx-expansion-for-ezbass",
     "name": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass",
