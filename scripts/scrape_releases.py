@@ -99,6 +99,21 @@ BRAND_PATTERN = re.compile(
     re.IGNORECASE
 )
 
+# Editorial/non-product content to reject by name keywords
+EDITORIAL_REJECT_KEYWORDS = [
+    'fundraising', 'fundraiser', 'raffle', 'charity', 'foundation announces',
+    'conference', 'webinar', 'livestream', 'live stream',
+    'acquisition', 'acquired by', 'partnership', 'partners with',
+    'obituary', 'passes away', 'in memoriam',
+    'award', 'winner', 'winners announced',
+    'sale ends', 'limited time offer', 'bundle deal',
+    'black friday', 'cyber monday',
+]
+EDITORIAL_REJECT_RE = re.compile(
+    '|'.join(re.escape(k) for k in EDITORIAL_REJECT_KEYWORDS),
+    re.IGNORECASE,
+)
+
 # URLs to skip
 JUNK_URL_PATTERNS = [
     r'/forum', r'/forums', r'/category/', r'/categories/', r'/tag/', r'/tags/',
@@ -193,18 +208,25 @@ def extract_developer(title: str, body: str) -> str | None:
 
 
 def extract_product_name(title: str, text: str) -> str:
-    """Extract clean product name from title."""
+    """Extract clean product name from a release-news headline.
+
+    Goal: strip Developer-verb prefix and trailing editorial noise so the
+    result reads like a product-directory entry rather than a news headline.
+      e.g. "Arturia Releases KeyLab Mk3 Firmware Update" -> "KeyLab Mk3"
+           "ATKAudio Releases ATKDucker Free Ducking Plugin" -> "ATKDucker"
+           "Nikolozi Updates Mela To V7.8 For macOS" -> "Mela"
+    """
     name = title
 
-    # Strip leading markdown heading markers (e.g. "### Elastic OSC Desktop")
+    # Strip leading markdown heading markers
     name = re.sub(r'^\s*#{1,6}\s+', '', name).strip()
 
-    # Unwrap "[text](url)" -> "text" when the whole name is a markdown link.
-    md_link = re.match(r'^\[([^\]]+)\]\(https?://[^\)]+\)\s*$', name)
+    # Unwrap "[text](url)" -> "text" when whole name is a markdown link.
+    md_link = re.match(r'^\[([^\]]+)\]\(https?://[^)]+\)\s*$', name)
     if md_link:
         name = md_link.group(1).strip()
 
-    # Strip leading noise
+    # Strip standalone verb prefixes (no leading brand)
     noise_prefixes = [
         r'^(?:free\s+)?(?:vst|vst3|au|aax|plugin|synth|daw|effect|effects|update|review|preview)[:\s\-]+',
         r'^new\s+(?:free\s+)?(?:vst|plugin|synth|daw|effect)[:\s\-]+',
@@ -214,9 +236,39 @@ def extract_product_name(title: str, text: str) -> str:
     for pat in noise_prefixes:
         name = re.sub(pat, '', name, flags=re.IGNORECASE).strip()
 
-    # Strip trailing noise
+    # Strip "Developer verb ProductName [trailing junk]" headline pattern.
+    release_verb = r'(?:releases?|updates?|announces?|introduces?|launches?|unveils?|presents?)'
+    m = re.match(
+        r'^[A-Z][A-Za-z0-9\s\.\-]{0,40}?\s+' + release_verb + r'\s+(.+)$',
+        name, flags=re.IGNORECASE
+    )
+    if m:
+        candidate = m.group(1).strip()
+        if len(candidate) >= 4:
+            name = candidate
+
+    # Strip trailing editorial noise after the product name.
+    # Order matters: more-specific patterns first.
+    trailing_noise_patterns = [
+        r'\s+(?:to\s+)?v?\d[\d\.]*\s+for\s+\w.*$',
+        r'\s+for\s+(?:halion|kontakt|reason|ios|macos|windows|pc|mac|android)(\b.*)?$',
+        r'\s*[-|]+\s*.+$',
+        r'\s+(?:vst3?|au|aax|clap|standalone|plugin)\s*$',
+        r'\s+(?:firmware\s+)?(?:update|version)\s+[\d\.]+\s*$',
+        r'\s+(?:firmware\s+update|software\s+update)\s*$',
+        r'\s+free\s+\w+(?:\s+\w+)?\s*$',
+        r'\s+to\s+v?\d[\d\.]*\s*$',
+        r'\s+v\d[\d\.]*(?:\s+.*)?$',
+        r'\s+(?:support\s+and\s+more|and\s+more)\s*$',
+    ]
+    for pat in trailing_noise_patterns:
+        stripped = re.sub(pat, '', name, flags=re.IGNORECASE).strip()
+        if len(stripped) >= 3:
+            name = stripped
+
+    # Safety-net trailing strip
     name = re.sub(
-        r'\s*[\-\|–—]\s*(?:review|preview|free\s+download|now\s+available|released?|'
+        r'\s*[-|]\s*(?:review|preview|free\s+download|now\s+available|released?|'
         r'announced?|update|v\d+[\.\d]*|vst|plugin|au|aax|mac|windows|pc|ios|android).*$',
         '', name, flags=re.IGNORECASE
     ).strip()
@@ -229,7 +281,6 @@ def extract_product_name(title: str, text: str) -> str:
         name = name[:57].rsplit(' ', 1)[0] + '...'
 
     return name or title[:60]
-
 
 def extract_formats(text: str) -> list:
     formats = []
@@ -591,6 +642,10 @@ def parse_release_from_content(url: str, content: str) -> dict | None:
     if len(title) < 10 or any(j in title.lower() for j in junk_titles):
         return None
 
+    # Reject editorial/non-product content by title keywords
+    if EDITORIAL_REJECT_RE.search(title):
+        return None
+
     # Body text: prefer meaningful article lines, skip boilerplate.
     body_lines = []
     for line in lines[1:60]:
@@ -617,8 +672,31 @@ def parse_release_from_content(url: str, content: str) -> dict | None:
     formats = extract_formats(full_text)
     os_list = extract_os(full_text)
 
-    short_desc = body[:200] if body else f"{name} — newly released."
-    long_desc = body[:500] if body else short_desc
+    # Build description: use scraped body if available, otherwise a directory-style fallback.
+    if body:
+        short_desc = body[:200]
+        long_desc = body[:500]
+    else:
+        dev_part = f"{developer} " if developer else ""
+        cat_label = {
+            'synth': 'synthesizer plugin',
+            'effects': 'audio effects plugin',
+            'sampler': 'sampler / sample library',
+            'drums': 'drum machine plugin',
+            'mastering': 'mastering plugin',
+            'midi': 'MIDI utility plugin',
+            'vocal': 'vocal processing plugin',
+            'guitar': 'guitar amp/effects plugin',
+            'daw': 'digital audio workstation',
+        }.get(category_id, 'audio plugin')
+        price_part = (
+            'Available free.' if price_type == 'free'
+            else f'${price:.0f} one-time.' if price_type == 'one-time' and price
+            else 'Subscription pricing.' if price_type == 'subscription'
+            else ''
+        )
+        short_desc = f"{dev_part}{name} is a {cat_label}. {price_part}".strip()
+        long_desc = short_desc
 
     slug = slugify(name)
     entry_id = make_id(url, name)

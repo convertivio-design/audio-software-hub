@@ -1,635 +1,14 @@
 [
   {
-    "id": "f2029fb6bb95",
-    "slug": "blue-cat-audio-updates-patchwork-to-v278-plug-in",
-    "name": "Blue Cat Audio Updates Patchwork To V2.78 Plug In...",
+    "id": "6016354298e1",
+    "slug": "mela-v78",
+    "name": "Mela v7.8",
     "developer": null,
     "categoryId": "utility",
     "price": null,
     "priceType": "unknown",
-    "shortDescription": "Blue Cat Audio Updates Patchwork To V2.78 Plug In... — newly released.",
-    "longDescription": "Blue Cat Audio Updates Patchwork To V2.78 Plug In... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/blue-cat-audio-updates-patchwork-to-v2-78---plug-in-management-features-and-auv3-support-67060",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "AUv3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-22T20:20:17.672592+00:00",
-    "sourceTitle": "Blue Cat Audio Updates Patchwork To V2.78 Plug In Management Features And Auv3 Support"
-  },
-  {
-    "id": "8ad3cfc6377b",
-    "slug": "zak-sound-releases-deep-waters-2-neural-reverb-plugin",
-    "name": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin — newly released.",
-    "longDescription": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/zak-sound-releases-deep-waters-2-neural-reverb-plugin-67057",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-22T20:20:13.193134+00:00",
-    "sourceTitle": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin"
-  },
-  {
-    "id": "d944ada317a7",
-    "slug": "discodsp-updates-ob-xd-virtual-analog-synth-to-v321",
-    "name": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21 — newly released.",
-    "longDescription": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-ob-xd-virtual-analog-synth-to-v3-21-67063",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-22T20:20:00.305601+00:00",
-    "sourceTitle": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21"
-  },
-  {
-    "id": "0f7701c74fed",
-    "slug": "accentize-releases-free-dxlevel-plugin-loudness-leveling",
-    "name": "Accentize Releases Free Dxlevel Plugin Loudness Leveling...",
-    "developer": null,
-    "categoryId": "mastering",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Accentize Releases Free Dxlevel Plugin Loudness Leveling... — newly released.",
-    "longDescription": "Accentize Releases Free Dxlevel Plugin Loudness Leveling... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/accentize-releases-free-dxlevel-plugin---loudness-leveling-for-speech-post-production-67066",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "mastering"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-22T20:19:54.898275+00:00",
-    "sourceTitle": "Accentize Releases Free Dxlevel Plugin Loudness Leveling For Speech Post Production"
-  },
-  {
-    "id": "6b2541aedffc",
-    "slug": "mntra-releases-quasar-106-juno-inspired-filter-chorus",
-    "name": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus...",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus... — newly released.",
-    "longDescription": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/mntra-releases-quasar-106---juno-inspired-filter-chorus-and-drive-plugin-67067",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-22T20:19:50.445938+00:00",
-    "sourceTitle": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus And Drive Plugin"
-  },
-  {
-    "id": "0bbaaa0b7d51",
-    "slug": "teletone-audio-releases-hype-expressive-explosive-drums",
-    "name": "Teletone Audio Releases Hype Expressive Explosive Drums...",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Teletone Audio Releases Hype Expressive Explosive Drums... — newly released.",
-    "longDescription": "Teletone Audio Releases Hype Expressive Explosive Drums... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/teletone-audio-releases-hype---expressive-explosive-drums-plugin-vst3-au-and-aax-67068",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-22T20:19:46.816572+00:00",
-    "sourceTitle": "Teletone Audio Releases Hype Expressive Explosive Drums Plugin Vst3 Au And Aax"
-  },
-  {
-    "id": "7539f306e824",
-    "slug": "toontrack-releases-classic-rock-ebx-expansion-for-ezbass",
-    "name": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass — newly released.",
-    "longDescription": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/toontrack-releases-classic-rock-ebx-expansion-for-ezbass-67040",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-21T09:43:09.800347+00:00",
-    "sourceTitle": "Toontrack Releases Classic Rock Ebx Expansion For Ezbass"
-  },
-  {
-    "id": "84af59825fc4",
-    "slug": "arturia-releases-keylab-mk3-firmware-update-1-5",
-    "name": "Arturia Releases Keylab Mk3 Firmware Update 1 5...",
-    "developer": "Arturia",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Arturia Releases Keylab Mk3 Firmware Update 1 5... — newly released.",
-    "longDescription": "Arturia Releases Keylab Mk3 Firmware Update 1 5... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/arturia-releases-keylab-mk3-firmware-update-1-5---mainstage-integration-and-workflow-improvements-67046",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-21T09:43:05.124362+00:00",
-    "sourceTitle": "Arturia Releases Keylab Mk3 Firmware Update 1 5 Mainstage Integration And Workflow Improvements"
-  },
-  {
-    "id": "75a7f822932b",
-    "slug": "beat-viral-releases-phatso-circuit-colour-plugins-vst3",
-    "name": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3... — newly released.",
-    "longDescription": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/beat-viral-releases-phatso-circuit-colour-plugins-vst3-and-au-67019",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-19T09:46:19.057122+00:00",
-    "sourceTitle": "Beat Viral Releases Phatso Circuit Colour Plugins Vst3 And Au"
-  },
-  {
-    "id": "4924765c8afc",
-    "slug": "bremmers-audio-design-updates-multitrackstudio-for-ipad",
-    "name": "Bremmers Audio Design Updates Multitrackstudio For Ipad...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Bremmers Audio Design Updates Multitrackstudio For Ipad... — newly released.",
-    "longDescription": "Bremmers Audio Design Updates Multitrackstudio For Ipad... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/bremmers-audio-design-updates-multitrackstudio-for-ipad-to-v5-4-67020",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-19T09:46:14.596246+00:00",
-    "sourceTitle": "Bremmers Audio Design Updates Multitrackstudio For Ipad To V5.4"
-  },
-  {
-    "id": "e8d16d916bc4",
-    "slug": "the-bob-moog-foundation-announces-fundraising-raffle-for",
-    "name": "The Bob Moog Foundation Announces Fundraising Raffle For...",
-    "developer": "Moog",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "The Bob Moog Foundation Announces Fundraising Raffle For... — newly released.",
-    "longDescription": "The Bob Moog Foundation Announces Fundraising Raffle For... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/the-bob-moog-foundation-announces-fundraising-raffle-for-bob-moog-tribute-edition-minimoog-serial-number-001-67022",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-19T09:46:10.690833+00:00",
-    "sourceTitle": "The Bob Moog Foundation Announces Fundraising Raffle For Bob Moog Tribute Edition Minimoog Serial Number 001"
-  },
-  {
-    "id": "bde2c75979b7",
-    "slug": "discodsp-updates-vertigo-additive-synth-to-v53-and",
-    "name": "Discodsp Updates Vertigo Additive Synth To V5.3 And...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Discodsp Updates Vertigo Additive Synth To V5.3 And... — newly released.",
-    "longDescription": "Discodsp Updates Vertigo Additive Synth To V5.3 And... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-vertigo-additive-synth-to-v5-3-and-retromulator-to-v1-4-67003",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-19T09:46:05.333833+00:00",
-    "sourceTitle": "Discodsp Updates Vertigo Additive Synth To V5.3 And Retromulator To V1.4"
-  },
-  {
-    "id": "dca1e50032ae",
-    "slug": "audioblast-updates-mininndrum-to-v21",
-    "name": "Audioblast Updates Mininndrum To V2.1",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Audioblast Updates Mininndrum To V2.1 — newly released.",
-    "longDescription": "Audioblast Updates Mininndrum To V2.1 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/audioblast-updates-mininndrum-to-v2-1-66997",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-17T08:22:50.120666+00:00",
-    "sourceTitle": "Audioblast Updates Mininndrum To V2.1"
-  },
-  {
-    "id": "87f056e93106",
-    "slug": "accsone-updates-crusher-x-to-v1212",
-    "name": "Accsone Updates Crusher X To V12.12",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Accsone Updates Crusher X To V12.12 — newly released.",
-    "longDescription": "Accsone Updates Crusher X To V12.12 — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/accsone-updates-crusher-x-to-v12-12-66999",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-17T08:22:46.765305+00:00",
-    "sourceTitle": "Accsone Updates Crusher X To V12.12"
-  },
-  {
-    "id": "3dd26211123c",
-    "slug": "dynamix-audio-releases-sampling-master-autosampling-and",
-    "name": "Dynamix Audio Releases Sampling Master Autosampling And...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Dynamix Audio Releases Sampling Master Autosampling And... — newly released.",
-    "longDescription": "Dynamix Audio Releases Sampling Master Autosampling And... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/dynamix-audio-releases-sampling-master-autosampling-and-sample-mapping-tool-for-macos-and-windows-66978",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-15T08:51:16.274605+00:00",
-    "sourceTitle": "Dynamix Audio Releases Sampling Master Autosampling And Sample Mapping Tool For Macos And Windows"
-  },
-  {
-    "id": "3b2ad2801930",
-    "slug": "bjt2-updates-free-crescendo-programmable-vst-plugin-to",
-    "name": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To... — newly released.",
-    "longDescription": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/bjt2-updates-free-crescendo-programmable-vst-plugin-to-v1-0-196-for-windows-66982",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [
-      "VST"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-15T08:51:09.169934+00:00",
-    "sourceTitle": "Bjt2 Updates Free Crescendo Programmable Vst Plugin To V1.0.196 For Windows"
-  },
-  {
-    "id": "c63d8412bdd5",
-    "slug": "bogren-digital-releases-irdx-studio-ir-loader-with",
-    "name": "Bogren Digital Releases Irdx Studio Ir Loader With...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Bogren Digital Releases Irdx Studio Ir Loader With... — newly released.",
-    "longDescription": "Bogren Digital Releases Irdx Studio Ir Loader With... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/bogren-digital-releases-irdx-studio---ir-loader-with-optional-irdx-technology-speaker-emulation-66984",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-15T08:51:05.496657+00:00",
-    "sourceTitle": "Bogren Digital Releases Irdx Studio Ir Loader With Optional Irdx Technology Speaker Emulation"
-  },
-  {
-    "id": "b89f66d9da6c",
-    "slug": "three-body-technology-releases-unmask-dynamic-eq-plugin",
-    "name": "Three Body Technology Releases Unmask Dynamic Eq Plugin...",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Three Body Technology Releases Unmask Dynamic Eq Plugin... — newly released.",
-    "longDescription": "Three Body Technology Releases Unmask Dynamic Eq Plugin... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/three-body-technology-releases-unmask-dynamic-eq-plugin-vst-au-and-aax-66987",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-15T08:51:01.445454+00:00",
-    "sourceTitle": "Three Body Technology Releases Unmask Dynamic Eq Plugin Vst Au And Aax"
-  },
-  {
-    "id": "572a6b45dd05",
-    "slug": "audiothing-releases-environments-acoustic-spaces-reverb",
-    "name": "Audiothing Releases Environments Acoustic Spaces Reverb...",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Audiothing Releases Environments Acoustic Spaces Reverb... — newly released.",
-    "longDescription": "Audiothing Releases Environments Acoustic Spaces Reverb... — newly released.",
-    "officialUrl": "https://www.kvraudio.com/news/audiothing-releases-environments---acoustic-spaces-reverb-plugin-66986",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-15T08:50:57.462896+00:00",
-    "sourceTitle": "Audiothing Releases Environments Acoustic Spaces Reverb Plugin"
-  },
-  {
-    "id": "696022631d24",
-    "slug": "nikolozi-updates-mela-to-v78-for-macos-and-ios",
-    "name": "Nikolozi Updates Mela To V7.8 For Macos And Ios",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Nikolozi Updates Mela To V7.8 For Macos And Ios — newly released.",
-    "longDescription": "Nikolozi Updates Mela To V7.8 For Macos And Ios — newly released.",
+    "shortDescription": "Mela v7.8 is a audio plugin.",
+    "longDescription": "Mela v7.8 is a audio plugin.",
     "officialUrl": "https://www.kvraudio.com/news/nikolozi-updates-mela-to-v7-8-for-macos-and-ios-66954",
     "rating": null,
     "ratingCount": 0,
@@ -655,15 +34,15 @@
     "sourceTitle": "Nikolozi Updates Mela To V7.8 For Macos And Ios"
   },
   {
-    "id": "737feef59908",
-    "slug": "atkaudio-releases-atkducker-free-ducking-plugin",
-    "name": "Atkaudio Releases Atkducker Free Ducking Plugin",
+    "id": "5a03ced47e68",
+    "slug": "atkducker",
+    "name": "Atkducker",
     "developer": null,
     "categoryId": "utility",
     "price": null,
     "priceType": "unknown",
-    "shortDescription": "Atkaudio Releases Atkducker Free Ducking Plugin — newly released.",
-    "longDescription": "Atkaudio Releases Atkducker Free Ducking Plugin — newly released.",
+    "shortDescription": "Atkducker is a audio plugin.",
+    "longDescription": "Atkducker is a audio plugin.",
     "officialUrl": "https://www.kvraudio.com/news/atkaudio-releases-atkducker---free-ducking-plugin-66960",
     "rating": null,
     "ratingCount": 0,
@@ -687,15 +66,15 @@
     "sourceTitle": "Atkaudio Releases Atkducker Free Ducking Plugin"
   },
   {
-    "id": "1cfae16c80fb",
-    "slug": "eventide-audio-releases-newfangled-audio-fixate-midrange",
-    "name": "Eventide Audio Releases Newfangled Audio Fixate Midrange...",
+    "id": "df24bc5e60f7",
+    "slug": "newfangled-audio-fixate-midrange-dynamic-eq-using",
+    "name": "Newfangled Audio Fixate Midrange Dynamic Eq Using...",
     "developer": "Eventide",
     "categoryId": "effects",
     "price": null,
     "priceType": "unknown",
-    "shortDescription": "Eventide Audio Releases Newfangled Audio Fixate Midrange... — newly released.",
-    "longDescription": "Eventide Audio Releases Newfangled Audio Fixate Midrange... — newly released.",
+    "shortDescription": "Eventide Newfangled Audio Fixate Midrange Dynamic Eq Using... is a audio effects plugin.",
+    "longDescription": "Eventide Newfangled Audio Fixate Midrange Dynamic Eq Using... is a audio effects plugin.",
     "officialUrl": "https://www.kvraudio.com/news/eventide-audio-releases-newfangled-audio-fixate-midrange---dynamic-eq-using-critical-band-analysis-for-midrange-correction-66961",
     "rating": null,
     "ratingCount": 0,
@@ -719,15 +98,15 @@
     "sourceTitle": "Eventide Audio Releases Newfangled Audio Fixate Midrange Dynamic Eq Using Critical Band Analysis For Midrange Correction"
   },
   {
-    "id": "77a724945745",
-    "slug": "xils-lab-releases-ramses-v20-vst3-support-and-more",
-    "name": "Xils Lab Releases Ramses V2.0 Vst3 Support And More",
+    "id": "5d7c24afb10b",
+    "slug": "ramses",
+    "name": "Ramses",
     "developer": null,
     "categoryId": "utility",
     "price": null,
     "priceType": "unknown",
-    "shortDescription": "Xils Lab Releases Ramses V2.0 Vst3 Support And More — newly released.",
-    "longDescription": "Xils Lab Releases Ramses V2.0 Vst3 Support And More — newly released.",
+    "shortDescription": "Ramses is a audio plugin.",
+    "longDescription": "Ramses is a audio plugin.",
     "officialUrl": "https://www.kvraudio.com/news/xils-lab-releases-ramses-v2-0---vst3-support-and-more-66962",
     "rating": null,
     "ratingCount": 0,
@@ -753,15 +132,15 @@
     "sourceTitle": "Xils Lab Releases Ramses V2.0 Vst3 Support And More"
   },
   {
-    "id": "1a1c5a8b0deb",
-    "slug": "sample-fuel-releases-guitarsynth-x-for-halion-sonic",
-    "name": "Sample Fuel Releases Guitarsynth X For Halion Sonic",
+    "id": "9f24aa45cddb",
+    "slug": "guitarsynth-x",
+    "name": "Guitarsynth X",
     "developer": null,
     "categoryId": "synth",
     "price": null,
     "priceType": "unknown",
-    "shortDescription": "Sample Fuel Releases Guitarsynth X For Halion Sonic — newly released.",
-    "longDescription": "Sample Fuel Releases Guitarsynth X For Halion Sonic — newly released.",
+    "shortDescription": "Guitarsynth X is a synthesizer plugin.",
+    "longDescription": "Guitarsynth X is a synthesizer plugin.",
     "officialUrl": "https://www.kvraudio.com/news/sample-fuel-releases-guitarsynth-x-for-halion-sonic-66951",
     "rating": null,
     "ratingCount": 0,
@@ -785,15 +164,15 @@
     "sourceTitle": "Sample Fuel Releases Guitarsynth X For Halion Sonic"
   },
   {
-    "id": "3ce6725644bc",
-    "slug": "uvi-releases-orchestral-suite-2-the-complete-symphonic",
-    "name": "Uvi Releases Orchestral Suite 2 The Complete Symphonic...",
+    "id": "e8f6c466c959",
+    "slug": "orchestral-suite-2-the-complete-symphonic-orchestra",
+    "name": "Orchestral Suite 2 The Complete Symphonic Orchestra",
     "developer": null,
     "categoryId": "utility",
     "price": null,
     "priceType": "unknown",
-    "shortDescription": "Uvi Releases Orchestral Suite 2 The Complete Symphonic... — newly released.",
-    "longDescription": "Uvi Releases Orchestral Suite 2 The Complete Symphonic... — newly released.",
+    "shortDescription": "Orchestral Suite 2 The Complete Symphonic Orchestra is a audio plugin.",
+    "longDescription": "Orchestral Suite 2 The Complete Symphonic Orchestra is a audio plugin.",
     "officialUrl": "https://www.kvraudio.com/news/uvi-releases-orchestral-suite-2---the-complete-symphonic-orchestra-66959",
     "rating": null,
     "ratingCount": 0,

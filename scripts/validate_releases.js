@@ -4,6 +4,10 @@ const path = require('path')
 const RELEASES_PATH = path.join(process.cwd(), 'data', 'releases.json')
 const JUNK_PATTERN = /\[menu\]|\[close\s*menu\]|closemenu|menuhttps?|menuhttp|close-menu|403\s*-\s*forbidden|please go to|bedroom producers blog|news ticker|can't find the page|cannot find the page|page you were looking for|we're sorry|we are sorry|typo|try one of these options|\bfree drum kits\b|\bdrum kits\b|\bdigital audio workstations\b|\bthese are the best\b|\bhigh-quality\b|\bincluded fully free\b|\bbpb\b|\bbpb’s\b|\bbpb's\b|!\[[^\]]*\]\(https?:\/\/|\]\(https?:\/\/|\\\s*[^\]]+\]\(https?:\/\/|\[\\?\[|\*\*|\\\\|\s\\\s/i
 const IP_PATTERN = /\b(?:\d{1,3}\.){3}\d{1,3}\b|\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b/i
+// Names matching these patterns are editorial non-product content
+const EDITORIAL_REJECT_PATTERN = /fundraising|fundraiser|raffle|charity|conference|webinar|live\s*stream|acquisition|obituary|passes\s+away|in\s+memoriam|award\s+winner|black\s+friday|cyber\s+monday/i
+// Names still shaped like news headlines after name extraction
+const HEADLINE_VERB_PATTERN = /^\S+\s+(?:releases?|updates?|announces?|introduces?|launches?|unveils?)\s+/i
 
 function slugHasNavArtifact(slug) {
   const s = String(slug || '').trim().toLowerCase()
@@ -96,6 +100,12 @@ function main() {
     }
     if (entry.rating === 4.0) {
       issues.push(`${label}: rating is the hardcoded 4.0 placeholder (use null when no real ratings)`)
+    }
+    if (EDITORIAL_REJECT_PATTERN.test(name)) {
+      issues.push(`${label}: name matches editorial/non-product keyword (fundraiser, raffle, charity, etc.)`)
+    }
+    if (HEADLINE_VERB_PATTERN.test(name)) {
+      issues.push(`${label}: name still looks like a news headline (contains release verb)`)
     }
     if (typeof entry.sourceTitle === 'string' && isGenericName(entry.sourceTitle)) {
       issues.push(`${label}: sourceTitle is too generic`)
