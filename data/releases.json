@@ -1,5 +1,169 @@
 [
   {
+    "id": "129492775d7d",
+    "slug": "deep-waters-2-neural-reverb",
+    "name": "Deep Waters 2 Neural Reverb",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Deep Waters 2 Neural Reverb is a audio effects plugin.",
+    "longDescription": "Deep Waters 2 Neural Reverb is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/zak-sound-releases-deep-waters-2-neural-reverb-plugin-67057",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-24T06:07:14.497100+00:00",
+    "sourceTitle": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin"
+  },
+  {
+    "id": "8b3dd22fb98b",
+    "slug": "ob-xd-virtual-analog-synth",
+    "name": "Ob Xd Virtual Analog Synth",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Ob Xd Virtual Analog Synth is a synthesizer plugin.",
+    "longDescription": "Ob Xd Virtual Analog Synth is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-ob-xd-virtual-analog-synth-to-v3-21-67063",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-24T06:07:11.941965+00:00",
+    "sourceTitle": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21"
+  },
+  {
+    "id": "80a00ef89039",
+    "slug": "free-dxlevel-plugin-loudness-leveling-for-speech-post",
+    "name": "Free Dxlevel Plugin Loudness Leveling For Speech Post...",
+    "developer": null,
+    "categoryId": "mastering",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Free Dxlevel Plugin Loudness Leveling For Speech Post... is a mastering plugin.",
+    "longDescription": "Free Dxlevel Plugin Loudness Leveling For Speech Post... is a mastering plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/accentize-releases-free-dxlevel-plugin---loudness-leveling-for-speech-post-production-67066",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "mastering"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-24T06:07:09.303224+00:00",
+    "sourceTitle": "Accentize Releases Free Dxlevel Plugin Loudness Leveling For Speech Post Production"
+  },
+  {
+    "id": "e1cd5e51cadc",
+    "slug": "quasar-106-juno-inspired-filter-chorus-and-drive",
+    "name": "Quasar 106 Juno Inspired Filter Chorus And Drive",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Quasar 106 Juno Inspired Filter Chorus And Drive is a audio effects plugin.",
+    "longDescription": "Quasar 106 Juno Inspired Filter Chorus And Drive is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/mntra-releases-quasar-106---juno-inspired-filter-chorus-and-drive-plugin-67067",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-24T06:07:06.406345+00:00",
+    "sourceTitle": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus And Drive Plugin"
+  },
+  {
+    "id": "688c8b7b8307",
+    "slug": "hype-expressive-explosive-drums-plugin-vst3-au-and",
+    "name": "Hype Expressive Explosive Drums Plugin Vst3 Au And",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Hype Expressive Explosive Drums Plugin Vst3 Au And is a drum machine plugin.",
+    "longDescription": "Hype Expressive Explosive Drums Plugin Vst3 Au And is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/teletone-audio-releases-hype---expressive-explosive-drums-plugin-vst3-au-and-aax-67068",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-05-24T06:07:03.356387+00:00",
+    "sourceTitle": "Teletone Audio Releases Hype Expressive Explosive Drums Plugin Vst3 Au And Aax"
+  },
+  {
     "id": "6016354298e1",
     "slug": "mela-v78",
     "name": "Mela v7.8",

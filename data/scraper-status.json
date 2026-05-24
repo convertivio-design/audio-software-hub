@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-05-23T08:21:00.412600+00:00",
-  "finishedAt": "2026-05-23T08:21:38.721027+00:00",
+  "startedAt": "2026-05-24T06:06:52.234795+00:00",
+  "finishedAt": "2026-05-24T06:07:30.406680+00:00",
   "dryRun": false,
-  "existingEntries": 25,
-  "cleanedExistingEntries": 25,
-  "newEntries": 0,
-  "rejectedEntries": 4,
-  "outputEntries": 25,
+  "existingEntries": 6,
+  "cleanedExistingEntries": 6,
+  "newEntries": 5,
+  "rejectedEntries": 5,
+  "outputEntries": 11,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 7,
-      "entriesAdded": 0,
-      "entriesRejected": 1
+      "entriesAdded": 5,
+      "entriesRejected": 2
     },
     {
       "source": "BPB Free VST",
@@ -42,10 +42,16 @@
   ],
   "rejections": [
     {
+      "url": "https://www.kvraudio.com/news/soniclab-updates-fundamental-to-v4-1-adding-mcp-support-67053 \"sonicLAB updates Fundamental to v4.1 adding MCP support\"",
+      "reason": "description_contains_ip_address",
+      "name": "Fundamental To",
+      "slug": "fundamental-to"
+    },
+    {
       "url": "https://www.kvraudio.com/news/patchpool-releases-future-proof-for-serum-2-67070 \"patchpool releases Future-Proof for Serum 2\"",
       "reason": "description_contains_ip_address",
-      "name": "Patchpool Releases Future Proof For Serum 2",
-      "slug": "patchpool-releases-future-proof-for-serum-2"
+      "name": "Future Proof For Serum 2",
+      "slug": "future-proof-for-serum-2"
     },
     {
       "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
