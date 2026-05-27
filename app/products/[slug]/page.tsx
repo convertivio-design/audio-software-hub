@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import {
   ExternalLink, Monitor, CheckCircle2,
-  XCircle, Puzzle, Users, Tag, ArrowUpRight,
+  XCircle, Puzzle, Users, Tag, ArrowUpRight, GitCompare,
 } from 'lucide-react'
 import {
   getProductBySlug, getCategoryById, getProductDeveloper,
@@ -135,6 +135,13 @@ export default function ProductPage({ params }: Props) {
               Visit Official Site
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
+            <Link
+              href={`/compare?a=${product.slug}&b=`}
+              className="inline-flex items-center gap-2 px-8 py-3 border border-white/20 text-white text-xs font-bold rounded-full hover:bg-white/10 transition-colors uppercase tracking-widest mt-3"
+            >
+              <GitCompare className="w-3.5 h-3.5" />
+              Compare with Another
+            </Link>
           </div>
         </div>
       </div>
@@ -261,6 +268,12 @@ export default function ProductPage({ params }: Props) {
                 >
                   Visit Official Site
                 </a>
+                <Link
+                  href={`/compare?a=${product.slug}&b=`}
+                  className="block w-full py-3 border border-white/20 text-white text-xs font-bold rounded-full hover:bg-white/10 transition-colors text-center uppercase tracking-widest mt-2"
+                >
+                  Compare
+                </Link>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ type Release = SanitizedRelease
 export async function GET() {
   const releases: Release[] = getSanitizedReleases()
 
-  const BASE = 'https://audio-software-hub.com'
+  const BASE = 'https://audiosoftwarehub.online'
   const items = releases.slice(0, 20).map(r => `
     <item>
       <title><![CDATA[${r.name}${r.developer ? ` by ${r.developer}` : ''}]]></title>

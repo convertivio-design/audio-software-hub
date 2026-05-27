@@ -4,6 +4,8 @@ on:
   schedule:
     # Run every 2 days at 06:00 UTC
     - cron: '0 6 */2 * *'
+  push:
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
@@ -35,16 +37,19 @@ jobs:
       run: npm install -g firecrawl-cli
 
     - name: Run release scraper
+      if: github.event_name != 'push'
       run: python scripts/scrape_releases.py
       env:
         PYTHONUNBUFFERED: "1"
         FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
 
     - name: Validate release data
+      if: github.event_name != 'push'
       run: npm run validate:releases
 
     - name: Check for changes
       id: check
+      if: github.event_name != 'push'
       run: |
         if [ -z "$(git status --porcelain -- data/releases.json data/scraper-status.json)" ]; then
           echo "changed=false" >> $GITHUB_OUTPUT
@@ -56,16 +61,16 @@ jobs:
         fi
 
     - name: Commit and push
-      if: steps.check.outputs.changed == 'true'
+      if: github.event_name != 'push' && steps.check.outputs.changed == 'true'
       run: |
-        git config --local user.email "${{ secrets.VERCEL_GIT_EMAIL }}"
+        git config --local user.email "${{ secrets.VERCEL_GIT_EMAIL || 'actions@github.com' }}"
         git config --local user.name "Release Scraper"
         git add data/releases.json data/scraper-status.json
         git commit -m "auto-scrape: $(date '+%Y-%m-%d %H:%M UTC') — releases updated"
         git push
 
     - name: Deploy to Vercel
-      if: steps.check.outputs.changed == 'true'
+      if: steps.check.outputs.changed == 'true' || github.event_name == 'push'
       run: |
         set -euo pipefail
         npm i -g vercel

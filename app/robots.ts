@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/_next/'],
     },
-    sitemap: 'https://audio-software-hub.com/sitemap.xml',
+    sitemap: 'https://audiosoftwarehub.online/sitemap.xml',
   }
 }

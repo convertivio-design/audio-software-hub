@@ -78,16 +78,32 @@ export default function ComparePage({ searchParams }: Props) {
             <p className="text-white/60 text-sm leading-relaxed mb-8">
               Navigate to{' '}
               <span className="text-white font-mono text-xs border border-white/20 px-2 py-0.5">
-                /compare?a=ableton-live-12&b=fl-studio-21
+                /compare?a=ableton-live&b=fl-studio
               </span>{' '}
               using any two product slugs from the directory.
             </p>
-            <p className="text-[10px] uppercase tracking-widest text-white/40 mb-4">Example comparisons</p>
+            <div className="flex gap-4 mb-8">
+              <Link
+                href="/categories"
+                className="flex items-center gap-2 px-6 py-3 bg-white text-black text-xs font-bold rounded-full hover:bg-zinc-200 transition-colors uppercase tracking-widest"
+              >
+                Browse Categories
+              </Link>
+              <Link
+                href="/search"
+                className="flex items-center gap-2 px-6 py-3 border border-white/20 text-white text-xs font-bold rounded-full hover:bg-white/10 transition-colors uppercase tracking-widest"
+              >
+                Search Tools
+              </Link>
+            </div>
+            <p className="text-[10px] uppercase tracking-widest text-white/40 mb-4">Or try an example comparison</p>
             <div className="flex flex-col gap-2">
               {[
-                ['ableton-live-12', 'fl-studio-21'],
+                ['ableton-live', 'fl-studio'],
                 ['serum', 'vital'],
-                ['fabfilter-pro-q3', 'izotope-ozone-11'],
+                ['fabfilter-pro-q-3', 'izotope-ozone-11-standard'],
+                ['logic-pro', 'cubase'],
+                ['massive-x', 'serum-fx'],
               ].map(([a, b]) => (
                 <Link
                   key={`${a}-${b}`}
@@ -99,8 +115,34 @@ export default function ComparePage({ searchParams }: Props) {
               ))}
             </div>
           </div>
+
         </div>
       )}
+
+      {/* Featured Comparison Articles */}
+      <div className="px-6 md:px-20 lg:px-40 py-12">
+        <div className="border-t border-white/10 pt-12">
+          <h2 className="text-lg font-bold text-white uppercase tracking-widest mb-6">Featured Comparison Articles</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link
+              href="/compare/serum-vs-vital"
+              className="group border border-white/10 p-6 hover:border-white/30 transition-all block"
+            >
+              <span className="text-[10px] px-2 py-0.5 border border-white/20 text-white/50 uppercase tracking-widest mb-3 inline-block">Synthesizers</span>
+              <h3 className="text-xl font-light font-display text-white group-hover:text-white/80 transition-colors mb-2">Serum vs Vital</h3>
+              <p className="text-sm text-white/40 leading-relaxed">Which wavetable synth is right for you? Compare features, pricing, sound quality, and value.</p>
+            </Link>
+            <Link
+              href="/compare/cubase-vs-ableton"
+              className="group border border-white/10 p-6 hover:border-white/30 transition-all block"
+            >
+              <span className="text-[10px] px-2 py-0.5 border border-white/20 text-white/50 uppercase tracking-widest mb-3 inline-block">DAWs</span>
+              <h3 className="text-xl font-light font-display text-white group-hover:text-white/80 transition-colors mb-2">Cubase vs Ableton Live</h3>
+              <p className="text-sm text-white/40 leading-relaxed">Detailed comparison of Steinberg Cubase and Ableton Live for music production in 2026.</p>
+            </Link>
+          </div>
+        </div>
+      </div>
 
       {/* Comparison table */}
       {bothFound && (() => {

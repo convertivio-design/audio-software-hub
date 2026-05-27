@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-display' })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://audio-software-hub.com'),
+  metadataBase: new URL('https://audiosoftwarehub.online'),
   title: {
     default: 'Audio Software Hub — Find Music Production Software',
     template: '%s | Audio Software Hub',
@@ -18,14 +18,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
     types: {
-      'application/rss+xml': 'https://audio-software-hub.com/rss',
+      'application/rss+xml': 'https://audiosoftwarehub.online/rss',
     },
   },
   openGraph: {
     title: 'Audio Software Hub',
     description: 'The definitive directory of 3,000+ music production tools.',
     type: 'website',
-    url: 'https://audio-software-hub.com',
+    url: 'https://audiosoftwarehub.online',
     siteName: 'Audio Software Hub',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Audio Software Hub' }],
   },
@@ -42,13 +42,13 @@ const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'Audio Software Hub',
-  url: 'https://audio-software-hub.com',
+  url: 'https://audiosoftwarehub.online',
   description: 'The definitive directory of music production software',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://audio-software-hub.com/search?q={search_term_string}',
+      urlTemplate: 'https://audiosoftwarehub.online/search?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },

@@ -40,19 +40,19 @@ export default function CategoryPage({ params }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://audio-software-hub.com',
+        item: 'https://audiosoftwarehub.online',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Categories',
-        item: 'https://audio-software-hub.com/categories',
+        item: 'https://audiosoftwarehub.online/categories',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: category.name,
-        item: `https://audio-software-hub.com/categories/${category.slug}`,
+        item: `https://audiosoftwarehub.online/categories/${category.slug}`,
       },
     ],
   }
@@ -102,6 +102,29 @@ export default function CategoryPage({ params }: Props) {
             {sorted.map(product => (
               <ProductCard key={product.id} product={product} />
             ))}
+          </div>
+        )}
+
+        {/* Compare callout */}
+        {sorted.length >= 2 && (
+          <div className="mt-12 border border-white/10 p-8">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div>
+                <p className="text-[10px] uppercase tracking-widest text-white/40 mb-2">Compare tools</p>
+                <h3 className="text-2xl font-light tracking-tight font-display text-white">
+                  Can't decide between two {category.name.toLowerCase()} tools?
+                </h3>
+                <p className="text-sm text-white/40 mt-2 max-w-xl">
+                  Use our side-by-side comparison tool to evaluate features, pricing, and specifications.
+                </p>
+              </div>
+              <Link
+                href="/compare"
+                className="shrink-0 px-8 py-4 bg-white text-black text-xs font-bold rounded-full hover:bg-zinc-200 transition-colors uppercase tracking-widest"
+              >
+                Compare Tools
+              </Link>
+            </div>
           </div>
         )}
       </div>
