@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getProductBySlug } from '@/lib/data'
 
 export const metadata: Metadata = {
   title: "Serum vs Vital: Which Wavetable Synth is Right for You? | Audio Software Hub",
@@ -8,10 +7,49 @@ export const metadata: Metadata = {
   alternates: { canonical: '/compare/serum-vs-vital' },
 }
 
-export default function SerumVsVitalPage() {
-  const serum = getProductBySlug('serum')
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Serum vs Vital Wavetable Synth Comparison",
+  "description": "Compare Xfer Records Serum vs Vital Audio Vital. Features, pricing, sound quality, and value for wavetable synthesis.",
+  "url": "https://audiosoftwarehub.online/compare/serum-vs-vital",
+  "numberOfItems": 2,
+  "itemListElement": [
+    {
+      "@type": "Product",
+      "name": "Xfer Records Serum",
+      "description": "Industry standard wavetable synth with massive preset ecosystem. Used by top producers worldwide.",
+      "brand": { "@type": "Brand", "name": "Xfer Records" },
+      "category": "Synthesizer",
+      "offers": {
+        "@type": "Offer",
+        "price": "189",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Vital Audio Vital",
+      "description": "Open-source wavetable synth with advanced modulation and spectral warping. Free tier is incredibly capable.",
+      "brand": { "@type": "Brand", "name": "Vital Audio" },
+      "category": "Synthesizer",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  ]
+}
+
+function SerumVsVitalPage() {
   return (
-    <div className="min-h-screen">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+<div className="min-h-screen">
       <div className="border-b border-white/10 px-6 md:px-20 lg:px-40 py-4">
         <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em]">
           <Link href="/" className="text-white/40 hover:text-white transition-colors">Home</Link>
@@ -92,11 +130,14 @@ export default function SerumVsVitalPage() {
           </div>
 
           <div className="mt-12">
-            <Link href="/compare?a=serum&b=vital" className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-white text-xs font-bold rounded-full hover:bg-white/10 transition-colors uppercase tracking-widest">Interactive Comparison →</Link>
+            <Link href="/compare?a=serum&b=vital" className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-white text-xs font-bold rounded-full hover:bg-white/10 transition-colors uppercase tracking-widest">Interactive Comparison â†’</Link>
             <Link href="/categories/synthesizers" className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-white text-xs font-bold rounded-full hover:bg-white/10 transition-colors uppercase tracking-widest ml-4">All Synthesizers</Link>
           </div>
         </div>
       </div>
     </div>
+    </>
   )
 }
+
+export default SerumVsVitalPage

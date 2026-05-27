@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AudioSoftwareHub SEO Dashboard</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+:root{
+  --bg:#07090d;--panel:#0e1219;--panel2:#131820;--line:#1e2a38;--text:#e6edf3;
+  --muted:#6b7d93;--accent:#7c5cff;--accent2:#a78bfa;--green:#22c55e;
+  --yellow:#f59e0b;--red:#ef4444;--blue:#38bdf8;--teal:#2dd4bf;
+  --glow:rgba(124,92,255,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+/* ── NAV TABS ── */
+.nav{position:sticky;top:0;z-index:100;background:rgba(7,9,13,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:0;padding:0 28px}
+.nav-brand{font-size:13px;font-weight:800;color:var(--accent2);letter-spacing:.04em;padding:14px 20px 14px 0;border-right:1px solid var(--line);margin-right:4px;white-space:nowrap}
+.tab-btn{background:none;border:none;color:var(--muted);font-size:13px;font-weight:600;padding:16px 18px;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap;letter-spacing:.01em}
+.tab-btn:hover{color:var(--text)}
+.tab-btn.active{color:var(--accent2);border-bottom-color:var(--accent)}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:10px}
+.badge{background:rgba(124,92,255,.14);border:1px solid rgba(124,92,255,.3);color:var(--accent2);padding:5px 12px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.04em}
+
+/* ── PAGES ── */
+.page{display:none;padding:28px;max-width:1560px;margin:0 auto}
+.page.active{display:block}
+
+/* ── METRICS ── */
+.metrics{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:24px}
+.metric{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px;position:relative;overflow:hidden;transition:border-color .2s}
+.metric::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--teal));opacity:0;transition:opacity .2s}
+.metric:hover{border-color:rgba(124,92,255,.4)}
+.metric:hover::after{opacity:1}
+.metric .k{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:600}
+.metric .v{font-size:30px;font-weight:800;margin-top:10px;background:linear-gradient(135deg,#fff,var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.metric .sub{color:var(--muted);font-size:11px;margin-top:4px}
+
+/* ── CARDS ── */
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px}
+.panel{padding:20px}
+.card-title{font-size:14px;font-weight:700;margin-bottom:4px;color:#c9d5e3}
+.card-sub{color:var(--muted);font-size:12px;margin-bottom:16px}
+
+.charts2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;margin-bottom:14px}
+.full{margin-bottom:14px}
+
+/* ── CUSTOM TABLE ── */
+.xtable{width:100%;border-collapse:collapse;font-size:13px}
+.xtable th{background:rgba(30,42,56,.6);color:#8899aa;font-size:11px;text-transform:uppercase;letter-spacing:.08em;padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);font-weight:600}
+.xtable td{padding:9px 12px;border-bottom:1px solid rgba(30,42,56,.5);vertical-align:middle}
+.xtable tr:last-child td{border-bottom:none}
+.xtable tr:hover td{background:rgba(124,92,255,.04)}
+.xtable .actions{display:flex;gap:6px}
+.xtable .del-btn{background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.25);color:#fca5a5;border-radius:6px;padding:3px 8px;font-size:11px;cursor:pointer;transition:all .15s}
+.xtable .del-btn:hover{background:rgba(239,68,68,.22)}
+.xtable .edit-btn{background:rgba(124,92,255,.1);border:1px solid rgba(124,92,255,.25);color:var(--accent2);border-radius:6px;padding:3px 8px;font-size:11px;cursor:pointer;transition:all .15s}
+.xtable .edit-btn:hover{background:rgba(124,92,255,.22)}
+
+/* ── PILLS ── */
+.pill{display:inline-flex;align-items:center;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.02em}
+.low{background:rgba(34,197,94,.12);color:#86efac;border:1px solid rgba(34,197,94,.28)}
+.medium{background:rgba(245,158,11,.12);color:#fcd34d;border:1px solid rgba(245,158,11,.28)}
+.high-diff{background:rgba(239,68,68,.12);color:#fca5a5;border:1px solid rgba(239,68,68,.28)}
+.pri-high{background:rgba(124,92,255,.14);color:#c4b5fd;border:1px solid rgba(124,92,255,.32)}
+.pri-med{background:rgba(56,189,248,.12);color:#93c5fd;border:1px solid rgba(56,189,248,.28)}
+.pill-comm{background:rgba(45,212,191,.1);color:#5eead4;border:1px solid rgba(45,212,191,.28)}
+.pill-info{background:rgba(56,189,248,.1);color:#93c5fd;border:1px solid rgba(56,189,248,.28)}
+
+/* ── SEARCH / FILTER BAR ── */
+.toolbar{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.search-inp{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:8px 14px;font-size:13px;outline:none;width:240px;transition:border-color .2s}
+.search-inp:focus{border-color:rgba(124,92,255,.5)}
+.search-inp::placeholder{color:var(--muted)}
+.filter-sel{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:8px 12px;font-size:13px;outline:none;cursor:pointer}
+.filter-sel option{background:var(--panel2)}
+.add-btn{background:linear-gradient(135deg,var(--accent),#5b3fd4);border:none;color:#fff;border-radius:10px;padding:8px 16px;font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px;transition:opacity .2s}
+.add-btn:hover{opacity:.88}
+.count-tag{color:var(--muted);font-size:12px;margin-left:auto}
+
+/* ── PAGINATION ── */
+.paginator{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:14px}
+.paginator button{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:5px 12px;font-size:12px;cursor:pointer;transition:all .15s}
+.paginator button:hover{border-color:var(--accent)}
+.paginator button.cur{background:var(--accent);border-color:var(--accent);color:#fff}
+.paginator button:disabled{opacity:.35;cursor:default}
+
+/* ── MODAL ── */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:999;display:none;align-items:center;justify-content:center}
+.modal-bg.open{display:flex}
+.modal{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px;width:540px;max-width:95vw;max-height:90vh;overflow-y:auto;box-shadow:0 40px 80px rgba(0,0,0,.5)}
+.modal h3{font-size:16px;font-weight:700;margin-bottom:20px;color:var(--accent2)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.form-grid.full{grid-template-columns:1fr}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-group label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.form-group input,.form-group select{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:9px 12px;font-size:13px;outline:none;transition:border-color .2s}
+.form-group input:focus,.form-group select:focus{border-color:rgba(124,92,255,.5)}
+.form-group select option{background:var(--panel2)}
+.modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:20px}
+.modal-actions .cancel{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:9px 20px;font-size:13px;cursor:pointer}
+.modal-actions .save{background:linear-gradient(135deg,var(--accent),#5b3fd4);border:none;color:#fff;border-radius:10px;padding:9px 20px;font-size:13px;font-weight:600;cursor:pointer}
+
+/* ── STRATEGY PAGE ── */
+.strat-header{margin-bottom:28px}
+.strat-header h2{font-size:26px;font-weight:800;background:linear-gradient(135deg,#fff,var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.strat-header p{color:var(--muted);font-size:14px;margin-top:6px}
+
+.phases{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+.phase-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;position:relative;overflow:hidden}
+.phase-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.phase-card.p1::before{background:linear-gradient(90deg,var(--teal),var(--blue))}
+.phase-card.p2::before{background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.phase-card.p3::before{background:linear-gradient(90deg,var(--yellow),var(--green))}
+.phase-label{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:700;margin-bottom:8px}
+.phase-title{font-size:15px;font-weight:700;margin-bottom:6px}
+.phase-weeks{font-size:12px;color:var(--muted);margin-bottom:14px}
+.phase-items{list-style:none;display:flex;flex-direction:column;gap:6px}
+.phase-items li{font-size:12px;color:#a8b8cc;display:flex;align-items:flex-start;gap:8px}
+.phase-items li::before{content:'→';color:var(--accent);flex-shrink:0;margin-top:1px}
+
+.sim-container{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:14px}
+.sim-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:gap}
+.sim-title{font-size:15px;font-weight:700;color:#c9d5e3}
+.sim-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sim-controls label{font-size:12px;color:var(--muted)}
+.sim-controls input[type=range]{accent-color:var(--accent);width:120px}
+.sim-val{font-size:12px;font-weight:700;color:var(--accent2);min-width:60px}
+.run-sim{background:linear-gradient(135deg,var(--accent),#5b3fd4);border:none;color:#fff;border-radius:10px;padding:8px 18px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .2s}
+.run-sim:hover{opacity:.85}
+
+.content-calendar{margin-top:0}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:16px}
+.cal-day{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 8px;min-height:80px;font-size:11px;position:relative;transition:border-color .2s}
+.cal-day:hover{border-color:rgba(124,92,255,.4)}
+.cal-day .day-num{font-weight:700;color:var(--muted);margin-bottom:6px;font-size:10px}
+.cal-day .task{background:rgba(124,92,255,.14);border:1px solid rgba(124,92,255,.3);border-radius:6px;padding:3px 6px;margin-bottom:4px;color:#c4b5fd;font-size:10px;line-height:1.3;cursor:default}
+.cal-day .task.pub{background:rgba(34,197,94,.1);border-color:rgba(34,197,94,.3);color:#86efac}
+.cal-day .task.res{background:rgba(56,189,248,.1);border-color:rgba(56,189,248,.3);color:#93c5fd}
+.cal-day .task.opt{background:rgba(245,158,11,.1);border-color:rgba(245,158,11,.3);color:#fcd34d}
+.cal-day.today{border-color:rgba(124,92,255,.6);background:rgba(124,92,255,.06)}
+.cal-day.today .day-num{color:var(--accent2)}
+.cal-labels{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:8px}
+.cal-labels span{text-align:center;font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+
+.content-queue{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:14px}
+.queue-title{font-size:15px;font-weight:700;color:#c9d5e3;margin-bottom:16px}
+.queue-item{display:flex;align-items:flex-start;gap:14px;padding:14px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;transition:border-color .2s}
+.queue-item:hover{border-color:rgba(124,92,255,.3)}
+.queue-num{background:linear-gradient(135deg,var(--accent),#5b3fd4);color:#fff;border-radius:8px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;margin-top:2px}
+.queue-body{flex:1}
+.queue-kw{font-size:13px;font-weight:600;margin-bottom:4px}
+.queue-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.queue-meta span{font-size:11px;color:var(--muted)}
+.queue-type{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:2px 8px;border-radius:999px}
+.qt-review{background:rgba(124,92,255,.14);color:#c4b5fd;border:1px solid rgba(124,92,255,.28)}
+.qt-tutorial{background:rgba(45,212,191,.1);color:#5eead4;border:1px solid rgba(45,212,191,.28)}
+.qt-compare{background:rgba(56,189,248,.1);color:#93c5fd;border:1px solid rgba(56,189,248,.28)}
+.qt-guide{background:rgba(245,158,11,.1);color:#fcd34d;border:1px solid rgba(245,158,11,.28)}
+.queue-vol{font-size:18px;font-weight:800;color:var(--accent2);text-align:right;flex-shrink:0}
+.queue-vol span{display:block;font-size:10px;color:var(--muted);font-weight:400;text-align:right}
+
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.kpi .kn{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600}
+.kpi .kv{font-size:24px;font-weight:800;margin-top:8px;color:#e2e8f0}
+.kpi .ks{font-size:11px;color:var(--green);margin-top:3px}
+
+.legend-row{display:flex;gap:16px;margin-bottom:12px;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
+.legend-dot{width:10px;height:10px;border-radius:3px;flex-shrink:0}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:#2d3f52}
+
+@media(max-width:1100px){
+  .metrics{grid-template-columns:repeat(3,1fr)}
+  .charts2,.grid2{grid-template-columns:1fr}
+  .phases{grid-template-columns:1fr}
+  .kpi-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:700px){
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .cal-grid{grid-template-columns:repeat(4,1fr)}
+  .page{padding:16px}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-brand">⬡ AudioSoftwareHub</div>
+  <button class="tab-btn active" onclick="switchTab('dashboard')">Dashboard</button>
+  <button class="tab-btn" onclick="switchTab('keywords')">Keywords</button>
+  <button class="tab-btn" onclick="switchTab('strategy')">Strategy & Plan</button>
+  <div class="nav-right">
+    <div class="badge">May 2026</div>
+  </div>
+</nav>
+
+<!-- ════════════════════════════════════════
+     PAGE 1 — DASHBOARD
+════════════════════════════════════════ -->
+<div class="page active" id="page-dashboard">
+
+  <div class="metrics" id="metricsBar"></div>
+
+  <div class="charts2">
+    <div class="card panel">
+      <div class="card-title">Keyword difficulty mix by topic</div>
+      <div class="card-sub">Low / Medium / High distribution across seed topics</div>
+      <div id="chart1"></div>
+    </div>
+    <div class="card panel">
+      <div class="card-title">Commercial vs Informational intent</div>
+      <div class="card-sub">Keywords by intent per seed topic</div>
+      <div id="chart2"></div>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card panel">
+      <div class="card-title">Seed topic overview</div>
+      <div class="card-sub">Volume, keyword count, priority, and low-difficulty mix</div>
+      <div class="toolbar">
+        <input class="search-inp" id="topicSearch" placeholder="Filter topics…" oninput="renderTopicTable()">
+      </div>
+      <div id="topicTableWrap"></div>
+    </div>
+    <div class="card panel">
+      <div class="card-title">Quick-win targets</div>
+      <div class="card-sub">Low difficulty + high priority opportunities</div>
+      <div class="toolbar">
+        <input class="search-inp" id="quickSearch" placeholder="Search quick wins…" oninput="renderQuickTable()">
+      </div>
+      <div id="quickTableWrap"></div>
+      <div class="paginator" id="quickPager"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════════════════════════════════════
+     PAGE 2 — KEYWORDS
+════════════════════════════════════════ -->
+<div class="page" id="page-keywords">
+
+  <div class="card panel full" style="margin-bottom:14px">
+    <div class="card-title">Full keyword database</div>
+    <div class="card-sub">All 53 keywords — search, filter, add, and remove entries</div>
+    <div class="toolbar">
+      <input class="search-inp" id="fullSearch" placeholder="Search keywords…" oninput="renderFullTable()">
+      <select class="filter-sel" id="filterTopic" onchange="renderFullTable()">
+        <option value="">All topics</option>
+        <option>music production</option><option>daw</option><option>synth</option>
+        <option>vst</option><option>ableton</option><option>cubase</option><option>xfer serum</option>
+      </select>
+      <select class="filter-sel" id="filterDiff" onchange="renderFullTable()">
+        <option value="">All difficulties</option>
+        <option>Low</option><option>Medium</option><option>High</option>
+      </select>
+      <select class="filter-sel" id="filterIntent" onchange="renderFullTable()">
+        <option value="">All intents</option>
+        <option>Commercial</option><option>Informational</option>
+      </select>
+      <button class="add-btn" onclick="openModal()">+ Add keyword</button>
+      <span class="count-tag" id="fullCount"></span>
+    </div>
+    <div id="fullTableWrap"></div>
+    <div class="paginator" id="fullPager"></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card panel">
+      <div class="card-title">Ableton Live — long-tail keywords</div>
+      <div class="card-sub">Tutorial-focused opportunities</div>
+      <div id="abletonWrap"></div>
+    </div>
+    <div class="card panel">
+      <div class="card-title">Xfer Serum alternatives — competition</div>
+      <div class="card-sub">Comparison and alternatives angle</div>
+      <div id="serumWrap"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════════════════════════════════════
+     PAGE 3 — STRATEGY & PLAN
+════════════════════════════════════════ -->
+<div class="page" id="page-strategy">
+
+  <div class="strat-header">
+    <h2>SEO Strategy & Content Plan</h2>
+    <p>90-day execution roadmap for audiosoftwarehub.online — from quick wins to authority building</p>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi"><div class="kn">Target monthly traffic</div><div class="kv" id="kpi1">0</div><div class="ks">↑ from 0 in 90 days</div></div>
+    <div class="kpi"><div class="kn">Articles to publish</div><div class="kv" id="kpi2">0</div><div class="ks">↑ planned posts</div></div>
+    <div class="kpi"><div class="kn">Quick-win keywords</div><div class="kv">16</div><div class="ks">Low KD, High priority</div></div>
+    <div class="kpi"><div class="kn">Total addressable vol.</div><div class="kv">724K</div><div class="ks">Combined monthly searches</div></div>
+  </div>
+
+  <div class="phases">
+    <div class="phase-card p1">
+      <div class="phase-label">Phase 1</div>
+      <div class="phase-title">Quick Win Launch</div>
+      <div class="phase-weeks">Weeks 1–3 · Low-KD, High-Vol targets</div>
+      <ul class="phase-items">
+        <li>Publish "What is a DAW" definitive guide (8,100/mo)</li>
+        <li>Publish "Serum Presets Free Download" roundup (12,000/mo)</li>
+        <li>Publish "How to Make Synth Sounds" tutorial (5,400/mo)</li>
+        <li>Publish "Music Production Workflow" guide (4,400/mo)</li>
+        <li>Publish "DAW for Hip Hop Production" comparison (5,400/mo)</li>
+        <li>Set up internal linking structure between all articles</li>
+        <li>Submit XML sitemap, verify Search Console</li>
+      </ul>
+    </div>
+    <div class="phase-card p2">
+      <div class="phase-label">Phase 2</div>
+      <div class="phase-title">Medium-KD Authority</div>
+      <div class="phase-weeks">Weeks 4–8 · Mid-difficulty, high-intent</div>
+      <ul class="phase-items">
+        <li>Best DAW 2026 mega comparison (22,000/mo)</li>
+        <li>Free DAW software guide (18,000/mo)</li>
+        <li>Best Music Production Software 2026 (18,000/mo)</li>
+        <li>Best Free VST Plugins 2026 (14,000/mo)</li>
+        <li>Ableton Live Tips & Tricks (9,900/mo)</li>
+        <li>Cubase vs Ableton deep-dive (9,900/mo)</li>
+        <li>Start link-building outreach to music blogs</li>
+      </ul>
+    </div>
+    <div class="phase-card p3">
+      <div class="phase-label">Phase 3</div>
+      <div class="phase-title">High-KD Assault</div>
+      <div class="phase-weeks">Weeks 9–13 · High-volume, competitive</div>
+      <ul class="phase-items">
+        <li>Free VST Plugins mega-hub (49,000/mo)</li>
+        <li>Best DAW for Beginners (40,000/mo)</li>
+        <li>Ableton Live Tutorial for Beginners (33,000/mo)</li>
+        <li>Music Production Software (110,000/mo)</li>
+        <li>Best VST Plugins for Music Production (27,000/mo)</li>
+        <li>Guest posts on high-DA music production blogs</li>
+        <li>HARO / PR outreach for backlinks</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SIMULATION -->
+  <div class="sim-container">
+    <div class="sim-header" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px">
+      <div>
+        <div class="sim-title">Traffic Growth Simulation</div>
+        <div style="color:var(--muted);font-size:12px;margin-top:2px">Adjust assumptions and run to project monthly organic traffic</div>
+      </div>
+      <div class="sim-controls">
+        <label>CTR assumption</label>
+        <input type="range" id="ctrSlider" min="1" max="8" value="3" step=".5" oninput="updateSliders()">
+        <span class="sim-val" id="ctrVal">3%</span>
+        <label>Content/week</label>
+        <input type="range" id="artSlider" min="1" max="5" value="2" step="1" oninput="updateSliders()">
+        <span class="sim-val" id="artVal">2</span>
+        <button class="run-sim" onclick="runSimulation()">Run simulation</button>
+      </div>
+    </div>
+    <div id="simChart"></div>
+  </div>
+
+  <!-- CONTENT CALENDAR -->
+  <div class="sim-container">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px">
+      <div class="sim-title">30-Day Content Calendar</div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <button class="run-sim" style="font-size:12px;padding:6px 14px" onclick="prevMonth()">← Prev</button>
+        <span id="calMonthLabel" style="font-size:13px;font-weight:700;color:var(--accent2);min-width:110px;text-align:center"></span>
+        <button class="run-sim" style="font-size:12px;padding:6px 14px" onclick="nextMonth()">Next →</button>
+      </div>
+    </div>
+    <div style="color:var(--muted);font-size:12px;margin-bottom:16px">Simulated publishing schedule based on Phase 1 quick-win targets</div>
+    <div class="legend-row">
+      <div class="legend-item"><div class="legend-dot" style="background:rgba(124,92,255,.5)"></div>Write/Draft</div>
+      <div class="legend-item"><div class="legend-dot" style="background:rgba(34,197,94,.5)"></div>Publish</div>
+      <div class="legend-item"><div class="legend-dot" style="background:rgba(56,189,248,.5)"></div>Research</div>
+      <div class="legend-item"><div class="legend-dot" style="background:rgba(245,158,11,.5)"></div>Optimize/Link</div>
+    </div>
+    <div class="cal-labels">
+      <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+    </div>
+    <div class="cal-grid" id="calGrid"></div>
+  </div>
+
+  <!-- CONTENT QUEUE -->
+  <div class="content-queue">
+    <div class="queue-title">Recommended content queue — ordered by impact</div>
+    <div id="contentQueue"></div>
+  </div>
+
+</div>
+
+<!-- ADD/EDIT MODAL -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <h3 id="modalTitle">Add keyword</h3>
+    <div class="form-grid">
+      <div class="form-group">
+        <label>Keyword</label>
+        <input id="fKeyword" placeholder="e.g. best DAW for beginners">
+      </div>
+      <div class="form-group">
+        <label>Seed topic</label>
+        <select id="fTopic">
+          <option>music production</option><option>daw</option><option>synth</option>
+          <option>vst</option><option>ableton</option><option>cubase</option><option>xfer serum</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Est. Volume</label>
+        <input id="fVolume" placeholder="e.g. 12,000">
+      </div>
+      <div class="form-group">
+        <label>Difficulty</label>
+        <select id="fDiff"><option>Low</option><option>Medium</option><option>High</option></select>
+      </div>
+      <div class="form-group">
+        <label>Intent</label>
+        <select id="fIntent"><option>Commercial</option><option>Informational</option></select>
+      </div>
+      <div class="form-group">
+        <label>Funnel</label>
+        <select id="fFunnel"><option>ToFu</option><option>MoFu</option><option>BoFu</option></select>
+      </div>
+      <div class="form-group">
+        <label>Priority</label>
+        <select id="fPriority"><option>High</option><option>Medium</option></select>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="cancel" onclick="closeModal()">Cancel</button>
+      <button class="save" onclick="saveKeyword()">Save keyword</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── DATA ────────────────────────────────────────────────────────────────────
+let fullData = [
+  {t:'music production',k:'music production software',i:'Commercial',f:'ToFu',d:'High',v:'110,000',p:'High'},
+  {t:'music production',k:'music production for beginners',i:'Informational',f:'ToFu',d:'Medium',v:'22,000',p:'High'},
+  {t:'music production',k:'best music production software 2026',i:'Commercial',f:'MoFu',d:'Medium',v:'18,000',p:'High'},
+  {t:'music production',k:'music production tips',i:'Informational',f:'ToFu',d:'Medium',v:'14,000',p:'Medium'},
+  {t:'music production',k:'free music production software',i:'Commercial',f:'MoFu',d:'Medium',v:'27,000',p:'High'},
+  {t:'music production',k:'music production course online',i:'Commercial',f:'BoFu',d:'Medium',v:'9,000',p:'Medium'},
+  {t:'music production',k:'home studio music production setup',i:'Informational',f:'MoFu',d:'Low',v:'5,400',p:'High'},
+  {t:'music production',k:'music production workflow',i:'Informational',f:'MoFu',d:'Low',v:'4,400',p:'High'},
+  {t:'daw',k:'best DAW for beginners',i:'Commercial',f:'ToFu',d:'High',v:'40,000',p:'High'},
+  {t:'daw',k:'best DAW 2026',i:'Commercial',f:'MoFu',d:'Medium',v:'22,000',p:'High'},
+  {t:'daw',k:'free DAW software',i:'Commercial',f:'MoFu',d:'Medium',v:'18,000',p:'High'},
+  {t:'daw',k:'DAW comparison',i:'Commercial',f:'MoFu',d:'Medium',v:'12,000',p:'High'},
+  {t:'daw',k:'what is a DAW in music production',i:'Informational',f:'ToFu',d:'Low',v:'8,100',p:'High'},
+  {t:'daw',k:'DAW for hip hop production',i:'Commercial',f:'MoFu',d:'Low',v:'5,400',p:'High'},
+  {t:'daw',k:'DAW for electronic music',i:'Commercial',f:'MoFu',d:'Low',v:'4,400',p:'High'},
+  {t:'daw',k:'best DAW for mixing and mastering',i:'Commercial',f:'MoFu',d:'Medium',v:'6,600',p:'High'},
+  {t:'synth',k:'best synth VST plugins 2026',i:'Commercial',f:'MoFu',d:'Medium',v:'9,900',p:'High'},
+  {t:'synth',k:'free synth VST plugins',i:'Commercial',f:'MoFu',d:'Medium',v:'14,000',p:'High'},
+  {t:'synth',k:'wavetable synthesis explained',i:'Informational',f:'ToFu',d:'Low',v:'4,400',p:'Medium'},
+  {t:'synth',k:'analog synth VST emulation',i:'Commercial',f:'MoFu',d:'Low',v:'2,900',p:'Medium'},
+  {t:'synth',k:'synth presets free download',i:'Commercial',f:'BoFu',d:'Low',v:'6,600',p:'High'},
+  {t:'synth',k:'how to make synth sounds',i:'Informational',f:'ToFu',d:'Low',v:'5,400',p:'High'},
+  {t:'synth',k:'best synths for EDM production',i:'Commercial',f:'MoFu',d:'Low',v:'3,600',p:'High'},
+  {t:'vst',k:'best VST plugins for music production',i:'Commercial',f:'MoFu',d:'High',v:'27,000',p:'High'},
+  {t:'vst',k:'free VST plugins',i:'Commercial',f:'MoFu',d:'High',v:'49,000',p:'High'},
+  {t:'vst',k:'how to install VST plugins',i:'Informational',f:'ToFu',d:'Medium',v:'18,000',p:'High'},
+  {t:'vst',k:'best free VST plugins 2026',i:'Commercial',f:'MoFu',d:'Medium',v:'14,000',p:'High'},
+  {t:'vst',k:'VST plugins for Ableton',i:'Commercial',f:'BoFu',d:'Medium',v:'8,100',p:'High'},
+  {t:'vst',k:'VST vs AU plugins',i:'Informational',f:'MoFu',d:'Low',v:'3,600',p:'Medium'},
+  {t:'vst',k:'best VST compressor plugins',i:'Commercial',f:'MoFu',d:'Medium',v:'5,400',p:'Medium'},
+  {t:'ableton',k:'Ableton Live tutorial for beginners',i:'Informational',f:'ToFu',d:'High',v:'33,000',p:'High'},
+  {t:'ableton',k:'Ableton Live vs FL Studio',i:'Commercial',f:'MoFu',d:'High',v:'27,000',p:'High'},
+  {t:'ableton',k:'Ableton Live price 2026',i:'Commercial',f:'BoFu',d:'Medium',v:'12,000',p:'High'},
+  {t:'ableton',k:'Ableton Live free trial',i:'Commercial',f:'BoFu',d:'Medium',v:'8,100',p:'High'},
+  {t:'ableton',k:'Ableton Live for beatmaking',i:'Commercial',f:'MoFu',d:'Low',v:'5,400',p:'High'},
+  {t:'ableton',k:'Ableton Live tips and tricks',i:'Informational',f:'MoFu',d:'Medium',v:'9,900',p:'High'},
+  {t:'ableton',k:'Ableton Live system requirements',i:'Informational',f:'BoFu',d:'Low',v:'4,400',p:'Medium'},
+  {t:'ableton',k:'Ableton Live vs Logic Pro',i:'Commercial',f:'MoFu',d:'High',v:'18,000',p:'High'},
+  {t:'cubase',k:'Cubase tutorial for beginners',i:'Informational',f:'ToFu',d:'Medium',v:'14,000',p:'High'},
+  {t:'cubase',k:'Cubase vs Ableton',i:'Commercial',f:'MoFu',d:'Medium',v:'9,900',p:'High'},
+  {t:'cubase',k:'Cubase price and editions',i:'Commercial',f:'BoFu',d:'Low',v:'5,400',p:'High'},
+  {t:'cubase',k:'Cubase for MIDI composition',i:'Commercial',f:'MoFu',d:'Low',v:'3,600',p:'Medium'},
+  {t:'cubase',k:'Cubase Elements vs Artist vs Pro',i:'Commercial',f:'BoFu',d:'Low',v:'4,400',p:'High'},
+  {t:'cubase',k:'Cubase free download',i:'Commercial',f:'BoFu',d:'Medium',v:'8,100',p:'High'},
+  {t:'cubase',k:'Steinberg Cubase review 2026',i:'Commercial',f:'MoFu',d:'Low',v:'2,900',p:'Medium'},
+  {t:'xfer serum',k:'Xfer Serum review',i:'Commercial',f:'MoFu',d:'Medium',v:'9,900',p:'High'},
+  {t:'xfer serum',k:'Serum 2 VST download',i:'Commercial',f:'BoFu',d:'Medium',v:'8,100',p:'High'},
+  {t:'xfer serum',k:'Serum vs Vital synth',i:'Commercial',f:'MoFu',d:'Low',v:'4,400',p:'High'},
+  {t:'xfer serum',k:'Serum wavetable synthesis tutorial',i:'Informational',f:'MoFu',d:'Low',v:'5,400',p:'High'},
+  {t:'xfer serum',k:'Serum presets free download',i:'Commercial',f:'BoFu',d:'Low',v:'12,000',p:'High'},
+  {t:'xfer serum',k:'Serum 2 new features',i:'Informational',f:'ToFu',d:'Low',v:'3,600',p:'Medium'},
+  {t:'xfer serum',k:'best Serum presets packs 2026',i:'Commercial',f:'BoFu',d:'Low',v:'6,600',p:'High'},
+  {t:'xfer serum',k:'how to use Serum for beginners',i:'Informational',f:'ToFu',d:'Low',v:'9,900',p:'High'},
+];
+
+let editIdx = null;
+let fullPage = 1, quickPage = 1;
+const PER_PAGE = 12, QUICK_PER = 8;
+
+// ─── HELPERS ─────────────────────────────────────────────────────────────────
+function vol(r){ return parseInt((r.v||'0').replace(/,/g,''))||0; }
+function diffPill(d){ const m={Low:'low',Medium:'medium',High:'high-diff'}; return `<span class="pill ${m[d]||''}">${d}</span>`; }
+function priPill(p){ return `<span class="pill ${p==='High'?'pri-high':'pri-med'}">${p}</span>`; }
+function intentPill(i){ return `<span class="pill ${i==='Commercial'?'pill-comm':'pill-info'}">${i}</span>`; }
+
+function filteredFull(){
+  const q=(document.getElementById('fullSearch')||{value:''}).value.toLowerCase();
+  const t=(document.getElementById('filterTopic')||{value:''}).value;
+  const d=(document.getElementById('filterDiff')||{value:''}).value;
+  const i=(document.getElementById('filterIntent')||{value:''}).value;
+  return fullData.filter(r=>
+    (!q||(r.k.toLowerCase().includes(q)||r.t.toLowerCase().includes(q)))&&
+    (!t||r.t===t)&&(!d||r.d===d)&&(!i||r.i===i)
+  );
+}
+
+function paginate(arr, page, per){ return arr.slice((page-1)*per, page*per); }
+function pagerHTML(total, page, per, fn, id){
+  const pages = Math.ceil(total/per); if(pages<=1) return '';
+  let h='';
+  h+=`<button ${page<=1?'disabled':''} onclick="${fn}(${page-1})">‹</button>`;
+  for(let p=1;p<=pages;p++) h+=`<button class="${p===page?'cur':''}" onclick="${fn}(${p})">${p}</button>`;
+  h+=`<button ${page>=pages?'disabled':''} onclick="${fn}(${page+1})">›</button>`;
+  return h;
+}
+
+// ─── TAB SWITCHING ────────────────────────────────────────────────────────────
+function switchTab(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  const map={dashboard:0,keywords:1,strategy:2};
+  document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
+  if(id==='strategy') initStrategy();
+}
+
+// ─── METRICS BAR ─────────────────────────────────────────────────────────────
+function buildMetrics(){
+  const total = fullData.length;
+  const topics = [...new Set(fullData.map(r=>r.t))].length;
+  const hiPri  = fullData.filter(r=>r.p==='High').length;
+  const comm   = fullData.filter(r=>r.i==='Commercial').length;
+  const info   = fullData.filter(r=>r.i==='Informational').length;
+  const avgVol = Math.round(fullData.reduce((a,r)=>a+vol(r),0)/total);
+  const el=document.getElementById('metricsBar');
+  el.innerHTML=[
+    ['Keywords',total,'total tracked'],
+    ['Seed topics',topics,'content clusters'],
+    ['High priority',hiPri,'focus targets'],
+    ['Commercial',comm,'transactional'],
+    ['Informational',info,'awareness'],
+    ['Avg volume',avgVol.toLocaleString(),'monthly searches'],
+  ].map(([k,v,s])=>`<div class="metric"><div class="k">${k}</div><div class="v">${v}</div><div class="sub">${s}</div></div>`).join('');
+}
+
+// ─── TOPIC TABLE ─────────────────────────────────────────────────────────────
+function renderTopicTable(){
+  const q=(document.getElementById('topicSearch')||{value:''}).value.toLowerCase();
+  const topics=[...new Set(fullData.map(r=>r.t))];
+  const rows = topics.filter(t=>!q||t.includes(q)).map(t=>{
+    const kws=fullData.filter(r=>r.t===t);
+    const hi=kws.filter(r=>r.p==='High').length;
+    const lo=kws.filter(r=>r.d==='Low').length;
+    const tv=kws.reduce((a,r)=>a+vol(r),0);
+    return `<tr><td><strong>${t}</strong></td><td>${kws.length}</td><td>${hi}</td><td>${lo}</td><td>${tv.toLocaleString()}</td></tr>`;
+  });
+  document.getElementById('topicTableWrap').innerHTML=`<table class="xtable">
+    <thead><tr><th>Topic</th><th>KWs</th><th>High Pri</th><th>Low KD</th><th>Total Vol</th></tr></thead>
+    <tbody>${rows.join('')}</tbody></table>`;
+}
+
+// ─── QUICK TABLE ─────────────────────────────────────────────────────────────
+function renderQuickTable(p){
+  if(p) quickPage=p;
+  const q=(document.getElementById('quickSearch')||{value:''}).value.toLowerCase();
+  const arr=fullData.filter(r=>r.d==='Low'&&r.p==='High'&&(!q||r.k.toLowerCase().includes(q)));
+  arr.sort((a,b)=>vol(b)-vol(a));
+  const page=paginate(arr,quickPage,QUICK_PER);
+  const rows=page.map(r=>`<tr><td>${r.k}</td><td>${r.t}</td><td>${r.v}</td><td>${diffPill(r.d)}</td></tr>`);
+  document.getElementById('quickTableWrap').innerHTML=`<table class="xtable">
+    <thead><tr><th>Keyword</th><th>Topic</th><th>Volume</th><th>Difficulty</th></tr></thead>
+    <tbody>${rows.join('')}</tbody></table>`;
+  document.getElementById('quickPager').innerHTML=pagerHTML(arr.length,quickPage,QUICK_PER,'renderQuickTable','quickPager');
+}
+
+// ─── FULL TABLE ───────────────────────────────────────────────────────────────
+function renderFullTable(p){
+  if(p) fullPage=p;
+  const arr=filteredFull();
+  document.getElementById('fullCount').textContent=`${arr.length} of ${fullData.length} keywords`;
+  const page=paginate(arr,fullPage,PER_PAGE);
+  const rows=page.map((r,i)=>{
+    const realIdx=fullData.indexOf(r);
+    return `<tr>
+      <td><strong>${r.k}</strong></td>
+      <td>${r.t}</td>
+      <td>${intentPill(r.i)}</td>
+      <td><span style="color:var(--muted);font-size:12px">${r.f}</span></td>
+      <td>${diffPill(r.d)}</td>
+      <td><strong>${r.v}</strong></td>
+      <td>${priPill(r.p)}</td>
+      <td><div class="actions">
+        <button class="edit-btn" onclick="openModal(${realIdx})">Edit</button>
+        <button class="del-btn" onclick="deleteRow(${realIdx})">Remove</button>
+      </div></td>
+    </tr>`;
+  });
+  document.getElementById('fullTableWrap').innerHTML=`<table class="xtable">
+    <thead><tr><th>Keyword</th><th>Topic</th><th>Intent</th><th>Funnel</th><th>Difficulty</th><th>Volume</th><th>Priority</th><th>Actions</th></tr></thead>
+    <tbody>${rows.join('')||'<tr><td colspan="8" style="text-align:center;color:var(--muted);padding:24px">No keywords match filters</td></tr>'}</tbody>
+  </table>`;
+  document.getElementById('fullPager').innerHTML=pagerHTML(arr.length,fullPage,PER_PAGE,'renderFullTable','fullPager');
+}
+
+// ─── ABLETON & SERUM TABLES ───────────────────────────────────────────────────
+function renderSubTables(){
+  const ableton=[
+    {k:'Ableton Live tutorial for beginners',v:'33,000',d:'High',p:'High'},
+    {k:'Ableton Live tips and tricks',v:'9,900',d:'Medium',p:'High'},
+    {k:'Ableton Live for beatmaking',v:'5,400',d:'Low',p:'High'},
+    {k:'Ableton live sampling and slicing guide',v:'2,400',d:'Medium',p:'Medium'},
+    {k:'Ableton live 12 vocal comping tutorial',v:'1,200',d:'Low',p:'High'},
+    {k:'How to synthesize a kick in Ableton Live',v:'850',d:'Low',p:'Medium'},
+  ];
+  const serum=[
+    {k:'best free Serum alternatives 2026',v:'5,200',d:'Medium',p:'High'},
+    {k:'Serum vs Vital synth',v:'4,400',d:'Low',p:'High'},
+    {k:'Vital vs Surge XT',v:'1,800',d:'Low',p:'High'},
+  ];
+  function tbl(arr){
+    return `<table class="xtable">
+      <thead><tr><th>Keyword</th><th>Volume</th><th>Difficulty</th><th>Priority</th></tr></thead>
+      <tbody>${arr.map(r=>`<tr><td>${r.k}</td><td>${r.v}</td><td>${diffPill(r.d)}</td><td>${priPill(r.p)}</td></tr>`).join('')}</tbody>
+    </table>`;
+  }
+  document.getElementById('abletonWrap').innerHTML=tbl(ableton);
+  document.getElementById('serumWrap').innerHTML=tbl(serum);
+}
+
+// ─── CHARTS ───────────────────────────────────────────────────────────────────
+function buildCharts(){
+  const topics=[...new Set(fullData.map(r=>r.t))];
+  const lo=topics.map(t=>fullData.filter(r=>r.t===t&&r.d==='Low').length);
+  const me=topics.map(t=>fullData.filter(r=>r.t===t&&r.d==='Medium').length);
+  const hi=topics.map(t=>fullData.filter(r=>r.t===t&&r.d==='High').length);
+  const comm=topics.map(t=>fullData.filter(r=>r.t===t&&r.i==='Commercial').length);
+  const info=topics.map(t=>fullData.filter(r=>r.t===t&&r.i==='Informational').length);
+  const layout={paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{color:'#8899aa',size:11},margin:{l:36,r:10,t:14,b:60},legend:{orientation:'h',y:1.14,x:0,font:{size:11}},xaxis:{tickangle:-20},bargap:.3};
+  Plotly.newPlot('chart1',[
+    {x:topics,y:lo,type:'bar',name:'Low KD',marker:{color:'#22c55e',opacity:.85}},
+    {x:topics,y:me,type:'bar',name:'Medium KD',marker:{color:'#f59e0b',opacity:.85}},
+    {x:topics,y:hi,type:'bar',name:'High KD',marker:{color:'#ef4444',opacity:.85}},
+  ],{...layout,barmode:'stack'},{displayModeBar:false,responsive:true});
+  Plotly.newPlot('chart2',[
+    {x:topics,y:comm,type:'bar',name:'Commercial',marker:{color:'#7c5cff',opacity:.85}},
+    {x:topics,y:info,type:'bar',name:'Informational',marker:{color:'#38bdf8',opacity:.85}},
+  ],{...layout,barmode:'group'},{displayModeBar:false,responsive:true});
+}
+
+// ─── MODAL ────────────────────────────────────────────────────────────────────
+function openModal(idx){
+  editIdx = (idx===undefined)?null:idx;
+  document.getElementById('modalTitle').textContent = editIdx!==null ? 'Edit keyword' : 'Add keyword';
+  if(editIdx!==null){
+    const r=fullData[editIdx];
+    document.getElementById('fKeyword').value=r.k;
+    document.getElementById('fTopic').value=r.t;
+    document.getElementById('fVolume').value=r.v;
+    document.getElementById('fDiff').value=r.d;
+    document.getElementById('fIntent').value=r.i;
+    document.getElementById('fFunnel').value=r.f;
+    document.getElementById('fPriority').value=r.p;
+  } else {
+    ['fKeyword','fVolume'].forEach(id=>document.getElementById(id).value='');
+  }
+  document.getElementById('modalBg').classList.add('open');
+}
+function closeModal(){ document.getElementById('modalBg').classList.remove('open'); }
+document.getElementById('modalBg').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal();});
+
+function saveKeyword(){
+  const k=document.getElementById('fKeyword').value.trim();
+  if(!k) return alert('Keyword is required');
+  const row={
+    k, t:document.getElementById('fTopic').value,
+    v:document.getElementById('fVolume').value||'0',
+    d:document.getElementById('fDiff').value,
+    i:document.getElementById('fIntent').value,
+    f:document.getElementById('fFunnel').value,
+    p:document.getElementById('fPriority').value
+  };
+  if(editIdx!==null) fullData[editIdx]=row;
+  else fullData.push(row);
+  closeModal(); refresh();
+}
+
+function deleteRow(idx){
+  if(!confirm(`Remove "${fullData[idx].k}"?`)) return;
+  fullData.splice(idx,1); refresh();
+}
+
+function refresh(){
+  buildMetrics(); renderTopicTable(); renderQuickTable(1); renderFullTable(1); buildCharts();
+}
+
+// ─── STRATEGY PAGE ───────────────────────────────────────────────────────────
+let calOffset=0;
+
+function initStrategy(){
+  updateSliders(); runSimulation(); buildCalendar(); buildQueue(); updateKPIs();
+}
+
+function updateSliders(){
+  const ctr=document.getElementById('ctrSlider').value;
+  const art=document.getElementById('artSlider').value;
+  document.getElementById('ctrVal').textContent=ctr+'%';
+  document.getElementById('artVal').textContent=art;
+}
+
+function updateKPIs(){
+  const ctr=parseFloat(document.getElementById('ctrSlider').value)/100;
+  const art=parseInt(document.getElementById('artSlider').value);
+  const weeks13=art*13;
+  const quickWins=fullData.filter(r=>r.d==='Low'&&r.p==='High');
+  const estTraffic=Math.round(quickWins.reduce((a,r)=>a+vol(r)*ctr,0)*Math.min(weeks13/4,1));
+  document.getElementById('kpi1').textContent=estTraffic.toLocaleString();
+  document.getElementById('kpi2').textContent=weeks13;
+}
+
+function runSimulation(){
+  updateKPIs();
+  const ctr=parseFloat(document.getElementById('ctrSlider').value)/100;
+  const art=parseInt(document.getElementById('artSlider').value);
+  const months=6;
+  const sorted=[...fullData].sort((a,b)=>vol(b)-vol(a));
+  const months_x=['Month 1','Month 2','Month 3','Month 4','Month 5','Month 6'];
+  const pubPer=art*4;
+  let cumPub=0, traffic=[];
+  for(let m=0;m<months;m++){
+    cumPub=Math.min(pubPer*(m+1),fullData.length);
+    const slice=sorted.slice(0,cumPub);
+    const rampFactor=Math.min(1,(m+1)/3);
+    const t=Math.round(slice.reduce((a,r)=>a+vol(r),0)*ctr*rampFactor*0.6);
+    traffic.push(t);
+  }
+  const conserv=traffic.map(v=>Math.round(v*0.6));
+  const optimis=traffic.map(v=>Math.round(v*1.45));
+  Plotly.newPlot('simChart',[
+    {x:months_x,y:conserv,name:'Conservative',line:{color:'#38bdf8',dash:'dot'},type:'scatter',mode:'lines+markers',marker:{size:7}},
+    {x:months_x,y:traffic,name:'Base case',line:{color:'#7c5cff'},type:'scatter',mode:'lines+markers',fill:'tozeroy',fillcolor:'rgba(124,92,255,.08)',marker:{size:8}},
+    {x:months_x,y:optimis,name:'Optimistic',line:{color:'#22c55e',dash:'dash'},type:'scatter',mode:'lines+markers',marker:{size:7}},
+  ],{
+    paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',
+    font:{color:'#8899aa',size:12},
+    margin:{l:60,r:20,t:20,b:40},
+    legend:{orientation:'h',y:1.1,x:0},
+    yaxis:{title:'Monthly organic visits',gridcolor:'#1e2a38'},
+    xaxis:{gridcolor:'#1e2a38'},
+  },{displayModeBar:false,responsive:true});
+}
+
+function buildCalendar(){
+  const now=new Date(2026,4,1);
+  now.setMonth(now.getMonth()+calOffset);
+  const month=now.getMonth(); const year=now.getFullYear();
+  document.getElementById('calMonthLabel').textContent=now.toLocaleDateString('en-US',{month:'long',year:'numeric'});
+  const firstDay=(new Date(year,month,1).getDay()+6)%7;
+  const daysInMonth=new Date(year,month+1,0).getDate();
+  const today=new Date(2026,4,17);
+  const schedule={
+    1:{type:'res',text:'Keyword research session'},
+    3:{type:'write',text:'Draft: What is a DAW'},
+    5:{type:'write',text:'Draft: Serum Presets'},
+    7:{type:'pub',text:'Publish: What is a DAW'},
+    8:{type:'opt',text:'Internal linking pass'},
+    10:{type:'res',text:'Competitor analysis'},
+    12:{type:'write',text:'Draft: Synth Sounds'},
+    14:{type:'pub',text:'Publish: Serum Presets'},
+    15:{type:'opt',text:'Optimize published posts'},
+    17:{type:'write',text:'Draft: Music Production Workflow'},
+    19:{type:'res',text:'Backlink research'},
+    21:{type:'pub',text:'Publish: Synth Sounds'},
+    22:{type:'opt',text:'Schema markup check'},
+    24:{type:'write',text:'Draft: DAW for Hip Hop'},
+    26:{type:'res',text:'Content gap analysis'},
+    28:{type:'pub',text:'Publish: Workflow Guide'},
+    29:{type:'opt',text:'Page speed audit'},
+    31:{type:'pub',text:'Publish: DAW for Hip Hop'},
+  };
+  const typeMap={write:'write',pub:'pub',res:'res',opt:'opt'};
+  let html='';
+  for(let i=0;i<firstDay;i++) html+=`<div class="cal-day" style="opacity:.2"><div class="day-num"></div></div>`;
+  for(let d=1;d<=daysInMonth;d++){
+    const isToday=calOffset===0&&year===2026&&month===4&&d===17;
+    const task=schedule[d];
+    html+=`<div class="cal-day${isToday?' today':''}"><div class="day-num">${d}</div>`;
+    if(task) html+=`<div class="task ${typeMap[task.type]||''}">${task.text}</div>`;
+    html+='</div>';
+  }
+  document.getElementById('calGrid').innerHTML=html;
+}
+
+function prevMonth(){ calOffset--; buildCalendar(); }
+function nextMonth(){ calOffset++; buildCalendar(); }
+
+function buildQueue(){
+  const queue=[
+    {rank:1,k:'Serum presets free download',t:'xfer serum',v:'12,000',d:'Low',type:'roundup',typeLabel:'Roundup',desc:'Free preset packs list — highest ROI quick win'},
+    {rank:2,k:'What is a DAW in music production',t:'daw',v:'8,100',d:'Low',type:'tutorial',typeLabel:'Tutorial',desc:'Definitive beginner guide — strong internal link target'},
+    {rank:3,k:'How to make synth sounds',t:'synth',v:'5,400',d:'Low',type:'tutorial',typeLabel:'Tutorial',desc:'Step-by-step guide — links to synth reviews'},
+    {rank:4,k:'Music production workflow',t:'music production',v:'4,400',d:'Low',type:'guide',typeLabel:'Guide',desc:'Evergreen content — high shareability'},
+    {rank:5,k:'DAW for hip hop production',t:'daw',v:'5,400',d:'Low',type:'compare',typeLabel:'Comparison',desc:'Genre-specific DAW picks — affiliate opportunity'},
+    {rank:6,k:'Best DAW 2026',t:'daw',v:'22,000',d:'Medium',type:'compare',typeLabel:'Mega Comparison',desc:'Phase 2 pillar content — links to all DAW reviews'},
+    {rank:7,k:'Free music production software',t:'music production',v:'27,000',d:'Medium',type:'roundup',typeLabel:'Roundup',desc:'High commercial intent — affiliate monetization'},
+    {rank:8,k:'Best free VST plugins 2026',t:'vst',v:'14,000',d:'Medium',type:'roundup',typeLabel:'Roundup',desc:'Phase 2 — top affiliate article category'},
+  ];
+  const typeColors={roundup:'qt-review',tutorial:'qt-tutorial',compare:'qt-compare',guide:'qt-guide'};
+  document.getElementById('contentQueue').innerHTML=queue.map(q=>`
+    <div class="queue-item">
+      <div class="queue-num">${q.rank}</div>
+      <div class="queue-body">
+        <div class="queue-kw">${q.k}</div>
+        <div class="queue-meta">
+          <span class="queue-type ${typeColors[q.type]}">${q.typeLabel}</span>
+          ${diffPill(q.d)}
+          <span>${q.t}</span>
+          <span>·</span>
+          <span>${q.desc}</span>
+        </div>
+      </div>
+      <div class="queue-vol">${q.v}<span>mo. searches</span></div>
+    </div>
+  `).join('');
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+buildMetrics();
+renderTopicTable();
+renderQuickTable();
+renderFullTable();
+renderSubTables();
+buildCharts();
+</script>
+</body>
+</html>

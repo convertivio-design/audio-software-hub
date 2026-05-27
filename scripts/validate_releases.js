@@ -9,6 +9,28 @@ const EDITORIAL_REJECT_PATTERN = /fundraising|fundraiser|raffle|charity|
 // Names still shaped like news headlines after name extraction
 const HEADLINE_VERB_PATTERN = /^\S+\s+(?:releases?|updates?|announces?|introduces?|launches?|unveils?)\s+/i
 
+// Per-category developer allow-list (known brands) — warn on unverified, don't hard-fail
+const KNOWN_DEVELOPERS = new Set([
+  'ableton', 'apple', 'steinberg', 'image-line', 'bitwig', 'cockos',
+  'presonus', 'motu', 'avid', 'native instruments', 'xfer records',
+  'u-he', 'arturia', 'roland', 'korg', 'novation', 'waldorf',
+  'izotope', 'waves', 'fabfilter', 'soundtoys', 'eventide',
+  'valhalla', 'valhalla dsp', 'audiothing', 'toneboosters',
+  'melda production', 'sugar bytes', 'uad', 'universal audio',
+  'spitfire audio', 'orchestral tools', 'heavyocity',
+  'output', 'baby audio', 'kilohearts',
+  'serum', 'vital', 'vital audio',
+  'reaper', 'fl studio', 'ableton', 'steinberg media technologies',
+  'yamaha', 'focusrite', 'behringer', 'sony', 'ikkn',
+  'sinevibes', 'audio damage', 'glitchmachines', 'unfiltered audio',
+  'acustica audio', 'audiobro', 'cinesamples', '8dio',
+  'sonuscore', 'strezov sampling', 'performance samples',
+  'fracture sounds', 'ghostnote audio', 'sample logic',
+  'soundiron', 'embertone', 'keep forest', 'impact soundworks',
+  'modwheel', 'toontrack', 'getgood drums', 'ml sound labs',
+  'east west', 'spitfire', 'orchestral',
+])
+
 function slugHasNavArtifact(slug) {
   const s = String(slug || '').trim().toLowerCase()
   if (!s) return true
@@ -106,6 +128,9 @@ function main() {
     }
     if (HEADLINE_VERB_PATTERN.test(name)) {
       issues.push(`${label}: name still looks like a news headline (contains release verb)`)
+    }
+    if (typeof entry.developer === 'string' && entry.developer.trim() && !KNOWN_DEVELOPERS.has(entry.developer.toLowerCase().trim())) {
+      console.warn(`${label}: developer "${entry.developer}" not in known allow-list — verify or add to KNOWN_DEVELOPERS`)
     }
     if (typeof entry.sourceTitle === 'string' && isGenericName(entry.sourceTitle)) {
       issues.push(`${label}: sourceTitle is too generic`)
