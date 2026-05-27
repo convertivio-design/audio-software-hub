@@ -48,6 +48,7 @@ export default function ComparePage({ searchParams }: Props) {
 
   return (
     <div className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://audiosoftwarehub.online"},{"@type":"ListItem","position":2,"name":"Compare","item":"https://audiosoftwarehub.online/compare"}]}) }} />
       {/* Breadcrumb */}
       <div className="border-b border-white/10 px-6 md:px-20 lg:px-40 py-4">
         <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em]">

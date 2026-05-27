@@ -40,18 +40,33 @@ export const metadata: Metadata = {
 
 const websiteSchema = {
   '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'Audio Software Hub',
-  url: 'https://audiosoftwarehub.online',
-  description: 'The definitive directory of music production software',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: 'https://audiosoftwarehub.online/search?q={search_term_string}',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://audiosoftwarehub.online/#website',
+      name: 'Audio Software Hub',
+      url: 'https://audiosoftwarehub.online',
+      description: 'The definitive directory of music production software',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: 'https://audiosoftwarehub.online/search?q={search_term_string}',
+        },
+        'query-input': 'required name=search_term_string',
+      },
     },
-    'query-input': 'required name=search_term_string',
-  },
+    {
+      '@type': 'Organization',
+      '@id': 'https://audiosoftwarehub.online/#organization',
+      name: 'Audio Software Hub',
+      url: 'https://audiosoftwarehub.online',
+      description: 'Music production software directory and comparison platform',
+      sameAs: [
+        'https://audiosoftwarehub.online',
+      ],
+    },
+  ],
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

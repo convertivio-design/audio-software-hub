@@ -78,9 +78,32 @@ const guides = [
 
 ]
 
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://audiosoftwarehub.online' },
+        { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://audiosoftwarehub.online/guides' },
+      ],
+    },
+    {
+      '@type': 'CollectionPage',
+      name: 'Guides & Tutorials — Audio Software Hub',
+      description: 'Learn about DAWs, synthesizers, plugins, and music production.',
+      url: 'https://audiosoftwarehub.online/guides',
+    },
+  ],
+}
+
 export default function GuidesPage() {
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       {/* Header */}
       <div className="border-b border-white/10 px-6 md:px-20 lg:px-40 py-12">
         <div className="mb-8 flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em]">

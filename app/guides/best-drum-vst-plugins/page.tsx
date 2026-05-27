@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function BestDrumVstPluginsPage() {
   return (
     <div className="min-h-screen px-6 md:px-20 lg:px-40 py-16 md:py-24">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Best Drum VST Plugins 2026","description":"Discover the best drum VST plugins for music production.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Best Drum VST Plugins 2026"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Best drum VST for beginners?","acceptedAnswer":{"@type":"Answer","text":"EZdrummer 3 has the most intuitive interface and excellent built-in grooves."}},{"@type":"Question","name":"Are there good free drum VSTs?","acceptedAnswer":{"@type":"Answer","text":"Yes. MT Power Drum Kit 2 and Sitala are excellent free options."}},{"@type":"Question","name":"Do I need a MIDI controller?","acceptedAnswer":{"@type":"Answer","text":"Not required, but a pad controller makes programming drums more intuitive."}}]}],"description":"Discover the best drum VST plugins for music production.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}}) }} />
       <nav className="mb-10 text-sm text-white/40">
         <Link href="/" className="hover:text-white">Home</Link><span className="mx-2">/</span>
         <Link href="/guides" className="hover:text-white">Guides</Link><span className="mx-2">/</span>

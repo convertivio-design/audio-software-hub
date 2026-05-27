@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function BestFreeVstPluginsPage() {
   return (
     <div className="min-h-screen px-6 md:px-20 lg:px-40 py-16 md:py-24">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Best Free VST Plugins 2026","description":"The best free VST plugins for music production.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Best Free VST Plugins 2026"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are free VSTs safe?","acceptedAnswer":{"@type":"Answer","text":"Yes, when downloaded from official developer websites."}},{"@type":"Question","name":"Do free VSTs sound as good as paid ones?","acceptedAnswer":{"@type":"Answer","text":"Many do. Vital and Valhalla SuperMassive match paid plugins."}},{"@type":"Question","name":"Can I use free VSTs commercially?","acceptedAnswer":{"@type":"Answer","text":"Yes, most free VSTs allow commercial use."}}]}],"description":"The best free VST plugins for music production.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}}) }} />
       <nav className="mb-10 text-sm text-white/40">
         <Link href="/" className="hover:text-white">Home</Link><span className="mx-2">/</span>
         <Link href="/guides" className="hover:text-white">Guides</Link><span className="mx-2">/</span>
