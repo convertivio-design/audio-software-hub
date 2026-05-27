@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Music Production Workflow: 10 Tips for Faster, Better Tracks | Audio Software Hub",
+  title: "Music Production Workflow: 10 Tips for Faster, Better Tracks",
   description: "Improve your music production workflow with 10 proven tips. Learn how to organize sessions, use templates, optimize your DAW, and finish more tracks faster.",
   alternates: { canonical: "/guides/music-production-workflow" },
   openGraph: {

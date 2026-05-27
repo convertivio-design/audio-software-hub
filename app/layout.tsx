@@ -27,13 +27,11 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://audiosoftwarehub.online',
     siteName: 'Audio Software Hub',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Audio Software Hub' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Audio Software Hub',
     description: 'Find the right music production software.',
-    images: ['/og-image.png'],
   },
   robots: { index: true, follow: true },
 }

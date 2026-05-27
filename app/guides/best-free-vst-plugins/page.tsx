@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Best Free VST Plugins 2026 — 20 Essential Free Audio Plugins | Audio Software Hub",
+  title: "Best Free VST Plugins 2026 — 20 Essential Free Audio Plugins",
   description: "The complete guide to the best free VST plugins in 2026. From synthesizers and effects to mastering tools — build your plugin collection without spending a dime.",
   alternates: { canonical: "/guides/best-free-vst-plugins" },
   openGraph: {

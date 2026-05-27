@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function HowToMakeSynthSoundsPage() {
   return (
     <div className="min-h-screen px-6 md:px-20 lg:px-40 py-16 md:py-24">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Make Synth Sounds: A Beginner's Guide to Synthesis","description":"A complete beginner guide to synthesis.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Article","headline":"How to Make Synth Sounds: A Beginner's Guide to Synthesis","description":"A complete beginner guide to synthesis.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What do I need to start making synth sounds?","acceptedAnswer":{"@type":"Answer","text":"You need a synthesizer (hardware or software), a DAW to host it, and basic knowledge of synthesis. Free VST synths like Vital or Surge XT are great starting points."}},{"@type":"Question","name":"What is the difference between subtractive and FM synthesis?","acceptedAnswer":{"@type":"Answer","text":"Subtractive synthesis shapes sound by filtering harmonically rich waveforms, while FM synthesis creates sounds by modulating one waveform with another. Subtractive is more intuitive for beginners."}},{"@type":"Question","name":"How do I create a bass sound from scratch?","acceptedAnswer":{"@type":"Answer","text":"Start with a sawtooth wave, apply a low-pass filter with moderate resonance, add an envelope with quick attack and medium release, and finish with subtle distortion for harmonics."}},{"@type":"Question","name":"What are ADSR envelopes?","acceptedAnswer":{"@type":"Answer","text":"ADSR stands for Attack, Decay, Sustain, Release - the four stages that shape a sound over time. Attack controls how fast the sound starts, Decay how it drops, Sustain its holding level, and Release how it fades."}}]}]}) }} />
       <nav className="mb-10 text-sm text-white/40"><Link href="/" className="hover:text-white">Home</Link><span className="mx-2">/</span><Link href="/guides" className="hover:text-white">Guides</Link><span className="mx-2">/</span><span className="text-white/60">Synth Sounds</span></nav>
       <article className="max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">How to Make Synth Sounds: A Beginner's Guide to Synthesis</h1>
@@ -35,6 +35,15 @@ export default function HowToMakeSynthSoundsPage() {
 <div><strong>Envelope (ADSR):</strong> Shapes parameters over time.</div>
 <div><strong>LFO:</strong> Cyclic modulation source.</div>
 </div>
+
+          {/* FAQs */}
+          <h2 className="text-2xl font-bold text-white mt-16 mb-6">FAQs About Making Synth Sounds</h2>
+          <div className="space-y-4 mb-12">
+            <div><strong className="text-white">What do I need to start making synth sounds?</strong> You need a synthesizer (hardware or software), a DAW to host it, and basic knowledge of synthesis. Free VST synths like Vital or Surge XT are great starting points.</div>
+            <div><strong className="text-white">What is the difference between subtractive and FM synthesis?</strong> Subtractive synthesis shapes sound by filtering harmonically rich waveforms, while FM synthesis creates sounds by modulating one waveform with another. Subtractive is more intuitive for beginners.</div>
+            <div><strong className="text-white">How do I create a bass sound from scratch?</strong> Start with a sawtooth wave, apply a low-pass filter with moderate resonance, add an envelope with quick attack and medium release, and finish with subtle distortion for harmonics.</div>
+            <div><strong className="text-white">What are ADSR envelopes?</strong> ADSR stands for Attack, Decay, Sustain, Release — the four stages that shape a sound over time. Attack controls how fast the sound starts, Decay how it drops, Sustain its holding level, and Release how it fades.</div>
+          </div>
 <h2 className="text-xl font-bold text-white mt-8 mb-3">Best Synths for Learning</h2>
 <ul className="list-disc pl-6 space-y-1">
 <li><Link href="/products/serum" className="text-blue-400 hover:underline">Serum</Link> &mdash; Visual wavetable synth, huge community.</li>

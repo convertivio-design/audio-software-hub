@@ -86,6 +86,10 @@ jobs:
         for attempt in $(seq 1 12); do
           if curl -fsSL https://audiosoftwarehub.online | grep -Fq "${LATEST_SLUG}"; then
             echo "audiosoftwarehub.online is fresh"
+            # Ping IndexNow to notify search engines
+            INDEXNOW_KEY=${{ secrets.INDEXNOW_KEY }}
+            curl -s -o /dev/null -w "IndexNow: %{http_code}
+" "https://www.bing.com/indexnow?url=https://audiosoftwarehub.online/sitemap.xml&key=$INDEXNOW_KEY" || true
             exit 0
           fi
           echo "Freshness check attempt ${attempt}/12 failed; retrying..."

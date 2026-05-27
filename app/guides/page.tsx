@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { BookOpen, ArrowUpRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Guides & Tutorials — Audio Software Hub',
+  title: 'Guides & Tutorials',
   description: 'Learn about DAWs, synthesizers, plugins, and music production. In-depth guides, tutorials, and comparisons for music producers of all levels.',
   alternates: { canonical: '/guides' },
   openGraph: {

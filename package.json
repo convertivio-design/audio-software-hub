@@ -10,7 +10,8 @@
     "validate:releases": "node scripts/validate_releases.js",
     "test:release-junk": "node scripts/release_nav_artifact_test.mjs",
     "scrape:releases": "python scripts/scrape_releases.py",
-    "scrape:releases:dry-run": "python scripts/scrape_releases.py --dry-run"
+    "scrape:releases:dry-run": "python scripts/scrape_releases.py --dry-run",
+    "ping-indexnow": "python scripts/ping-indexnow.py"
   },
   "dependencies": {
     "clsx": "^2.1.1",

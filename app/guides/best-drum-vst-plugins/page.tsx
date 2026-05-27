@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Best Drum VST Plugins 2026 — Top Drum Machines & Samplers | Audio Software Hub",
+  title: "Best Drum VST Plugins 2026 — Top Drum Machines & Samplers",
   description: "Discover the best drum VST plugins for music production in 2026. From vintage drum machine emulations to modern samplers — find the perfect drum plugin for your sound.",
   alternates: { canonical: "/guides/best-drum-vst-plugins" },
   openGraph: {

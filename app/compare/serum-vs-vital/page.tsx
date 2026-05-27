@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Serum vs Vital: Which Wavetable Synth is Right for You? | Audio Software Hub",
+  title: "Serum vs Vital: Which Wavetable Synth is Right for You?",
   description: "Compare Xfer Records Serum vs Vital Audio Vital. Features, pricing, sound quality, and value for wavetable synthesis.",
   alternates: { canonical: '/compare/serum-vs-vital' },
 }

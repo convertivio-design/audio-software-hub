@@ -23,13 +23,12 @@ export async function generateMetadata({ params }: Props) {
   const product = getProductBySlug(params.slug)
   if (!product) return {}
   return {
-    title: `${product.name} — Audio Software Hub`,
+    title: `${product.name}`,
     description: product.shortDescription,
     alternates: { canonical: `/products/${product.slug}` },
     openGraph: {
       title: `${product.name} — Audio Software Hub`,
       description: product.shortDescription,
-      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: product.name }],
     },
   }
 }

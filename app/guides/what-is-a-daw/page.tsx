@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "What is a DAW? The Ultimate Guide to Digital Audio Workstations | Audio Software Hub",
+  title: "What is a DAW? The Ultimate Guide to Digital Audio Workstations",
   description: "A digital audio workstation is the central software for recording, editing, mixing, and mastering audio. Learn what a DAW is, how it works, key features, and how to choose the right one.",
   alternates: { canonical: "/guides/what-is-a-daw" },
   openGraph: {

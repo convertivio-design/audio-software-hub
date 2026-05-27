@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function BestFreeSerumPresetsPage() {
   return (
     <div className="min-h-screen px-6 md:px-20 lg:px-40 py-16 md:py-24">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Best Free Serum Presets: Top Free Sound Packs","description":"Curated guide to the best free Serum preset packs.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Article","headline":"Best Free Serum Presets: Top Free Sound Packs","description":"Curated guide to the best free Serum preset packs.","datePublished":"2026-05-24","author":{"@type":"Organization","name":"Audio Software Hub"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where can I download free Serum presets?","acceptedAnswer":{"@type":"Answer","text":"Recommended sources include Splice, Cymatics, and KSHMR&apos;s official site. Always download from trusted sources to ensure safety and quality."}},{"@type":"Question","name":"How do I install Serum presets?","acceptedAnswer":{"@type":"Answer","text":"Download the .fxp or .fw preset files, then copy them to your Serum Presets User folder. Restart Serum or refresh the browser tab to see the new presets."}},{"@type":"Question","name":"Are free Serum presets compatible with all Serum versions?","acceptedAnswer":{"@type":"Answer","text":"Yes, Serum presets are generally backward compatible. Presets created in newer versions typically work in older versions, though some features may not be available."}},{"@type":"Question","name":"Can I use free Serum presets in commercial tracks?","acceptedAnswer":{"@type":"Answer","text":"Most free Serum presets can be used commercially, but always check the license terms provided by the creator to be certain."}}]}]}) }} />
       <nav className="mb-10 text-sm text-white/40"><Link href="/" className="hover:text-white">Home</Link><span className="mx-2">/</span><Link href="/guides" className="hover:text-white">Guides</Link><span className="mx-2">/</span><span className="text-white/60">Best Free Serum Presets</span></nav>
       <article className="max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">Best Free Serum Presets: Top Free Sound Packs</h1>
@@ -52,6 +52,15 @@ export default function BestFreeSerumPresetsPage() {
 <h2 className="text-xl font-bold text-white mt-8 mb-3">10. Production Master Free Pack</h2>
 <p>20+ presets. Best for trap, EDM, pop. Modern trap melodies, EDM leads, and pop plucks.</p>
 
+
+          {/* FAQs */}
+          <h2 className="text-2xl font-bold text-white mt-16 mb-6">FAQs About Free Serum Presets</h2>
+          <div className="space-y-4 mb-12">
+            <div><strong className="text-white">Where can I download free Serum presets?</strong> Recommended sources include Splice, Cymatics, and KSHMR&#39;s official site. Always download from trusted sources to ensure safety and quality.</div>
+            <div><strong className="text-white">How do I install Serum presets?</strong> Download the .fxp or .fw preset files, then copy them to your Serum Presets User folder. Restart Serum or refresh the browser tab to see the new presets.</div>
+            <div><strong className="text-white">Are free Serum presets compatible with all Serum versions?</strong> Yes, Serum presets are generally backward compatible. Presets created in newer versions typically work in older versions, though some features may not be available.</div>
+            <div><strong className="text-white">Can I use free Serum presets in commercial tracks?</strong> Most free Serum presets can be used commercially, but always check the license terms provided by the creator to be certain.</div>
+          </div>
 <h2 className="text-xl font-bold text-white mt-8 mb-3">How to Install Serum Presets</h2>
 <ol className="list-decimal pl-6 space-y-1">
 <li>Download the preset pack (.zip)</li>

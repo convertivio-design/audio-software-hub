@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Mixing vs Mastering: Key Differences Explained | Audio Software Hub",
+  title: "Mixing vs Mastering: Key Differences Explained",
   description: "Learn the key differences between mixing and mastering in music production. Understand when to mix, when to master, and how both processes create professional-sounding tracks.",
   alternates: { canonical: "/guides/mixing-vs-mastering" },
   openGraph: {

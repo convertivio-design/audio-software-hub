@@ -14,12 +14,12 @@ export async function generateMetadata({ searchParams }: Props) {
   const b = searchParams.b ? getProductBySlug(searchParams.b) : undefined
   if (a && b) {
     return {
-      title: `${a.name} vs ${b.name} — Audio Software Hub`,
+      title: `${a.name} vs ${b.name}`,
       description: `Side-by-side comparison of ${a.name} and ${b.name}. Compare price, features, pros, cons, OS support, and more.`,
     }
   }
   return {
-    title: 'Compare Products — Audio Software Hub',
+    title: 'Compare Products',
     description: 'Compare two audio software products side by side.',
   }
 }

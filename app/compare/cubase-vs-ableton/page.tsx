@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Cubase vs Ableton Live: Which DAW Wins in 2026? | Audio Software Hub",
+  title: "Cubase vs Ableton Live: Which DAW Wins in 2026?",
   description: "Detailed comparison of Steinberg Cubase vs Ableton Live. Features, workflow, pricing, MIDI editing, and audio tools for music production.",
   alternates: { canonical: '/compare/cubase-vs-ableton' },
 }

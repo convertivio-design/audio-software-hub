@@ -17,8 +17,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/guides/best-daw-for-hip-hop`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE_URL}/guides/best-daw-for-electronic-music`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE_URL}/guides/music-production-workflow`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE_URL}/guides/best-free-vst-plugins`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE_URL}/guides/best-drum-vst-plugins`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE_URL}/guides/mixing-vs-mastering`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE_URL}/compare`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/compare/serum-vs-vital`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE_URL}/compare/cubase-vs-ableton`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE_URL}/releases`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE_URL}/submit`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE_URL}/rss`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
   ]
 
   const categoryRoutes: MetadataRoute.Sitemap = categories.map(cat => ({
