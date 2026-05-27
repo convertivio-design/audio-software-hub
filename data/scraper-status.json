@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-05-25T10:08:31.961869+00:00",
-  "finishedAt": "2026-05-25T10:09:18.850173+00:00",
+  "startedAt": "2026-05-27T09:52:15.274748+00:00",
+  "finishedAt": "2026-05-27T09:53:09.016287+00:00",
   "dryRun": false,
   "existingEntries": 11,
   "cleanedExistingEntries": 11,
-  "newEntries": 0,
-  "rejectedEntries": 5,
-  "outputEntries": 11,
+  "newEntries": 1,
+  "rejectedEntries": 7,
+  "outputEntries": 12,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 7,
-      "entriesAdded": 0,
-      "entriesRejected": 2
+      "entriesAdded": 1,
+      "entriesRejected": 4
     },
     {
       "source": "BPB Free VST",
@@ -42,10 +42,22 @@
   ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/soniclab-updates-fundamental-to-v4-1-adding-mcp-support-67053 \"sonicLAB updates Fundamental to v4.1 adding MCP support\"",
+      "url": "https://www.kvraudio.com/news/venomode-updates-deeq-to-v1-6-0-67080 \"Venomode updates DeeQ to v1.6.0\"",
+      "reason": "name_too_generic",
+      "name": "Deeq",
+      "slug": "deeq"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/push-and-groove-updates-filtronix-to-v1-1-with-macos-support-and-new-analog-knob-67076 \"Push and Groove updates FILTRONIX to v1.1 with macOS support and new Analog knob\"",
       "reason": "description_contains_ip_address",
-      "name": "Fundamental To",
-      "slug": "fundamental-to"
+      "name": "Filtronix To",
+      "slug": "filtronix-to"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/xeni-audio-releases-spectralmediator---anti-masking-spectral-dynamics-67071 \"Xeni Audio Releases SpectralMediator - Anti-Masking Spectral Dynamics\"",
+      "reason": "description_contains_ip_address",
+      "name": "Spectralmediator Anti Masking Spectral Dynamics",
+      "slug": "spectralmediator-anti-masking-spectral-dynamics"
     },
     {
       "url": "https://www.kvraudio.com/news/patchpool-releases-future-proof-for-serum-2-67070 \"patchpool releases Future-Proof for Serum 2\"",
