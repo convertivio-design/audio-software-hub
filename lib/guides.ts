@@ -4,7 +4,7 @@ export interface Guide {
   title: string
   description: string
   category: 'Best Of & Roundups' | 'Comparisons' | 'Workflow' | 'Industry Trends'
-  contentType: 'Hub & Spoke' | 'Use-Case' | 'Thought Leadership' | 'Listicle' | 'Product Comparison' | 'Alternatives' | 'Platform Comparison' | 'Tutorial' | 'Expert Roundup' | 'Educational Hub' | 'Data-Driven'
+  contentType: 'Hub & Spoke' | 'Use-Case' | 'Genre Use-Case' | 'Thought Leadership' | 'Listicle' | 'Product Comparison' | 'Alternatives' | 'Platform Comparison' | 'Tutorial' | 'Expert Roundup' | 'Educational Hub' | 'Data-Driven'
   buyerStage: 'Awareness' | 'Consideration' | 'Decision' | 'Implementation' | 'Awareness/Decision'
   targetKeywords: string[]
   datePublished?: string

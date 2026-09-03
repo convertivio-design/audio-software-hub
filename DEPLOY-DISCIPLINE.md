@@ -103,3 +103,11 @@ git log --oneline -5
 ---
 
 *Last updated: 2026-05-27*
+
+---
+## 2026-09-03 update (read this first)
+
+- **Default branch is `master`.** `main` was deleted — never create it again. Push to `master` only.
+- Vercel auto-deploys every push to `master` (GitHub integration). Do NOT add a manual Vercel deploy step to Actions — that caused double-deploy failures.
+- The Actions workflow now only: scrapes → validates → commits → pings IndexNow. A heartbeat commit keeps the schedule alive.
+- Missing `package-lock.json` was breaking `npm ci` in Actions-adjacent tooling — it is now committed.
