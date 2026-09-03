@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-05-27T09:52:15.274748+00:00",
-  "finishedAt": "2026-05-27T09:53:09.016287+00:00",
+  "startedAt": "2026-09-03T18:40:26.293720+00:00",
+  "finishedAt": "2026-09-03T18:41:13.584831+00:00",
   "dryRun": false,
-  "existingEntries": 11,
-  "cleanedExistingEntries": 11,
-  "newEntries": 1,
-  "rejectedEntries": 7,
-  "outputEntries": 12,
+  "existingEntries": 12,
+  "cleanedExistingEntries": 12,
+  "newEntries": 3,
+  "rejectedEntries": 4,
+  "outputEntries": 15,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,7 +15,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 7,
-      "entriesAdded": 1,
+      "entriesAdded": 3,
       "entriesRejected": 4
     },
     {
@@ -23,14 +23,14 @@
       "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
       "listingScraped": true,
       "candidateLinks": 3,
-      "articlesScraped": 3,
+      "articlesScraped": 0,
       "entriesAdded": 0,
-      "entriesRejected": 3
+      "entriesRejected": 0
     },
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
+      "listingScraped": false,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
@@ -38,50 +38,36 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/w-a-production-releases-denoizzer-fx-plugin-with-67-off-intro-offer-67069 \"W. A. Production releases \\\"DeNoizzer\\\" FX plugin with 67% off intro offer\""
+    "Scrape failed: https://www.kvraudio.com/news/rncbc-org-updates-qtractor-to-v1-6-3-and-vee-one-suite-to-v1-4-3-for-linux-68336 \"rncbc.org updates Qtractor to v1.6.3 and Vee One Suite to v1.4.3 for Linux\"",
+    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
+    "Scrape failed: https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
+    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
+    "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/venomode-updates-deeq-to-v1-6-0-67080 \"Venomode updates DeeQ to v1.6.0\"",
-      "reason": "name_too_generic",
-      "name": "Deeq",
-      "slug": "deeq"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/push-and-groove-updates-filtronix-to-v1-1-with-macos-support-and-new-analog-knob-67076 \"Push and Groove updates FILTRONIX to v1.1 with macOS support and new Analog knob\"",
+      "url": "https://www.kvraudio.com/news/ripples-releases-pulse---free-rhythmic-volume-shaper-for-macos-and-windows-68358 \"RIPPLES releases Pulse - Free rhythmic volume shaper for macOS and Windows\"",
       "reason": "description_contains_ip_address",
-      "name": "Filtronix To",
-      "slug": "filtronix-to"
+      "name": "Pulse Free Rhythmic Volume Shaper",
+      "slug": "pulse-free-rhythmic-volume-shaper"
     },
     {
-      "url": "https://www.kvraudio.com/news/xeni-audio-releases-spectralmediator---anti-masking-spectral-dynamics-67071 \"Xeni Audio Releases SpectralMediator - Anti-Masking Spectral Dynamics\"",
+      "url": "https://www.kvraudio.com/news/naturl-audio-updates-al-1-to-v1-1---adds-second-limiting-engine-and-true-peak-stage-68355 \"Naturl Audio Updates AL-1 to v1.1 - Adds Second Limiting Engine and True Peak Stage\"",
       "reason": "description_contains_ip_address",
-      "name": "Spectralmediator Anti Masking Spectral Dynamics",
-      "slug": "spectralmediator-anti-masking-spectral-dynamics"
+      "name": "Al 1 To",
+      "slug": "al-1-to"
     },
     {
-      "url": "https://www.kvraudio.com/news/patchpool-releases-future-proof-for-serum-2-67070 \"patchpool releases Future-Proof for Serum 2\"",
+      "url": "https://www.kvraudio.com/news/main-st-audio-labs-updates-midnight-rambler-to-v1-1-0-68350 \"Main St Audio Labs updates Midnight Rambler to v1.1.0\"",
       "reason": "description_contains_ip_address",
-      "name": "Future Proof For Serum 2",
-      "slug": "future-proof-for-serum-2"
+      "name": "Midnight Rambler",
+      "slug": "midnight-rambler"
     },
     {
-      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
-      "reason": "name_too_generic",
-      "name": "Software",
-      "slug": "software"
-    },
-    {
-      "url": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
-      "reason": "name_contains_scraped_junk",
-      "name": "Free Drum Kits",
-      "slug": "free-drum-kits"
-    },
-    {
-      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
-      "reason": "name_too_generic",
-      "name": "Software",
-      "slug": "software"
+      "url": "https://www.kvraudio.com/news/pinzu-releases-pro-versions-of-its-four-soryno-mixing-plug-ins-windows-vst3-68349 \"Pinzu releases Pro versions of its four SORYNO mixing plug-ins (Windows VST3",
+      "reason": "description_contains_ip_address",
+      "name": "Pro Versions Of Its Four Soryno Mixing Plug Ins Windows",
+      "slug": "pro-versions-of-its-four-soryno-mixing-plug-ins-windows"
     }
   ]
 }

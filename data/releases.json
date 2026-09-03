@@ -1,5 +1,110 @@
 [
   {
+    "id": "88a885fea251",
+    "slug": "xoradora-drum-machine-as-open-beta-vst3-au-and",
+    "name": "Xoradora Drum Machine As Open Beta Vst3 Au And",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Xoradora Drum Machine As Open Beta Vst3 Au And is a drum machine plugin.",
+    "longDescription": "Xoradora Drum Machine As Open Beta Vst3 Au And is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/mutagene-releases-xoradora-drum-machine-as-open-beta-vst3-au-and-clap-68347",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-03T18:40:52.646795+00:00",
+    "sourceTitle": "Mutagene Releases Xoradora Drum Machine As Open Beta Vst3 Au And Clap"
+  },
+  {
+    "id": "db6ad910521f",
+    "slug": "bigulator-analog-modeled-multiband-clipper-saturator",
+    "name": "Bigulator Analog Modeled Multiband Clipper Saturator...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Bigulator Analog Modeled Multiband Clipper Saturator... is a audio effects plugin.",
+    "longDescription": "Bigulator Analog Modeled Multiband Clipper Saturator... is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/big-man-labs-releases-bigulator-analog-modeled-multiband-clipper-saturator-vst3-au-aax-and-clap-68346",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-03T18:40:48.383630+00:00",
+    "sourceTitle": "Big Man Labs Releases Bigulator Analog Modeled Multiband Clipper Saturator Vst3 Au Aax And Clap"
+  },
+  {
+    "id": "e5efd155c600",
+    "slug": "availability-of-gfractor",
+    "name": "Availability Of Gfractor",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Availability Of Gfractor is a audio plugin.",
+    "longDescription": "Availability Of Gfractor is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/growl-audio-announces-availability-of-gfractor-v1-2-3-beta-68359",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-03T18:40:29.147178+00:00",
+    "sourceTitle": "Growl Audio Announces Availability Of Gfractor V1.2.3 Beta"
+  },
+  {
     "id": "e548c1322bbb",
     "slug": "fundamental-to",
     "name": "Fundamental To",
