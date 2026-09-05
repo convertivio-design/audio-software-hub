@@ -1,5 +1,265 @@
 [
   {
+    "id": "98b14ed4b5d7",
+    "slug": "tonex-board-dual-path-guitar-and-bass-processor-with",
+    "name": "Tonex Board Dual Path Guitar And Bass Processor With...",
+    "developer": "IK Multimedia",
+    "categoryId": "guitar",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "IK Multimedia Tonex Board Dual Path Guitar And Bass Processor With... is a guitar amp/effects plugin.",
+    "longDescription": "IK Multimedia Tonex Board Dual Path Guitar And Bass Processor With... is a guitar amp/effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ik-multimedia-releases-tonex-board---dual-path-guitar-and-bass-processor-with-four-simultaneous-ai-tone-models-68370",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "guitar"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:23:24.200595+00:00",
+    "sourceTitle": "Ik Multimedia Releases Tonex Board Dual Path Guitar And Bass Processor With Four Simultaneous Ai Tone Models"
+  },
+  {
+    "id": "d00cc9229d3b",
+    "slug": "focus-for-u-he-diva",
+    "name": "Focus For U He Diva",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Focus For U He Diva is a audio plugin.",
+    "longDescription": "Focus For U He Diva is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/plughugger-releases-focus-for-u-he-diva-68375",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:23:20.778339+00:00",
+    "sourceTitle": "Plughugger Releases Focus For U He Diva"
+  },
+  {
+    "id": "4a659654388b",
+    "slug": "kreativ-kollection",
+    "name": "Kreativ Kollection",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Kreativ Kollection is a audio plugin.",
+    "longDescription": "Kreativ Kollection is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/kreativ-sound-releases-kreativ-kollection-v1---16-sound-design-products-for-eur-49-68377",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:23:16.641448+00:00",
+    "sourceTitle": "Kreativ Sound Releases Kreativ Kollection V1 16 Sound Design Products For Eur 49"
+  },
+  {
+    "id": "592313835f18",
+    "slug": "lufsbar-pro-audio-unit-inserts-on-macos-system-audio",
+    "name": "Lufsbar Pro Audio Unit Inserts On Macos System Audio...",
+    "developer": null,
+    "categoryId": "mastering",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Lufsbar Pro Audio Unit Inserts On Macos System Audio... is a mastering plugin.",
+    "longDescription": "Lufsbar Pro Audio Unit Inserts On Macos System Audio... is a mastering plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tokyomeltdown-releases-lufsbar-pro---audio-unit-inserts-on-macos-system-audio-with-ebu-r128-metering-68369",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "mastering"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:23:13.125936+00:00",
+    "sourceTitle": "Tokyomeltdown Releases Lufsbar Pro Audio Unit Inserts On Macos System Audio With Ebu R128 Metering"
+  },
+  {
+    "id": "283c2bfb71a7",
+    "slug": "artcode-daw-2-0-adds-vst3-hosting-and-a-windows-build",
+    "name": "Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build is a digital audio workstation.",
+    "longDescription": "Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/artcode-releases-artcode-daw-2-0---adds-vst3-hosting-and-a-windows-build-68373",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:23:09.501289+00:00",
+    "sourceTitle": "Artcode Releases Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build"
+  },
+  {
+    "id": "785e0e567985",
+    "slug": "supra-hybrid-granular-synthesizer-vst3-au-and",
+    "name": "Supra Hybrid Granular Synthesizer Vst3 Au And",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Supra Hybrid Granular Synthesizer Vst3 Au And is a synthesizer plugin.",
+    "longDescription": "Supra Hybrid Granular Synthesizer Vst3 Au And is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/w-a-production-releases-supra-hybrid-granular-synthesizer-vst3-au-and-aax-68378",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:23:05.592876+00:00",
+    "sourceTitle": "W A Production Releases Supra Hybrid Granular Synthesizer Vst3 Au And Aax"
+  },
+  {
+    "id": "033ee8030777",
+    "slug": "free-abyzor-genesis",
+    "name": "Free Abyzor Genesis",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Free Abyzor Genesis is a audio plugin.",
+    "longDescription": "Free Abyzor Genesis is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/abyzor-updates-free-abyzor-genesis-to-v2-1-68367",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:23:02.528036+00:00",
+    "sourceTitle": "Abyzor Updates Free Abyzor Genesis To V2.1"
+  },
+  {
+    "id": "c2b4d2a040fb",
+    "slug": "audacity-4",
+    "name": "Audacity 4",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Audacity 4 is a audio plugin.",
+    "longDescription": "Audacity 4 is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/muse-group-releases-audacity-4-68361",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-05T10:22:58.090134+00:00",
+    "sourceTitle": "Muse Group Releases Audacity 4"
+  },
+  {
     "id": "88a885fea251",
     "slug": "xoradora-drum-machine-as-open-beta-vst3-au-and",
     "name": "Xoradora Drum Machine As Open Beta Vst3 Au And",

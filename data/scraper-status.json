@@ -1,22 +1,22 @@
 {
   "status": "success",
-  "startedAt": "2026-09-03T18:40:26.293720+00:00",
-  "finishedAt": "2026-09-03T18:41:13.584831+00:00",
+  "startedAt": "2026-09-05T10:22:55.925072+00:00",
+  "finishedAt": "2026-09-05T10:23:37.473642+00:00",
   "dryRun": false,
-  "existingEntries": 12,
-  "cleanedExistingEntries": 12,
-  "newEntries": 3,
-  "rejectedEntries": 4,
-  "outputEntries": 15,
+  "existingEntries": 15,
+  "cleanedExistingEntries": 15,
+  "newEntries": 8,
+  "rejectedEntries": 0,
+  "outputEntries": 23,
   "sources": [
     {
       "source": "KVR Audio News",
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 3,
-      "entriesRejected": 4
+      "articlesScraped": 8,
+      "entriesAdded": 8,
+      "entriesRejected": 0
     },
     {
       "source": "BPB Free VST",
@@ -38,36 +38,10 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/rncbc-org-updates-qtractor-to-v1-6-3-and-vee-one-suite-to-v1-4-3-for-linux-68336 \"rncbc.org updates Qtractor to v1.6.3 and Vee One Suite to v1.4.3 for Linux\"",
     "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
     "Scrape failed: https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
     "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
-  "rejections": [
-    {
-      "url": "https://www.kvraudio.com/news/ripples-releases-pulse---free-rhythmic-volume-shaper-for-macos-and-windows-68358 \"RIPPLES releases Pulse - Free rhythmic volume shaper for macOS and Windows\"",
-      "reason": "description_contains_ip_address",
-      "name": "Pulse Free Rhythmic Volume Shaper",
-      "slug": "pulse-free-rhythmic-volume-shaper"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/naturl-audio-updates-al-1-to-v1-1---adds-second-limiting-engine-and-true-peak-stage-68355 \"Naturl Audio Updates AL-1 to v1.1 - Adds Second Limiting Engine and True Peak Stage\"",
-      "reason": "description_contains_ip_address",
-      "name": "Al 1 To",
-      "slug": "al-1-to"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/main-st-audio-labs-updates-midnight-rambler-to-v1-1-0-68350 \"Main St Audio Labs updates Midnight Rambler to v1.1.0\"",
-      "reason": "description_contains_ip_address",
-      "name": "Midnight Rambler",
-      "slug": "midnight-rambler"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/pinzu-releases-pro-versions-of-its-four-soryno-mixing-plug-ins-windows-vst3-68349 \"Pinzu releases Pro versions of its four SORYNO mixing plug-ins (Windows VST3",
-      "reason": "description_contains_ip_address",
-      "name": "Pro Versions Of Its Four Soryno Mixing Plug Ins Windows",
-      "slug": "pro-versions-of-its-four-soryno-mixing-plug-ins-windows"
-    }
-  ]
+  "rejections": []
 }
