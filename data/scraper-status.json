@@ -1,13 +1,13 @@
 {
   "status": "success",
-  "startedAt": "2026-09-05T10:22:55.925072+00:00",
-  "finishedAt": "2026-09-05T10:23:37.473642+00:00",
+  "startedAt": "2026-09-07T12:09:30.338126+00:00",
+  "finishedAt": "2026-09-07T12:11:08.931881+00:00",
   "dryRun": false,
-  "existingEntries": 15,
-  "cleanedExistingEntries": 15,
-  "newEntries": 8,
-  "rejectedEntries": 0,
-  "outputEntries": 23,
+  "existingEntries": 23,
+  "cleanedExistingEntries": 23,
+  "newEntries": 7,
+  "rejectedEntries": 4,
+  "outputEntries": 30,
   "sources": [
     {
       "source": "KVR Audio News",
@@ -15,33 +15,53 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 8,
-      "entriesRejected": 0
+      "entriesAdded": 7,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
       "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
       "listingScraped": true,
       "candidateLinks": 3,
-      "articlesScraped": 0,
+      "articlesScraped": 3,
       "entriesAdded": 0,
-      "entriesRejected": 0
+      "entriesRejected": 3
     },
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": false,
+      "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
-    "Scrape failed: https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
-    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
-    "Could not scrape listing page: https://www.rekkerd.org/"
-  ],
-  "rejections": []
+  "errors": [],
+  "rejections": [
+    {
+      "url": "https://www.kvraudio.com/news/kong-audio-updates-qin-engine-to-v3-17-68389 \"Kong Audio updates Qin Engine to v3.17\"",
+      "reason": "description_contains_ip_address",
+      "name": "Qin Engine",
+      "slug": "qin-engine"
+    },
+    {
+      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
+      "reason": "name_too_generic",
+      "name": "Software",
+      "slug": "software"
+    },
+    {
+      "url": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
+      "reason": "name_contains_scraped_junk",
+      "name": "Free Drum Kits",
+      "slug": "free-drum-kits"
+    },
+    {
+      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
+      "reason": "name_too_generic",
+      "name": "Software",
+      "slug": "software"
+    }
+  ]
 }

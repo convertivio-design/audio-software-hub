@@ -1,5 +1,236 @@
 [
   {
+    "id": "80cc956b3276",
+    "slug": "kontakt",
+    "name": "Kontakt",
+    "developer": "Native Instruments",
+    "categoryId": "sampler",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Native Instruments Kontakt is a sampler / sample library.",
+    "longDescription": "Native Instruments Kontakt is a sampler / sample library.",
+    "officialUrl": "https://www.kvraudio.com/news/native-instruments-updates-kontakt-to-v8-13-68383",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-07T12:10:35.448669+00:00",
+    "sourceTitle": "Native Instruments Updates Kontakt To V8.13"
+  },
+  {
+    "id": "841fa6b69dc6",
+    "slug": "midistickers-expands-lessons-and-exercises-content-in",
+    "name": "Midistickers Expands Lessons And Exercises Content In...",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Midistickers Expands Lessons And Exercises Content In... is a MIDI utility plugin.",
+    "longDescription": "Midistickers Expands Lessons And Exercises Content In... is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/midistickers-expands-lessons-and-exercises-content-in-midistickers-pro-v1-3-update-68304",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-07T12:10:29.118686+00:00",
+    "sourceTitle": "Midistickers Expands Lessons And Exercises Content In Midistickers Pro V1.3 Update"
+  },
+  {
+    "id": "bb9b16e53812",
+    "slug": "the-cinematic-soundscape-collection-vresk-drusk-and-nivren",
+    "name": "The Cinematic Soundscape Collection Vresk Drusk And Nivren",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "The Cinematic Soundscape Collection Vresk Drusk And Nivren is a audio plugin.",
+    "longDescription": "The Cinematic Soundscape Collection Vresk Drusk And Nivren is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tunary-instruments-launches-the-cinematic-soundscape-collection-vresk-drusk-and-nivren-68394",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-07T12:09:58.301360+00:00",
+    "sourceTitle": "Tunary Instruments Launches The Cinematic Soundscape Collection Vresk Drusk And Nivren"
+  },
+  {
+    "id": "97f5bf14b983",
+    "slug": "grni-granular-sampler-with-blendable-layers-vst3-au-and",
+    "name": "Grni Granular Sampler With Blendable Layers Vst3 Au And",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Grni Granular Sampler With Blendable Layers Vst3 Au And is a sampler / sample library.",
+    "longDescription": "Grni Granular Sampler With Blendable Layers Vst3 Au And is a sampler / sample library.",
+    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-releases-grni---granular-sampler-with-blendable-layers-vst3-au-and-clap-68385",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-07T12:09:46.518962+00:00",
+    "sourceTitle": "Frctl Audio Releases Grni Granular Sampler With Blendable Layers Vst3 Au And Clap"
+  },
+  {
+    "id": "5bc1396b689b",
+    "slug": "tomic-drum-synth-to",
+    "name": "Tomic Drum Synth To",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Tomic Drum Synth To is a synthesizer plugin.",
+    "longDescription": "Tomic Drum Synth To is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tomasz-gluc-updates-tomic-drum-synth-to-v0-6-with-in-process-plugin-hosting-expanded-lfo-and-song-mode-workflow-68270",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-07T12:09:42.706706+00:00",
+    "sourceTitle": "Tomasz Gluc Updates Tomic Drum Synth To V0.6 With In Process Plugin Hosting Expanded Lfo And Song Mode Workflow"
+  },
+  {
+    "id": "b4ffc60699d6",
+    "slug": "noesis-to",
+    "name": "Noesis To",
+    "developer": "Waves",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Waves Noesis To is a audio plugin.",
+    "longDescription": "Waves Noesis To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/dystopian-waves-updates-noesis-to-v1-5-0-and-releases-free-noesis-lite-68391",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-07T12:09:37.649101+00:00",
+    "sourceTitle": "Dystopian Waves Updates Noesis To V1.5.0 And Releases Free Noesis Lite"
+  },
+  {
+    "id": "aef91b301cd8",
+    "slug": "disto-disco-audio-effect-that-turns-distortion-into",
+    "name": "Disto Disco Audio Effect That Turns Distortion Into...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Disto Disco Audio Effect That Turns Distortion Into... is a audio effects plugin.",
+    "longDescription": "Disto Disco Audio Effect That Turns Distortion Into... is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/snorkel-audio-releases-disto-disco---audio-effect-that-turns-distortion-into-movement-vst3-and-au-68388",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-07T12:09:33.007314+00:00",
+    "sourceTitle": "Snorkel Audio Releases Disto Disco Audio Effect That Turns Distortion Into Movement Vst3 And Au"
+  },
+  {
     "id": "98b14ed4b5d7",
     "slug": "tonex-board-dual-path-guitar-and-bass-processor-with",
     "name": "Tonex Board Dual Path Guitar And Bass Processor With...",
