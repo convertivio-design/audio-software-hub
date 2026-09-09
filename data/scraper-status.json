@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-09-07T12:09:30.338126+00:00",
-  "finishedAt": "2026-09-07T12:11:08.931881+00:00",
+  "startedAt": "2026-09-09T11:05:21.866650+00:00",
+  "finishedAt": "2026-09-09T11:06:25.114133+00:00",
   "dryRun": false,
-  "existingEntries": 23,
-  "cleanedExistingEntries": 23,
-  "newEntries": 7,
-  "rejectedEntries": 4,
+  "existingEntries": 30,
+  "cleanedExistingEntries": 30,
+  "newEntries": 5,
+  "rejectedEntries": 2,
   "outputEntries": 30,
   "sources": [
     {
@@ -15,17 +15,17 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 7,
-      "entriesRejected": 1
+      "entriesAdded": 5,
+      "entriesRejected": 2
     },
     {
       "source": "BPB Free VST",
       "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
       "listingScraped": true,
       "candidateLinks": 3,
-      "articlesScraped": 3,
+      "articlesScraped": 0,
       "entriesAdded": 0,
-      "entriesRejected": 3
+      "entriesRejected": 0
     },
     {
       "source": "Rekkerd",
@@ -37,31 +37,23 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
+    "Scrape failed: https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
+    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/"
+  ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/kong-audio-updates-qin-engine-to-v3-17-68389 \"Kong Audio updates Qin Engine to v3.17\"",
+      "url": "https://www.kvraudio.com/news/fanan-team-releases-grex-ballada---free-ballad-arranger-module-68436 \"Fanan Team Releases Grex Ballada - Free Ballad Arranger Module\"",
       "reason": "description_contains_ip_address",
-      "name": "Qin Engine",
-      "slug": "qin-engine"
+      "name": "Grex Ballada Free Ballad Arranger Module",
+      "slug": "grex-ballada-free-ballad-arranger-module"
     },
     {
-      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
-      "reason": "name_too_generic",
-      "name": "Software",
-      "slug": "software"
-    },
-    {
-      "url": "https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
-      "reason": "name_contains_scraped_junk",
-      "name": "Free Drum Kits",
-      "slug": "free-drum-kits"
-    },
-    {
-      "url": "https://bedroomproducersblog.com/2015/11/11/free-daw-software/",
-      "reason": "name_too_generic",
-      "name": "Software",
-      "slug": "software"
+      "url": "https://www.kvraudio.com/news/fabula-audio-releases-hark---illuminated-medieval-virtual-instrument-inspired-by-collectable-card-games-68431 \"Fabula Audio releases \\\"Hark!\\\" - illuminated medieval virtual instrument inspired by collectable card games\"",
+      "reason": "description_contains_ip_address",
+      "name": "Hark Illuminated Medieval Virtual Instrument Inspired By...",
+      "slug": "hark-illuminated-medieval-virtual-instrument-inspired-by"
     }
   ]
 }

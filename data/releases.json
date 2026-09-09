@@ -1,5 +1,169 @@
 [
   {
+    "id": "fa5a680a7885",
+    "slug": "audorama-2-0-vision-aware-daw-for-cinematic-sound-design",
+    "name": "Audorama 2 0 Vision Aware Daw For Cinematic Sound Design...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Audorama 2 0 Vision Aware Daw For Cinematic Sound Design... is a digital audio workstation.",
+    "longDescription": "Audorama 2 0 Vision Aware Daw For Cinematic Sound Design... is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/auralithic-releases-audorama-2-0---vision-aware-daw-for-cinematic-sound-design-macos-68419",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-09T11:06:10.010239+00:00",
+    "sourceTitle": "Auralithic Releases Audorama 2 0 Vision Aware Daw For Cinematic Sound Design Macos"
+  },
+  {
+    "id": "fea10e2b7372",
+    "slug": "tapskip-2-rhythm-augmenting-vst3-effect",
+    "name": "Tapskip 2 Rhythm Augmenting Vst3 Effect",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Tapskip 2 Rhythm Augmenting Vst3 Effect is a drum machine plugin.",
+    "longDescription": "Tapskip 2 Rhythm Augmenting Vst3 Effect is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/wiregrind-releases-tapskip-2---rhythm-augmenting-vst3-effect-for-windows-68421",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-09T11:06:02.816913+00:00",
+    "sourceTitle": "Wiregrind Releases Tapskip 2 Rhythm Augmenting Vst3 Effect For Windows"
+  },
+  {
+    "id": "3fd792506de6",
+    "slug": "music-transcriber-to",
+    "name": "Music Transcriber To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Music Transcriber To is a audio plugin.",
+    "longDescription": "Music Transcriber To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/kengo-ichiki-updates-music-transcriber-to-v1-1-0-with-pitch-range-note-editing-68423",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-09T11:05:52.142830+00:00",
+    "sourceTitle": "Kengo Ichiki Updates Music Transcriber To V1.1.0 With Pitch Range Note Editing"
+  },
+  {
+    "id": "de614e3b2d89",
+    "slug": "tintar-s-analog-color-saturator",
+    "name": "Tintar S Analog Color Saturator",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Tintar S Analog Color Saturator is a audio effects plugin.",
+    "longDescription": "Tintar S Analog Color Saturator is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/rockheyday-releases-tintar-s---analog-color-saturator-v2-68426",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-09T11:05:44.445446+00:00",
+    "sourceTitle": "Rockheyday Releases Tintar S Analog Color Saturator V2"
+  },
+  {
+    "id": "119ac18ad4a4",
+    "slug": "imfmsynth-8-operator-fm-wavetable-synthesizer-vst3-au-and",
+    "name": "Imfmsynth 8 Operator Fm Wavetable Synthesizer Vst3 Au And",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Imfmsynth 8 Operator Fm Wavetable Synthesizer Vst3 Au And is a synthesizer plugin.",
+    "longDescription": "Imfmsynth 8 Operator Fm Wavetable Synthesizer Vst3 Au And is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/kaitosato-releases-imfmsynth-8-operator-fm-wavetable-synthesizer-vst3-au-and-clap-68432",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-09T11:05:35.675064+00:00",
+    "sourceTitle": "Kaitosato Releases Imfmsynth 8 Operator Fm Wavetable Synthesizer Vst3 Au And Clap"
+  },
+  {
     "id": "80cc956b3276",
     "slug": "kontakt",
     "name": "Kontakt",
@@ -824,167 +988,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-05-12T18:42:08.784115+00:00",
     "sourceTitle": "Nikolozi Updates Mela To V7.8 For Macos And Ios"
-  },
-  {
-    "id": "5a03ced47e68",
-    "slug": "atkducker",
-    "name": "Atkducker",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Atkducker is a audio plugin.",
-    "longDescription": "Atkducker is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/atkaudio-releases-atkducker---free-ducking-plugin-66960",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-12T18:42:00.549328+00:00",
-    "sourceTitle": "Atkaudio Releases Atkducker Free Ducking Plugin"
-  },
-  {
-    "id": "df24bc5e60f7",
-    "slug": "newfangled-audio-fixate-midrange-dynamic-eq-using",
-    "name": "Newfangled Audio Fixate Midrange Dynamic Eq Using...",
-    "developer": "Eventide",
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Eventide Newfangled Audio Fixate Midrange Dynamic Eq Using... is a audio effects plugin.",
-    "longDescription": "Eventide Newfangled Audio Fixate Midrange Dynamic Eq Using... is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/eventide-audio-releases-newfangled-audio-fixate-midrange---dynamic-eq-using-critical-band-analysis-for-midrange-correction-66961",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-12T18:41:54.557157+00:00",
-    "sourceTitle": "Eventide Audio Releases Newfangled Audio Fixate Midrange Dynamic Eq Using Critical Band Analysis For Midrange Correction"
-  },
-  {
-    "id": "5d7c24afb10b",
-    "slug": "ramses",
-    "name": "Ramses",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Ramses is a audio plugin.",
-    "longDescription": "Ramses is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/xils-lab-releases-ramses-v2-0---vst3-support-and-more-66962",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-12T18:41:48.661541+00:00",
-    "sourceTitle": "Xils Lab Releases Ramses V2.0 Vst3 Support And More"
-  },
-  {
-    "id": "9f24aa45cddb",
-    "slug": "guitarsynth-x",
-    "name": "Guitarsynth X",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Guitarsynth X is a synthesizer plugin.",
-    "longDescription": "Guitarsynth X is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/sample-fuel-releases-guitarsynth-x-for-halion-sonic-66951",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-12T18:41:34.971051+00:00",
-    "sourceTitle": "Sample Fuel Releases Guitarsynth X For Halion Sonic"
-  },
-  {
-    "id": "e8f6c466c959",
-    "slug": "orchestral-suite-2-the-complete-symphonic-orchestra",
-    "name": "Orchestral Suite 2 The Complete Symphonic Orchestra",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Orchestral Suite 2 The Complete Symphonic Orchestra is a audio plugin.",
-    "longDescription": "Orchestral Suite 2 The Complete Symphonic Orchestra is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/uvi-releases-orchestral-suite-2---the-complete-symphonic-orchestra-66959",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-12T18:41:19.714235+00:00",
-    "sourceTitle": "Uvi Releases Orchestral Suite 2 The Complete Symphonic Orchestra"
   }
 ]
