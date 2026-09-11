@@ -120,6 +120,11 @@ JUNK_URL_PATTERNS = [
     r'/page/', r'/author/', r'/feed/', r'/rss', r'/search', r'\?', r'#',
     r'/about', r'/contact', r'/privacy', r'/terms', r'/shop/?$', r'/store/?$',
     r'youtube\.com', r'facebook\.com', r'twitter\.com', r'instagram\.com',
+    # BPB roundup/collection pages: dated URLs that are NOT individual releases.
+    # These kept resurfacing on the listing page and failed to parse on every run
+    # (3 wasted scrape attempts each time). Added 2026-09-11.
+    r'bedroomproducersblog\.com/20\d\d/\d\d/\d\d/free-daw-software/?$',
+    r'bedroomproducersblog\.com/20\d\d/\d\d/\d\d/free-drum-kits/?$',
 ]
 JUNK_URL_RE = re.compile('|'.join(JUNK_URL_PATTERNS), re.IGNORECASE)
 
