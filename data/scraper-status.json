@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-09-09T11:05:21.866650+00:00",
-  "finishedAt": "2026-09-09T11:06:25.114133+00:00",
+  "startedAt": "2026-09-11T10:59:47.730535+00:00",
+  "finishedAt": "2026-09-11T11:00:48.657318+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 5,
-  "rejectedEntries": 2,
+  "newEntries": 6,
+  "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
     {
@@ -15,14 +15,14 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 5,
-      "entriesRejected": 2
+      "entriesAdded": 6,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
       "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
       "listingScraped": true,
-      "candidateLinks": 3,
+      "candidateLinks": 1,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
@@ -38,22 +38,14 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/ \"Free digital audio workstations\"",
-    "Scrape failed: https://bedroomproducersblog.com/2021/07/02/free-drum-kits/",
-    "Scrape failed: https://bedroomproducersblog.com/2015/11/11/free-daw-software/"
+    "Scrape failed: https://bedroomproducersblog.com/2021/07/02/free-drum-kits/"
   ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/fanan-team-releases-grex-ballada---free-ballad-arranger-module-68436 \"Fanan Team Releases Grex Ballada - Free Ballad Arranger Module\"",
+      "url": "https://www.kvraudio.com/news/sonora-cinematic-releases-panorama-whitekirk-for-kontakt-player-68460 \"Sonora Cinematic Releases Panorama Whitekirk for Kontakt Player\"",
       "reason": "description_contains_ip_address",
-      "name": "Grex Ballada Free Ballad Arranger Module",
-      "slug": "grex-ballada-free-ballad-arranger-module"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/fabula-audio-releases-hark---illuminated-medieval-virtual-instrument-inspired-by-collectable-card-games-68431 \"Fabula Audio releases \\\"Hark!\\\" - illuminated medieval virtual instrument inspired by collectable card games\"",
-      "reason": "description_contains_ip_address",
-      "name": "Hark Illuminated Medieval Virtual Instrument Inspired By...",
-      "slug": "hark-illuminated-medieval-virtual-instrument-inspired-by"
+      "name": "Panorama Whitekirk",
+      "slug": "panorama-whitekirk"
     }
   ]
 }

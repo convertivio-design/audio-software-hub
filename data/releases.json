@@ -1,5 +1,197 @@
 [
   {
+    "id": "d54e61e6a22f",
+    "slug": "soundbox-to",
+    "name": "Soundbox To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Soundbox To is a audio plugin.",
+    "longDescription": "Soundbox To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/audiomodern-updates-soundbox-to-v1-3-0---mpe-support-68458",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-11T11:00:35.310122+00:00",
+    "sourceTitle": "Audiomodern Updates Soundbox To V1.3.0 Mpe Support"
+  },
+  {
+    "id": "5677b70f3491",
+    "slug": "awave-studio",
+    "name": "Awave Studio",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Awave Studio is a audio plugin.",
+    "longDescription": "Awave Studio is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/fmj-software-updates-awave-studio-to-v12-16-68462",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-11T11:00:29.548633+00:00",
+    "sourceTitle": "Fmj Software Updates Awave Studio To V12.16"
+  },
+  {
+    "id": "6236998f67ab",
+    "slug": "pinky-2-to",
+    "name": "Pinky 2 To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Pinky 2 To is a audio plugin.",
+    "longDescription": "Pinky 2 To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/noisebud-updates-pinky-2-to-v2-53---static-spectral-mode-and-dyn-stat-blend-68456",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-11T11:00:19.696333+00:00",
+    "sourceTitle": "Noisebud Updates Pinky 2 To V2.53 Static Spectral Mode And Dyn Stat Blend"
+  },
+  {
+    "id": "021e72a6531a",
+    "slug": "mdrumcleaner-mturbofilter-and",
+    "name": "Mdrumcleaner Mturbofilter And",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Mdrumcleaner Mturbofilter And is a drum machine plugin.",
+    "longDescription": "Mdrumcleaner Mturbofilter And is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/meldaproduction-releases-mdrumcleaner-mturbofilter-and-v17-10-update-68459",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-11T11:00:13.009316+00:00",
+    "sourceTitle": "Meldaproduction Releases Mdrumcleaner Mturbofilter And V17.10 Update"
+  },
+  {
+    "id": "abd5fa5fde95",
+    "slug": "spark-pedal-amp-modeler-multi-fx-and-audio-interface",
+    "name": "Spark Pedal Amp Modeler Multi Fx And Audio Interface",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Spark Pedal Amp Modeler Multi Fx And Audio Interface is a audio plugin.",
+    "longDescription": "Spark Pedal Amp Modeler Multi Fx And Audio Interface is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/positive-grid-releases-spark-pedal---amp-modeler-multi-fx-and-audio-interface-68466",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-11T11:00:08.302368+00:00",
+    "sourceTitle": "Positive Grid Releases Spark Pedal Amp Modeler Multi Fx And Audio Interface"
+  },
+  {
+    "id": "d4a9c8bc4e04",
+    "slug": "dm4-a-modern-homage-to-the-classic-lm-4-drum-module",
+    "name": "Dm4 A Modern Homage To The Classic Lm 4 Drum Module",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Dm4 A Modern Homage To The Classic Lm 4 Drum Module is a drum machine plugin.",
+    "longDescription": "Dm4 A Modern Homage To The Classic Lm 4 Drum Module is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/amphioniq-releases-dm4---a-modern-homage-to-the-classic-lm-4-drum-module-68468",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-11T10:59:53.655461+00:00",
+    "sourceTitle": "Amphioniq Releases Dm4 A Modern Homage To The Classic Lm 4 Drum Module"
+  },
+  {
     "id": "fa5a680a7885",
     "slug": "audorama-2-0-vision-aware-daw-for-cinematic-sound-design",
     "name": "Audorama 2 0 Vision Aware Daw For Cinematic Sound Design...",
@@ -790,203 +982,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-05-27T09:52:27.774901+00:00",
     "sourceTitle": "Soniclab Updates Fundamental To V4.1 Adding Mcp Support"
-  },
-  {
-    "id": "129492775d7d",
-    "slug": "deep-waters-2-neural-reverb",
-    "name": "Deep Waters 2 Neural Reverb",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Deep Waters 2 Neural Reverb is a audio effects plugin.",
-    "longDescription": "Deep Waters 2 Neural Reverb is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/zak-sound-releases-deep-waters-2-neural-reverb-plugin-67057",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-24T06:07:14.497100+00:00",
-    "sourceTitle": "Zak Sound Releases Deep Waters 2 Neural Reverb Plugin"
-  },
-  {
-    "id": "8b3dd22fb98b",
-    "slug": "ob-xd-virtual-analog-synth",
-    "name": "Ob Xd Virtual Analog Synth",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Ob Xd Virtual Analog Synth is a synthesizer plugin.",
-    "longDescription": "Ob Xd Virtual Analog Synth is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/discodsp-updates-ob-xd-virtual-analog-synth-to-v3-21-67063",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-24T06:07:11.941965+00:00",
-    "sourceTitle": "Discodsp Updates Ob Xd Virtual Analog Synth To V3.21"
-  },
-  {
-    "id": "80a00ef89039",
-    "slug": "free-dxlevel-plugin-loudness-leveling-for-speech-post",
-    "name": "Free Dxlevel Plugin Loudness Leveling For Speech Post...",
-    "developer": null,
-    "categoryId": "mastering",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Free Dxlevel Plugin Loudness Leveling For Speech Post... is a mastering plugin.",
-    "longDescription": "Free Dxlevel Plugin Loudness Leveling For Speech Post... is a mastering plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/accentize-releases-free-dxlevel-plugin---loudness-leveling-for-speech-post-production-67066",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "mastering"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-24T06:07:09.303224+00:00",
-    "sourceTitle": "Accentize Releases Free Dxlevel Plugin Loudness Leveling For Speech Post Production"
-  },
-  {
-    "id": "e1cd5e51cadc",
-    "slug": "quasar-106-juno-inspired-filter-chorus-and-drive",
-    "name": "Quasar 106 Juno Inspired Filter Chorus And Drive",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Quasar 106 Juno Inspired Filter Chorus And Drive is a audio effects plugin.",
-    "longDescription": "Quasar 106 Juno Inspired Filter Chorus And Drive is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/mntra-releases-quasar-106---juno-inspired-filter-chorus-and-drive-plugin-67067",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-24T06:07:06.406345+00:00",
-    "sourceTitle": "Mntra Releases Quasar 106 Juno Inspired Filter Chorus And Drive Plugin"
-  },
-  {
-    "id": "688c8b7b8307",
-    "slug": "hype-expressive-explosive-drums-plugin-vst3-au-and",
-    "name": "Hype Expressive Explosive Drums Plugin Vst3 Au And",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Hype Expressive Explosive Drums Plugin Vst3 Au And is a drum machine plugin.",
-    "longDescription": "Hype Expressive Explosive Drums Plugin Vst3 Au And is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/teletone-audio-releases-hype---expressive-explosive-drums-plugin-vst3-au-and-aax-67068",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-24T06:07:03.356387+00:00",
-    "sourceTitle": "Teletone Audio Releases Hype Expressive Explosive Drums Plugin Vst3 Au And Aax"
-  },
-  {
-    "id": "6016354298e1",
-    "slug": "mela-v78",
-    "name": "Mela v7.8",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Mela v7.8 is a audio plugin.",
-    "longDescription": "Mela v7.8 is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/nikolozi-updates-mela-to-v7-8-for-macos-and-ios-66954",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-05-12T18:42:08.784115+00:00",
-    "sourceTitle": "Nikolozi Updates Mela To V7.8 For Macos And Ios"
   }
 ]
