@@ -75,6 +75,13 @@ const guides = [
     category: "Drum Machines",
     readTime: "14 min",
   },
+  {
+    title: "Music Rights Management — Market Strategy & Feasibility Report",
+    slug: "music-rights-market-report",
+    description: "Global music rights management market analysis: TAM/SAM/SOM, customer segments, M&A integration friction, and productization opportunities for royalty infrastructure.",
+    category: "Operations",
+    readTime: "14 min",
+  },
 
 ]
 
