@@ -4,6 +4,11 @@ name: "Force Deploy (manual)"
 # CLI, bypassing the project's "Ignored Build Step" (which cancels Git-integration
 # pushes). Trigger manually with `gh workflow run "Force Deploy (manual)"`.
 # workflow_dispatch-only so it never runs automatically (no double-deploy).
+#
+# NOTE: links explicitly to `audiosoftwarehub.online` because the repo's
+# VERCEL_PROJECT_ID secret is stale (points at the old `music-tech-directory`
+# project, prj_WuAyNjBRTX0ZbhuBckjma2zHCu0H). Correct prod project id:
+# prj_HLKzzEhw9TEBGPC2IoO14OgEORDl.
 
 on:
   workflow_dispatch:
@@ -25,16 +30,14 @@ jobs:
       - name: Install Vercel CLI
         run: npm install -g vercel
 
-      - name: Link project (non-interactive)
-        run: vercel link --yes
+      - name: Link to audiosoftwarehub.online project
+        run: vercel link --yes --project audiosoftwarehub.online --scope projectsinternalbr
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
       - name: Deploy to production (force)
         run: vercel deploy --prod --force --yes
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_PROJECT_ID: prj_HLKzzEhw9TEBGPC2IoO14OgEORDl
