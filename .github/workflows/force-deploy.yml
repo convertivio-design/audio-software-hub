@@ -1,0 +1,40 @@
+name: "Force Deploy (manual)"
+
+# One-off escape hatch: deploys the current master to production via the Vercel
+# CLI, bypassing the project's "Ignored Build Step" (which cancels Git-integration
+# pushes). Trigger manually with `gh workflow run "Force Deploy (manual)"`.
+# workflow_dispatch-only so it never runs automatically (no double-deploy).
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Link project (non-interactive)
+        run: vercel link --yes
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+      - name: Deploy to production (force)
+        run: vercel deploy --prod --force --yes
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
