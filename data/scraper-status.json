@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-09-11T10:59:47.730535+00:00",
-  "finishedAt": "2026-09-11T11:00:48.657318+00:00",
+  "startedAt": "2026-09-13T11:31:29.396947+00:00",
+  "finishedAt": "2026-09-13T11:32:05.610980+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 6,
-  "rejectedEntries": 1,
+  "newEntries": 3,
+  "rejectedEntries": 3,
   "outputEntries": 30,
   "sources": [
     {
@@ -15,14 +15,14 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 6,
-      "entriesRejected": 1
+      "entriesAdded": 3,
+      "entriesRejected": 3
     },
     {
       "source": "BPB Free VST",
       "listingUrl": "https://bedroomproducersblog.com/category/free-vst-plugins/",
       "listingScraped": true,
-      "candidateLinks": 1,
+      "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
@@ -30,7 +30,7 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
+      "listingScraped": false,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
@@ -38,14 +38,26 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://bedroomproducersblog.com/2021/07/02/free-drum-kits/"
+    "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/sonora-cinematic-releases-panorama-whitekirk-for-kontakt-player-68460 \"Sonora Cinematic Releases Panorama Whitekirk for Kontakt Player\"",
+      "url": "https://www.kvraudio.com/news/venomode-updates-pivot-to-v1-7-0-68518 \"Venomode updates Pivot to v1.7.0\"",
+      "reason": "name_too_generic",
+      "name": "Pivot",
+      "slug": "pivot"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/frctl-audio-releases-grn-v4-0-0---new-engine-gui-rework-per-grain-fx-and-more-68504 \"FRCTL Audio releases GRN v4.0.0 - New Engine, GUI Rework, Per-grain FX & More\"",
+      "reason": "name_too_generic",
+      "name": "Grn",
+      "slug": "grn"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/neverfoundaudio-releases-eeq-8-dynamic-eq-and-updates-vt-mini-to-v1-0-1-windows-vst3-68467 \"neverfoundaudio releases EEQ-8 Dynamic EQ and updates VT-Mini to v1.0.1 (Windows VST3",
       "reason": "description_contains_ip_address",
-      "name": "Panorama Whitekirk",
-      "slug": "panorama-whitekirk"
+      "name": "Eeq 8 Dynamic Eq And Updates Vt Mini To",
+      "slug": "eeq-8-dynamic-eq-and-updates-vt-mini-to"
     }
   ]
 }
