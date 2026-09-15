@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-09-13T11:31:29.396947+00:00",
-  "finishedAt": "2026-09-13T11:32:05.610980+00:00",
+  "startedAt": "2026-09-15T11:30:11.509661+00:00",
+  "finishedAt": "2026-09-15T11:33:09.715080+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 3,
+  "newEntries": 2,
   "rejectedEntries": 3,
   "outputEntries": 30,
   "sources": [
@@ -15,7 +15,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 3,
+      "entriesAdded": 2,
       "entriesRejected": 3
     },
     {
@@ -30,34 +30,32 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": false,
+      "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Could not scrape listing page: https://www.rekkerd.org/"
-  ],
+  "errors": [],
   "rejections": [
+    {
+      "url": "https://www.kvraudio.com/news/tapechild-releases-uds-16---16-voice-drum-synthesizer-inspired-by-soviet-instruments-68534 \"Tapechild releases UDS-16 - 16-voice drum synthesizer inspired by Soviet instruments\"",
+      "reason": "description_contains_ip_address",
+      "name": "Uds 16 16 Voice Drum Synthesizer Inspired By Soviet...",
+      "slug": "uds-16-16-voice-drum-synthesizer-inspired-by-soviet"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/rast-sound-releases-redwood-analog-rack-plugin-68529 \"Rast Sound releases Redwood analog rack plugin\"",
+      "reason": "description_contains_ip_address",
+      "name": "Redwood Analog Rack",
+      "slug": "redwood-analog-rack"
+    },
     {
       "url": "https://www.kvraudio.com/news/venomode-updates-pivot-to-v1-7-0-68518 \"Venomode updates Pivot to v1.7.0\"",
       "reason": "name_too_generic",
       "name": "Pivot",
       "slug": "pivot"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/frctl-audio-releases-grn-v4-0-0---new-engine-gui-rework-per-grain-fx-and-more-68504 \"FRCTL Audio releases GRN v4.0.0 - New Engine, GUI Rework, Per-grain FX & More\"",
-      "reason": "name_too_generic",
-      "name": "Grn",
-      "slug": "grn"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/neverfoundaudio-releases-eeq-8-dynamic-eq-and-updates-vt-mini-to-v1-0-1-windows-vst3-68467 \"neverfoundaudio releases EEQ-8 Dynamic EQ and updates VT-Mini to v1.0.1 (Windows VST3",
-      "reason": "description_contains_ip_address",
-      "name": "Eeq 8 Dynamic Eq And Updates Vt Mini To",
-      "slug": "eeq-8-dynamic-eq-and-updates-vt-mini-to"
     }
   ]
 }

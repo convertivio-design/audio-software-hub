@@ -1,5 +1,69 @@
 [
   {
+    "id": "86dd64e1d38f",
+    "slug": "big-notes-to",
+    "name": "Big Notes To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Big Notes To is a audio plugin.",
+    "longDescription": "Big Notes To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/big-man-labs-updates-big-notes-to-v1-0-2---hardware-recall-and-notes-plugin-68530",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-15T11:31:53.589035+00:00",
+    "sourceTitle": "Big Man Labs Updates Big Notes To V1.0.2 Hardware Recall And Notes Plugin"
+  },
+  {
+    "id": "478b1b4d2ec5",
+    "slug": "tvhs-tape-and-crt-tv-emulator",
+    "name": "Tvhs Tape And Crt Tv Emulator",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Tvhs Tape And Crt Tv Emulator is a audio plugin.",
+    "longDescription": "Tvhs Tape And Crt Tv Emulator is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/thenatan-releases-tvhs-tape-and-crt-tv-emulator-for-mac-and-win-68517",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-15T11:31:20.598557+00:00",
+    "sourceTitle": "Thenatan Releases Tvhs Tape And Crt Tv Emulator For Mac And Win"
+  },
+  {
     "id": "4360542292ef",
     "slug": "skruu-and-triple-og",
     "name": "Skruu And Triple Og",
@@ -909,73 +973,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-05T10:23:02.528036+00:00",
     "sourceTitle": "Abyzor Updates Free Abyzor Genesis To V2.1"
-  },
-  {
-    "id": "c2b4d2a040fb",
-    "slug": "audacity-4",
-    "name": "Audacity 4",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Audacity 4 is a audio plugin.",
-    "longDescription": "Audacity 4 is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/muse-group-releases-audacity-4-68361",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:22:58.090134+00:00",
-    "sourceTitle": "Muse Group Releases Audacity 4"
-  },
-  {
-    "id": "88a885fea251",
-    "slug": "xoradora-drum-machine-as-open-beta-vst3-au-and",
-    "name": "Xoradora Drum Machine As Open Beta Vst3 Au And",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Xoradora Drum Machine As Open Beta Vst3 Au And is a drum machine plugin.",
-    "longDescription": "Xoradora Drum Machine As Open Beta Vst3 Au And is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/mutagene-releases-xoradora-drum-machine-as-open-beta-vst3-au-and-clap-68347",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "CLAP"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-03T18:40:52.646795+00:00",
-    "sourceTitle": "Mutagene Releases Xoradora Drum Machine As Open Beta Vst3 Au And Clap"
   }
 ]
