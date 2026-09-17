@@ -1,5 +1,100 @@
 [
   {
+    "id": "88a772f421d2",
+    "slug": "voicemeeter-new-windows-audio-map-for-complete-system",
+    "name": "Voicemeeter New Windows Audio Map For Complete System...",
+    "developer": null,
+    "categoryId": "vocal",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Voicemeeter New Windows Audio Map For Complete System... is a vocal processing plugin.",
+    "longDescription": "Voicemeeter New Windows Audio Map For Complete System... is a vocal processing plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/vb-audio-updates-voicemeeter---new-windows-audio-map-for-complete-system-visibility-68581",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "vocal"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-17T11:24:52.044944+00:00",
+    "sourceTitle": "Vb Audio Updates Voicemeeter New Windows Audio Map For Complete System Visibility"
+  },
+  {
+    "id": "7a8185432fd8",
+    "slug": "timbral-box-a-parallel-harmonic-processor",
+    "name": "Timbral Box A Parallel Harmonic Processor",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Timbral Box A Parallel Harmonic Processor is a audio plugin.",
+    "longDescription": "Timbral Box A Parallel Harmonic Processor is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/smart-audio-plugins-releases-timbral-box-a-parallel-harmonic-processor-68592",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-17T11:24:46.615245+00:00",
+    "sourceTitle": "Smart Audio Plugins Releases Timbral Box A Parallel Harmonic Processor"
+  },
+  {
+    "id": "f5948e5ecfe0",
+    "slug": "crusher-x",
+    "name": "Crusher X",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Crusher X is a audio plugin.",
+    "longDescription": "Crusher X is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/accsone-updates-crusher-x-to-v12-20-68594",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-17T11:24:40.327358+00:00",
+    "sourceTitle": "Accsone Updates Crusher X To V12.20"
+  },
+  {
     "id": "86dd64e1d38f",
     "slug": "big-notes-to",
     "name": "Big Notes To",
@@ -872,106 +967,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-05T10:23:13.125936+00:00",
     "sourceTitle": "Tokyomeltdown Releases Lufsbar Pro Audio Unit Inserts On Macos System Audio With Ebu R128 Metering"
-  },
-  {
-    "id": "283c2bfb71a7",
-    "slug": "artcode-daw-2-0-adds-vst3-hosting-and-a-windows-build",
-    "name": "Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build",
-    "developer": null,
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build is a digital audio workstation.",
-    "longDescription": "Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/artcode-releases-artcode-daw-2-0---adds-vst3-hosting-and-a-windows-build-68373",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:23:09.501289+00:00",
-    "sourceTitle": "Artcode Releases Artcode Daw 2 0 Adds Vst3 Hosting And A Windows Build"
-  },
-  {
-    "id": "785e0e567985",
-    "slug": "supra-hybrid-granular-synthesizer-vst3-au-and",
-    "name": "Supra Hybrid Granular Synthesizer Vst3 Au And",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Supra Hybrid Granular Synthesizer Vst3 Au And is a synthesizer plugin.",
-    "longDescription": "Supra Hybrid Granular Synthesizer Vst3 Au And is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/w-a-production-releases-supra-hybrid-granular-synthesizer-vst3-au-and-aax-68378",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:23:05.592876+00:00",
-    "sourceTitle": "W A Production Releases Supra Hybrid Granular Synthesizer Vst3 Au And Aax"
-  },
-  {
-    "id": "033ee8030777",
-    "slug": "free-abyzor-genesis",
-    "name": "Free Abyzor Genesis",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Free Abyzor Genesis is a audio plugin.",
-    "longDescription": "Free Abyzor Genesis is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/abyzor-updates-free-abyzor-genesis-to-v2-1-68367",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:23:02.528036+00:00",
-    "sourceTitle": "Abyzor Updates Free Abyzor Genesis To V2.1"
   }
 ]

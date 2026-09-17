@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-09-15T11:30:11.509661+00:00",
-  "finishedAt": "2026-09-15T11:33:09.715080+00:00",
+  "startedAt": "2026-09-17T11:24:25.418525+00:00",
+  "finishedAt": "2026-09-17T11:25:00.246238+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 2,
+  "newEntries": 3,
   "rejectedEntries": 3,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 2,
+      "articlesScraped": 7,
+      "entriesAdded": 3,
       "entriesRejected": 3
     },
     {
@@ -30,32 +30,35 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
+      "listingScraped": false,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Scrape failed: https://www.kvraudio.com/news/musicdevelopments-autumn-sale---rapidcomposer-40-off-68407 \"MusicDevelopments Autumn Sale - RapidComposer 40% Off\"",
+    "Could not scrape listing page: https://www.rekkerd.org/"
+  ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/tapechild-releases-uds-16---16-voice-drum-synthesizer-inspired-by-soviet-instruments-68534 \"Tapechild releases UDS-16 - 16-voice drum synthesizer inspired by Soviet instruments\"",
+      "url": "https://www.kvraudio.com/news/vsl-releases-synchron-cimbalom-and-synchron-world-percussion-ii-68598 \"VSL releases Synchron Cimbalom and Synchron World Percussion II\"",
       "reason": "description_contains_ip_address",
-      "name": "Uds 16 16 Voice Drum Synthesizer Inspired By Soviet...",
-      "slug": "uds-16-16-voice-drum-synthesizer-inspired-by-soviet"
+      "name": "Synchron Cimbalom And Synchron World Percussion Ii",
+      "slug": "synchron-cimbalom-and-synchron-world-percussion-ii"
     },
     {
-      "url": "https://www.kvraudio.com/news/rast-sound-releases-redwood-analog-rack-plugin-68529 \"Rast Sound releases Redwood analog rack plugin\"",
+      "url": "https://www.kvraudio.com/news/soniclab-updates-protean-to-v2-68596 \"sonicLAB updates PROTEAN to v2\"",
       "reason": "description_contains_ip_address",
-      "name": "Redwood Analog Rack",
-      "slug": "redwood-analog-rack"
+      "name": "Protean",
+      "slug": "protean"
     },
     {
-      "url": "https://www.kvraudio.com/news/venomode-updates-pivot-to-v1-7-0-68518 \"Venomode updates Pivot to v1.7.0\"",
-      "reason": "name_too_generic",
-      "name": "Pivot",
-      "slug": "pivot"
+      "url": "https://www.kvraudio.com/news/emetic-dsp-releases-parametic-and-smile-bus-3000---49-intro-pricing-68580 \"Emetic DSP Releases Parametic and Smile Bus 3000 - £49 Intro Pricing\"",
+      "reason": "description_contains_ip_address",
+      "name": "Parametic And Smile Bus 3000 49 Intro Pricing",
+      "slug": "parametic-and-smile-bus-3000-49-intro-pricing"
     }
   ]
 }
