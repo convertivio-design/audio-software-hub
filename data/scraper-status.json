@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-09-17T11:24:25.418525+00:00",
-  "finishedAt": "2026-09-17T11:25:00.246238+00:00",
+  "startedAt": "2026-09-19T10:41:48.301574+00:00",
+  "finishedAt": "2026-09-19T10:42:20.802742+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 3,
-  "rejectedEntries": 3,
+  "newEntries": 4,
+  "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
     {
@@ -14,9 +14,9 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 3,
-      "entriesRejected": 3
+      "articlesScraped": 6,
+      "entriesAdded": 4,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
@@ -38,27 +38,16 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/musicdevelopments-autumn-sale---rapidcomposer-40-off-68407 \"MusicDevelopments Autumn Sale - RapidComposer 40% Off\"",
+    "Scrape failed: https://www.kvraudio.com/news/parish-audio-c11-compressor-50-off-68573 \"Parish Audio C11 Compressor 50% Off\"",
+    "Scrape failed: https://www.kvraudio.com/news/meterplugs-updates-perception-ab-to-v1-5---adds-atmos-support-30-off-68630 \"MeterPlugs Updates Perception AB to v1.5 - Adds Atmos Support (30% off",
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/vsl-releases-synchron-cimbalom-and-synchron-world-percussion-ii-68598 \"VSL releases Synchron Cimbalom and Synchron World Percussion II\"",
+      "url": "https://www.kvraudio.com/news/authentic-soundware-release-space-age-strings-for-kontakt-68597 \"Authentic Soundware release \\\"Space Age Strings\\\" for Kontakt\"",
       "reason": "description_contains_ip_address",
-      "name": "Synchron Cimbalom And Synchron World Percussion Ii",
-      "slug": "synchron-cimbalom-and-synchron-world-percussion-ii"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/soniclab-updates-protean-to-v2-68596 \"sonicLAB updates PROTEAN to v2\"",
-      "reason": "description_contains_ip_address",
-      "name": "Protean",
-      "slug": "protean"
-    },
-    {
-      "url": "https://www.kvraudio.com/news/emetic-dsp-releases-parametic-and-smile-bus-3000---49-intro-pricing-68580 \"Emetic DSP Releases Parametic and Smile Bus 3000 - £49 Intro Pricing\"",
-      "reason": "description_contains_ip_address",
-      "name": "Parametic And Smile Bus 3000 49 Intro Pricing",
-      "slug": "parametic-and-smile-bus-3000-49-intro-pricing"
+      "name": "Space Age Strings",
+      "slug": "space-age-strings"
     }
   ]
 }

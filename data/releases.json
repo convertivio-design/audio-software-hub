@@ -1,5 +1,135 @@
 [
   {
+    "id": "45dd302181ec",
+    "slug": "difro-melody-ai",
+    "name": "Difro Melody Ai",
+    "developer": "Initial Audio",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Initial Audio Difro Melody Ai is a audio plugin.",
+    "longDescription": "Initial Audio Difro Melody Ai is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/initial-audio-updates-difro-melody-ai-to-v1-2-0-68635",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-19T10:42:15.676325+00:00",
+    "sourceTitle": "Initial Audio Updates Difro Melody Ai To V1.2.0"
+  },
+  {
+    "id": "a330c4593e01",
+    "slug": "voxsplit-pro-for-dialogue-separation-and-cleanup-on",
+    "name": "Voxsplit Pro For Dialogue Separation And Cleanup On...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Voxsplit Pro For Dialogue Separation And Cleanup On... is a audio plugin.",
+    "longDescription": "Voxsplit Pro For Dialogue Separation And Cleanup On... is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/limited-edition-audio-releases-voxsplit-pro-for-dialogue-separation-and-cleanup-on-macos-vst3-and-aax-68627",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-19T10:42:12.651926+00:00",
+    "sourceTitle": "Limited Edition Audio Releases Voxsplit Pro For Dialogue Separation And Cleanup On Macos Vst3 And Aax"
+  },
+  {
+    "id": "9bf634afb84b",
+    "slug": "devocean-modular",
+    "name": "Devocean Modular",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Devocean Modular is a synthesizer plugin.",
+    "longDescription": "Devocean Modular is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ocean-swift-updates-devocean-modular-to-v1-2-68637",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-19T10:42:05.423569+00:00",
+    "sourceTitle": "Ocean Swift Updates Devocean Modular To V1.2"
+  },
+  {
+    "id": "9d3c0c7a62fd",
+    "slug": "44-plugins",
+    "name": "44 Plugins",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "44 Plugins is a audio plugin.",
+    "longDescription": "44 Plugins is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/shane-audio-updates-44-plugins-to-v1-6-68640",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-19T10:42:00.912976+00:00",
+    "sourceTitle": "Shane Audio Updates 44 Plugins To V1.6"
+  },
+  {
     "id": "88a772f421d2",
     "slug": "voicemeeter-new-windows-audio-map-for-complete-system",
     "name": "Voicemeeter New Windows Audio Map For Complete System...",
@@ -840,132 +970,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-07T12:09:33.007314+00:00",
     "sourceTitle": "Snorkel Audio Releases Disto Disco Audio Effect That Turns Distortion Into Movement Vst3 And Au"
-  },
-  {
-    "id": "98b14ed4b5d7",
-    "slug": "tonex-board-dual-path-guitar-and-bass-processor-with",
-    "name": "Tonex Board Dual Path Guitar And Bass Processor With...",
-    "developer": "IK Multimedia",
-    "categoryId": "guitar",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "IK Multimedia Tonex Board Dual Path Guitar And Bass Processor With... is a guitar amp/effects plugin.",
-    "longDescription": "IK Multimedia Tonex Board Dual Path Guitar And Bass Processor With... is a guitar amp/effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ik-multimedia-releases-tonex-board---dual-path-guitar-and-bass-processor-with-four-simultaneous-ai-tone-models-68370",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "guitar"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:23:24.200595+00:00",
-    "sourceTitle": "Ik Multimedia Releases Tonex Board Dual Path Guitar And Bass Processor With Four Simultaneous Ai Tone Models"
-  },
-  {
-    "id": "d00cc9229d3b",
-    "slug": "focus-for-u-he-diva",
-    "name": "Focus For U He Diva",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Focus For U He Diva is a audio plugin.",
-    "longDescription": "Focus For U He Diva is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/plughugger-releases-focus-for-u-he-diva-68375",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:23:20.778339+00:00",
-    "sourceTitle": "Plughugger Releases Focus For U He Diva"
-  },
-  {
-    "id": "4a659654388b",
-    "slug": "kreativ-kollection",
-    "name": "Kreativ Kollection",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Kreativ Kollection is a audio plugin.",
-    "longDescription": "Kreativ Kollection is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/kreativ-sound-releases-kreativ-kollection-v1---16-sound-design-products-for-eur-49-68377",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:23:16.641448+00:00",
-    "sourceTitle": "Kreativ Sound Releases Kreativ Kollection V1 16 Sound Design Products For Eur 49"
-  },
-  {
-    "id": "592313835f18",
-    "slug": "lufsbar-pro-audio-unit-inserts-on-macos-system-audio",
-    "name": "Lufsbar Pro Audio Unit Inserts On Macos System Audio...",
-    "developer": null,
-    "categoryId": "mastering",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Lufsbar Pro Audio Unit Inserts On Macos System Audio... is a mastering plugin.",
-    "longDescription": "Lufsbar Pro Audio Unit Inserts On Macos System Audio... is a mastering plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/tokyomeltdown-releases-lufsbar-pro---audio-unit-inserts-on-macos-system-audio-with-ebu-r128-metering-68369",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "mastering"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-05T10:23:13.125936+00:00",
-    "sourceTitle": "Tokyomeltdown Releases Lufsbar Pro Audio Unit Inserts On Macos System Audio With Ebu R128 Metering"
   }
 ]
