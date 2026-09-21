@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-09-19T10:41:48.301574+00:00",
-  "finishedAt": "2026-09-19T10:42:20.802742+00:00",
+  "startedAt": "2026-09-21T12:32:01.981454+00:00",
+  "finishedAt": "2026-09-21T12:32:34.798568+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 4,
+  "newEntries": 5,
   "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 6,
-      "entriesAdded": 4,
+      "articlesScraped": 7,
+      "entriesAdded": 5,
       "entriesRejected": 1
     },
     {
@@ -38,16 +38,15 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/parish-audio-c11-compressor-50-off-68573 \"Parish Audio C11 Compressor 50% Off\"",
-    "Scrape failed: https://www.kvraudio.com/news/meterplugs-updates-perception-ab-to-v1-5---adds-atmos-support-30-off-68630 \"MeterPlugs Updates Perception AB to v1.5 - Adds Atmos Support (30% off",
+    "Scrape failed: https://www.kvraudio.com/news/crocus-soundware-liminal-micro-bamboo-winds-intro-sale-and-bundle-offers---up-to-60-off-68625 \"Crocus Soundware \\\"Liminal micro: Bamboo Winds\\\" Intro Sale and Bundle Offers - Up to 60% off\"",
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/authentic-soundware-release-space-age-strings-for-kontakt-68597 \"Authentic Soundware release \\\"Space Age Strings\\\" for Kontakt\"",
+      "url": "https://www.kvraudio.com/news/blepfx-releases-spectra---spectral-morphing-plugin-vst3-au-and-clap-68653 \"blepfx releases spectra - spectral morphing plugin (VST3, AU & CLAP",
       "reason": "description_contains_ip_address",
-      "name": "Space Age Strings",
-      "slug": "space-age-strings"
+      "name": "Spectra Spectral Morphing Plugin Vst3 Au And",
+      "slug": "spectra-spectral-morphing-plugin-vst3-au-and"
     }
   ]
 }
