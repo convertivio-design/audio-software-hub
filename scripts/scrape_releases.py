@@ -242,9 +242,14 @@ def extract_product_name(title: str, text: str) -> str:
         name = re.sub(pat, '', name, flags=re.IGNORECASE).strip()
 
     # Strip "Developer verb ProductName [trailing junk]" headline pattern.
+    # The leading class must accept a digit: real developers are named 23DSP,
+    # 112dB, 2CAudio, 8Dio, 4Front. Anchoring this on ^[A-Z] silently skipped
+    # them, so "23Dsp Releases Time Terrarium" reached releases.json unchanged
+    # and the JS release validator then failed the whole scheduled run
+    # (2026-09-23). See HEADLINE_VERB_RE in validate_entry() for the safety net.
     release_verb = r'(?:releases?|updates?|announces?|introduces?|launches?|unveils?|presents?)'
     m = re.match(
-        r'^[A-Z][A-Za-z0-9\s\.\-]{0,40}?\s+' + release_verb + r'\s+(.+)$',
+        r'^[A-Za-z0-9][A-Za-z0-9\s\.\-]{0,40}?\s+' + release_verb + r'\s+(.+)$',
         name, flags=re.IGNORECASE
     )
     if m:
@@ -403,6 +408,17 @@ SCRAPED_JUNK_RE = re.compile(
 IPV4_RE = re.compile(r'\b(?:\d{1,3}\.){3}\d{1,3}\b')
 IPV6_RE = re.compile(r'\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9]{1,4}\b', re.IGNORECASE)
 
+# Mirrors HEADLINE_VERB_PATTERN in scripts/validate_releases.js. Keep the two in
+# sync: any name shape the JS gate rejects must be rejected here too, otherwise a
+# single headline-shaped name kills the whole scheduled run instead of being
+# dropped, logged, and counted. This is the drift that caused the 2026-09-23
+# failure — python accepted "23Dsp Releases Time Terrarium" and the JS validator
+# then exited 1, so nothing published at all.
+HEADLINE_VERB_RE = re.compile(
+    r'^\S+\s+(?:releases?|updates?|announces?|introduces?|launches?|unveils?)\s+',
+    re.IGNORECASE,
+)
+
 
 def contains_scraped_junk(value: str) -> bool:
     return bool(value and SCRAPED_JUNK_RE.search(value))
@@ -501,6 +517,8 @@ def validate_entry(entry: dict) -> tuple[bool, str]:
         return False, 'name_starts_with_markdown_heading'
     if re.search(r'\b\d{4,}$', name):
         return False, 'name_ends_with_numeric_article_id'
+    if HEADLINE_VERB_RE.search(name):
+        return False, 'name_looks_like_news_headline'
     if len(name) < 5 or len(name) > 100:
         return False, 'name_length_invalid'
     if 'menu' in slug or 'http' in slug:
