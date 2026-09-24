@@ -371,6 +371,13 @@ def is_junk_body_line(line: str) -> bool:
     lowered = stripped.lower()
     if not stripped:
         return True
+    # Mirrors is_junk_title_line(), which has always had this check. Without it a
+    # KVR page could yield a body whose only surviving line was a bare IPv6
+    # address, which then became shortDescription — and validate_entry rejected
+    # the whole candidate for it. Three candidates per run were lost this way.
+    # See 2026-09-24 and the `detail` field in data/scraper-status.json.
+    if contains_ip_address(stripped):
+        return True
     if contains_scraped_junk(stripped):
         return True
     if stripped.startswith('#'):
