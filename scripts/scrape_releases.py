@@ -430,6 +430,42 @@ def contains_ip_address(value: str) -> bool:
     return bool(IPV4_RE.search(value) or IPV6_RE.search(value))
 
 
+def describe_ip_artifact(value: str, context: int = 30) -> str:
+    """Return a short excerpt around the first IP-shaped match, for diagnosis.
+
+    The IP patterns here are heuristics and fire on things that are not
+    addresses — IPV6_RE matches plain clock times such as "12:34:56". Recording
+    the matched text is what turns a rejection from a guess into evidence.
+    Added 2026-09-24, after three KVR candidates per run were dropped for
+    description_contains_ip_address with nothing in their rendered text to
+    explain it.
+    """
+    if not value:
+        return ''
+    m = IPV4_RE.search(value) or IPV6_RE.search(value)
+    if not m:
+        return ''
+    start = max(0, m.start() - context)
+    end = min(len(value), m.end() + context)
+    return f'matched {m.group(0)!r} in {value[start:end]!r}'
+
+
+def describe_rejection(entry: dict, reason: str) -> str:
+    """Best-effort: which field tripped an ip check, and what it matched.
+
+    Field order mirrors the ip checks in validate_entry(). Returns '' for every
+    other reason, so a rejection record only grows when there is something
+    specific to report.
+    """
+    if not reason.endswith('contains_ip_address'):
+        return ''
+    for field in ('name', 'slug', 'shortDescription', 'longDescription', 'sourceTitle'):
+        hit = describe_ip_artifact(str(entry.get(field) or ''))
+        if hit:
+            return f'{field}: {hit}'
+    return ''
+
+
 def is_generic_release_name(name: str) -> bool:
     n = name.strip().lower()
     if not n:
@@ -895,6 +931,7 @@ def scrape_releases(dry_run: bool = False):
                     rejected_entries.append({
                         "url": article_url,
                         "reason": reason,
+                        "detail": describe_rejection(entry, reason),
                         "name": entry.get("name", ""),
                         "slug": entry.get("slug", ""),
                     })
@@ -936,6 +973,7 @@ def scrape_releases(dry_run: bool = False):
         rejected_entries.append({
             "url": entry.get("officialUrl", ""),
             "reason": f"existing_{reason}",
+            "detail": describe_rejection(entry, reason),
             "name": entry.get("name", ""),
             "slug": entry.get("slug", ""),
         })
