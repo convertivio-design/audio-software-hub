@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-09-21T12:32:01.981454+00:00",
-  "finishedAt": "2026-09-21T12:32:34.798568+00:00",
+  "startedAt": "2026-09-24T04:18:52.503803+00:00",
+  "finishedAt": "2026-09-24T04:19:21.921937+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 5,
-  "rejectedEntries": 1,
+  "newEntries": 3,
+  "rejectedEntries": 4,
   "outputEntries": 30,
   "sources": [
     {
@@ -14,9 +14,9 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 5,
-      "entriesRejected": 1
+      "articlesScraped": 8,
+      "entriesAdded": 3,
+      "entriesRejected": 4
     },
     {
       "source": "BPB Free VST",
@@ -38,15 +38,32 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/crocus-soundware-liminal-micro-bamboo-winds-intro-sale-and-bundle-offers---up-to-60-off-68625 \"Crocus Soundware \\\"Liminal micro: Bamboo Winds\\\" Intro Sale and Bundle Offers - Up to 60% off\"",
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/blepfx-releases-spectra---spectral-morphing-plugin-vst3-au-and-clap-68653 \"blepfx releases spectra - spectral morphing plugin (VST3, AU & CLAP",
+      "url": "https://www.kvraudio.com/news/nikolozi-updates-mela-to-v7-15-for-macos-and-ios-68689 \"Nikolozi updates Mela to v7.15 for macOS and iOS\"",
+      "reason": "name_too_generic",
+      "name": "Mela",
+      "slug": "mela"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/tonecraft-releases-ai-guitar-multi-effects-plugin-for-windows-and-macos-vst3-and-au-68682 \"ToneCraft releases AI guitar multi-effects plugin for Windows and macOS (VST3 & AU",
       "reason": "description_contains_ip_address",
-      "name": "Spectra Spectral Morphing Plugin Vst3 Au And",
-      "slug": "spectra-spectral-morphing-plugin-vst3-au-and"
+      "name": "Ai Guitar Multi Effects",
+      "slug": "ai-guitar-multi-effects"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/discodsp-releases-retromulator-1-7-with-roland-sound-canvas-and-tracker-cores-68679 \"discoDSP releases Retromulator 1.7 with Roland Sound Canvas and Tracker cores\"",
+      "reason": "description_contains_ip_address",
+      "name": "Retromulator 1 7 With Roland Sound Canvas And Tracker Cores",
+      "slug": "retromulator-1-7-with-roland-sound-canvas-and-tracker-cores"
+    },
+    {
+      "url": "https://www.kvraudio.com/news/leit-audio-releases-unclip---free-automatic-clipping-restoration-plugin-vst3-and-au-68669 \"Leit Audio releases UnClip - Free Automatic Clipping Restoration Plugin (VST3 & AU",
+      "reason": "description_contains_ip_address",
+      "name": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And",
+      "slug": "unclip-free-automatic-clipping-restoration-plugin-vst3-and"
     }
   ]
 }
