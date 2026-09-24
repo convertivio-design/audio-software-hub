@@ -1,5 +1,107 @@
 [
   {
+    "id": "6cae2320aa67",
+    "slug": "unclip-free-automatic-clipping-restoration-plugin-vst3-and",
+    "name": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And is a audio plugin.",
+    "longDescription": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/leit-audio-releases-unclip---free-automatic-clipping-restoration-plugin-vst3-and-au-68669",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-24T05:14:27.733347+00:00",
+    "sourceTitle": "Leit Audio Releases Unclip Free Automatic Clipping Restoration Plugin Vst3 And Au"
+  },
+  {
+    "id": "481fc052748b",
+    "slug": "retromulator-1-7-with-roland-sound-canvas-and-tracker-cores",
+    "name": "Retromulator 1 7 With Roland Sound Canvas And Tracker Cores",
+    "developer": "Roland",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Roland Retromulator 1 7 With Roland Sound Canvas And Tracker Cores is a audio plugin.",
+    "longDescription": "Roland Retromulator 1 7 With Roland Sound Canvas And Tracker Cores is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/discodsp-releases-retromulator-1-7-with-roland-sound-canvas-and-tracker-cores-68679",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-24T05:14:24.498802+00:00",
+    "sourceTitle": "Discodsp Releases Retromulator 1 7 With Roland Sound Canvas And Tracker Cores"
+  },
+  {
+    "id": "155468304685",
+    "slug": "ai-guitar-multi-effects",
+    "name": "Ai Guitar Multi Effects",
+    "developer": null,
+    "categoryId": "guitar",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Ai Guitar Multi Effects is a guitar amp/effects plugin.",
+    "longDescription": "Ai Guitar Multi Effects is a guitar amp/effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tonecraft-releases-ai-guitar-multi-effects-plugin-for-windows-and-macos-vst3-and-au-68682",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "guitar"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-24T05:14:17.800248+00:00",
+    "sourceTitle": "Tonecraft Releases Ai Guitar Multi Effects Plugin For Windows And Macos Vst3 And Au"
+  },
+  {
     "id": "7b709ff9e898",
     "slug": "yeetzmeter-free-stereo-waveform-and-peak-meter",
     "name": "Yeetzmeter Free Stereo Waveform And Peak Meter",
@@ -871,102 +973,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-09T11:06:10.010239+00:00",
     "sourceTitle": "Auralithic Releases Audorama 2 0 Vision Aware Daw For Cinematic Sound Design Macos"
-  },
-  {
-    "id": "fea10e2b7372",
-    "slug": "tapskip-2-rhythm-augmenting-vst3-effect",
-    "name": "Tapskip 2 Rhythm Augmenting Vst3 Effect",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Tapskip 2 Rhythm Augmenting Vst3 Effect is a drum machine plugin.",
-    "longDescription": "Tapskip 2 Rhythm Augmenting Vst3 Effect is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/wiregrind-releases-tapskip-2---rhythm-augmenting-vst3-effect-for-windows-68421",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-09T11:06:02.816913+00:00",
-    "sourceTitle": "Wiregrind Releases Tapskip 2 Rhythm Augmenting Vst3 Effect For Windows"
-  },
-  {
-    "id": "3fd792506de6",
-    "slug": "music-transcriber-to",
-    "name": "Music Transcriber To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Music Transcriber To is a audio plugin.",
-    "longDescription": "Music Transcriber To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/kengo-ichiki-updates-music-transcriber-to-v1-1-0-with-pitch-range-note-editing-68423",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-09T11:05:52.142830+00:00",
-    "sourceTitle": "Kengo Ichiki Updates Music Transcriber To V1.1.0 With Pitch Range Note Editing"
-  },
-  {
-    "id": "de614e3b2d89",
-    "slug": "tintar-s-analog-color-saturator",
-    "name": "Tintar S Analog Color Saturator",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Tintar S Analog Color Saturator is a audio effects plugin.",
-    "longDescription": "Tintar S Analog Color Saturator is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/rockheyday-releases-tintar-s---analog-color-saturator-v2-68426",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-09T11:05:44.445446+00:00",
-    "sourceTitle": "Rockheyday Releases Tintar S Analog Color Saturator V2"
   }
 ]
