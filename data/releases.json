@@ -1,5 +1,233 @@
 [
   {
+    "id": "cc8c0d715318",
+    "slug": "detune-ios-app-that-teaches-synthesis-and-music-theory",
+    "name": "Detune Ios App That Teaches Synthesis And Music Theory...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Detune Ios App That Teaches Synthesis And Music Theory... is a synthesizer plugin.",
+    "longDescription": "Detune Ios App That Teaches Synthesis And Music Theory... is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/detune-ios-app-that-teaches-synthesis-and-music-theory-by-ear-68639",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-25T11:35:55.498814+00:00",
+    "sourceTitle": "Detune Ios App That Teaches Synthesis And Music Theory By Ear"
+  },
+  {
+    "id": "4c275d633807",
+    "slug": "mg-ukuleles",
+    "name": "Mg Ukuleles",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Mg Ukuleles is a sampler / sample library.",
+    "longDescription": "Mg Ukuleles is a sampler / sample library.",
+    "officialUrl": "https://www.kvraudio.com/news/mg-music-releases-mg-ukuleles-for-kontakt-player-68709",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-25T11:35:52.061483+00:00",
+    "sourceTitle": "Mg Music Releases Mg Ukuleles For Kontakt Player"
+  },
+  {
+    "id": "cf9c23e89822",
+    "slug": "stem-separator-pro-application",
+    "name": "Stem Separator Pro Application",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Stem Separator Pro Application is a audio plugin.",
+    "longDescription": "Stem Separator Pro Application is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/q-audio-releases-stem-separator-pro-application-for-windows-68710",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-25T11:35:48.803426+00:00",
+    "sourceTitle": "Q Audio Releases Stem Separator Pro Application For Windows"
+  },
+  {
+    "id": "60f48977b485",
+    "slug": "parasite-a-dirty-fm-synthesizer",
+    "name": "Parasite A Dirty Fm Synthesizer",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Parasite A Dirty Fm Synthesizer is a synthesizer plugin.",
+    "longDescription": "Parasite A Dirty Fm Synthesizer is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/voidscan-audio-releases-parasite-a-dirty-fm-synthesizer-68711",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-25T11:35:44.722990+00:00",
+    "sourceTitle": "Voidscan Audio Releases Parasite A Dirty Fm Synthesizer"
+  },
+  {
+    "id": "0f45d9ab3b2a",
+    "slug": "soundpaint-5-0-released-new-built-in-sample-editor",
+    "name": "Soundpaint 5 0 Released New Built In Sample Editor",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Soundpaint 5 0 Released New Built In Sample Editor is a audio plugin.",
+    "longDescription": "Soundpaint 5 0 Released New Built In Sample Editor is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/soundpaint-5-0-released---new-built-in-sample-editor-68712",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-25T11:35:40.438547+00:00",
+    "sourceTitle": "Soundpaint 5 0 Released New Built In Sample Editor"
+  },
+  {
+    "id": "eebb3da7c67c",
+    "slug": "ample-china-4-and-ample-china-xun-with-a-special-launch-sale",
+    "name": "Ample China 4 And Ample China Xun With A Special Launch Sale",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Ample China 4 And Ample China Xun With A Special Launch Sale is a audio plugin.",
+    "longDescription": "Ample China 4 And Ample China Xun With A Special Launch Sale is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ample-sound-releases-ample-china-4-and-ample-china-xun-with-a-special-launch-sale-68713",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-25T11:35:36.337533+00:00",
+    "sourceTitle": "Ample Sound Releases Ample China 4 And Ample China Xun With A Special Launch Sale"
+  },
+  {
+    "id": "78b876cdb8f4",
+    "slug": "harmonykeen-harmony-parts-from-a-midi-melody",
+    "name": "Harmonykeen Harmony Parts From A Midi Melody",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Harmonykeen Harmony Parts From A Midi Melody is a MIDI utility plugin.",
+    "longDescription": "Harmonykeen Harmony Parts From A Midi Melody is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/malsah-labs-releases-harmonykeen---harmony-parts-from-a-midi-melody-for-macos-and-windows-vst3-au-and-standalone-68706",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-25T11:35:32.519352+00:00",
+    "sourceTitle": "Malsah Labs Releases Harmonykeen Harmony Parts From A Midi Melody For Macos And Windows Vst3 Au And Standalone"
+  },
+  {
     "id": "6cae2320aa67",
     "slug": "unclip-free-automatic-clipping-restoration-plugin-vst3-and",
     "name": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And",
@@ -750,228 +978,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-13T11:31:44.498516+00:00",
     "sourceTitle": "Dr Zoppa Releases Ami Polychaos Generative Midi Plugin That Turns One Held Note Into Four Voices Of Counterpoint"
-  },
-  {
-    "id": "d54e61e6a22f",
-    "slug": "soundbox-to",
-    "name": "Soundbox To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Soundbox To is a audio plugin.",
-    "longDescription": "Soundbox To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/audiomodern-updates-soundbox-to-v1-3-0---mpe-support-68458",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-11T11:00:35.310122+00:00",
-    "sourceTitle": "Audiomodern Updates Soundbox To V1.3.0 Mpe Support"
-  },
-  {
-    "id": "5677b70f3491",
-    "slug": "awave-studio",
-    "name": "Awave Studio",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Awave Studio is a audio plugin.",
-    "longDescription": "Awave Studio is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/fmj-software-updates-awave-studio-to-v12-16-68462",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-11T11:00:29.548633+00:00",
-    "sourceTitle": "Fmj Software Updates Awave Studio To V12.16"
-  },
-  {
-    "id": "6236998f67ab",
-    "slug": "pinky-2-to",
-    "name": "Pinky 2 To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Pinky 2 To is a audio plugin.",
-    "longDescription": "Pinky 2 To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/noisebud-updates-pinky-2-to-v2-53---static-spectral-mode-and-dyn-stat-blend-68456",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-11T11:00:19.696333+00:00",
-    "sourceTitle": "Noisebud Updates Pinky 2 To V2.53 Static Spectral Mode And Dyn Stat Blend"
-  },
-  {
-    "id": "021e72a6531a",
-    "slug": "mdrumcleaner-mturbofilter-and",
-    "name": "Mdrumcleaner Mturbofilter And",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Mdrumcleaner Mturbofilter And is a drum machine plugin.",
-    "longDescription": "Mdrumcleaner Mturbofilter And is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/meldaproduction-releases-mdrumcleaner-mturbofilter-and-v17-10-update-68459",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-11T11:00:13.009316+00:00",
-    "sourceTitle": "Meldaproduction Releases Mdrumcleaner Mturbofilter And V17.10 Update"
-  },
-  {
-    "id": "abd5fa5fde95",
-    "slug": "spark-pedal-amp-modeler-multi-fx-and-audio-interface",
-    "name": "Spark Pedal Amp Modeler Multi Fx And Audio Interface",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Spark Pedal Amp Modeler Multi Fx And Audio Interface is a audio plugin.",
-    "longDescription": "Spark Pedal Amp Modeler Multi Fx And Audio Interface is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/positive-grid-releases-spark-pedal---amp-modeler-multi-fx-and-audio-interface-68466",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-11T11:00:08.302368+00:00",
-    "sourceTitle": "Positive Grid Releases Spark Pedal Amp Modeler Multi Fx And Audio Interface"
-  },
-  {
-    "id": "d4a9c8bc4e04",
-    "slug": "dm4-a-modern-homage-to-the-classic-lm-4-drum-module",
-    "name": "Dm4 A Modern Homage To The Classic Lm 4 Drum Module",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Dm4 A Modern Homage To The Classic Lm 4 Drum Module is a drum machine plugin.",
-    "longDescription": "Dm4 A Modern Homage To The Classic Lm 4 Drum Module is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/amphioniq-releases-dm4---a-modern-homage-to-the-classic-lm-4-drum-module-68468",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-11T10:59:53.655461+00:00",
-    "sourceTitle": "Amphioniq Releases Dm4 A Modern Homage To The Classic Lm 4 Drum Module"
-  },
-  {
-    "id": "fa5a680a7885",
-    "slug": "audorama-2-0-vision-aware-daw-for-cinematic-sound-design",
-    "name": "Audorama 2 0 Vision Aware Daw For Cinematic Sound Design...",
-    "developer": null,
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Audorama 2 0 Vision Aware Daw For Cinematic Sound Design... is a digital audio workstation.",
-    "longDescription": "Audorama 2 0 Vision Aware Daw For Cinematic Sound Design... is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/auralithic-releases-audorama-2-0---vision-aware-daw-for-cinematic-sound-design-macos-68419",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-09T11:06:10.010239+00:00",
-    "sourceTitle": "Auralithic Releases Audorama 2 0 Vision Aware Daw For Cinematic Sound Design Macos"
   }
 ]

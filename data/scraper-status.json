@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-09-24T05:14:02.104448+00:00",
-  "finishedAt": "2026-09-24T05:14:33.079580+00:00",
+  "startedAt": "2026-09-25T11:35:25.166962+00:00",
+  "finishedAt": "2026-09-25T11:36:01.277202+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 3,
-  "rejectedEntries": 1,
+  "newEntries": 7,
+  "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
     {
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 3,
-      "entriesRejected": 1
+      "entriesAdded": 7,
+      "entriesRejected": 0
     },
     {
       "source": "BPB Free VST",
@@ -40,13 +40,5 @@
   "errors": [
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
-  "rejections": [
-    {
-      "url": "https://www.kvraudio.com/news/nikolozi-updates-mela-to-v7-15-for-macos-and-ios-68689 \"Nikolozi updates Mela to v7.15 for macOS and iOS\"",
-      "reason": "name_too_generic",
-      "detail": "",
-      "name": "Mela",
-      "slug": "mela"
-    }
-  ]
+  "rejections": []
 }
