@@ -82,7 +82,34 @@ const guides = [
     category: "Operations",
     readTime: "14 min",
   },
-
+  {
+    title: "Best Free Synth VST Plugins 2026 — 12 Synths That Rival Paid Instruments",
+    slug: "best-free-synth-vsts-2026",
+    description: "The best free synthesizer VST plugins in 2026, tested and compared. From wavetable to FM to analog modeling — professional sound at zero cost.",
+    category: "Synthesizers",
+    readTime: "14 min",
+  },
+  {
+    title: "Best Audio Interfaces 2026 — USB Interfaces for Home Studios Compared",
+    slug: "best-audio-interfaces-2026",
+    description: "The best audio interfaces for home recording in 2026. Compare preamps, latency, I/O count, and price across Focusrite, Universal Audio, SSL, and more.",
+    category: "Recording",
+    readTime: "13 min",
+  },
+  {
+    title: "Best VST Compressor Plugins 2026 — Mixing & Mastering Compression Compared",
+    slug: "best-vst-compressor-plugins-2026",
+    description: "The best compressor VST plugins for mixing and mastering in 2026. Compare optical, VCA, FET, and multiband compressors from FabFilter, Waves, UAD, and more.",
+    category: "Effects & Processing",
+    readTime: "14 min",
+  },
+  {
+    title: "Home Recording Studio Setup Guide — Complete Beginner's Equipment List",
+    slug: "home-recording-studio-setup",
+    description: "How to set up a home recording studio in 2026. Complete equipment list covering DAWs, audio interfaces, microphones, monitors, and acoustic treatment.",
+    category: "Recording",
+    readTime: "15 min",
+  },
 ]
 
 const pageSchema = {
