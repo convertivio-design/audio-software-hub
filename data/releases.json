@@ -1,5 +1,231 @@
 [
   {
+    "id": "fa0b5c8fcae2",
+    "slug": "residual-breakdown-distortion-plugin-vst3-and",
+    "name": "Residual Breakdown Distortion Plugin Vst3 And",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Residual Breakdown Distortion Plugin Vst3 And is a audio effects plugin.",
+    "longDescription": "Residual Breakdown Distortion Plugin Vst3 And is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/unusable-engineering-releases-residual-breakdown-distortion-plugin-vst3-and-au-68725",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-27T11:49:02.721712+00:00",
+    "sourceTitle": "Unusable Engineering Releases Residual Breakdown Distortion Plugin Vst3 And Au"
+  },
+  {
+    "id": "c12678c7d00d",
+    "slug": "wingman-3-0-chord-generator",
+    "name": "Wingman 3 0 Chord Generator",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Wingman 3 0 Chord Generator is a MIDI utility plugin.",
+    "longDescription": "Wingman 3 0 Chord Generator is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/mixed-in-key-releases-wingman-3-0-chord-generator-plugin-68722",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-27T11:48:57.638155+00:00",
+    "sourceTitle": "Mixed In Key Releases Wingman 3 0 Chord Generator Plugin"
+  },
+  {
+    "id": "f9f018cf8302",
+    "slug": "loud-wide-master-iii-and-zap-vi",
+    "name": "Loud Wide Master Iii And Zap Vi",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Loud Wide Master Iii And Zap Vi is a audio plugin.",
+    "longDescription": "Loud Wide Master Iii And Zap Vi is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/zynaptiq-releases-loud-wide-master-iii-and-zap-vi-68729",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-27T11:48:54.192164+00:00",
+    "sourceTitle": "Zynaptiq Releases Loud Wide Master Iii And Zap Vi"
+  },
+  {
+    "id": "c2f5f0d64a6e",
+    "slug": "dlay-to",
+    "name": "Dlay To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Dlay To is a audio plugin.",
+    "longDescription": "Dlay To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-updates-dlay-to-v1-3-0---modulation-band-ripple-motion-and-more-68720",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-27T11:48:50.230206+00:00",
+    "sourceTitle": "Frctl Audio Updates Dlay To V1.3.0 Modulation Band Ripple Motion And More"
+  },
+  {
+    "id": "f134db671921",
+    "slug": "field-four-a-free-four-track-recorder",
+    "name": "Field Four A Free Four Track Recorder",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Field Four A Free Four Track Recorder is a audio plugin.",
+    "longDescription": "Field Four A Free Four Track Recorder is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/filmic-gaze-releases-field-four-a-free-four-track-recorder-for-windows-68737",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-27T11:48:46.793647+00:00",
+    "sourceTitle": "Filmic Gaze Releases Field Four A Free Four Track Recorder For Windows"
+  },
+  {
+    "id": "3565a7ca46d8",
+    "slug": "imfmsynth-beta-of",
+    "name": "Imfmsynth Beta Of",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Imfmsynth Beta Of is a synthesizer plugin.",
+    "longDescription": "Imfmsynth Beta Of is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/kaito-sato-updates-imfmsynth-beta-of-v1-1-0-with-per-operator-sync-and-ring-modulation-audio-rate-wavetable-scanning-and-mts-esp-support-68740",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-27T11:48:32.929981+00:00",
+    "sourceTitle": "Kaito Sato Updates Imfmsynth Beta Of V1.1.0 With Per Operator Sync And Ring Modulation Audio Rate Wavetable Scanning And Mts Esp Support"
+  },
+  {
+    "id": "6bfb448f1ef7",
+    "slug": "vocalign-7-with-new-multi-track-vocal-workflow",
+    "name": "Vocalign 7 With New Multi Track Vocal Workflow",
+    "developer": null,
+    "categoryId": "vocal",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Vocalign 7 With New Multi Track Vocal Workflow is a vocal processing plugin.",
+    "longDescription": "Vocalign 7 With New Multi Track Vocal Workflow is a vocal processing plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/synchro-arts-releases-vocalign-7-with-new-multi-track-vocal-workflow-68738",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "vocal"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-27T11:48:29.538760+00:00",
+    "sourceTitle": "Synchro Arts Releases Vocalign 7 With New Multi Track Vocal Workflow"
+  },
+  {
     "id": "cc8c0d715318",
     "slug": "detune-ios-app-that-teaches-synthesis-and-music-theory",
     "name": "Detune Ios App That Teaches Synthesis And Music Theory...",
@@ -754,229 +980,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-17T11:24:52.044944+00:00",
     "sourceTitle": "Vb Audio Updates Voicemeeter New Windows Audio Map For Complete System Visibility"
-  },
-  {
-    "id": "7a8185432fd8",
-    "slug": "timbral-box-a-parallel-harmonic-processor",
-    "name": "Timbral Box A Parallel Harmonic Processor",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Timbral Box A Parallel Harmonic Processor is a audio plugin.",
-    "longDescription": "Timbral Box A Parallel Harmonic Processor is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/smart-audio-plugins-releases-timbral-box-a-parallel-harmonic-processor-68592",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-17T11:24:46.615245+00:00",
-    "sourceTitle": "Smart Audio Plugins Releases Timbral Box A Parallel Harmonic Processor"
-  },
-  {
-    "id": "f5948e5ecfe0",
-    "slug": "crusher-x",
-    "name": "Crusher X",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Crusher X is a audio plugin.",
-    "longDescription": "Crusher X is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/accsone-updates-crusher-x-to-v12-20-68594",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-17T11:24:40.327358+00:00",
-    "sourceTitle": "Accsone Updates Crusher X To V12.20"
-  },
-  {
-    "id": "86dd64e1d38f",
-    "slug": "big-notes-to",
-    "name": "Big Notes To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Big Notes To is a audio plugin.",
-    "longDescription": "Big Notes To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/big-man-labs-updates-big-notes-to-v1-0-2---hardware-recall-and-notes-plugin-68530",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-15T11:31:53.589035+00:00",
-    "sourceTitle": "Big Man Labs Updates Big Notes To V1.0.2 Hardware Recall And Notes Plugin"
-  },
-  {
-    "id": "478b1b4d2ec5",
-    "slug": "tvhs-tape-and-crt-tv-emulator",
-    "name": "Tvhs Tape And Crt Tv Emulator",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Tvhs Tape And Crt Tv Emulator is a audio plugin.",
-    "longDescription": "Tvhs Tape And Crt Tv Emulator is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/thenatan-releases-tvhs-tape-and-crt-tv-emulator-for-mac-and-win-68517",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-15T11:31:20.598557+00:00",
-    "sourceTitle": "Thenatan Releases Tvhs Tape And Crt Tv Emulator For Mac And Win"
-  },
-  {
-    "id": "4360542292ef",
-    "slug": "skruu-and-triple-og",
-    "name": "Skruu And Triple Og",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Skruu And Triple Og is a audio plugin.",
-    "longDescription": "Skruu And Triple Og is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/gazillion-industries-releases-skruu-and-triple-og-for-macos-and-windows-68465",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-13T11:31:52.131179+00:00",
-    "sourceTitle": "Gazillion Industries Releases Skruu And Triple Og For Macos And Windows"
-  },
-  {
-    "id": "4511a749e5b7",
-    "slug": "harmonic-multiband-chamfer-de-esser-and-plinth",
-    "name": "Harmonic Multiband Chamfer De Esser And Plinth",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Harmonic Multiband Chamfer De Esser And Plinth is a audio plugin.",
-    "longDescription": "Harmonic Multiband Chamfer De Esser And Plinth is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/vitric-audio-updates-harmonic-multiband-chamfer-de-esser-and-plinth-68484",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-13T11:31:48.298231+00:00",
-    "sourceTitle": "Vitric Audio Updates Harmonic Multiband Chamfer De Esser And Plinth"
-  },
-  {
-    "id": "337c97f0675f",
-    "slug": "ami-polychaos-generative-midi-plugin-that-turns-one-held",
-    "name": "Ami Polychaos Generative Midi Plugin That Turns One Held...",
-    "developer": null,
-    "categoryId": "midi",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Ami Polychaos Generative Midi Plugin That Turns One Held... is a MIDI utility plugin.",
-    "longDescription": "Ami Polychaos Generative Midi Plugin That Turns One Held... is a MIDI utility plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/dr-zoppa-releases-ami-polychaos---generative-midi-plugin-that-turns-one-held-note-into-four-voices-of-counterpoint-68505",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "midi"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-13T11:31:44.498516+00:00",
-    "sourceTitle": "Dr Zoppa Releases Ami Polychaos Generative Midi Plugin That Turns One Held Note Into Four Voices Of Counterpoint"
   }
 ]
