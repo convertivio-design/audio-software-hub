@@ -1,5 +1,201 @@
 [
   {
+    "id": "8e858872d9c1",
+    "slug": "per-free-blind-listening-test-application",
+    "name": "Per Free Blind Listening Test Application",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Per Free Blind Listening Test Application is a audio plugin.",
+    "longDescription": "Per Free Blind Listening Test Application is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/noisebud-updates-per-free-blind-listening-test-application-for-mac-and-windows-68784",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-29T12:33:30.501187+00:00",
+    "sourceTitle": "Noisebud Updates Per Free Blind Listening Test Application For Mac And Windows"
+  },
+  {
+    "id": "6b5cdb56d09b",
+    "slug": "jerrican-and-marmite-two-free-self-generating-instruments",
+    "name": "Jerrican And Marmite Two Free Self Generating Instruments",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Jerrican And Marmite Two Free Self Generating Instruments is a audio plugin.",
+    "longDescription": "Jerrican And Marmite Two Free Self Generating Instruments is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/alioso-releases-jerrican-and-marmite---two-free-self-generating-instruments-v1-0-1-out-now-vst3-and-au-68786",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-29T12:33:26.518631+00:00",
+    "sourceTitle": "Alioso Releases Jerrican And Marmite Two Free Self Generating Instruments V1.0.1 Out Now Vst3 And Au"
+  },
+  {
+    "id": "576e96181c0a",
+    "slug": "interaktiv-tap-multi-touch-ipad-instrument-to",
+    "name": "Interaktiv Tap Multi Touch Ipad Instrument To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Interaktiv Tap Multi Touch Ipad Instrument To is a audio plugin.",
+    "longDescription": "Interaktiv Tap Multi Touch Ipad Instrument To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/interaktiv-audio-updates-interaktiv-tap-multi-touch-ipad-instrument-to-v1-3-and-releases-interaktiv-bridge-for-windows-68783",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "iOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-29T12:33:23.265724+00:00",
+    "sourceTitle": "Interaktiv Audio Updates Interaktiv Tap Multi Touch Ipad Instrument To V1.3 And Releases Interaktiv Bridge For Windows"
+  },
+  {
+    "id": "98ca210dfb61",
+    "slug": "grapheq-for-ableton-live",
+    "name": "Grapheq For Ableton Live",
+    "developer": "Ableton",
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Ableton Grapheq For Ableton Live is a digital audio workstation.",
+    "longDescription": "Ableton Grapheq For Ableton Live is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/killihu-releases-grapheq-for-ableton-live-68788",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-29T12:33:16.858804+00:00",
+    "sourceTitle": "Killihu Releases Grapheq For Ableton Live"
+  },
+  {
+    "id": "becac6eb936e",
+    "slug": "substance-bass-processor",
+    "name": "Substance Bass Processor",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Substance Bass Processor is a audio plugin.",
+    "longDescription": "Substance Bass Processor is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ross-audio-updates-substance-bass-processor-for-windows-and-linux-to-v1-0-4-68789",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "Linux"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-29T12:33:12.477441+00:00",
+    "sourceTitle": "Ross Audio Updates Substance Bass Processor For Windows And Linux To V1.0.4"
+  },
+  {
+    "id": "149a5f942685",
+    "slug": "thunder660-drums-vst-boss-dr-660-inspired-drum-machine",
+    "name": "Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine is a drum machine plugin.",
+    "longDescription": "Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/force56-audio-software-releases-thunder660-drums-vst---boss-dr-660-inspired-drum-machine-plugin-68791",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-09-29T12:33:08.401249+00:00",
+    "sourceTitle": "Force56 Audio Software Releases Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine Plugin"
+  },
+  {
     "id": "fa0b5c8fcae2",
     "slug": "residual-breakdown-distortion-plugin-vst3-and",
     "name": "Residual Breakdown Distortion Plugin Vst3 And",
@@ -787,198 +983,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-21T12:32:15.191809+00:00",
     "sourceTitle": "Nextale Audio Releases Granularbreaker Granular Synthesis Meets Brick Breaker Physics Vst3 And Au"
-  },
-  {
-    "id": "1aae320642e9",
-    "slug": "grrr-growl-designer-engine",
-    "name": "Grrr Growl Designer Engine",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Grrr Growl Designer Engine is a audio plugin.",
-    "longDescription": "Grrr Growl Designer Engine is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/thenatan-releases-grrr-growl-designer-engine-for-mac-and-win-68651",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-21T12:32:10.780152+00:00",
-    "sourceTitle": "Thenatan Releases Grrr Growl Designer Engine For Mac And Win"
-  },
-  {
-    "id": "45dd302181ec",
-    "slug": "difro-melody-ai",
-    "name": "Difro Melody Ai",
-    "developer": "Initial Audio",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Initial Audio Difro Melody Ai is a audio plugin.",
-    "longDescription": "Initial Audio Difro Melody Ai is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/initial-audio-updates-difro-melody-ai-to-v1-2-0-68635",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-19T10:42:15.676325+00:00",
-    "sourceTitle": "Initial Audio Updates Difro Melody Ai To V1.2.0"
-  },
-  {
-    "id": "a330c4593e01",
-    "slug": "voxsplit-pro-for-dialogue-separation-and-cleanup-on",
-    "name": "Voxsplit Pro For Dialogue Separation And Cleanup On...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Voxsplit Pro For Dialogue Separation And Cleanup On... is a audio plugin.",
-    "longDescription": "Voxsplit Pro For Dialogue Separation And Cleanup On... is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/limited-edition-audio-releases-voxsplit-pro-for-dialogue-separation-and-cleanup-on-macos-vst3-and-aax-68627",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-19T10:42:12.651926+00:00",
-    "sourceTitle": "Limited Edition Audio Releases Voxsplit Pro For Dialogue Separation And Cleanup On Macos Vst3 And Aax"
-  },
-  {
-    "id": "9bf634afb84b",
-    "slug": "devocean-modular",
-    "name": "Devocean Modular",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Devocean Modular is a synthesizer plugin.",
-    "longDescription": "Devocean Modular is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ocean-swift-updates-devocean-modular-to-v1-2-68637",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-19T10:42:05.423569+00:00",
-    "sourceTitle": "Ocean Swift Updates Devocean Modular To V1.2"
-  },
-  {
-    "id": "9d3c0c7a62fd",
-    "slug": "44-plugins",
-    "name": "44 Plugins",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "44 Plugins is a audio plugin.",
-    "longDescription": "44 Plugins is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/shane-audio-updates-44-plugins-to-v1-6-68640",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-19T10:42:00.912976+00:00",
-    "sourceTitle": "Shane Audio Updates 44 Plugins To V1.6"
-  },
-  {
-    "id": "88a772f421d2",
-    "slug": "voicemeeter-new-windows-audio-map-for-complete-system",
-    "name": "Voicemeeter New Windows Audio Map For Complete System...",
-    "developer": null,
-    "categoryId": "vocal",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Voicemeeter New Windows Audio Map For Complete System... is a vocal processing plugin.",
-    "longDescription": "Voicemeeter New Windows Audio Map For Complete System... is a vocal processing plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/vb-audio-updates-voicemeeter---new-windows-audio-map-for-complete-system-visibility-68581",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "vocal"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-17T11:24:52.044944+00:00",
-    "sourceTitle": "Vb Audio Updates Voicemeeter New Windows Audio Map For Complete System Visibility"
   }
 ]
