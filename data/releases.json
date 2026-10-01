@@ -1,5 +1,169 @@
 [
   {
+    "id": "99415eba363d",
+    "slug": "gates-to",
+    "name": "Gates To",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Gates To is a MIDI utility plugin.",
+    "longDescription": "Gates To is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/isorek-updates-gates-to-v1-3-5---faster-midi-kit-setup-68812",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-01T12:54:13.531732+00:00",
+    "sourceTitle": "Isorek Updates Gates To V1.3.5 Faster Midi Kit Setup"
+  },
+  {
+    "id": "8f34a585118d",
+    "slug": "pro-knob-rack-free-10-bay-host",
+    "name": "Pro Knob Rack Free 10 Bay Host",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Pro Knob Rack Free 10 Bay Host is a audio plugin.",
+    "longDescription": "Pro Knob Rack Free 10 Bay Host is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/signal-tools-co-releases-pro-knob-rack---free-10-bay-host-68814",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-01T12:54:09.101669+00:00",
+    "sourceTitle": "Signal Tools Co Releases Pro Knob Rack Free 10 Bay Host"
+  },
+  {
+    "id": "7ca106b197a9",
+    "slug": "aas-player",
+    "name": "Aas Player",
+    "developer": null,
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "free",
+    "shortDescription": "Aas Player is a audio plugin. Available free.",
+    "longDescription": "Aas Player is a audio plugin. Available free.",
+    "officialUrl": "https://www.kvraudio.com/news/applied-acoustics-systems-releases-aas-player-v2-0-free-vst3-au-and-aax-68819",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-01T12:54:02.420450+00:00",
+    "sourceTitle": "Applied Acoustics Systems Releases Aas Player V2.0 Free Vst3 Au And Aax"
+  },
+  {
+    "id": "386350390d06",
+    "slug": "aurora-to",
+    "name": "Aurora To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Aurora To is a audio plugin.",
+    "longDescription": "Aurora To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/13x-audio-updates-aurora-to-v1-5-with-delta-monitoring-auto-gain-and-multi-instance-editing-68818",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-01T12:53:58.345335+00:00",
+    "sourceTitle": "13X Audio Updates Aurora To V1.5 With Delta Monitoring Auto Gain And Multi Instance Editing"
+  },
+  {
+    "id": "2628c2d8e385",
+    "slug": "granularbreaker-version-1-1-0",
+    "name": "Granularbreaker Version 1 1 0",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Granularbreaker Version 1 1 0 is a audio plugin.",
+    "longDescription": "Granularbreaker Version 1 1 0 is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/nextale-audio-updates-granularbreaker---version-1-1-0-68815",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-01T12:53:55.172657+00:00",
+    "sourceTitle": "Nextale Audio Updates Granularbreaker Version 1 1 0"
+  },
+  {
     "id": "8e858872d9c1",
     "slug": "per-free-blind-listening-test-application",
     "name": "Per Free Blind Listening Test Application",
@@ -814,174 +978,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-24T04:19:03.321688+00:00",
     "sourceTitle": "23Dsp Releases Time Terrarium"
-  },
-  {
-    "id": "1cb57afd6e67",
-    "slug": "amplifikation-360-to",
-    "name": "Amplifikation 360 To",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Amplifikation 360 To is a audio effects plugin.",
-    "longDescription": "Amplifikation 360 To is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/kuassa-updates-amplifikation-360-to-v1-4-0---nam-a2-support-and-spring-reverb-fix-68687",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-24T04:19:00.675580+00:00",
-    "sourceTitle": "Kuassa Updates Amplifikation 360 To V1.4.0 Nam A2 Support And Spring Reverb Fix"
-  },
-  {
-    "id": "a803e3ea9684",
-    "slug": "impetus-turn-an-mpe-keyboard-into-a-daw-control-surface",
-    "name": "Impetus Turn An Mpe Keyboard Into A Daw Control Surface",
-    "developer": null,
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Impetus Turn An Mpe Keyboard Into A Daw Control Surface is a digital audio workstation.",
-    "longDescription": "Impetus Turn An Mpe Keyboard Into A Daw Control Surface is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/impetus-software-releases-impetus---turn-an-mpe-keyboard-into-a-daw-control-surface-68645",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-21T12:32:30.080073+00:00",
-    "sourceTitle": "Impetus Software Releases Impetus Turn An Mpe Keyboard Into A Daw Control Surface"
-  },
-  {
-    "id": "8617d3e3924e",
-    "slug": "danaides-sequenced-sound-mangler",
-    "name": "Danaides Sequenced Sound Mangler",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Danaides Sequenced Sound Mangler is a audio plugin.",
-    "longDescription": "Danaides Sequenced Sound Mangler is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/inear-display-releases-danaides-sequenced-sound-mangler-v2-0-win-and-mac-vst3-and-au-68650",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-21T12:32:25.906265+00:00",
-    "sourceTitle": "Inear Display Releases Danaides Sequenced Sound Mangler V2.0 Win And Mac Vst3 And Au"
-  },
-  {
-    "id": "893f3b4e57fc",
-    "slug": "maximillion",
-    "name": "Maximillion",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "free",
-    "shortDescription": "Maximillion is a audio plugin. Available free.",
-    "longDescription": "Maximillion is a audio plugin. Available free.",
-    "officialUrl": "https://www.kvraudio.com/news/angelicvibes-releases-maximillion---free-vst3-au-plugin-68654",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-21T12:32:18.302275+00:00",
-    "sourceTitle": "Angelicvibes Releases Maximillion Free Vst3 Au Plugin"
-  },
-  {
-    "id": "74f218496a26",
-    "slug": "granularbreaker-granular-synthesis-meets-brick-breaker",
-    "name": "Granularbreaker Granular Synthesis Meets Brick Breaker...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Granularbreaker Granular Synthesis Meets Brick Breaker... is a synthesizer plugin.",
-    "longDescription": "Granularbreaker Granular Synthesis Meets Brick Breaker... is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/nextale-audio-releases-granularbreaker---granular-synthesis-meets-brick-breaker-physics-vst3-and-au-68649",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-21T12:32:15.191809+00:00",
-    "sourceTitle": "Nextale Audio Releases Granularbreaker Granular Synthesis Meets Brick Breaker Physics Vst3 And Au"
   }
 ]
