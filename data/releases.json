@@ -1,5 +1,204 @@
 [
   {
+    "id": "8ccea21bc299",
+    "slug": "mixbrain",
+    "name": "Mixbrain",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Mixbrain is a audio plugin.",
+    "longDescription": "Mixbrain is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/audiobrain-releases-mixbrain-v3---prompt-driven-master-and-node-mixing-system-for-macos-68861",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-03T11:27:15.958390+00:00",
+    "sourceTitle": "Audiobrain Releases Mixbrain V3 Prompt Driven Master And Node Mixing System For Macos"
+  },
+  {
+    "id": "0835144ecef4",
+    "slug": "verbjunkie-and",
+    "name": "Verbjunkie And",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Verbjunkie And is a digital audio workstation.",
+    "longDescription": "Verbjunkie And is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/dawjunkie-releases-verbjunkie-and-free-convolute-reverb-for-macos-and-windows-68862",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-03T11:27:11.527738+00:00",
+    "sourceTitle": "Dawjunkie Releases Verbjunkie And Free Convolute Reverb For Macos And Windows"
+  },
+  {
+    "id": "4058655727d7",
+    "slug": "hetki-a-character-piano-instrument",
+    "name": "Hetki A Character Piano Instrument",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Hetki A Character Piano Instrument is a audio plugin.",
+    "longDescription": "Hetki A Character Piano Instrument is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/idealism-releases-hetki-a-character-piano-instrument-for-macos-and-windows-68868",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-03T11:27:07.199871+00:00",
+    "sourceTitle": "Idealism Releases Hetki A Character Piano Instrument For Macos And Windows"
+  },
+  {
+    "id": "aaa1f114db50",
+    "slug": "free-amp-2-0-and-updates-all",
+    "name": "Free Amp 2 0 And Updates All",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Free Amp 2 0 And Updates All is a audio plugin.",
+    "longDescription": "Free Amp 2 0 And Updates All is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/blue-cat-audio-releases-free-amp-2-0-and-updates-all-free-plug-ins-68870",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-03T11:27:02.917836+00:00",
+    "sourceTitle": "Blue Cat Audio Releases Free Amp 2 0 And Updates All Free Plug Ins"
+  },
+  {
+    "id": "d978e0c217eb",
+    "slug": "asymo-reverb-dynamic-spatial-reverb-vst3-au-and",
+    "name": "Asymo Reverb Dynamic Spatial Reverb Vst3 Au And",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Asymo Reverb Dynamic Spatial Reverb Vst3 Au And is a audio effects plugin.",
+    "longDescription": "Asymo Reverb Dynamic Spatial Reverb Vst3 Au And is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/w-a-production-releases-asymo-reverb-dynamic-spatial-reverb-vst3-au-and-aax-68872",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-03T11:26:59.029284+00:00",
+    "sourceTitle": "W A Production Releases Asymo Reverb Dynamic Spatial Reverb Vst3 Au And Aax"
+  },
+  {
+    "id": "e83285c736a2",
+    "slug": "grni-lite-free-granular-sampler-vst3-au-and",
+    "name": "Grni Lite Free Granular Sampler Vst3 Au And",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Grni Lite Free Granular Sampler Vst3 Au And is a sampler / sample library.",
+    "longDescription": "Grni Lite Free Granular Sampler Vst3 Au And is a sampler / sample library.",
+    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-releases-grni-lite---free-granular-sampler-vst3-au-and-clap-68849",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-03T11:26:55.869105+00:00",
+    "sourceTitle": "Frctl Audio Releases Grni Lite Free Granular Sampler Vst3 Au And Clap"
+  },
+  {
     "id": "99415eba363d",
     "slug": "gates-to",
     "name": "Gates To",
@@ -776,207 +975,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-25T11:35:36.337533+00:00",
     "sourceTitle": "Ample Sound Releases Ample China 4 And Ample China Xun With A Special Launch Sale"
-  },
-  {
-    "id": "78b876cdb8f4",
-    "slug": "harmonykeen-harmony-parts-from-a-midi-melody",
-    "name": "Harmonykeen Harmony Parts From A Midi Melody",
-    "developer": null,
-    "categoryId": "midi",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Harmonykeen Harmony Parts From A Midi Melody is a MIDI utility plugin.",
-    "longDescription": "Harmonykeen Harmony Parts From A Midi Melody is a MIDI utility plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/malsah-labs-releases-harmonykeen---harmony-parts-from-a-midi-melody-for-macos-and-windows-vst3-au-and-standalone-68706",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "Standalone"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "midi"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-25T11:35:32.519352+00:00",
-    "sourceTitle": "Malsah Labs Releases Harmonykeen Harmony Parts From A Midi Melody For Macos And Windows Vst3 Au And Standalone"
-  },
-  {
-    "id": "6cae2320aa67",
-    "slug": "unclip-free-automatic-clipping-restoration-plugin-vst3-and",
-    "name": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And is a audio plugin.",
-    "longDescription": "Unclip Free Automatic Clipping Restoration Plugin Vst3 And is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/leit-audio-releases-unclip---free-automatic-clipping-restoration-plugin-vst3-and-au-68669",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-24T05:14:27.733347+00:00",
-    "sourceTitle": "Leit Audio Releases Unclip Free Automatic Clipping Restoration Plugin Vst3 And Au"
-  },
-  {
-    "id": "481fc052748b",
-    "slug": "retromulator-1-7-with-roland-sound-canvas-and-tracker-cores",
-    "name": "Retromulator 1 7 With Roland Sound Canvas And Tracker Cores",
-    "developer": "Roland",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Roland Retromulator 1 7 With Roland Sound Canvas And Tracker Cores is a audio plugin.",
-    "longDescription": "Roland Retromulator 1 7 With Roland Sound Canvas And Tracker Cores is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/discodsp-releases-retromulator-1-7-with-roland-sound-canvas-and-tracker-cores-68679",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-24T05:14:24.498802+00:00",
-    "sourceTitle": "Discodsp Releases Retromulator 1 7 With Roland Sound Canvas And Tracker Cores"
-  },
-  {
-    "id": "155468304685",
-    "slug": "ai-guitar-multi-effects",
-    "name": "Ai Guitar Multi Effects",
-    "developer": null,
-    "categoryId": "guitar",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Ai Guitar Multi Effects is a guitar amp/effects plugin.",
-    "longDescription": "Ai Guitar Multi Effects is a guitar amp/effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/tonecraft-releases-ai-guitar-multi-effects-plugin-for-windows-and-macos-vst3-and-au-68682",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "guitar"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-24T05:14:17.800248+00:00",
-    "sourceTitle": "Tonecraft Releases Ai Guitar Multi Effects Plugin For Windows And Macos Vst3 And Au"
-  },
-  {
-    "id": "7b709ff9e898",
-    "slug": "yeetzmeter-free-stereo-waveform-and-peak-meter",
-    "name": "Yeetzmeter Free Stereo Waveform And Peak Meter",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Yeetzmeter Free Stereo Waveform And Peak Meter is a audio plugin.",
-    "longDescription": "Yeetzmeter Free Stereo Waveform And Peak Meter is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/vnl-works-updates-yeetzmeter-free-stereo-waveform-and-peak-meter-to-v1-3-2-68681",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-24T04:19:10.199353+00:00",
-    "sourceTitle": "Vnl Works Updates Yeetzmeter Free Stereo Waveform And Peak Meter To V1.3.2"
-  },
-  {
-    "id": "c437948ecc60",
-    "slug": "time-terrarium",
-    "name": "Time Terrarium",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Time Terrarium is a audio plugin.",
-    "longDescription": "Time Terrarium is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/23dsp-releases-time-terrarium-68686",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-24T04:19:03.321688+00:00",
-    "sourceTitle": "23Dsp Releases Time Terrarium"
   }
 ]

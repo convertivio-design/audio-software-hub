@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-01T12:53:31.660982+00:00",
-  "finishedAt": "2026-10-01T12:54:19.929842+00:00",
+  "startedAt": "2026-10-03T11:26:46.394016+00:00",
+  "finishedAt": "2026-10-03T11:27:21.124985+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 5,
+  "newEntries": 6,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 5,
+      "articlesScraped": 8,
+      "entriesAdded": 6,
       "entriesRejected": 0
     },
     {
@@ -38,7 +38,6 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/rockheyday-updates-clipper-7-to-v2-5---33-off-68780 \"Rockheyday updates Clipper 7 to v2.5 - 33% Off\"",
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": []
