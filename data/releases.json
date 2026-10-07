@@ -1,5 +1,139 @@
 [
   {
+    "id": "bb4346c660d9",
+    "slug": "spek-saturation-and-perceived-loudness-enhancement",
+    "name": "Spek Saturation And Perceived Loudness Enhancement",
+    "developer": null,
+    "categoryId": "mastering",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Spek Saturation And Perceived Loudness Enhancement is a mastering plugin.",
+    "longDescription": "Spek Saturation And Perceived Loudness Enhancement is a mastering plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/marula-music-releases-spek---saturation-and-perceived-loudness-enhancement-68927",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "mastering"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-07T13:05:00.945339+00:00",
+    "sourceTitle": "Marula Music Releases Spek Saturation And Perceived Loudness Enhancement"
+  },
+  {
+    "id": "8f71b02b5f04",
+    "slug": "kern-audio-adds-aax-to-all-six-plugins-pro-tools-macos",
+    "name": "Kern Audio Adds Aax To All Six Plugins Pro Tools Macos...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Kern Audio Adds Aax To All Six Plugins Pro Tools Macos... is a digital audio workstation.",
+    "longDescription": "Kern Audio Adds Aax To All Six Plugins Pro Tools Macos... is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/kern-audio-adds-aax-to-all-six-plugins-pro-tools-macos-and-windows-68715",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-07T13:04:57.009633+00:00",
+    "sourceTitle": "Kern Audio Adds Aax To All Six Plugins Pro Tools Macos And Windows"
+  },
+  {
+    "id": "8f5260ed2795",
+    "slug": "diodrive-plugin-vst3-au",
+    "name": "Diodrive Plugin Vst3 Au",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Diodrive Plugin Vst3 Au is a audio plugin.",
+    "longDescription": "Diodrive Plugin Vst3 Au is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/dsptone-releases-diodrive-plugin-vst3-au-aax-68930",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-07T13:04:29.401406+00:00",
+    "sourceTitle": "Dsptone Releases Diodrive Plugin Vst3 Au Aax"
+  },
+  {
+    "id": "86a808eb26d0",
+    "slug": "astrolab-2-0-front-panel-sound-editing-and-60-and-new-sounds",
+    "name": "Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds",
+    "developer": "Arturia",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Arturia Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds is a audio plugin.",
+    "longDescription": "Arturia Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/arturia-releases-astrolab-2-0---front-panel-sound-editing-and-60-and-new-sounds-68929",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-07T13:04:25.368615+00:00",
+    "sourceTitle": "Arturia Releases Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds"
+  },
+  {
     "id": "8ccea21bc299",
     "slug": "mixbrain",
     "name": "Mixbrain",
@@ -848,132 +982,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-25T11:35:52.061483+00:00",
     "sourceTitle": "Mg Music Releases Mg Ukuleles For Kontakt Player"
-  },
-  {
-    "id": "cf9c23e89822",
-    "slug": "stem-separator-pro-application",
-    "name": "Stem Separator Pro Application",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Stem Separator Pro Application is a audio plugin.",
-    "longDescription": "Stem Separator Pro Application is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/q-audio-releases-stem-separator-pro-application-for-windows-68710",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-25T11:35:48.803426+00:00",
-    "sourceTitle": "Q Audio Releases Stem Separator Pro Application For Windows"
-  },
-  {
-    "id": "60f48977b485",
-    "slug": "parasite-a-dirty-fm-synthesizer",
-    "name": "Parasite A Dirty Fm Synthesizer",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Parasite A Dirty Fm Synthesizer is a synthesizer plugin.",
-    "longDescription": "Parasite A Dirty Fm Synthesizer is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/voidscan-audio-releases-parasite-a-dirty-fm-synthesizer-68711",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-25T11:35:44.722990+00:00",
-    "sourceTitle": "Voidscan Audio Releases Parasite A Dirty Fm Synthesizer"
-  },
-  {
-    "id": "0f45d9ab3b2a",
-    "slug": "soundpaint-5-0-released-new-built-in-sample-editor",
-    "name": "Soundpaint 5 0 Released New Built In Sample Editor",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Soundpaint 5 0 Released New Built In Sample Editor is a audio plugin.",
-    "longDescription": "Soundpaint 5 0 Released New Built In Sample Editor is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/soundpaint-5-0-released---new-built-in-sample-editor-68712",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-25T11:35:40.438547+00:00",
-    "sourceTitle": "Soundpaint 5 0 Released New Built In Sample Editor"
-  },
-  {
-    "id": "eebb3da7c67c",
-    "slug": "ample-china-4-and-ample-china-xun-with-a-special-launch-sale",
-    "name": "Ample China 4 And Ample China Xun With A Special Launch Sale",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Ample China 4 And Ample China Xun With A Special Launch Sale is a audio plugin.",
-    "longDescription": "Ample China 4 And Ample China Xun With A Special Launch Sale is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ample-sound-releases-ample-china-4-and-ample-china-xun-with-a-special-launch-sale-68713",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-25T11:35:36.337533+00:00",
-    "sourceTitle": "Ample Sound Releases Ample China 4 And Ample China Xun With A Special Launch Sale"
   }
 ]
