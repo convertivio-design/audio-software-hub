@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-07T13:04:16.869050+00:00",
-  "finishedAt": "2026-10-07T13:05:05.542380+00:00",
+  "startedAt": "2026-10-09T12:57:50.296285+00:00",
+  "finishedAt": "2026-10-09T12:58:22.201970+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 4,
+  "newEntries": 5,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 5,
-      "entriesAdded": 4,
+      "articlesScraped": 7,
+      "entriesAdded": 5,
       "entriesRejected": 0
     },
     {
@@ -39,8 +39,6 @@
   ],
   "errors": [
     "Scrape failed: https://www.kvraudio.com/news/the-very-loud-indeed-co-fall-sale---up-to-60-off-68843 \"The Very Loud Indeed Co. Fall Sale - Up to 60% off\"",
-    "Scrape failed: https://www.kvraudio.com/news/soniclab-releases-spatai-v3-68928 \"sonicLAB releases SPATAI v3\"",
-    "Scrape failed: https://www.kvraudio.com/news/granvia-releases-fantadrop---drop-building-loop-sequencer-plugin-with-built-in-bass-synth-68875 \"granvia releases FantaDrop - Drop-Building Loop Sequencer Plugin with Built-in Bass Synth\"",
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": []
