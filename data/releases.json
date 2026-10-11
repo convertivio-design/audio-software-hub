@@ -1,5 +1,134 @@
 [
   {
+    "id": "70d16ff93752",
+    "slug": "variations",
+    "name": "Variations",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Variations is a audio plugin.",
+    "longDescription": "Variations is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/abyzor-releases-variations-v4---new-composition-workflow-and-song-builder-68975",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-11T12:31:27.665729+00:00",
+    "sourceTitle": "Abyzor Releases Variations V4 New Composition Workflow And Song Builder"
+  },
+  {
+    "id": "c90040469489",
+    "slug": "cascade-dual-stage-volterra-saturation-plugin-vst3-windows",
+    "name": "Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows is a audio plugin.",
+    "longDescription": "Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/floodos-audio-labs-releases-cascade---dual-stage-volterra-saturation-plugin-vst3-windows-68882",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-11T12:31:23.360158+00:00",
+    "sourceTitle": "Floodos Audio Labs Releases Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows"
+  },
+  {
+    "id": "86fb87af3c79",
+    "slug": "melbourne-exchange-roto-control-setup-and-software-library",
+    "name": "Melbourne Exchange Roto Control Setup And Software Library",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Melbourne Exchange Roto Control Setup And Software Library is a audio plugin.",
+    "longDescription": "Melbourne Exchange Roto Control Setup And Software Library is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/melbourne-instruments-launches-melbourne-exchange---roto-control-setup-and-software-library-69017",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-11T12:30:57.724956+00:00",
+    "sourceTitle": "Melbourne Instruments Launches Melbourne Exchange Roto Control Setup And Software Library"
+  },
+  {
+    "id": "8490c1493008",
+    "slug": "m-media-audio-the-drop-collection-five-performance",
+    "name": "M Media Audio The Drop Collection Five Performance...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "M Media Audio The Drop Collection Five Performance... is a audio effects plugin.",
+    "longDescription": "M Media Audio The Drop Collection Five Performance... is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/m-media-audio-the-drop-collection-five-performance-effect-plugins-for-25-this-weekend-68950",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-11T12:30:50.507414+00:00",
+    "sourceTitle": "M Media Audio The Drop Collection Five Performance Effect Plugins For 25 This Weekend"
+  },
+  {
     "id": "cafac5ae74bf",
     "slug": "triodia-free-valve-vocal-processor",
     "name": "Triodia Free Valve Vocal Processor",
@@ -854,136 +983,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-09-29T12:33:08.401249+00:00",
     "sourceTitle": "Force56 Audio Software Releases Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine Plugin"
-  },
-  {
-    "id": "fa0b5c8fcae2",
-    "slug": "residual-breakdown-distortion-plugin-vst3-and",
-    "name": "Residual Breakdown Distortion Plugin Vst3 And",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Residual Breakdown Distortion Plugin Vst3 And is a audio effects plugin.",
-    "longDescription": "Residual Breakdown Distortion Plugin Vst3 And is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/unusable-engineering-releases-residual-breakdown-distortion-plugin-vst3-and-au-68725",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-27T11:49:02.721712+00:00",
-    "sourceTitle": "Unusable Engineering Releases Residual Breakdown Distortion Plugin Vst3 And Au"
-  },
-  {
-    "id": "c12678c7d00d",
-    "slug": "wingman-3-0-chord-generator",
-    "name": "Wingman 3 0 Chord Generator",
-    "developer": null,
-    "categoryId": "midi",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Wingman 3 0 Chord Generator is a MIDI utility plugin.",
-    "longDescription": "Wingman 3 0 Chord Generator is a MIDI utility plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/mixed-in-key-releases-wingman-3-0-chord-generator-plugin-68722",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "midi"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-27T11:48:57.638155+00:00",
-    "sourceTitle": "Mixed In Key Releases Wingman 3 0 Chord Generator Plugin"
-  },
-  {
-    "id": "f9f018cf8302",
-    "slug": "loud-wide-master-iii-and-zap-vi",
-    "name": "Loud Wide Master Iii And Zap Vi",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Loud Wide Master Iii And Zap Vi is a audio plugin.",
-    "longDescription": "Loud Wide Master Iii And Zap Vi is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/zynaptiq-releases-loud-wide-master-iii-and-zap-vi-68729",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-27T11:48:54.192164+00:00",
-    "sourceTitle": "Zynaptiq Releases Loud Wide Master Iii And Zap Vi"
-  },
-  {
-    "id": "c2f5f0d64a6e",
-    "slug": "dlay-to",
-    "name": "Dlay To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Dlay To is a audio plugin.",
-    "longDescription": "Dlay To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-updates-dlay-to-v1-3-0---modulation-band-ripple-motion-and-more-68720",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-27T11:48:50.230206+00:00",
-    "sourceTitle": "Frctl Audio Updates Dlay To V1.3.0 Modulation Band Ripple Motion And More"
   }
 ]

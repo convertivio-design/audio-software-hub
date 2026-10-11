@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-09T12:57:50.296285+00:00",
-  "finishedAt": "2026-10-09T12:58:22.201970+00:00",
+  "startedAt": "2026-10-11T12:30:44.853472+00:00",
+  "finishedAt": "2026-10-11T12:31:39.185062+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 5,
+  "newEntries": 4,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 5,
+      "articlesScraped": 8,
+      "entriesAdded": 4,
       "entriesRejected": 0
     },
     {
@@ -38,7 +38,6 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/the-very-loud-indeed-co-fall-sale---up-to-60-off-68843 \"The Very Loud Indeed Co. Fall Sale - Up to 60% off\"",
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": []
