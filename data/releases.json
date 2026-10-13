@@ -1,5 +1,201 @@
 [
   {
+    "id": "aa77ec0d99f2",
+    "slug": "jloopz-online-daw-for-beginners",
+    "name": "Jloopz Online Daw For Beginners",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Jloopz Online Daw For Beginners is a digital audio workstation.",
+    "longDescription": "Jloopz Online Daw For Beginners is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/psytrance-plugins-releases-jloopz---online-daw-for-beginners-69058",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-13T13:58:03.479539+00:00",
+    "sourceTitle": "Psytrance Plugins Releases Jloopz Online Daw For Beginners"
+  },
+  {
+    "id": "c5ed3df90f99",
+    "slug": "foam-to",
+    "name": "Foam To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Foam To is a audio plugin.",
+    "longDescription": "Foam To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/carbonated-audio-updates-foam-to-v1-2-1---adds-windows-vst3-and-a-free-demo-69001",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-13T13:57:59.040498+00:00",
+    "sourceTitle": "Carbonated Audio Updates Foam To V1.2.1 Adds Windows Vst3 And A Free Demo"
+  },
+  {
+    "id": "e0e22f2677b6",
+    "slug": "karmabass-mono-bass-synth-that-sidechains-to-karmakick",
+    "name": "Karmabass Mono Bass Synth That Sidechains To Karmakick...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Karmabass Mono Bass Synth That Sidechains To Karmakick... is a synthesizer plugin.",
+    "longDescription": "Karmabass Mono Bass Synth That Sidechains To Karmakick... is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/karmastation-releases-karmabass---mono-bass-synth-that-sidechains-to-karmakick-vst3-and-au-68985",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-13T13:57:55.020577+00:00",
+    "sourceTitle": "Karmastation Releases Karmabass Mono Bass Synth That Sidechains To Karmakick Vst3 And Au"
+  },
+  {
+    "id": "9ad74e620c6f",
+    "slug": "grni-to",
+    "name": "Grni To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Grni To is a audio plugin.",
+    "longDescription": "Grni To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-updates-grni-to-v1-1-0---adds-slice-mode-69019",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-13T13:57:49.301805+00:00",
+    "sourceTitle": "Frctl Audio Updates Grni To V1.1.0 Adds Slice Mode"
+  },
+  {
+    "id": "552a99ac4ba5",
+    "slug": "polyarp-to",
+    "name": "Polyarp To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Polyarp To is a audio plugin.",
+    "longDescription": "Polyarp To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/irisorbit-updates-polyarp-to-v1-3-0---interface-scaling-and-selectable-humanize-layers-68934",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-13T13:57:45.207853+00:00",
+    "sourceTitle": "Irisorbit Updates Polyarp To V1.3.0 Interface Scaling And Selectable Humanize Layers"
+  },
+  {
+    "id": "43cc168dfa72",
+    "slug": "le-toroe-shaderkick-pro-19-until-14-october",
+    "name": "Le Toroe Shaderkick Pro 19 Until 14 October",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Le Toroe Shaderkick Pro 19 Until 14 October is a audio plugin.",
+    "longDescription": "Le Toroe Shaderkick Pro 19 Until 14 October is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/le-toroe-shaderkick-pro-19-until-14-october-2026-68953",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-13T13:57:41.117516+00:00",
+    "sourceTitle": "Le Toroe Shaderkick Pro 19 Until 14 October 2026"
+  },
+  {
     "id": "70d16ff93752",
     "slug": "variations",
     "name": "Variations",
@@ -787,201 +983,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-01T12:53:55.172657+00:00",
     "sourceTitle": "Nextale Audio Updates Granularbreaker Version 1 1 0"
-  },
-  {
-    "id": "8e858872d9c1",
-    "slug": "per-free-blind-listening-test-application",
-    "name": "Per Free Blind Listening Test Application",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Per Free Blind Listening Test Application is a audio plugin.",
-    "longDescription": "Per Free Blind Listening Test Application is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/noisebud-updates-per-free-blind-listening-test-application-for-mac-and-windows-68784",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-29T12:33:30.501187+00:00",
-    "sourceTitle": "Noisebud Updates Per Free Blind Listening Test Application For Mac And Windows"
-  },
-  {
-    "id": "6b5cdb56d09b",
-    "slug": "jerrican-and-marmite-two-free-self-generating-instruments",
-    "name": "Jerrican And Marmite Two Free Self Generating Instruments",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Jerrican And Marmite Two Free Self Generating Instruments is a audio plugin.",
-    "longDescription": "Jerrican And Marmite Two Free Self Generating Instruments is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/alioso-releases-jerrican-and-marmite---two-free-self-generating-instruments-v1-0-1-out-now-vst3-and-au-68786",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-29T12:33:26.518631+00:00",
-    "sourceTitle": "Alioso Releases Jerrican And Marmite Two Free Self Generating Instruments V1.0.1 Out Now Vst3 And Au"
-  },
-  {
-    "id": "576e96181c0a",
-    "slug": "interaktiv-tap-multi-touch-ipad-instrument-to",
-    "name": "Interaktiv Tap Multi Touch Ipad Instrument To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Interaktiv Tap Multi Touch Ipad Instrument To is a audio plugin.",
-    "longDescription": "Interaktiv Tap Multi Touch Ipad Instrument To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/interaktiv-audio-updates-interaktiv-tap-multi-touch-ipad-instrument-to-v1-3-and-releases-interaktiv-bridge-for-windows-68783",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "iOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-29T12:33:23.265724+00:00",
-    "sourceTitle": "Interaktiv Audio Updates Interaktiv Tap Multi Touch Ipad Instrument To V1.3 And Releases Interaktiv Bridge For Windows"
-  },
-  {
-    "id": "98ca210dfb61",
-    "slug": "grapheq-for-ableton-live",
-    "name": "Grapheq For Ableton Live",
-    "developer": "Ableton",
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Ableton Grapheq For Ableton Live is a digital audio workstation.",
-    "longDescription": "Ableton Grapheq For Ableton Live is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/killihu-releases-grapheq-for-ableton-live-68788",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-29T12:33:16.858804+00:00",
-    "sourceTitle": "Killihu Releases Grapheq For Ableton Live"
-  },
-  {
-    "id": "becac6eb936e",
-    "slug": "substance-bass-processor",
-    "name": "Substance Bass Processor",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Substance Bass Processor is a audio plugin.",
-    "longDescription": "Substance Bass Processor is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ross-audio-updates-substance-bass-processor-for-windows-and-linux-to-v1-0-4-68789",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "Linux"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-29T12:33:12.477441+00:00",
-    "sourceTitle": "Ross Audio Updates Substance Bass Processor For Windows And Linux To V1.0.4"
-  },
-  {
-    "id": "149a5f942685",
-    "slug": "thunder660-drums-vst-boss-dr-660-inspired-drum-machine",
-    "name": "Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine is a drum machine plugin.",
-    "longDescription": "Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/force56-audio-software-releases-thunder660-drums-vst---boss-dr-660-inspired-drum-machine-plugin-68791",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-09-29T12:33:08.401249+00:00",
-    "sourceTitle": "Force56 Audio Software Releases Thunder660 Drums Vst Boss Dr 660 Inspired Drum Machine Plugin"
   }
 ]
