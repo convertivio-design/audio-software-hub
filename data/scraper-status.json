@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-15T11:12:51.492930+00:00",
-  "finishedAt": "2026-10-15T11:13:25.283663+00:00",
+  "startedAt": "2026-10-17T10:27:14.318769+00:00",
+  "finishedAt": "2026-10-17T10:28:23.409286+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 6,
+  "newEntries": 7,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 6,
+      "articlesScraped": 8,
+      "entriesAdded": 7,
       "entriesRejected": 0
     },
     {
@@ -30,16 +30,13 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": false,
+      "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/vitric-audio-up-to-88-off-all-eleven-plugins-through-october-31-68984 \"Vitric Audio: up to 88% off all eleven plugins through October 31\"",
-    "Could not scrape listing page: https://www.rekkerd.org/"
-  ],
+  "errors": [],
   "rejections": []
 }

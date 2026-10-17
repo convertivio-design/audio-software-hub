@@ -1,5 +1,235 @@
 [
   {
+    "id": "f919eb821b20",
+    "slug": "beatmaker-bounce-and-usynth-bounce-y2k-inspired-drums",
+    "name": "Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums... is a synthesizer plugin.",
+    "longDescription": "Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums... is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ujam-releases-beatmaker-bounce-and-usynth-bounce---y2k-inspired-drums-and-synth-sounds-69139",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-17T10:28:16.969158+00:00",
+    "sourceTitle": "Ujam Releases Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums And Synth Sounds"
+  },
+  {
+    "id": "36e16fa510b0",
+    "slug": "wailer-wah-pro-inductor",
+    "name": "Wailer Wah Pro Inductor",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Wailer Wah Pro Inductor is a audio plugin.",
+    "longDescription": "Wailer Wah Pro Inductor is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/electro-harmonix-introduces-wailer-wah-pro---inductor-free-wah-pedal-69141",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-17T10:27:39.712544+00:00",
+    "sourceTitle": "Electro Harmonix Introduces Wailer Wah Pro Inductor Free Wah Pedal"
+  },
+  {
+    "id": "b4f8245acac7",
+    "slug": "dither-4-tpdf-dither-with-noise-shaping-from-16-to-24-bits",
+    "name": "Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits is a audio plugin.",
+    "longDescription": "Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/mozzaik-audio-releases-dither-4---tpdf-dither-with-noise-shaping-from-16-to-24-bits-69145",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-17T10:27:36.230476+00:00",
+    "sourceTitle": "Mozzaik Audio Releases Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits"
+  },
+  {
+    "id": "b04458f4ccb0",
+    "slug": "arc-studio-and-standalone-room-calibration-and-automatic",
+    "name": "Arc Studio And Standalone Room Calibration And Automatic...",
+    "developer": "IK Multimedia",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "IK Multimedia Arc Studio And Standalone Room Calibration And Automatic... is a audio plugin.",
+    "longDescription": "IK Multimedia Arc Studio And Standalone Room Calibration And Automatic... is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ik-multimedia-releases-arc-studio-and---standalone-room-calibration-and-automatic-subwoofer-management-69142",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-17T10:27:32.538943+00:00",
+    "sourceTitle": "Ik Multimedia Releases Arc Studio And Standalone Room Calibration And Automatic Subwoofer Management"
+  },
+  {
+    "id": "7281391c2549",
+    "slug": "instacomposer-4-midi-processor-vst3-au-and",
+    "name": "Instacomposer 4 Midi Processor Vst3 Au And",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Instacomposer 4 Midi Processor Vst3 Au And is a MIDI utility plugin.",
+    "longDescription": "Instacomposer 4 Midi Processor Vst3 Au And is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/w-a-production-releases-instacomposer-4-midi-processor-vst3-au-and-aax-69157",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-17T10:27:29.019506+00:00",
+    "sourceTitle": "W A Production Releases Instacomposer 4 Midi Processor Vst3 Au And Aax"
+  },
+  {
+    "id": "9e32cb559f24",
+    "slug": "elements-silentium-by-stefano-maccarelli",
+    "name": "Elements Silentium By Stefano Maccarelli",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Elements Silentium By Stefano Maccarelli is a audio plugin.",
+    "longDescription": "Elements Silentium By Stefano Maccarelli is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/zero-g-releases-elements-silentium-by-stefano-maccarelli-69158",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-17T10:27:25.728459+00:00",
+    "sourceTitle": "Zero G Releases Elements Silentium By Stefano Maccarelli"
+  },
+  {
+    "id": "d26f48658e92",
+    "slug": "subverselab-plugin-family-7-plugins-19-99-82-off",
+    "name": "Subverselab Plugin Family 7 Plugins 19 99 82 Off",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Subverselab Plugin Family 7 Plugins 19 99 82 Off is a audio plugin.",
+    "longDescription": "Subverselab Plugin Family 7 Plugins 19 99 82 Off is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/subverselab-plugin-family-7-plugins-19-99-82-off-68920",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-17T10:27:22.258004+00:00",
+    "sourceTitle": "Subverselab Plugin Family 7 Plugins 19 99 82 Off"
+  },
+  {
     "id": "1fde6756beb7",
     "slug": "the-nu-series-four-free-plugins-au-and",
     "name": "The Nu Series Four Free Plugins Au And",
@@ -751,236 +981,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-07T13:04:57.009633+00:00",
     "sourceTitle": "Kern Audio Adds Aax To All Six Plugins Pro Tools Macos And Windows"
-  },
-  {
-    "id": "8f5260ed2795",
-    "slug": "diodrive-plugin-vst3-au",
-    "name": "Diodrive Plugin Vst3 Au",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Diodrive Plugin Vst3 Au is a audio plugin.",
-    "longDescription": "Diodrive Plugin Vst3 Au is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/dsptone-releases-diodrive-plugin-vst3-au-aax-68930",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-07T13:04:29.401406+00:00",
-    "sourceTitle": "Dsptone Releases Diodrive Plugin Vst3 Au Aax"
-  },
-  {
-    "id": "86a808eb26d0",
-    "slug": "astrolab-2-0-front-panel-sound-editing-and-60-and-new-sounds",
-    "name": "Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds",
-    "developer": "Arturia",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Arturia Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds is a audio plugin.",
-    "longDescription": "Arturia Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/arturia-releases-astrolab-2-0---front-panel-sound-editing-and-60-and-new-sounds-68929",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-07T13:04:25.368615+00:00",
-    "sourceTitle": "Arturia Releases Astrolab 2 0 Front Panel Sound Editing And 60 And New Sounds"
-  },
-  {
-    "id": "8ccea21bc299",
-    "slug": "mixbrain",
-    "name": "Mixbrain",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Mixbrain is a audio plugin.",
-    "longDescription": "Mixbrain is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/audiobrain-releases-mixbrain-v3---prompt-driven-master-and-node-mixing-system-for-macos-68861",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-03T11:27:15.958390+00:00",
-    "sourceTitle": "Audiobrain Releases Mixbrain V3 Prompt Driven Master And Node Mixing System For Macos"
-  },
-  {
-    "id": "0835144ecef4",
-    "slug": "verbjunkie-and",
-    "name": "Verbjunkie And",
-    "developer": null,
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Verbjunkie And is a digital audio workstation.",
-    "longDescription": "Verbjunkie And is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/dawjunkie-releases-verbjunkie-and-free-convolute-reverb-for-macos-and-windows-68862",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-03T11:27:11.527738+00:00",
-    "sourceTitle": "Dawjunkie Releases Verbjunkie And Free Convolute Reverb For Macos And Windows"
-  },
-  {
-    "id": "4058655727d7",
-    "slug": "hetki-a-character-piano-instrument",
-    "name": "Hetki A Character Piano Instrument",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Hetki A Character Piano Instrument is a audio plugin.",
-    "longDescription": "Hetki A Character Piano Instrument is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/idealism-releases-hetki-a-character-piano-instrument-for-macos-and-windows-68868",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-03T11:27:07.199871+00:00",
-    "sourceTitle": "Idealism Releases Hetki A Character Piano Instrument For Macos And Windows"
-  },
-  {
-    "id": "aaa1f114db50",
-    "slug": "free-amp-2-0-and-updates-all",
-    "name": "Free Amp 2 0 And Updates All",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Free Amp 2 0 And Updates All is a audio plugin.",
-    "longDescription": "Free Amp 2 0 And Updates All is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/blue-cat-audio-releases-free-amp-2-0-and-updates-all-free-plug-ins-68870",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-03T11:27:02.917836+00:00",
-    "sourceTitle": "Blue Cat Audio Releases Free Amp 2 0 And Updates All Free Plug Ins"
-  },
-  {
-    "id": "d978e0c217eb",
-    "slug": "asymo-reverb-dynamic-spatial-reverb-vst3-au-and",
-    "name": "Asymo Reverb Dynamic Spatial Reverb Vst3 Au And",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Asymo Reverb Dynamic Spatial Reverb Vst3 Au And is a audio effects plugin.",
-    "longDescription": "Asymo Reverb Dynamic Spatial Reverb Vst3 Au And is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/w-a-production-releases-asymo-reverb-dynamic-spatial-reverb-vst3-au-and-aax-68872",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-03T11:26:59.029284+00:00",
-    "sourceTitle": "W A Production Releases Asymo Reverb Dynamic Spatial Reverb Vst3 Au And Aax"
   }
 ]
