@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-17T10:27:14.318769+00:00",
-  "finishedAt": "2026-10-17T10:28:23.409286+00:00",
+  "startedAt": "2026-10-19T12:46:24.845206+00:00",
+  "finishedAt": "2026-10-19T12:46:58.584544+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 7,
+  "newEntries": 4,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 7,
+      "articlesScraped": 7,
+      "entriesAdded": 4,
       "entriesRejected": 0
     },
     {
@@ -30,13 +30,16 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
+      "listingScraped": false,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Scrape failed: https://www.kvraudio.com/news/bela-d-media-60-off-all-stage-series-libraries-for-kontakt-69166 \"Bela D Media 60% Off All Stage Series Libraries for Kontakt\"",
+    "Could not scrape listing page: https://www.rekkerd.org/"
+  ],
   "rejections": []
 }
