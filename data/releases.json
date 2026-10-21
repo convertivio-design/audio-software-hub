@@ -1,5 +1,241 @@
 [
   {
+    "id": "cb0843839e56",
+    "slug": "additive-synth-vst3-and",
+    "name": "Additive Synth Vst3 And",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Additive Synth Vst3 And is a synthesizer plugin.",
+    "longDescription": "Additive Synth Vst3 And is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/snorkel-audio-releases-additive-synth-vst3-and-au-69203",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-21T11:33:21.625710+00:00",
+    "sourceTitle": "Snorkel Audio Releases Additive Synth Vst3 And Au"
+  },
+  {
+    "id": "2a61c40d2ae3",
+    "slug": "guardrail-midi-transformation-plugin-aax-au-and",
+    "name": "Guardrail Midi Transformation Plugin Aax Au And",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Guardrail Midi Transformation Plugin Aax Au And is a MIDI utility plugin.",
+    "longDescription": "Guardrail Midi Transformation Plugin Aax Au And is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/denormal-audio-releases-guardrail---midi-transformation-plugin-aax-au-and-vst3-69198",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-21T11:33:15.313178+00:00",
+    "sourceTitle": "Denormal Audio Releases Guardrail Midi Transformation Plugin Aax Au And Vst3"
+  },
+  {
+    "id": "b33b2f5a7139",
+    "slug": "super-duper-basses-an-instrument-based-on-classic-90s",
+    "name": "Super Duper Basses An Instrument Based On Classic 90S...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Super Duper Basses An Instrument Based On Classic 90S... is a digital audio workstation.",
+    "longDescription": "Super Duper Basses An Instrument Based On Classic 90S... is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/dawjunkie-releases-super-duper-basses---an-instrument-based-on-classic-90s-hardware-69215",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-21T11:33:04.048009+00:00",
+    "sourceTitle": "Dawjunkie Releases Super Duper Basses An Instrument Based On Classic 90S Hardware"
+  },
+  {
+    "id": "b807bae626ce",
+    "slug": "wav3-and-core-free-harmonic-wavetable-synthesizer",
+    "name": "Wav3 And Core Free Harmonic Wavetable Synthesizer",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Wav3 And Core Free Harmonic Wavetable Synthesizer is a synthesizer plugin.",
+    "longDescription": "Wav3 And Core Free Harmonic Wavetable Synthesizer is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/w3pc-audio-releases-wav3-and-core---free-harmonic-wavetable-synthesizer-for-windows-vst3-69223",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-21T11:33:00.831016+00:00",
+    "sourceTitle": "W3Pc Audio Releases Wav3 And Core Free Harmonic Wavetable Synthesizer For Windows Vst3"
+  },
+  {
+    "id": "4be6045f6348",
+    "slug": "phrasebox",
+    "name": "Phrasebox",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Phrasebox is a audio plugin.",
+    "longDescription": "Phrasebox is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/venomode-updates-phrasebox-to-v2-5-0-69222",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-21T11:32:57.160250+00:00",
+    "sourceTitle": "Venomode Updates Phrasebox To V2.5.0"
+  },
+  {
+    "id": "856b0d052181",
+    "slug": "vekte-algorithmic-midi-sequencer",
+    "name": "Vekte Algorithmic Midi Sequencer",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Vekte Algorithmic Midi Sequencer is a MIDI utility plugin.",
+    "longDescription": "Vekte Algorithmic Midi Sequencer is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/vald-labs-releases-vekte-algorithmic-midi-sequencer-v1-3-0-69202",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-21T11:32:53.328923+00:00",
+    "sourceTitle": "Vald Labs Releases Vekte Algorithmic Midi Sequencer V1.3.0"
+  },
+  {
+    "id": "6ddcea8ee9dc",
+    "slug": "splitz-split-effects-rack-plugin-au-aax-and",
+    "name": "Splitz Split Effects Rack Plugin Au Aax And",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Splitz Split Effects Rack Plugin Au Aax And is a audio plugin.",
+    "longDescription": "Splitz Split Effects Rack Plugin Au Aax And is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/rast-sound-releases-splitz---split-effects-rack-plugin-au-aax-and-vst3-69232",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-21T11:32:50.024439+00:00",
+    "sourceTitle": "Rast Sound Releases Splitz Split Effects Rack Plugin Au Aax And Vst3"
+  },
+  {
     "id": "c2dcddc18c49",
     "slug": "bollywood-rhythms-of-india-three-new-rhythm-kits-for",
     "name": "Bollywood Rhythms Of India Three New Rhythm Kits For...",
@@ -754,233 +990,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-13T13:57:41.117516+00:00",
     "sourceTitle": "Le Toroe Shaderkick Pro 19 Until 14 October 2026"
-  },
-  {
-    "id": "70d16ff93752",
-    "slug": "variations",
-    "name": "Variations",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Variations is a audio plugin.",
-    "longDescription": "Variations is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/abyzor-releases-variations-v4---new-composition-workflow-and-song-builder-68975",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-11T12:31:27.665729+00:00",
-    "sourceTitle": "Abyzor Releases Variations V4 New Composition Workflow And Song Builder"
-  },
-  {
-    "id": "c90040469489",
-    "slug": "cascade-dual-stage-volterra-saturation-plugin-vst3-windows",
-    "name": "Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows is a audio plugin.",
-    "longDescription": "Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/floodos-audio-labs-releases-cascade---dual-stage-volterra-saturation-plugin-vst3-windows-68882",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-11T12:31:23.360158+00:00",
-    "sourceTitle": "Floodos Audio Labs Releases Cascade Dual Stage Volterra Saturation Plugin Vst3 Windows"
-  },
-  {
-    "id": "86fb87af3c79",
-    "slug": "melbourne-exchange-roto-control-setup-and-software-library",
-    "name": "Melbourne Exchange Roto Control Setup And Software Library",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Melbourne Exchange Roto Control Setup And Software Library is a audio plugin.",
-    "longDescription": "Melbourne Exchange Roto Control Setup And Software Library is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/melbourne-instruments-launches-melbourne-exchange---roto-control-setup-and-software-library-69017",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-11T12:30:57.724956+00:00",
-    "sourceTitle": "Melbourne Instruments Launches Melbourne Exchange Roto Control Setup And Software Library"
-  },
-  {
-    "id": "8490c1493008",
-    "slug": "m-media-audio-the-drop-collection-five-performance",
-    "name": "M Media Audio The Drop Collection Five Performance...",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "M Media Audio The Drop Collection Five Performance... is a audio effects plugin.",
-    "longDescription": "M Media Audio The Drop Collection Five Performance... is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/m-media-audio-the-drop-collection-five-performance-effect-plugins-for-25-this-weekend-68950",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-11T12:30:50.507414+00:00",
-    "sourceTitle": "M Media Audio The Drop Collection Five Performance Effect Plugins For 25 This Weekend"
-  },
-  {
-    "id": "cafac5ae74bf",
-    "slug": "triodia-free-valve-vocal-processor",
-    "name": "Triodia Free Valve Vocal Processor",
-    "developer": null,
-    "categoryId": "vocal",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Triodia Free Valve Vocal Processor is a vocal processing plugin.",
-    "longDescription": "Triodia Free Valve Vocal Processor is a vocal processing plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/kalu-audio-releases-triodia---free-valve-vocal-processor-plugin-for-windows-vst3-68998",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "vocal"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-09T12:58:15.564073+00:00",
-    "sourceTitle": "Kalu Audio Releases Triodia Free Valve Vocal Processor Plugin For Windows Vst3"
-  },
-  {
-    "id": "9e0887bb524d",
-    "slug": "drumlabooh",
-    "name": "Drumlabooh",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Drumlabooh is a drum machine plugin.",
-    "longDescription": "Drumlabooh is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/peter-semiletov-updates-drumlabooh-to-v13-0-for-windows-and-linux-68999",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "Linux"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-09T12:58:12.056526+00:00",
-    "sourceTitle": "Peter Semiletov Updates Drumlabooh To V13.0 For Windows And Linux"
-  },
-  {
-    "id": "1f6bf7318360",
-    "slug": "de-artifact-to",
-    "name": "De Artifact To",
-    "developer": null,
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "De Artifact To is a digital audio workstation.",
-    "longDescription": "De Artifact To is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/intrect-updates-de-artifact-to-v0-4-4-with-aax-support-for-pro-tools-68923",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-09T12:58:08.833252+00:00",
-    "sourceTitle": "Intrect Updates De Artifact To V0.4.4 With Aax Support For Pro Tools"
   }
 ]
