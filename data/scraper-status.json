@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-10-21T11:32:41.963295+00:00",
-  "finishedAt": "2026-10-21T11:33:26.934654+00:00",
+  "startedAt": "2026-10-23T11:21:53.439005+00:00",
+  "finishedAt": "2026-10-23T11:22:31.378665+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 7,
-  "rejectedEntries": 0,
+  "newEntries": 6,
+  "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
     {
@@ -15,8 +15,8 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 7,
-      "entriesRejected": 0
+      "entriesAdded": 6,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
@@ -40,5 +40,13 @@
   "errors": [
     "Could not scrape listing page: https://www.rekkerd.org/"
   ],
-  "rejections": []
+  "rejections": [
+    {
+      "url": "https://www.kvraudio.com/news/zplane-releases-tonic-v2-0-with-upgrade-pricing-and-introductory-discount-69247 \"zplane Releases Tonic v2.0 with Upgrade Pricing and Introductory Discount\"",
+      "reason": "name_too_generic",
+      "detail": "",
+      "name": "Tonic",
+      "slug": "tonic"
+    }
+  ]
 }

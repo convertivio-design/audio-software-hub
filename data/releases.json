@@ -1,5 +1,197 @@
 [
   {
+    "id": "0600207ce590",
+    "slug": "sever-double-bass-horror-textures",
+    "name": "Sever Double Bass Horror Textures",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Sever Double Bass Horror Textures is a sampler / sample library.",
+    "longDescription": "Sever Double Bass Horror Textures is a sampler / sample library.",
+    "officialUrl": "https://www.kvraudio.com/news/inlet-audio-releases-sever---double-bass-horror-textures-for-kontakt-8-player-69234",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-23T11:22:25.575362+00:00",
+    "sourceTitle": "Inlet Audio Releases Sever Double Bass Horror Textures For Kontakt 8 Player"
+  },
+  {
+    "id": "f28e49631595",
+    "slug": "chop-machine",
+    "name": "Chop Machine",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Chop Machine is a audio plugin.",
+    "longDescription": "Chop Machine is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tendergreen-studio-updates-chop-machine-to-v1-1-69291",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-23T11:22:20.289678+00:00",
+    "sourceTitle": "Tendergreen Studio Updates Chop Machine To V1.1"
+  },
+  {
+    "id": "191ba4647d34",
+    "slug": "free-songengine-to",
+    "name": "Free Songengine To",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Free Songengine To is a MIDI utility plugin.",
+    "longDescription": "Free Songengine To is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/feelyoursound-updates-free-songengine-to-v1-9-0---adds-new-chord-progression-features-69293",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-23T11:22:12.888000+00:00",
+    "sourceTitle": "Feelyoursound Updates Free Songengine To V1.9.0 Adds New Chord Progression Features"
+  },
+  {
+    "id": "a06e60c73c56",
+    "slug": "dlay-to",
+    "name": "Dlay To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Dlay To is a audio plugin.",
+    "longDescription": "Dlay To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-updates-dlay-to-v1-4-2-with-32-bar-lfos-per-tap-modulation-and-an-i-o-bar-69297",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-23T11:22:08.085807+00:00",
+    "sourceTitle": "Frctl Audio Updates Dlay To V1.4.2 With 32 Bar Lfos Per Tap Modulation And An I O Bar"
+  },
+  {
+    "id": "a793f2b87c78",
+    "slug": "presetsync-audio-preset-synchronization",
+    "name": "Presetsync Audio Preset Synchronization",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Presetsync Audio Preset Synchronization is a audio plugin.",
+    "longDescription": "Presetsync Audio Preset Synchronization is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/dresearch-lab-releases-presetsync---audio-preset-synchronization-for-macos-and-windows-69294",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-23T11:22:04.012387+00:00",
+    "sourceTitle": "Dresearch Lab Releases Presetsync Audio Preset Synchronization For Macos And Windows"
+  },
+  {
+    "id": "1deaebf525ea",
+    "slug": "loudness-series",
+    "name": "Loudness Series",
+    "developer": null,
+    "categoryId": "mastering",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Loudness Series is a mastering plugin.",
+    "longDescription": "Loudness Series is a mastering plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/apu-software-releases-loudness-series-v6-0-0-69302",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "mastering"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-23T11:21:59.985677+00:00",
+    "sourceTitle": "Apu Software Releases Loudness Series V6.0.0"
+  },
+  {
     "id": "cb0843839e56",
     "slug": "additive-synth-vst3-and",
     "name": "Additive Synth Vst3 And",
@@ -794,201 +986,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-15T11:13:00.781451+00:00",
     "sourceTitle": "Uvi Introduces Uvi Player And The Uvi Builder Platform"
-  },
-  {
-    "id": "aa77ec0d99f2",
-    "slug": "jloopz-online-daw-for-beginners",
-    "name": "Jloopz Online Daw For Beginners",
-    "developer": null,
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Jloopz Online Daw For Beginners is a digital audio workstation.",
-    "longDescription": "Jloopz Online Daw For Beginners is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/psytrance-plugins-releases-jloopz---online-daw-for-beginners-69058",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-13T13:58:03.479539+00:00",
-    "sourceTitle": "Psytrance Plugins Releases Jloopz Online Daw For Beginners"
-  },
-  {
-    "id": "c5ed3df90f99",
-    "slug": "foam-to",
-    "name": "Foam To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Foam To is a audio plugin.",
-    "longDescription": "Foam To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/carbonated-audio-updates-foam-to-v1-2-1---adds-windows-vst3-and-a-free-demo-69001",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-13T13:57:59.040498+00:00",
-    "sourceTitle": "Carbonated Audio Updates Foam To V1.2.1 Adds Windows Vst3 And A Free Demo"
-  },
-  {
-    "id": "e0e22f2677b6",
-    "slug": "karmabass-mono-bass-synth-that-sidechains-to-karmakick",
-    "name": "Karmabass Mono Bass Synth That Sidechains To Karmakick...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Karmabass Mono Bass Synth That Sidechains To Karmakick... is a synthesizer plugin.",
-    "longDescription": "Karmabass Mono Bass Synth That Sidechains To Karmakick... is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/karmastation-releases-karmabass---mono-bass-synth-that-sidechains-to-karmakick-vst3-and-au-68985",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-13T13:57:55.020577+00:00",
-    "sourceTitle": "Karmastation Releases Karmabass Mono Bass Synth That Sidechains To Karmakick Vst3 And Au"
-  },
-  {
-    "id": "9ad74e620c6f",
-    "slug": "grni-to",
-    "name": "Grni To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Grni To is a audio plugin.",
-    "longDescription": "Grni To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-updates-grni-to-v1-1-0---adds-slice-mode-69019",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-13T13:57:49.301805+00:00",
-    "sourceTitle": "Frctl Audio Updates Grni To V1.1.0 Adds Slice Mode"
-  },
-  {
-    "id": "552a99ac4ba5",
-    "slug": "polyarp-to",
-    "name": "Polyarp To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Polyarp To is a audio plugin.",
-    "longDescription": "Polyarp To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/irisorbit-updates-polyarp-to-v1-3-0---interface-scaling-and-selectable-humanize-layers-68934",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-13T13:57:45.207853+00:00",
-    "sourceTitle": "Irisorbit Updates Polyarp To V1.3.0 Interface Scaling And Selectable Humanize Layers"
-  },
-  {
-    "id": "43cc168dfa72",
-    "slug": "le-toroe-shaderkick-pro-19-until-14-october",
-    "name": "Le Toroe Shaderkick Pro 19 Until 14 October",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Le Toroe Shaderkick Pro 19 Until 14 October is a audio plugin.",
-    "longDescription": "Le Toroe Shaderkick Pro 19 Until 14 October is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/le-toroe-shaderkick-pro-19-until-14-october-2026-68953",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-13T13:57:41.117516+00:00",
-    "sourceTitle": "Le Toroe Shaderkick Pro 19 Until 14 October 2026"
   }
 ]
