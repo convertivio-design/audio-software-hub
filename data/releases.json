@@ -1,5 +1,208 @@
 [
   {
+    "id": "0972225c7c15",
+    "slug": "sonification-tools",
+    "name": "Sonification Tools",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Sonification Tools is a synthesizer plugin.",
+    "longDescription": "Sonification Tools is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/manifest-audio-release-sonification-tools-v3---turning-real-world-data-into-synthesis-sequences-and-effects-vst3-au-clap-for-macos-windows-69277",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-25T11:07:09.066258+00:00",
+    "sourceTitle": "Manifest Audio Release Sonification Tools V3 Turning Real World Data Into Synthesis Sequences And Effects Vst3 Au Clap For Macos Windows"
+  },
+  {
+    "id": "9a717cc9383e",
+    "slug": "blox-rack-vst3-au",
+    "name": "Blox Rack Vst3 Au",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Blox Rack Vst3 Au is a audio plugin.",
+    "longDescription": "Blox Rack Vst3 Au is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/pine-dsp-releases-blox-rack-vst3-au-aax-69220",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-25T11:07:02.082573+00:00",
+    "sourceTitle": "Pine Dsp Releases Blox Rack Vst3 Au Aax"
+  },
+  {
+    "id": "93dcc90096f9",
+    "slug": "partials-and-discrepancies",
+    "name": "Partials And Discrepancies",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Partials And Discrepancies is a audio plugin.",
+    "longDescription": "Partials And Discrepancies is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/unusable-engineering-updates-partials-and-discrepancies-to-v1-5-0-69317",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-25T11:06:59.260695+00:00",
+    "sourceTitle": "Unusable Engineering Updates Partials And Discrepancies To V1.5.0"
+  },
+  {
+    "id": "154436ccef64",
+    "slug": "choir-formant-filtering-synth-free-for-a-limited-time",
+    "name": "Choir Formant Filtering Synth Free For A Limited Time",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Choir Formant Filtering Synth Free For A Limited Time is a synthesizer plugin.",
+    "longDescription": "Choir Formant Filtering Synth Free For A Limited Time is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/sxp-plugins-releases-choir---formant-filtering-synth-free-for-a-limited-time-69329",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-25T11:06:55.997903+00:00",
+    "sourceTitle": "Sxp Plugins Releases Choir Formant Filtering Synth Free For A Limited Time"
+  },
+  {
+    "id": "1928b9a50547",
+    "slug": "levelproof-eq-free-eq-plugin-vst3-and",
+    "name": "Levelproof Eq Free Eq Plugin Vst3 And",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Levelproof Eq Free Eq Plugin Vst3 And is a audio effects plugin.",
+    "longDescription": "Levelproof Eq Free Eq Plugin Vst3 And is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/stemwire-releases-levelproof-eq---free-eq-plugin-vst3-and-au-69331",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-25T11:06:22.769126+00:00",
+    "sourceTitle": "Stemwire Releases Levelproof Eq Free Eq Plugin Vst3 And Au"
+  },
+  {
+    "id": "78c027ec73f4",
+    "slug": "imfmsynth-to",
+    "name": "Imfmsynth To",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Imfmsynth To is a synthesizer plugin.",
+    "longDescription": "Imfmsynth To is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/kaito-sato-updates-imfmsynth-to-v1-1-6-with-per-operator-solo-colour-coded-operator-roles-and-one-click-ratio-ladders-69352",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-25T11:06:19.501190+00:00",
+    "sourceTitle": "Kaito Sato Updates Imfmsynth To V1.1.6 With Per Operator Solo Colour Coded Operator Roles And One Click Ratio Ladders"
+  },
+  {
     "id": "0600207ce590",
     "slug": "sever-double-bass-horror-textures",
     "name": "Sever Double Bass Horror Textures",
@@ -787,204 +990,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-17T10:27:22.258004+00:00",
     "sourceTitle": "Subverselab Plugin Family 7 Plugins 19 99 82 Off"
-  },
-  {
-    "id": "1fde6756beb7",
-    "slug": "the-nu-series-four-free-plugins-au-and",
-    "name": "The Nu Series Four Free Plugins Au And",
-    "developer": null,
-    "categoryId": "utility",
-    "price": 0.0,
-    "priceType": "free",
-    "shortDescription": "The Nu Series Four Free Plugins Au And is a audio plugin. Available free.",
-    "longDescription": "The Nu Series Four Free Plugins Au And is a audio plugin. Available free.",
-    "officialUrl": "https://www.kvraudio.com/news/dead-signal-audio-releases-the-nu-series---four-free-plugins-au-and-vst3-69080",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-15T11:13:21.192142+00:00",
-    "sourceTitle": "Dead Signal Audio Releases The Nu Series Four Free Plugins Au And Vst3"
-  },
-  {
-    "id": "bbb9ac8fd8c9",
-    "slug": "sinphonica-maestosa-strings-60-piece-orchestral-string",
-    "name": "Sinphonica Maestosa Strings 60 Piece Orchestral String...",
-    "developer": "IK Multimedia",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "IK Multimedia Sinphonica Maestosa Strings 60 Piece Orchestral String... is a audio plugin.",
-    "longDescription": "IK Multimedia Sinphonica Maestosa Strings 60 Piece Orchestral String... is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ik-multimedia-releases-sinphonica-maestosa-strings---60-piece-orchestral-string-library-aax-au-and-vst3-69064",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-15T11:13:16.920579+00:00",
-    "sourceTitle": "Ik Multimedia Releases Sinphonica Maestosa Strings 60 Piece Orchestral String Library Aax Au And Vst3"
-  },
-  {
-    "id": "a846df37f7f4",
-    "slug": "uad-empirical-labs-fatso-tape-simulator-native-versions",
-    "name": "Uad Empirical Labs Fatso Tape Simulator Native Versions",
-    "developer": "Universal Audio",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Universal Audio Uad Empirical Labs Fatso Tape Simulator Native Versions is a audio plugin.",
-    "longDescription": "Universal Audio Uad Empirical Labs Fatso Tape Simulator Native Versions is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/universal-audio-releases-uad-empirical-labs-fatso-tape-simulator-native-versions-for-macos-and-windows-69083",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-15T11:13:13.051712+00:00",
-    "sourceTitle": "Universal Audio Releases Uad Empirical Labs Fatso Tape Simulator Native Versions For Macos And Windows"
-  },
-  {
-    "id": "671f4682696e",
-    "slug": "nob-prompt-driven-wavetable-synthesizer",
-    "name": "Nob Prompt Driven Wavetable Synthesizer",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Nob Prompt Driven Wavetable Synthesizer is a synthesizer plugin.",
-    "longDescription": "Nob Prompt Driven Wavetable Synthesizer is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/synthius-labs-releases-nob-prompt-driven-wavetable-synthesizer-for-macos-and-windows-69085",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-15T11:13:08.706525+00:00",
-    "sourceTitle": "Synthius Labs Releases Nob Prompt Driven Wavetable Synthesizer For Macos And Windows"
-  },
-  {
-    "id": "4f1d587ec5b4",
-    "slug": "ocean-pigments-expansion-for-arturia-pigments",
-    "name": "Ocean Pigments Expansion For Arturia Pigments",
-    "developer": "Pigments",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Pigments Ocean Pigments Expansion For Arturia Pigments is a audio plugin.",
-    "longDescription": "Pigments Ocean Pigments Expansion For Arturia Pigments is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ocean-swift-releases-ocean-pigments-expansion-for-arturia-pigments-69086",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-15T11:13:04.741071+00:00",
-    "sourceTitle": "Ocean Swift Releases Ocean Pigments Expansion For Arturia Pigments"
-  },
-  {
-    "id": "adef54ae19a0",
-    "slug": "uvi-player-and-the-uvi-builder-platform",
-    "name": "Uvi Player And The Uvi Builder Platform",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Uvi Player And The Uvi Builder Platform is a audio plugin.",
-    "longDescription": "Uvi Player And The Uvi Builder Platform is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/uvi-introduces-uvi-player-and-the-uvi-builder-platform-69107",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-15T11:13:00.781451+00:00",
-    "sourceTitle": "Uvi Introduces Uvi Player And The Uvi Builder Platform"
   }
 ]
