@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-25T11:06:13.489037+00:00",
-  "finishedAt": "2026-10-25T11:07:13.085527+00:00",
+  "startedAt": "2026-10-27T11:55:23.740619+00:00",
+  "finishedAt": "2026-10-27T11:56:34.385838+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 6,
+  "newEntries": 1,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 6,
+      "articlesScraped": 7,
+      "entriesAdded": 1,
       "entriesRejected": 0
     },
     {
@@ -30,7 +30,7 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": false,
+      "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
@@ -38,7 +38,7 @@
     }
   ],
   "errors": [
-    "Could not scrape listing page: https://www.rekkerd.org/"
+    "Scrape failed: https://www.kvraudio.com/news/gs-dsp-updates-all-plugins-to-2026-5-69344 \"GS DSP updates all plugins to 2026.5\""
   ],
   "rejections": []
 }

@@ -1,5 +1,37 @@
 [
   {
+    "id": "560f3ce255fb",
+    "slug": "humanizer-pro-to",
+    "name": "Humanizer Pro To",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Humanizer Pro To is a MIDI utility plugin.",
+    "longDescription": "Humanizer Pro To is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/wide-blue-sound-updates-humanizer-pro-to-v1-0-6-midi-effect-that-models-how-real-players-play-69391",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-27T11:55:44.915709+00:00",
+    "sourceTitle": "Wide Blue Sound Updates Humanizer Pro To V1.0.6 Midi Effect That Models How Real Players Play"
+  },
+  {
     "id": "0972225c7c15",
     "slug": "sonification-tools",
     "name": "Sonification Tools",
@@ -958,37 +990,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-17T10:27:25.728459+00:00",
     "sourceTitle": "Zero G Releases Elements Silentium By Stefano Maccarelli"
-  },
-  {
-    "id": "d26f48658e92",
-    "slug": "subverselab-plugin-family-7-plugins-19-99-82-off",
-    "name": "Subverselab Plugin Family 7 Plugins 19 99 82 Off",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Subverselab Plugin Family 7 Plugins 19 99 82 Off is a audio plugin.",
-    "longDescription": "Subverselab Plugin Family 7 Plugins 19 99 82 Off is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/subverselab-plugin-family-7-plugins-19-99-82-off-68920",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-17T10:27:22.258004+00:00",
-    "sourceTitle": "Subverselab Plugin Family 7 Plugins 19 99 82 Off"
   }
 ]
