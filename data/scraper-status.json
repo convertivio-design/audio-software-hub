@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-27T11:55:23.740619+00:00",
-  "finishedAt": "2026-10-27T11:56:34.385838+00:00",
+  "startedAt": "2026-10-29T12:42:56.390457+00:00",
+  "finishedAt": "2026-10-29T12:43:35.679924+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 1,
+  "newEntries": 7,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 1,
+      "articlesScraped": 8,
+      "entriesAdded": 7,
       "entriesRejected": 0
     },
     {
@@ -37,8 +37,6 @@
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/gs-dsp-updates-all-plugins-to-2026-5-69344 \"GS DSP updates all plugins to 2026.5\""
-  ],
+  "errors": [],
   "rejections": []
 }

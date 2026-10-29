@@ -1,5 +1,245 @@
 [
   {
+    "id": "3a3b08e8b0d9",
+    "slug": "hollowtone-deep-ambient-worlds",
+    "name": "Hollowtone Deep Ambient Worlds",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Hollowtone Deep Ambient Worlds is a audio plugin.",
+    "longDescription": "Hollowtone Deep Ambient Worlds is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/igor-vasiliev-releases-hollowtone---deep-ambient-worlds-for-ios-and-macos-69216",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-29T12:43:29.121991+00:00",
+    "sourceTitle": "Igor Vasiliev Releases Hollowtone Deep Ambient Worlds For Ios And Macos"
+  },
+  {
+    "id": "0974491ef5e6",
+    "slug": "expetri-experimental-software-synthesizer-released-au-and",
+    "name": "Expetri Experimental Software Synthesizer Released Au And",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Expetri Experimental Software Synthesizer Released Au And is a synthesizer plugin.",
+    "longDescription": "Expetri Experimental Software Synthesizer Released Au And is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/expetri-experimental-software-synthesizer-released-au-and-vst3-69350",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-29T12:43:24.796263+00:00",
+    "sourceTitle": "Expetri Experimental Software Synthesizer Released Au And Vst3"
+  },
+  {
+    "id": "a2b32ca36ffc",
+    "slug": "figura-a-real-time-cymatics-visualizer",
+    "name": "Figura A Real Time Cymatics Visualizer",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Figura A Real Time Cymatics Visualizer is a audio plugin.",
+    "longDescription": "Figura A Real Time Cymatics Visualizer is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/acusmagic-releases-figura-a-real-time-cymatics-visualizer-plugin-69444",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-29T12:43:20.729770+00:00",
+    "sourceTitle": "Acusmagic Releases Figura A Real Time Cymatics Visualizer Plugin"
+  },
+  {
+    "id": "5529173bce1c",
+    "slug": "vg-windscape-audiovisual-instrument-vst-au-standalone-app",
+    "name": "Vg Windscape Audiovisual Instrument Vst Au Standalone App",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Vg Windscape Audiovisual Instrument Vst Au Standalone App is a audio plugin.",
+    "longDescription": "Vg Windscape Audiovisual Instrument Vst Au Standalone App is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/vgtrumpet-releases-vg-windscape-audiovisual-instrument---vst-au-standalone-app-69453",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST",
+      "AU",
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-29T12:43:14.244913+00:00",
+    "sourceTitle": "Vgtrumpet Releases Vg Windscape Audiovisual Instrument Vst Au Standalone App"
+  },
+  {
+    "id": "caa853a0919a",
+    "slug": "proaudiodeclipper",
+    "name": "Proaudiodeclipper",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Proaudiodeclipper is a audio plugin.",
+    "longDescription": "Proaudiodeclipper is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/myaudiofactory-updates-proaudiodeclipper-to-v1-13-0-69460",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-29T12:43:10.051532+00:00",
+    "sourceTitle": "Myaudiofactory Updates Proaudiodeclipper To V1.13.0"
+  },
+  {
+    "id": "ecd85e650992",
+    "slug": "vac-rac-tsl-official-inward-connections-tube-optical",
+    "name": "Vac Rac Tsl Official Inward Connections Tube Optical...",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Vac Rac Tsl Official Inward Connections Tube Optical... is a audio effects plugin.",
+    "longDescription": "Vac Rac Tsl Official Inward Connections Tube Optical... is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/kazrog-releases-vac-rac-tsl---official-inward-connections-tube-optical-compressor-vst-au-aax-and-lv2-69467",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-29T12:43:06.056413+00:00",
+    "sourceTitle": "Kazrog Releases Vac Rac Tsl Official Inward Connections Tube Optical Compressor Vst Au Aax And Lv2"
+  },
+  {
+    "id": "3226187756de",
+    "slug": "mega-drum-machines",
+    "name": "Mega Drum Machines",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Mega Drum Machines is a drum machine plugin.",
+    "longDescription": "Mega Drum Machines is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/autodafe-releases-mega-drum-machines-v2-free-au-and-vst3-69376",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-29T12:43:02.715772+00:00",
+    "sourceTitle": "Autodafe Releases Mega Drum Machines V2 Free Au And Vst3"
+  },
+  {
     "id": "560f3ce255fb",
     "slug": "humanizer-pro-to",
     "name": "Humanizer Pro To",
@@ -757,238 +997,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-19T12:46:38.217962+00:00",
     "sourceTitle": "U He Releases Panora For U Hes Diva"
-  },
-  {
-    "id": "f14f72605059",
-    "slug": "probe-free-plug-in-analyzer-vst3",
-    "name": "Probe Free Plug In Analyzer Vst3",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Probe Free Plug In Analyzer Vst3 is a audio plugin.",
-    "longDescription": "Probe Free Plug In Analyzer Vst3 is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/snowtec-releases-probe---free-plug-in-analyzer-vst3-au-69169",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-19T12:46:34.260473+00:00",
-    "sourceTitle": "Snowtec Releases Probe Free Plug In Analyzer Vst3 Au"
-  },
-  {
-    "id": "f919eb821b20",
-    "slug": "beatmaker-bounce-and-usynth-bounce-y2k-inspired-drums",
-    "name": "Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums... is a synthesizer plugin.",
-    "longDescription": "Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums... is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ujam-releases-beatmaker-bounce-and-usynth-bounce---y2k-inspired-drums-and-synth-sounds-69139",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-17T10:28:16.969158+00:00",
-    "sourceTitle": "Ujam Releases Beatmaker Bounce And Usynth Bounce Y2K Inspired Drums And Synth Sounds"
-  },
-  {
-    "id": "36e16fa510b0",
-    "slug": "wailer-wah-pro-inductor",
-    "name": "Wailer Wah Pro Inductor",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Wailer Wah Pro Inductor is a audio plugin.",
-    "longDescription": "Wailer Wah Pro Inductor is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/electro-harmonix-introduces-wailer-wah-pro---inductor-free-wah-pedal-69141",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-17T10:27:39.712544+00:00",
-    "sourceTitle": "Electro Harmonix Introduces Wailer Wah Pro Inductor Free Wah Pedal"
-  },
-  {
-    "id": "b4f8245acac7",
-    "slug": "dither-4-tpdf-dither-with-noise-shaping-from-16-to-24-bits",
-    "name": "Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits is a audio plugin.",
-    "longDescription": "Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/mozzaik-audio-releases-dither-4---tpdf-dither-with-noise-shaping-from-16-to-24-bits-69145",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-17T10:27:36.230476+00:00",
-    "sourceTitle": "Mozzaik Audio Releases Dither 4 Tpdf Dither With Noise Shaping From 16 To 24 Bits"
-  },
-  {
-    "id": "b04458f4ccb0",
-    "slug": "arc-studio-and-standalone-room-calibration-and-automatic",
-    "name": "Arc Studio And Standalone Room Calibration And Automatic...",
-    "developer": "IK Multimedia",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "IK Multimedia Arc Studio And Standalone Room Calibration And Automatic... is a audio plugin.",
-    "longDescription": "IK Multimedia Arc Studio And Standalone Room Calibration And Automatic... is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ik-multimedia-releases-arc-studio-and---standalone-room-calibration-and-automatic-subwoofer-management-69142",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "Standalone"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-17T10:27:32.538943+00:00",
-    "sourceTitle": "Ik Multimedia Releases Arc Studio And Standalone Room Calibration And Automatic Subwoofer Management"
-  },
-  {
-    "id": "7281391c2549",
-    "slug": "instacomposer-4-midi-processor-vst3-au-and",
-    "name": "Instacomposer 4 Midi Processor Vst3 Au And",
-    "developer": null,
-    "categoryId": "midi",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Instacomposer 4 Midi Processor Vst3 Au And is a MIDI utility plugin.",
-    "longDescription": "Instacomposer 4 Midi Processor Vst3 Au And is a MIDI utility plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/w-a-production-releases-instacomposer-4-midi-processor-vst3-au-and-aax-69157",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "midi"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-17T10:27:29.019506+00:00",
-    "sourceTitle": "W A Production Releases Instacomposer 4 Midi Processor Vst3 Au And Aax"
-  },
-  {
-    "id": "9e32cb559f24",
-    "slug": "elements-silentium-by-stefano-maccarelli",
-    "name": "Elements Silentium By Stefano Maccarelli",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Elements Silentium By Stefano Maccarelli is a audio plugin.",
-    "longDescription": "Elements Silentium By Stefano Maccarelli is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/zero-g-releases-elements-silentium-by-stefano-maccarelli-69158",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-17T10:27:25.728459+00:00",
-    "sourceTitle": "Zero G Releases Elements Silentium By Stefano Maccarelli"
   }
 ]
