@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-10-29T12:42:56.390457+00:00",
-  "finishedAt": "2026-10-29T12:43:35.679924+00:00",
+  "startedAt": "2026-10-31T12:00:07.722890+00:00",
+  "finishedAt": "2026-10-31T12:00:45.459138+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 7,
+  "newEntries": 5,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -15,7 +15,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 7,
+      "entriesAdded": 5,
       "entriesRejected": 0
     },
     {
@@ -30,13 +30,15 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
+      "listingScraped": false,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Could not scrape listing page: https://www.rekkerd.org/"
+  ],
   "rejections": []
 }

@@ -1,5 +1,164 @@
 [
   {
+    "id": "3df1ed6cafbc",
+    "slug": "four-fifths-bowed-string-library-for-sforzando",
+    "name": "Four Fifths Bowed String Library For Sforzando",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Four Fifths Bowed String Library For Sforzando is a audio plugin.",
+    "longDescription": "Four Fifths Bowed String Library For Sforzando is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/karoryfer-samples-releases-four-fifths-bowed-string-library-for-sforzando-69466",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-31T12:00:39.885731+00:00",
+    "sourceTitle": "Karoryfer Samples Releases Four Fifths Bowed String Library For Sforzando"
+  },
+  {
+    "id": "4550bc6f71ba",
+    "slug": "kvr-audio-ai-policies-upcoming-changes-to-our-news",
+    "name": "Kvr Audio Ai Policies Upcoming Changes To Our News...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Kvr Audio Ai Policies Upcoming Changes To Our News... is a audio plugin.",
+    "longDescription": "Kvr Audio Ai Policies Upcoming Changes To Our News... is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/kvr-audio-ai-policies-upcoming-changes-to-our-news-coverage-and-guidelines-for-developers-69478",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-31T12:00:34.898019+00:00",
+    "sourceTitle": "Kvr Audio Ai Policies Upcoming Changes To Our News Coverage And Guidelines For Developers"
+  },
+  {
+    "id": "6c49300bcbb0",
+    "slug": "rest-for-omnisphere-3-ambient-soundbank",
+    "name": "Rest For Omnisphere 3 Ambient Soundbank",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Rest For Omnisphere 3 Ambient Soundbank is a audio plugin.",
+    "longDescription": "Rest For Omnisphere 3 Ambient Soundbank is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tom-wolfe-releases-rest-for-omnisphere-3---ambient-soundbank-69271",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-31T12:00:31.592987+00:00",
+    "sourceTitle": "Tom Wolfe Releases Rest For Omnisphere 3 Ambient Soundbank"
+  },
+  {
+    "id": "b01411f1d842",
+    "slug": "stepstrum-to",
+    "name": "Stepstrum To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Stepstrum To is a audio plugin.",
+    "longDescription": "Stepstrum To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/notewerks-updates-stepstrum-to-v1-2-with-flexible-pattern-lengths-and-expanded-timing-controls-69446",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-31T12:00:26.188641+00:00",
+    "sourceTitle": "Notewerks Updates Stepstrum To V1.2 With Flexible Pattern Lengths And Expanded Timing Controls"
+  },
+  {
+    "id": "0c3852590e49",
+    "slug": "thermo3",
+    "name": "Thermo3",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Thermo3 is a audio plugin.",
+    "longDescription": "Thermo3 is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/soniclab-releases-thermo3-69480",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-10-31T12:00:22.246319+00:00",
+    "sourceTitle": "Soniclab Releases Thermo3"
+  },
+  {
     "id": "3a3b08e8b0d9",
     "slug": "hollowtone-deep-ambient-worlds",
     "name": "Hollowtone Deep Ambient Worlds",
@@ -833,169 +992,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-21T11:32:57.160250+00:00",
     "sourceTitle": "Venomode Updates Phrasebox To V2.5.0"
-  },
-  {
-    "id": "856b0d052181",
-    "slug": "vekte-algorithmic-midi-sequencer",
-    "name": "Vekte Algorithmic Midi Sequencer",
-    "developer": null,
-    "categoryId": "midi",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Vekte Algorithmic Midi Sequencer is a MIDI utility plugin.",
-    "longDescription": "Vekte Algorithmic Midi Sequencer is a MIDI utility plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/vald-labs-releases-vekte-algorithmic-midi-sequencer-v1-3-0-69202",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "midi"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-21T11:32:53.328923+00:00",
-    "sourceTitle": "Vald Labs Releases Vekte Algorithmic Midi Sequencer V1.3.0"
-  },
-  {
-    "id": "6ddcea8ee9dc",
-    "slug": "splitz-split-effects-rack-plugin-au-aax-and",
-    "name": "Splitz Split Effects Rack Plugin Au Aax And",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Splitz Split Effects Rack Plugin Au Aax And is a audio plugin.",
-    "longDescription": "Splitz Split Effects Rack Plugin Au Aax And is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/rast-sound-releases-splitz---split-effects-rack-plugin-au-aax-and-vst3-69232",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-21T11:32:50.024439+00:00",
-    "sourceTitle": "Rast Sound Releases Splitz Split Effects Rack Plugin Au Aax And Vst3"
-  },
-  {
-    "id": "c2dcddc18c49",
-    "slug": "bollywood-rhythms-of-india-three-new-rhythm-kits-for",
-    "name": "Bollywood Rhythms Of India Three New Rhythm Kits For...",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Bollywood Rhythms Of India Three New Rhythm Kits For... is a drum machine plugin.",
-    "longDescription": "Bollywood Rhythms Of India Three New Rhythm Kits For... is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/pitch-innovations-releases-bollywood-rhythms-of-india---three-new-rhythm-kits-for-sonic-atlas-69129",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-19T12:46:49.107722+00:00",
-    "sourceTitle": "Pitch Innovations Releases Bollywood Rhythms Of India Three New Rhythm Kits For Sonic Atlas"
-  },
-  {
-    "id": "a36119598110",
-    "slug": "hornet-zerolevel-released-automatic-track-levels-for-a",
-    "name": "Hornet Zerolevel Released Automatic Track Levels For A...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Hornet Zerolevel Released Automatic Track Levels For A... is a audio plugin.",
-    "longDescription": "Hornet Zerolevel Released Automatic Track Levels For A... is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/hornet-zerolevel-released-automatic-track-levels-for-a-starting-mix-balance-69161",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-19T12:46:45.552412+00:00",
-    "sourceTitle": "Hornet Zerolevel Released Automatic Track Levels For A Starting Mix Balance"
-  },
-  {
-    "id": "aff1f8be82d7",
-    "slug": "panora-for-u-hes-diva",
-    "name": "Panora For U Hes Diva",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Panora For U Hes Diva is a audio plugin.",
-    "longDescription": "Panora For U Hes Diva is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/u-he-releases-panora-for-u-hes-diva-69165",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-19T12:46:38.217962+00:00",
-    "sourceTitle": "U He Releases Panora For U Hes Diva"
   }
 ]
