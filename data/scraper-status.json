@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-11-01T13:01:04.650053+00:00",
-  "finishedAt": "2026-11-01T13:01:46.056386+00:00",
+  "startedAt": "2026-11-03T13:57:30.623306+00:00",
+  "finishedAt": "2026-11-03T13:58:09.166322+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 6,
+  "newEntries": 7,
   "rejectedEntries": 0,
   "outputEntries": 30,
   "sources": [
@@ -15,7 +15,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 6,
+      "entriesAdded": 7,
       "entriesRejected": 0
     },
     {

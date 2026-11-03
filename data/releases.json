@@ -1,5 +1,233 @@
 [
   {
+    "id": "9a3c7490d70e",
+    "slug": "shrapnel-to",
+    "name": "Shrapnel To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Shrapnel To is a audio plugin.",
+    "longDescription": "Shrapnel To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tech-audio-updates-shrapnel-to-v1-1-and-adds-a-free-100-preset-factory-pack-69566",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-03T13:58:03.530005+00:00",
+    "sourceTitle": "Tech Audio Updates Shrapnel To V1.1 And Adds A Free 100 Preset Factory Pack"
+  },
+  {
+    "id": "bfa133c50c86",
+    "slug": "terrarium-generative-world-synthesizer-you-play-by",
+    "name": "Terrarium Generative World Synthesizer You Play By...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Terrarium Generative World Synthesizer You Play By... is a synthesizer plugin.",
+    "longDescription": "Terrarium Generative World Synthesizer You Play By... is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/touchmachines-releases-terrarium---generative-world-synthesizer-you-play-by-grabbing-the-weather-vst3-au-standalone-ios-69565",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "iOS",
+      "Standalone"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-03T13:57:58.837710+00:00",
+    "sourceTitle": "Touchmachines Releases Terrarium Generative World Synthesizer You Play By Grabbing The Weather Vst3 Au Standalone Ios"
+  },
+  {
+    "id": "6097f9c335df",
+    "slug": "big-max-zero",
+    "name": "Big Max Zero",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Big Max Zero is a audio plugin.",
+    "longDescription": "Big Max Zero is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/big-man-labs-updates-big-max-zero-to-v1-3-0-69570",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-03T13:57:54.558957+00:00",
+    "sourceTitle": "Big Man Labs Updates Big Max Zero To V1.3.0"
+  },
+  {
+    "id": "f80ab6591b76",
+    "slug": "ujam-signs-agreement-to-acquire-virharmonic-assets",
+    "name": "Ujam Signs Agreement To Acquire Virharmonic Assets",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Ujam Signs Agreement To Acquire Virharmonic Assets is a audio plugin.",
+    "longDescription": "Ujam Signs Agreement To Acquire Virharmonic Assets is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ujam-signs-agreement-to-acquire-virharmonic-assets-69580",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-03T13:57:49.855715+00:00",
+    "sourceTitle": "Ujam Signs Agreement To Acquire Virharmonic Assets"
+  },
+  {
+    "id": "f4ab0344f30b",
+    "slug": "state-of-independent-audio-software-companies-2026-survey",
+    "name": "State Of Independent Audio Software Companies 2026 Survey",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "State Of Independent Audio Software Companies 2026 Survey is a audio plugin.",
+    "longDescription": "State Of Independent Audio Software Companies 2026 Survey is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/moonbase-announces-state-of-independent-audio-software-companies-2026-survey-69586",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-03T13:57:46.077288+00:00",
+    "sourceTitle": "Moonbase Announces State Of Independent Audio Software Companies 2026 Survey"
+  },
+  {
+    "id": "9c9c65348aa1",
+    "slug": "akira-filter-plugin",
+    "name": "Akira Filter Plugin",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Akira Filter Plugin is a audio plugin.",
+    "longDescription": "Akira Filter Plugin is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/smaolab-updates-akira-filter-plugin-to-v2-0-69588",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-03T13:57:41.776510+00:00",
+    "sourceTitle": "Smaolab Updates Akira Filter Plugin To V2.0"
+  },
+  {
+    "id": "33807b5a37ef",
+    "slug": "rc-20-retro-color",
+    "name": "Rc 20 Retro Color",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Rc 20 Retro Color is a audio effects plugin.",
+    "longDescription": "Rc 20 Retro Color is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/xln-audio-releases-rc-20-retro-color-v2---feedback-delay-and-new-degradation-effects-69568",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-03T13:57:38.420156+00:00",
+    "sourceTitle": "Xln Audio Releases Rc 20 Retro Color V2 Feedback Delay And New Degradation Effects"
+  },
+  {
     "id": "98ffe3a1e535",
     "slug": "atmospheria-and-moody-lights",
     "name": "Atmospheria And Moody Lights",
@@ -758,232 +986,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-25T11:06:55.997903+00:00",
     "sourceTitle": "Sxp Plugins Releases Choir Formant Filtering Synth Free For A Limited Time"
-  },
-  {
-    "id": "1928b9a50547",
-    "slug": "levelproof-eq-free-eq-plugin-vst3-and",
-    "name": "Levelproof Eq Free Eq Plugin Vst3 And",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Levelproof Eq Free Eq Plugin Vst3 And is a audio effects plugin.",
-    "longDescription": "Levelproof Eq Free Eq Plugin Vst3 And is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/stemwire-releases-levelproof-eq---free-eq-plugin-vst3-and-au-69331",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-25T11:06:22.769126+00:00",
-    "sourceTitle": "Stemwire Releases Levelproof Eq Free Eq Plugin Vst3 And Au"
-  },
-  {
-    "id": "78c027ec73f4",
-    "slug": "imfmsynth-to",
-    "name": "Imfmsynth To",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Imfmsynth To is a synthesizer plugin.",
-    "longDescription": "Imfmsynth To is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/kaito-sato-updates-imfmsynth-to-v1-1-6-with-per-operator-solo-colour-coded-operator-roles-and-one-click-ratio-ladders-69352",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-25T11:06:19.501190+00:00",
-    "sourceTitle": "Kaito Sato Updates Imfmsynth To V1.1.6 With Per Operator Solo Colour Coded Operator Roles And One Click Ratio Ladders"
-  },
-  {
-    "id": "0600207ce590",
-    "slug": "sever-double-bass-horror-textures",
-    "name": "Sever Double Bass Horror Textures",
-    "developer": null,
-    "categoryId": "sampler",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Sever Double Bass Horror Textures is a sampler / sample library.",
-    "longDescription": "Sever Double Bass Horror Textures is a sampler / sample library.",
-    "officialUrl": "https://www.kvraudio.com/news/inlet-audio-releases-sever---double-bass-horror-textures-for-kontakt-8-player-69234",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "sampler"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-23T11:22:25.575362+00:00",
-    "sourceTitle": "Inlet Audio Releases Sever Double Bass Horror Textures For Kontakt 8 Player"
-  },
-  {
-    "id": "f28e49631595",
-    "slug": "chop-machine",
-    "name": "Chop Machine",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Chop Machine is a audio plugin.",
-    "longDescription": "Chop Machine is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/tendergreen-studio-updates-chop-machine-to-v1-1-69291",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-23T11:22:20.289678+00:00",
-    "sourceTitle": "Tendergreen Studio Updates Chop Machine To V1.1"
-  },
-  {
-    "id": "191ba4647d34",
-    "slug": "free-songengine-to",
-    "name": "Free Songengine To",
-    "developer": null,
-    "categoryId": "midi",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Free Songengine To is a MIDI utility plugin.",
-    "longDescription": "Free Songengine To is a MIDI utility plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/feelyoursound-updates-free-songengine-to-v1-9-0---adds-new-chord-progression-features-69293",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "midi"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-23T11:22:12.888000+00:00",
-    "sourceTitle": "Feelyoursound Updates Free Songengine To V1.9.0 Adds New Chord Progression Features"
-  },
-  {
-    "id": "a06e60c73c56",
-    "slug": "dlay-to",
-    "name": "Dlay To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Dlay To is a audio plugin.",
-    "longDescription": "Dlay To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-updates-dlay-to-v1-4-2-with-32-bar-lfos-per-tap-modulation-and-an-i-o-bar-69297",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-23T11:22:08.085807+00:00",
-    "sourceTitle": "Frctl Audio Updates Dlay To V1.4.2 With 32 Bar Lfos Per Tap Modulation And An I O Bar"
-  },
-  {
-    "id": "a793f2b87c78",
-    "slug": "presetsync-audio-preset-synchronization",
-    "name": "Presetsync Audio Preset Synchronization",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Presetsync Audio Preset Synchronization is a audio plugin.",
-    "longDescription": "Presetsync Audio Preset Synchronization is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/dresearch-lab-releases-presetsync---audio-preset-synchronization-for-macos-and-windows-69294",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-23T11:22:04.012387+00:00",
-    "sourceTitle": "Dresearch Lab Releases Presetsync Audio Preset Synchronization For Macos And Windows"
   }
 ]
