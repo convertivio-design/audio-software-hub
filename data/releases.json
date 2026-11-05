@@ -1,5 +1,200 @@
 [
   {
+    "id": "abc8cd49a30c",
+    "slug": "photon-gpu-accelerated-stem-separation-and-denoising",
+    "name": "Photon Gpu Accelerated Stem Separation And Denoising",
+    "developer": "iZotope",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "iZotope Photon Gpu Accelerated Stem Separation And Denoising is a audio plugin.",
+    "longDescription": "iZotope Photon Gpu Accelerated Stem Separation And Denoising is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/izotope-releases-photon---gpu-accelerated-stem-separation-and-denoising-69616",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-05T14:27:49.234420+00:00",
+    "sourceTitle": "Izotope Releases Photon Gpu Accelerated Stem Separation And Denoising"
+  },
+  {
+    "id": "89a72d0c95cc",
+    "slug": "align-and-edit-to-1-1",
+    "name": "Align And Edit To 1 1",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Align And Edit To 1 1 is a audio plugin.",
+    "longDescription": "Align And Edit To 1 1 is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/null-audio-updates-align-and-edit-to-1-1-69622",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-05T14:27:40.520500+00:00",
+    "sourceTitle": "Null Audio Updates Align And Edit To 1 1"
+  },
+  {
+    "id": "d934b647b8e8",
+    "slug": "metal-machine-2-ezx-by-andy-sneap-for-ezdrummer-and",
+    "name": "Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And...",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And... is a drum machine plugin.",
+    "longDescription": "Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And... is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/toontrack-releases-metal-machine-2-ezx-by-andy-sneap-for-ezdrummer-and-superior-drummer-69626",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-05T14:27:34.027758+00:00",
+    "sourceTitle": "Toontrack Releases Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And Superior Drummer"
+  },
+  {
+    "id": "35506e730c57",
+    "slug": "capitol-studios-room-modeling-and-reverb-plug-in",
+    "name": "Capitol Studios Room Modeling And Reverb Plug In",
+    "developer": "Universal Audio",
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Universal Audio Capitol Studios Room Modeling And Reverb Plug In is a audio effects plugin.",
+    "longDescription": "Universal Audio Capitol Studios Room Modeling And Reverb Plug In is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/universal-audio-releases-capitol-studios-room-modeling-and-reverb-plug-in-69628",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-05T14:27:29.675502+00:00",
+    "sourceTitle": "Universal Audio Releases Capitol Studios Room Modeling And Reverb Plug In"
+  },
+  {
+    "id": "cf43a0e7d925",
+    "slug": "the-swarm-polyphonic-wavetable-synth-au-clap-and",
+    "name": "The Swarm Polyphonic Wavetable Synth Au Clap And",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "The Swarm Polyphonic Wavetable Synth Au Clap And is a synthesizer plugin.",
+    "longDescription": "The Swarm Polyphonic Wavetable Synth Au Clap And is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/morpheral-machines-releases-the-swarm-polyphonic-wavetable-synth-au-clap-and-vst3-69632",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "CLAP"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-05T14:27:24.533945+00:00",
+    "sourceTitle": "Morpheral Machines Releases The Swarm Polyphonic Wavetable Synth Au Clap And Vst3"
+  },
+  {
+    "id": "03863d1f55ef",
+    "slug": "lx480-dual-engine-reverb-to",
+    "name": "Lx480 Dual Engine Reverb To",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Lx480 Dual Engine Reverb To is a audio effects plugin.",
+    "longDescription": "Lx480 Dual Engine Reverb To is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/relab-development-updates-lx480-dual-engine-reverb-to-v4-1-1-and-lx480-essentials-to-v2-3-0-69636",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-05T14:26:32.427551+00:00",
+    "sourceTitle": "Relab Development Updates Lx480 Dual Engine Reverb To V4.1.1 And Lx480 Essentials To V2.3.0"
+  },
+  {
     "id": "9a3c7490d70e",
     "slug": "shrapnel-to",
     "name": "Shrapnel To",
@@ -783,208 +978,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-29T12:43:06.056413+00:00",
     "sourceTitle": "Kazrog Releases Vac Rac Tsl Official Inward Connections Tube Optical Compressor Vst Au Aax And Lv2"
-  },
-  {
-    "id": "3226187756de",
-    "slug": "mega-drum-machines",
-    "name": "Mega Drum Machines",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Mega Drum Machines is a drum machine plugin.",
-    "longDescription": "Mega Drum Machines is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/autodafe-releases-mega-drum-machines-v2-free-au-and-vst3-69376",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-29T12:43:02.715772+00:00",
-    "sourceTitle": "Autodafe Releases Mega Drum Machines V2 Free Au And Vst3"
-  },
-  {
-    "id": "560f3ce255fb",
-    "slug": "humanizer-pro-to",
-    "name": "Humanizer Pro To",
-    "developer": null,
-    "categoryId": "midi",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Humanizer Pro To is a MIDI utility plugin.",
-    "longDescription": "Humanizer Pro To is a MIDI utility plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/wide-blue-sound-updates-humanizer-pro-to-v1-0-6-midi-effect-that-models-how-real-players-play-69391",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "midi"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-27T11:55:44.915709+00:00",
-    "sourceTitle": "Wide Blue Sound Updates Humanizer Pro To V1.0.6 Midi Effect That Models How Real Players Play"
-  },
-  {
-    "id": "0972225c7c15",
-    "slug": "sonification-tools",
-    "name": "Sonification Tools",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Sonification Tools is a synthesizer plugin.",
-    "longDescription": "Sonification Tools is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/manifest-audio-release-sonification-tools-v3---turning-real-world-data-into-synthesis-sequences-and-effects-vst3-au-clap-for-macos-windows-69277",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "CLAP"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-25T11:07:09.066258+00:00",
-    "sourceTitle": "Manifest Audio Release Sonification Tools V3 Turning Real World Data Into Synthesis Sequences And Effects Vst3 Au Clap For Macos Windows"
-  },
-  {
-    "id": "9a717cc9383e",
-    "slug": "blox-rack-vst3-au",
-    "name": "Blox Rack Vst3 Au",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Blox Rack Vst3 Au is a audio plugin.",
-    "longDescription": "Blox Rack Vst3 Au is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/pine-dsp-releases-blox-rack-vst3-au-aax-69220",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-25T11:07:02.082573+00:00",
-    "sourceTitle": "Pine Dsp Releases Blox Rack Vst3 Au Aax"
-  },
-  {
-    "id": "93dcc90096f9",
-    "slug": "partials-and-discrepancies",
-    "name": "Partials And Discrepancies",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Partials And Discrepancies is a audio plugin.",
-    "longDescription": "Partials And Discrepancies is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/unusable-engineering-updates-partials-and-discrepancies-to-v1-5-0-69317",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-25T11:06:59.260695+00:00",
-    "sourceTitle": "Unusable Engineering Updates Partials And Discrepancies To V1.5.0"
-  },
-  {
-    "id": "154436ccef64",
-    "slug": "choir-formant-filtering-synth-free-for-a-limited-time",
-    "name": "Choir Formant Filtering Synth Free For A Limited Time",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Choir Formant Filtering Synth Free For A Limited Time is a synthesizer plugin.",
-    "longDescription": "Choir Formant Filtering Synth Free For A Limited Time is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/sxp-plugins-releases-choir---formant-filtering-synth-free-for-a-limited-time-69329",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-25T11:06:55.997903+00:00",
-    "sourceTitle": "Sxp Plugins Releases Choir Formant Filtering Synth Free For A Limited Time"
   }
 ]

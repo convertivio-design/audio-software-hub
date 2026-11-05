@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "startedAt": "2026-11-03T13:57:30.623306+00:00",
-  "finishedAt": "2026-11-03T13:58:09.166322+00:00",
+  "startedAt": "2026-11-05T14:26:16.930078+00:00",
+  "finishedAt": "2026-11-05T14:27:56.043195+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 7,
-  "rejectedEntries": 0,
+  "newEntries": 6,
+  "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
     {
@@ -14,9 +14,9 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 8,
-      "entriesAdded": 7,
-      "entriesRejected": 0
+      "articlesScraped": 7,
+      "entriesAdded": 6,
+      "entriesRejected": 1
     },
     {
       "source": "BPB Free VST",
@@ -30,7 +30,7 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": false,
+      "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
@@ -38,7 +38,15 @@
     }
   ],
   "errors": [
-    "Could not scrape listing page: https://www.rekkerd.org/"
+    "Scrape failed: https://www.kvraudio.com/news/native-instruments-releases-massive-xl-69635 \"Native Instruments releases Massive XL\""
   ],
-  "rejections": []
+  "rejections": [
+    {
+      "url": "https://www.kvraudio.com/news/wavea-updates-flite-to-v2-2-69637 \"Wavea updates Flite to v2.2\"",
+      "reason": "name_too_generic",
+      "detail": "",
+      "name": "Flite",
+      "slug": "flite"
+    }
+  ]
 }
