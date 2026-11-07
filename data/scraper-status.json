@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-11-05T14:26:16.930078+00:00",
-  "finishedAt": "2026-11-05T14:27:56.043195+00:00",
+  "startedAt": "2026-11-07T12:46:48.158648+00:00",
+  "finishedAt": "2026-11-07T12:47:18.343040+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 6,
+  "newEntries": 1,
   "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
@@ -14,8 +14,8 @@
       "listingUrl": "https://www.kvraudio.com/news/",
       "listingScraped": true,
       "candidateLinks": 8,
-      "articlesScraped": 7,
-      "entriesAdded": 6,
+      "articlesScraped": 8,
+      "entriesAdded": 1,
       "entriesRejected": 1
     },
     {
@@ -30,7 +30,7 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
+      "listingScraped": false,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
@@ -38,7 +38,7 @@
     }
   ],
   "errors": [
-    "Scrape failed: https://www.kvraudio.com/news/native-instruments-releases-massive-xl-69635 \"Native Instruments releases Massive XL\""
+    "Could not scrape listing page: https://www.rekkerd.org/"
   ],
   "rejections": [
     {

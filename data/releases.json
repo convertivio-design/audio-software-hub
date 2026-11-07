@@ -1,5 +1,37 @@
 [
   {
+    "id": "de624fb1b432",
+    "slug": "massive-xl",
+    "name": "Massive Xl",
+    "developer": "Native Instruments",
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Native Instruments Massive Xl is a audio plugin.",
+    "longDescription": "Native Instruments Massive Xl is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/native-instruments-releases-massive-xl-69635",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-07T12:46:55.576258+00:00",
+    "sourceTitle": "Native Instruments Releases Massive Xl"
+  },
+  {
     "id": "abc8cd49a30c",
     "slug": "photon-gpu-accelerated-stem-separation-and-denoising",
     "name": "Photon Gpu Accelerated Stem Separation And Denoising",
@@ -942,41 +974,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-29T12:43:10.051532+00:00",
     "sourceTitle": "Myaudiofactory Updates Proaudiodeclipper To V1.13.0"
-  },
-  {
-    "id": "ecd85e650992",
-    "slug": "vac-rac-tsl-official-inward-connections-tube-optical",
-    "name": "Vac Rac Tsl Official Inward Connections Tube Optical...",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Vac Rac Tsl Official Inward Connections Tube Optical... is a audio effects plugin.",
-    "longDescription": "Vac Rac Tsl Official Inward Connections Tube Optical... is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/kazrog-releases-vac-rac-tsl---official-inward-connections-tube-optical-compressor-vst-au-aax-and-lv2-69467",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-29T12:43:06.056413+00:00",
-    "sourceTitle": "Kazrog Releases Vac Rac Tsl Official Inward Connections Tube Optical Compressor Vst Au Aax And Lv2"
   }
 ]
