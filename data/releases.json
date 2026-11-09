@@ -1,5 +1,208 @@
 [
   {
+    "id": "902c048c49b6",
+    "slug": "spek-to-1-0-4-and-veld-to-1-1",
+    "name": "Spek To 1 0 4 And Veld To 1 1",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Spek To 1 0 4 And Veld To 1 1 is a audio plugin.",
+    "longDescription": "Spek To 1 0 4 And Veld To 1 1 is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/marula-music-updates-spek-to-1-0-4-and-veld-to-1-1-69704",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-09T15:51:25.017919+00:00",
+    "sourceTitle": "Marula Music Updates Spek To 1 0 4 And Veld To 1 1"
+  },
+  {
+    "id": "dd9c69505998",
+    "slug": "neusynth-a-stem-generator-that-works-inside-your-daw",
+    "name": "Neusynth A Stem Generator That Works Inside Your Daw",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Neusynth A Stem Generator That Works Inside Your Daw is a digital audio workstation.",
+    "longDescription": "Neusynth A Stem Generator That Works Inside Your Daw is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/neutone-announces-neusynth---a-stem-generator-that-works-inside-your-daw-69705",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-09T15:51:13.968037+00:00",
+    "sourceTitle": "Neutone Announces Neusynth A Stem Generator That Works Inside Your Daw"
+  },
+  {
+    "id": "23d52b127375",
+    "slug": "smooth-7-dynamic-equalizer-plugin-au-and",
+    "name": "Smooth 7 Dynamic Equalizer Plugin Au And",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Smooth 7 Dynamic Equalizer Plugin Au And is a audio effects plugin.",
+    "longDescription": "Smooth 7 Dynamic Equalizer Plugin Au And is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/rockheyday-releases-smooth-7---dynamic-equalizer-plugin-au-and-vst3-69698",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-09T15:51:06.994050+00:00",
+    "sourceTitle": "Rockheyday Releases Smooth 7 Dynamic Equalizer Plugin Au And Vst3"
+  },
+  {
+    "id": "e797d2e2e6dd",
+    "slug": "currents-and-nostalgia-synthesizer-plugin-au-and",
+    "name": "Currents And Nostalgia Synthesizer Plugin Au And",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Currents And Nostalgia Synthesizer Plugin Au And is a synthesizer plugin.",
+    "longDescription": "Currents And Nostalgia Synthesizer Plugin Au And is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/unusable-engineering-releases-currents-and-nostalgia-synthesizer-plugin-au-and-vst3-69692",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-09T15:50:46.421490+00:00",
+    "sourceTitle": "Unusable Engineering Releases Currents And Nostalgia Synthesizer Plugin Au And Vst3"
+  },
+  {
+    "id": "bfc6e2313798",
+    "slug": "drumod4-drums-vst-alesis-d4-inspired-drum-module-plugin",
+    "name": "Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin...",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin... is a drum machine plugin.",
+    "longDescription": "Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin... is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/force56-audio-software-releases-drumod4-drums-vst---alesis-d4-inspired-drum-module-plugin-vst3-and-au-69711",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "VST",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-09T15:50:37.149370+00:00",
+    "sourceTitle": "Force56 Audio Software Releases Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin Vst3 And Au"
+  },
+  {
+    "id": "c40d2f4d3409",
+    "slug": "atavism-spectral-effect-for-ipad-auv3",
+    "name": "Atavism Spectral Effect For Ipad Auv3",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Atavism Spectral Effect For Ipad Auv3 is a audio plugin.",
+    "longDescription": "Atavism Spectral Effect For Ipad Auv3 is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/parallel-minds-releases-atavism-spectral-effect-for-ipad-auv3-69707",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "AUv3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-09T15:50:24.867393+00:00",
+    "sourceTitle": "Parallel Minds Releases Atavism Spectral Effect For Ipad Auv3"
+  },
+  {
     "id": "de624fb1b432",
     "slug": "massive-xl",
     "name": "Massive Xl",
@@ -773,206 +976,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-10-31T12:00:26.188641+00:00",
     "sourceTitle": "Notewerks Updates Stepstrum To V1.2 With Flexible Pattern Lengths And Expanded Timing Controls"
-  },
-  {
-    "id": "0c3852590e49",
-    "slug": "thermo3",
-    "name": "Thermo3",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Thermo3 is a audio plugin.",
-    "longDescription": "Thermo3 is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/soniclab-releases-thermo3-69480",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-31T12:00:22.246319+00:00",
-    "sourceTitle": "Soniclab Releases Thermo3"
-  },
-  {
-    "id": "3a3b08e8b0d9",
-    "slug": "hollowtone-deep-ambient-worlds",
-    "name": "Hollowtone Deep Ambient Worlds",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Hollowtone Deep Ambient Worlds is a audio plugin.",
-    "longDescription": "Hollowtone Deep Ambient Worlds is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/igor-vasiliev-releases-hollowtone---deep-ambient-worlds-for-ios-and-macos-69216",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "macOS",
-      "iOS"
-    ],
-    "formats": [
-      "iOS"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-29T12:43:29.121991+00:00",
-    "sourceTitle": "Igor Vasiliev Releases Hollowtone Deep Ambient Worlds For Ios And Macos"
-  },
-  {
-    "id": "0974491ef5e6",
-    "slug": "expetri-experimental-software-synthesizer-released-au-and",
-    "name": "Expetri Experimental Software Synthesizer Released Au And",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Expetri Experimental Software Synthesizer Released Au And is a synthesizer plugin.",
-    "longDescription": "Expetri Experimental Software Synthesizer Released Au And is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/expetri-experimental-software-synthesizer-released-au-and-vst3-69350",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-29T12:43:24.796263+00:00",
-    "sourceTitle": "Expetri Experimental Software Synthesizer Released Au And Vst3"
-  },
-  {
-    "id": "a2b32ca36ffc",
-    "slug": "figura-a-real-time-cymatics-visualizer",
-    "name": "Figura A Real Time Cymatics Visualizer",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Figura A Real Time Cymatics Visualizer is a audio plugin.",
-    "longDescription": "Figura A Real Time Cymatics Visualizer is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/acusmagic-releases-figura-a-real-time-cymatics-visualizer-plugin-69444",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-29T12:43:20.729770+00:00",
-    "sourceTitle": "Acusmagic Releases Figura A Real Time Cymatics Visualizer Plugin"
-  },
-  {
-    "id": "5529173bce1c",
-    "slug": "vg-windscape-audiovisual-instrument-vst-au-standalone-app",
-    "name": "Vg Windscape Audiovisual Instrument Vst Au Standalone App",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Vg Windscape Audiovisual Instrument Vst Au Standalone App is a audio plugin.",
-    "longDescription": "Vg Windscape Audiovisual Instrument Vst Au Standalone App is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/vgtrumpet-releases-vg-windscape-audiovisual-instrument---vst-au-standalone-app-69453",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST",
-      "AU",
-      "Standalone"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-29T12:43:14.244913+00:00",
-    "sourceTitle": "Vgtrumpet Releases Vg Windscape Audiovisual Instrument Vst Au Standalone App"
-  },
-  {
-    "id": "caa853a0919a",
-    "slug": "proaudiodeclipper",
-    "name": "Proaudiodeclipper",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Proaudiodeclipper is a audio plugin.",
-    "longDescription": "Proaudiodeclipper is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/myaudiofactory-updates-proaudiodeclipper-to-v1-13-0-69460",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-29T12:43:10.051532+00:00",
-    "sourceTitle": "Myaudiofactory Updates Proaudiodeclipper To V1.13.0"
   }
 ]

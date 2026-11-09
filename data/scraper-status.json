@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-11-07T12:46:48.158648+00:00",
-  "finishedAt": "2026-11-07T12:47:18.343040+00:00",
+  "startedAt": "2026-11-09T15:50:03.808117+00:00",
+  "finishedAt": "2026-11-09T15:51:32.337475+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 1,
+  "newEntries": 6,
   "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
@@ -15,7 +15,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 1,
+      "entriesAdded": 6,
       "entriesRejected": 1
     },
     {
@@ -30,23 +30,21 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": false,
+      "listingScraped": true,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [
-    "Could not scrape listing page: https://www.rekkerd.org/"
-  ],
+  "errors": [],
   "rejections": [
     {
-      "url": "https://www.kvraudio.com/news/wavea-updates-flite-to-v2-2-69637 \"Wavea updates Flite to v2.2\"",
+      "url": "https://www.kvraudio.com/news/nikolozi-releases-mela-v8-0-for-macos-and-ios-69693 \"Nikolozi releases Mela v8.0 for macOS and iOS\"",
       "reason": "name_too_generic",
       "detail": "",
-      "name": "Flite",
-      "slug": "flite"
+      "name": "Mela",
+      "slug": "mela"
     }
   ]
 }
