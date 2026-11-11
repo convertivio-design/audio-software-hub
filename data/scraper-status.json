@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "startedAt": "2026-11-09T15:50:03.808117+00:00",
-  "finishedAt": "2026-11-09T15:51:32.337475+00:00",
+  "startedAt": "2026-11-11T13:55:41.568447+00:00",
+  "finishedAt": "2026-11-11T13:56:10.611589+00:00",
   "dryRun": false,
   "existingEntries": 30,
   "cleanedExistingEntries": 30,
-  "newEntries": 6,
+  "newEntries": 0,
   "rejectedEntries": 1,
   "outputEntries": 30,
   "sources": [
@@ -15,7 +15,7 @@
       "listingScraped": true,
       "candidateLinks": 8,
       "articlesScraped": 8,
-      "entriesAdded": 6,
+      "entriesAdded": 0,
       "entriesRejected": 1
     },
     {
@@ -30,14 +30,16 @@
     {
       "source": "Rekkerd",
       "listingUrl": "https://www.rekkerd.org/",
-      "listingScraped": true,
+      "listingScraped": false,
       "candidateLinks": 0,
       "articlesScraped": 0,
       "entriesAdded": 0,
       "entriesRejected": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    "Could not scrape listing page: https://www.rekkerd.org/"
+  ],
   "rejections": [
     {
       "url": "https://www.kvraudio.com/news/nikolozi-releases-mela-v8-0-for-macos-and-ios-69693 \"Nikolozi releases Mela v8.0 for macOS and iOS\"",
