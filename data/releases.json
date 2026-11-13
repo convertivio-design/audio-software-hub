@@ -1,5 +1,235 @@
 [
   {
+    "id": "3c0ba035a7a2",
+    "slug": "genome-to",
+    "name": "Genome To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Genome To is a audio plugin.",
+    "longDescription": "Genome To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/two-notes-audio-engineering-updates-genome-to-v2-2---live-mode-69783",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-13T14:23:16.125267+00:00",
+    "sourceTitle": "Two Notes Audio Engineering Updates Genome To V2.2 Live Mode"
+  },
+  {
+    "id": "5b43a8e8881d",
+    "slug": "cosmicsynth-released-free-vst3-synthesizer-that-turns",
+    "name": "Cosmicsynth Released Free Vst3 Synthesizer That Turns...",
+    "developer": null,
+    "categoryId": "synth",
+    "price": 0.0,
+    "priceType": "free",
+    "shortDescription": "Cosmicsynth Released Free Vst3 Synthesizer That Turns... is a synthesizer plugin. Available free.",
+    "longDescription": "Cosmicsynth Released Free Vst3 Synthesizer That Turns... is a synthesizer plugin. Available free.",
+    "officialUrl": "https://www.kvraudio.com/news/cosmicsynth-released---free-vst3-synthesizer-that-turns-gravitational-wave-physics-into-music-69786",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-13T14:23:12.774386+00:00",
+    "sourceTitle": "Cosmicsynth Released Free Vst3 Synthesizer That Turns Gravitational Wave Physics Into Music"
+  },
+  {
+    "id": "0ca2d7a1f05d",
+    "slug": "native-cooper-time-cube-delay",
+    "name": "Native Cooper Time Cube Delay",
+    "developer": "Universal Audio",
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Universal Audio Native Cooper Time Cube Delay is a audio effects plugin.",
+    "longDescription": "Universal Audio Native Cooper Time Cube Delay is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/universal-audio-releases-native-cooper-time-cube-delay-for-macos-and-windows-69788",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-13T14:23:08.912784+00:00",
+    "sourceTitle": "Universal Audio Releases Native Cooper Time Cube Delay For Macos And Windows"
+  },
+  {
+    "id": "41a0d68d5d3d",
+    "slug": "apverb",
+    "name": "Apverb",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Apverb is a audio plugin.",
+    "longDescription": "Apverb is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/apulsoft-updates-apverb-to-v1-2-6-69796",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-13T14:23:03.918806+00:00",
+    "sourceTitle": "Apulsoft Updates Apverb To V1.2.6"
+  },
+  {
+    "id": "793354b09a13",
+    "slug": "new-id-desktop-range",
+    "name": "New Id Desktop Range",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "New Id Desktop Range is a audio plugin.",
+    "longDescription": "New Id Desktop Range is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/audient-announces-new-id-desktop-range-69773",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-13T14:22:59.683558+00:00",
+    "sourceTitle": "Audient Announces New Id Desktop Range"
+  },
+  {
+    "id": "a04de8e1aed6",
+    "slug": "attribute-audio-character-transfer-plugin-vst3-au-and",
+    "name": "Attribute Audio Character Transfer Plugin Vst3 Au And",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Attribute Audio Character Transfer Plugin Vst3 Au And is a audio plugin.",
+    "longDescription": "Attribute Audio Character Transfer Plugin Vst3 Au And is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/2b-played-music-releases-attribute---audio-character-transfer-plugin-vst3-au-and-aax-69800",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-13T14:22:53.509127+00:00",
+    "sourceTitle": "2B Played Music Releases Attribute Audio Character Transfer Plugin Vst3 Au And Aax"
+  },
+  {
+    "id": "54cb15150df2",
+    "slug": "seconds-spectral-sound-design-effect",
+    "name": "Seconds Spectral Sound Design Effect",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Seconds Spectral Sound Design Effect is a audio effects plugin.",
+    "longDescription": "Seconds Spectral Sound Design Effect is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/audiothing-releases-seconds---spectral-sound-design-effect-plugin-69805",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-13T14:22:41.812153+00:00",
+    "sourceTitle": "Audiothing Releases Seconds Spectral Sound Design Effect Plugin"
+  },
+  {
     "id": "902c048c49b6",
     "slug": "spek-to-1-0-4-and-veld-to-1-1",
     "name": "Spek To 1 0 4 And Veld To 1 1",
@@ -755,226 +985,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-11-01T13:01:32.449044+00:00",
     "sourceTitle": "Gsi Releases Burn Studio Vst And Au"
-  },
-  {
-    "id": "392013da93e6",
-    "slug": "dukr-zero-latency-sidechain-ducker-with-frequency-carving",
-    "name": "Dukr Zero Latency Sidechain Ducker With Frequency Carving",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Dukr Zero Latency Sidechain Ducker With Frequency Carving is a audio plugin.",
-    "longDescription": "Dukr Zero Latency Sidechain Ducker With Frequency Carving is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/frctl-audio-releases-dukr---zero-latency-sidechain-ducker-with-frequency-carving-69529",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-01T13:01:29.119910+00:00",
-    "sourceTitle": "Frctl Audio Releases Dukr Zero Latency Sidechain Ducker With Frequency Carving"
-  },
-  {
-    "id": "e3d970ffa17c",
-    "slug": "qtractor-to",
-    "name": "Qtractor To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Qtractor To is a audio plugin.",
-    "longDescription": "Qtractor To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/rncbc-org-updates-qtractor-to-v1-6-5-and-vee-one-suite-to-v1-5-1-for-linux-69517",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Linux"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-01T13:01:23.421500+00:00",
-    "sourceTitle": "Rncbc Org Updates Qtractor To V1.6.5 And Vee One Suite To V1.5.1 For Linux"
-  },
-  {
-    "id": "d9c8369d4cd7",
-    "slug": "twin-3-to",
-    "name": "Twin 3 To",
-    "developer": "FabFilter",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "FabFilter Twin 3 To is a audio plugin.",
-    "longDescription": "FabFilter Twin 3 To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/fabfilter-updates-twin-3-to-v3-10---mpe-support-and-over-200-new-presets-69548",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-01T13:01:15.651274+00:00",
-    "sourceTitle": "Fabfilter Updates Twin 3 To V3.10 Mpe Support And Over 200 New Presets"
-  },
-  {
-    "id": "3df1ed6cafbc",
-    "slug": "four-fifths-bowed-string-library-for-sforzando",
-    "name": "Four Fifths Bowed String Library For Sforzando",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Four Fifths Bowed String Library For Sforzando is a audio plugin.",
-    "longDescription": "Four Fifths Bowed String Library For Sforzando is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/karoryfer-samples-releases-four-fifths-bowed-string-library-for-sforzando-69466",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-31T12:00:39.885731+00:00",
-    "sourceTitle": "Karoryfer Samples Releases Four Fifths Bowed String Library For Sforzando"
-  },
-  {
-    "id": "4550bc6f71ba",
-    "slug": "kvr-audio-ai-policies-upcoming-changes-to-our-news",
-    "name": "Kvr Audio Ai Policies Upcoming Changes To Our News...",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Kvr Audio Ai Policies Upcoming Changes To Our News... is a audio plugin.",
-    "longDescription": "Kvr Audio Ai Policies Upcoming Changes To Our News... is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/kvr-audio-ai-policies-upcoming-changes-to-our-news-coverage-and-guidelines-for-developers-69478",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-31T12:00:34.898019+00:00",
-    "sourceTitle": "Kvr Audio Ai Policies Upcoming Changes To Our News Coverage And Guidelines For Developers"
-  },
-  {
-    "id": "6c49300bcbb0",
-    "slug": "rest-for-omnisphere-3-ambient-soundbank",
-    "name": "Rest For Omnisphere 3 Ambient Soundbank",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Rest For Omnisphere 3 Ambient Soundbank is a audio plugin.",
-    "longDescription": "Rest For Omnisphere 3 Ambient Soundbank is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/tom-wolfe-releases-rest-for-omnisphere-3---ambient-soundbank-69271",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-31T12:00:31.592987+00:00",
-    "sourceTitle": "Tom Wolfe Releases Rest For Omnisphere 3 Ambient Soundbank"
-  },
-  {
-    "id": "b01411f1d842",
-    "slug": "stepstrum-to",
-    "name": "Stepstrum To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Stepstrum To is a audio plugin.",
-    "longDescription": "Stepstrum To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/notewerks-updates-stepstrum-to-v1-2-with-flexible-pattern-lengths-and-expanded-timing-controls-69446",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-10-31T12:00:26.188641+00:00",
-    "sourceTitle": "Notewerks Updates Stepstrum To V1.2 With Flexible Pattern Lengths And Expanded Timing Controls"
   }
 ]
