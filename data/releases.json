@@ -1,5 +1,239 @@
 [
   {
+    "id": "c9c400ede8d1",
+    "slug": "ab-advanced-visualiser-hoa-pro-for-immersive-audio-analysis",
+    "name": "Ab Advanced Visualiser Hoa Pro For Immersive Audio Analysis",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Ab Advanced Visualiser Hoa Pro For Immersive Audio Analysis is a audio plugin.",
+    "longDescription": "Ab Advanced Visualiser Hoa Pro For Immersive Audio Analysis is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/audio-brewers-releases-ab-advanced-visualiser-hoa-pro-for-immersive-audio-analysis-69863",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-17T15:48:13.769400+00:00",
+    "sourceTitle": "Audio Brewers Releases Ab Advanced Visualiser Hoa Pro For Immersive Audio Analysis"
+  },
+  {
+    "id": "0a990cbdc34c",
+    "slug": "xoradora-drum-resynthesizer-to",
+    "name": "Xoradora Drum Resynthesizer To",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Xoradora Drum Resynthesizer To is a synthesizer plugin.",
+    "longDescription": "Xoradora Drum Resynthesizer To is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/mutagene-updates-xoradora-drum-resynthesizer-to-v1-0-0-rc-4-68567",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-17T15:48:10.052299+00:00",
+    "sourceTitle": "Mutagene Updates Xoradora Drum Resynthesizer To V1.0.0 Rc 4"
+  },
+  {
+    "id": "46b5b47bd51c",
+    "slug": "lush-reverb",
+    "name": "Lush Reverb",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Lush Reverb is a audio effects plugin.",
+    "longDescription": "Lush Reverb is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/gorilla-dsp-releases-lush-reverb-for-windows-vst3-and-aax-69879",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-17T15:48:06.558184+00:00",
+    "sourceTitle": "Gorilla Dsp Releases Lush Reverb For Windows Vst3 And Aax"
+  },
+  {
+    "id": "608bc7c5dd2f",
+    "slug": "free-devocean-player-with-more-than-60-instruments-and",
+    "name": "Free Devocean Player With More Than 60 Instruments And...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Free Devocean Player With More Than 60 Instruments And... is a audio plugin.",
+    "longDescription": "Free Devocean Player With More Than 60 Instruments And... is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ocean-swift-releases-free-devocean-player-with-more-than-60-instruments-and-effects-au-and-vst3-69885",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-17T15:48:03.762924+00:00",
+    "sourceTitle": "Ocean Swift Releases Free Devocean Player With More Than 60 Instruments And Effects Au And Vst3"
+  },
+  {
+    "id": "5d673da444ad",
+    "slug": "multitrackstudio-for-ipad",
+    "name": "Multitrackstudio For Ipad",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Multitrackstudio For Ipad is a audio plugin.",
+    "longDescription": "Multitrackstudio For Ipad is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/bremmers-audio-design-updates-multitrackstudio-for-ipad-to-v5-4-2-69887",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-17T15:48:00.439253+00:00",
+    "sourceTitle": "Bremmers Audio Design Updates Multitrackstudio For Ipad To V5.4.2"
+  },
+  {
+    "id": "9d00d3fc0aa3",
+    "slug": "photophore-2-flock-synth",
+    "name": "Photophore 2 Flock Synth",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Photophore 2 Flock Synth is a synthesizer plugin.",
+    "longDescription": "Photophore 2 Flock Synth is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/taika-systems-releases-photophore-2-flock-synth-for-ios-with-auv3-and-iphone-support-69896",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "iOS"
+    ],
+    "formats": [
+      "AUv3",
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-17T15:47:53.142978+00:00",
+    "sourceTitle": "Taika Systems Releases Photophore 2 Flock Synth For Ios With Auv3 And Iphone Support"
+  },
+  {
+    "id": "4859905d6a14",
+    "slug": "spliteq-2-dynamic-eq-plugin-aax-au-and",
+    "name": "Spliteq 2 Dynamic Eq Plugin Aax Au And",
+    "developer": "Eventide",
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Eventide Spliteq 2 Dynamic Eq Plugin Aax Au And is a audio effects plugin.",
+    "longDescription": "Eventide Spliteq 2 Dynamic Eq Plugin Aax Au And is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/eventide-releases-spliteq-2---dynamic-eq-plugin-aax-au-and-vst3-69904",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-17T15:47:48.709307+00:00",
+    "sourceTitle": "Eventide Releases Spliteq 2 Dynamic Eq Plugin Aax Au And Vst3"
+  },
+  {
     "id": "3c0ba035a7a2",
     "slug": "genome-to",
     "name": "Genome To",
@@ -758,232 +992,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-11-03T13:57:54.558957+00:00",
     "sourceTitle": "Big Man Labs Updates Big Max Zero To V1.3.0"
-  },
-  {
-    "id": "f80ab6591b76",
-    "slug": "ujam-signs-agreement-to-acquire-virharmonic-assets",
-    "name": "Ujam Signs Agreement To Acquire Virharmonic Assets",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Ujam Signs Agreement To Acquire Virharmonic Assets is a audio plugin.",
-    "longDescription": "Ujam Signs Agreement To Acquire Virharmonic Assets is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/ujam-signs-agreement-to-acquire-virharmonic-assets-69580",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-03T13:57:49.855715+00:00",
-    "sourceTitle": "Ujam Signs Agreement To Acquire Virharmonic Assets"
-  },
-  {
-    "id": "f4ab0344f30b",
-    "slug": "state-of-independent-audio-software-companies-2026-survey",
-    "name": "State Of Independent Audio Software Companies 2026 Survey",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "State Of Independent Audio Software Companies 2026 Survey is a audio plugin.",
-    "longDescription": "State Of Independent Audio Software Companies 2026 Survey is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/moonbase-announces-state-of-independent-audio-software-companies-2026-survey-69586",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-03T13:57:46.077288+00:00",
-    "sourceTitle": "Moonbase Announces State Of Independent Audio Software Companies 2026 Survey"
-  },
-  {
-    "id": "9c9c65348aa1",
-    "slug": "akira-filter-plugin",
-    "name": "Akira Filter Plugin",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Akira Filter Plugin is a audio plugin.",
-    "longDescription": "Akira Filter Plugin is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/smaolab-updates-akira-filter-plugin-to-v2-0-69588",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-03T13:57:41.776510+00:00",
-    "sourceTitle": "Smaolab Updates Akira Filter Plugin To V2.0"
-  },
-  {
-    "id": "33807b5a37ef",
-    "slug": "rc-20-retro-color",
-    "name": "Rc 20 Retro Color",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Rc 20 Retro Color is a audio effects plugin.",
-    "longDescription": "Rc 20 Retro Color is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/xln-audio-releases-rc-20-retro-color-v2---feedback-delay-and-new-degradation-effects-69568",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-03T13:57:38.420156+00:00",
-    "sourceTitle": "Xln Audio Releases Rc 20 Retro Color V2 Feedback Delay And New Degradation Effects"
-  },
-  {
-    "id": "98ffe3a1e535",
-    "slug": "atmospheria-and-moody-lights",
-    "name": "Atmospheria And Moody Lights",
-    "developer": null,
-    "categoryId": "sampler",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Atmospheria And Moody Lights is a sampler / sample library.",
-    "longDescription": "Atmospheria And Moody Lights is a sampler / sample library.",
-    "officialUrl": "https://www.kvraudio.com/news/audiofier-releases-atmospheria-and-moody-lights-for-kontakt-69523",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "sampler"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-01T13:01:40.745366+00:00",
-    "sourceTitle": "Audiofier Releases Atmospheria And Moody Lights For Kontakt"
-  },
-  {
-    "id": "25ed0e723a17",
-    "slug": "toc-phase-correction-plugin",
-    "name": "Toc Phase Correction Plugin",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Toc Phase Correction Plugin is a audio plugin.",
-    "longDescription": "Toc Phase Correction Plugin is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/noisebud-updates-toc-phase-correction-plugin-to-v1-11-69528",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-01T13:01:36.910675+00:00",
-    "sourceTitle": "Noisebud Updates Toc Phase Correction Plugin To V1.11"
-  },
-  {
-    "id": "0078221bf5e0",
-    "slug": "burn-studio-vst-and",
-    "name": "Burn Studio Vst And",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Burn Studio Vst And is a audio plugin.",
-    "longDescription": "Burn Studio Vst And is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/gsi-releases-burn-studio-vst-and-au-69503",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-01T13:01:32.449044+00:00",
-    "sourceTitle": "Gsi Releases Burn Studio Vst And Au"
   }
 ]
