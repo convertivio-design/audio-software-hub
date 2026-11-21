@@ -1,5 +1,265 @@
 [
   {
+    "id": "4d400d91b4a4",
+    "slug": "pure-smooth-dynamic-resonance-suppressor",
+    "name": "Pure Smooth Dynamic Resonance Suppressor",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Pure Smooth Dynamic Resonance Suppressor is a audio plugin.",
+    "longDescription": "Pure Smooth Dynamic Resonance Suppressor is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/sonible-releases-pure-smooth---dynamic-resonance-suppressor-plugin-69931",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:52.499868+00:00",
+    "sourceTitle": "Sonible Releases Pure Smooth Dynamic Resonance Suppressor Plugin"
+  },
+  {
+    "id": "9b3a5807de36",
+    "slug": "vox-shine",
+    "name": "Vox Shine",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Vox Shine is a audio plugin.",
+    "longDescription": "Vox Shine is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/xrl-records-releases-vox-shine-v2-0-for-windows-vst3-free-intro-69939",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows"
+    ],
+    "formats": [
+      "VST3"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:49.478762+00:00",
+    "sourceTitle": "Xrl Records Releases Vox Shine V2.0 For Windows Vst3 Free Intro"
+  },
+  {
+    "id": "6e2fd10a5673",
+    "slug": "chordpotion-to",
+    "name": "Chordpotion To",
+    "developer": null,
+    "categoryId": "midi",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Chordpotion To is a MIDI utility plugin.",
+    "longDescription": "Chordpotion To is a MIDI utility plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/feelyoursound-updates-chordpotion-to-v2-7-0---adds-new-midi-clone-feature-69950",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "midi"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:46.717295+00:00",
+    "sourceTitle": "Feelyoursound Updates Chordpotion To V2.7.0 Adds New Midi Clone Feature"
+  },
+  {
+    "id": "6337657abcf4",
+    "slug": "terra-neural-drum-synth-with-map-based-exploration-au-and",
+    "name": "Terra Neural Drum Synth With Map Based Exploration Au And",
+    "developer": null,
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Terra Neural Drum Synth With Map Based Exploration Au And is a synthesizer plugin.",
+    "longDescription": "Terra Neural Drum Synth With Map Based Exploration Au And is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/neutone-announces-terra---neural-drum-synth-with-map-based-exploration-au-and-vst3-69705",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST3",
+      "AU"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:43.944370+00:00",
+    "sourceTitle": "Neutone Announces Terra Neural Drum Synth With Map Based Exploration Au And Vst3"
+  },
+  {
+    "id": "521a9d815380",
+    "slug": "sphere-to",
+    "name": "Sphere To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Sphere To is a audio plugin.",
+    "longDescription": "Sphere To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/ginger-audio-updates-sphere-to-v2-1-4-with-link-macros-and-advanced-downmix-control-69955",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:40.744595+00:00",
+    "sourceTitle": "Ginger Audio Updates Sphere To V2.1.4 With Link Macros And Advanced Downmix Control"
+  },
+  {
+    "id": "57f57d818c2d",
+    "slug": "colour-saturator-to",
+    "name": "Colour Saturator To",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Colour Saturator To is a audio effects plugin.",
+    "longDescription": "Colour Saturator To is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/hofa-plugins-updates-colour-saturator-to-v1-5-with-13-new-models-and-a-mastering-category-69956",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:37.099575+00:00",
+    "sourceTitle": "Hofa Plugins Updates Colour Saturator To V1.5 With 13 New Models And A Mastering Category"
+  },
+  {
+    "id": "56d838f79dd0",
+    "slug": "loudness-series-6-1-with-ara-2-support-for-leveler-and",
+    "name": "Loudness Series 6 1 With Ara 2 Support For Leveler And...",
+    "developer": null,
+    "categoryId": "mastering",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Loudness Series 6 1 With Ara 2 Support For Leveler And... is a mastering plugin.",
+    "longDescription": "Loudness Series 6 1 With Ara 2 Support For Leveler And... is a mastering plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/apu-software-releases-loudness-series-6-1-with-ara-2-support-for-leveler-and-optimizer-69971",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "mastering"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:34.029932+00:00",
+    "sourceTitle": "Apu Software Releases Loudness Series 6 1 With Ara 2 Support For Leveler And Optimizer"
+  },
+  {
+    "id": "d2b5e246d2f2",
+    "slug": "blue-cats-patchwork-2-79",
+    "name": "Blue Cats Patchwork 2 79",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Blue Cats Patchwork 2 79 is a audio plugin.",
+    "longDescription": "Blue Cats Patchwork 2 79 is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/blue-cat-audio-releases-blue-cats-patchwork-2-79-69978",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-21T14:28:30.269320+00:00",
+    "sourceTitle": "Blue Cat Audio Releases Blue Cats Patchwork 2 79"
+  },
+  {
     "id": "c9c400ede8d1",
     "slug": "ab-advanced-visualiser-hoa-pro-for-immersive-audio-analysis",
     "name": "Ab Advanced Visualiser Hoa Pro For Immersive Audio Analysis",
@@ -729,268 +989,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-11-05T14:27:49.234420+00:00",
     "sourceTitle": "Izotope Releases Photon Gpu Accelerated Stem Separation And Denoising"
-  },
-  {
-    "id": "89a72d0c95cc",
-    "slug": "align-and-edit-to-1-1",
-    "name": "Align And Edit To 1 1",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Align And Edit To 1 1 is a audio plugin.",
-    "longDescription": "Align And Edit To 1 1 is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/null-audio-updates-align-and-edit-to-1-1-69622",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-05T14:27:40.520500+00:00",
-    "sourceTitle": "Null Audio Updates Align And Edit To 1 1"
-  },
-  {
-    "id": "d934b647b8e8",
-    "slug": "metal-machine-2-ezx-by-andy-sneap-for-ezdrummer-and",
-    "name": "Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And...",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And... is a drum machine plugin.",
-    "longDescription": "Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And... is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/toontrack-releases-metal-machine-2-ezx-by-andy-sneap-for-ezdrummer-and-superior-drummer-69626",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-05T14:27:34.027758+00:00",
-    "sourceTitle": "Toontrack Releases Metal Machine 2 Ezx By Andy Sneap For Ezdrummer And Superior Drummer"
-  },
-  {
-    "id": "35506e730c57",
-    "slug": "capitol-studios-room-modeling-and-reverb-plug-in",
-    "name": "Capitol Studios Room Modeling And Reverb Plug In",
-    "developer": "Universal Audio",
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Universal Audio Capitol Studios Room Modeling And Reverb Plug In is a audio effects plugin.",
-    "longDescription": "Universal Audio Capitol Studios Room Modeling And Reverb Plug In is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/universal-audio-releases-capitol-studios-room-modeling-and-reverb-plug-in-69628",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-05T14:27:29.675502+00:00",
-    "sourceTitle": "Universal Audio Releases Capitol Studios Room Modeling And Reverb Plug In"
-  },
-  {
-    "id": "cf43a0e7d925",
-    "slug": "the-swarm-polyphonic-wavetable-synth-au-clap-and",
-    "name": "The Swarm Polyphonic Wavetable Synth Au Clap And",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "The Swarm Polyphonic Wavetable Synth Au Clap And is a synthesizer plugin.",
-    "longDescription": "The Swarm Polyphonic Wavetable Synth Au Clap And is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/morpheral-machines-releases-the-swarm-polyphonic-wavetable-synth-au-clap-and-vst3-69632",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "CLAP"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-05T14:27:24.533945+00:00",
-    "sourceTitle": "Morpheral Machines Releases The Swarm Polyphonic Wavetable Synth Au Clap And Vst3"
-  },
-  {
-    "id": "03863d1f55ef",
-    "slug": "lx480-dual-engine-reverb-to",
-    "name": "Lx480 Dual Engine Reverb To",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Lx480 Dual Engine Reverb To is a audio effects plugin.",
-    "longDescription": "Lx480 Dual Engine Reverb To is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/relab-development-updates-lx480-dual-engine-reverb-to-v4-1-1-and-lx480-essentials-to-v2-3-0-69636",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-05T14:26:32.427551+00:00",
-    "sourceTitle": "Relab Development Updates Lx480 Dual Engine Reverb To V4.1.1 And Lx480 Essentials To V2.3.0"
-  },
-  {
-    "id": "9a3c7490d70e",
-    "slug": "shrapnel-to",
-    "name": "Shrapnel To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Shrapnel To is a audio plugin.",
-    "longDescription": "Shrapnel To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/tech-audio-updates-shrapnel-to-v1-1-and-adds-a-free-100-preset-factory-pack-69566",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-03T13:58:03.530005+00:00",
-    "sourceTitle": "Tech Audio Updates Shrapnel To V1.1 And Adds A Free 100 Preset Factory Pack"
-  },
-  {
-    "id": "bfa133c50c86",
-    "slug": "terrarium-generative-world-synthesizer-you-play-by",
-    "name": "Terrarium Generative World Synthesizer You Play By...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Terrarium Generative World Synthesizer You Play By... is a synthesizer plugin.",
-    "longDescription": "Terrarium Generative World Synthesizer You Play By... is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/touchmachines-releases-terrarium---generative-world-synthesizer-you-play-by-grabbing-the-weather-vst3-au-standalone-ios-69565",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "iOS",
-      "Standalone"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-03T13:57:58.837710+00:00",
-    "sourceTitle": "Touchmachines Releases Terrarium Generative World Synthesizer You Play By Grabbing The Weather Vst3 Au Standalone Ios"
-  },
-  {
-    "id": "6097f9c335df",
-    "slug": "big-max-zero",
-    "name": "Big Max Zero",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Big Max Zero is a audio plugin.",
-    "longDescription": "Big Max Zero is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/big-man-labs-updates-big-max-zero-to-v1-3-0-69570",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-03T13:57:54.558957+00:00",
-    "sourceTitle": "Big Man Labs Updates Big Max Zero To V1.3.0"
   }
 ]
