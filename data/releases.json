@@ -1,5 +1,201 @@
 [
   {
+    "id": "4716c273a44b",
+    "slug": "blox-grain-granular-effect-plugin-vst-au",
+    "name": "Blox Grain Granular Effect Plugin Vst Au",
+    "developer": null,
+    "categoryId": "effects",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Blox Grain Granular Effect Plugin Vst Au is a audio effects plugin.",
+    "longDescription": "Blox Grain Granular Effect Plugin Vst Au is a audio effects plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/pine-dsp-releases-blox-grain---granular-effect-plugin-vst-au-aax-69899",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "effects"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-23T17:50:26.167478+00:00",
+    "sourceTitle": "Pine Dsp Releases Blox Grain Granular Effect Plugin Vst Au Aax"
+  },
+  {
+    "id": "980773ca9eac",
+    "slug": "smackbox",
+    "name": "Smackbox",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Smackbox is a audio plugin.",
+    "longDescription": "Smackbox is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/dropshot-audio-updates-smackbox-v2-to-v1-6-0-69962",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-23T17:50:21.090972+00:00",
+    "sourceTitle": "Dropshot Audio Updates Smackbox V2 To V1.6.0"
+  },
+  {
+    "id": "9572494f2519",
+    "slug": "artificial-intelligence-acousmatic-soundset-for-uvi-falcon",
+    "name": "Artificial Intelligence Acousmatic Soundset For Uvi Falcon",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Artificial Intelligence Acousmatic Soundset For Uvi Falcon is a audio plugin.",
+    "longDescription": "Artificial Intelligence Acousmatic Soundset For Uvi Falcon is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/leap-into-void-releases-artificial-intelligence-acousmatic-soundset-for-uvi-falcon-70063",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-23T17:50:17.358309+00:00",
+    "sourceTitle": "Leap Into Void Releases Artificial Intelligence Acousmatic Soundset For Uvi Falcon"
+  },
+  {
+    "id": "8809daafbc77",
+    "slug": "automix-0-9-0-beta-automatic-mixing-with-sidechain-in",
+    "name": "Automix 0 9 0 Beta Automatic Mixing With Sidechain In...",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Automix 0 9 0 Beta Automatic Mixing With Sidechain In... is a audio plugin.",
+    "longDescription": "Automix 0 9 0 Beta Automatic Mixing With Sidechain In... is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/eyehear-releases-automix-0-9-0-beta-automatic-mixing-with-sidechain-in-premiere-pro-70066",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-23T17:50:13.763694+00:00",
+    "sourceTitle": "Eyehear Releases Automix 0 9 0 Beta Automatic Mixing With Sidechain In Premiere Pro"
+  },
+  {
+    "id": "3ec733ec64b6",
+    "slug": "shrapnel-to",
+    "name": "Shrapnel To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Shrapnel To is a audio plugin.",
+    "longDescription": "Shrapnel To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/tech-audio-updates-shrapnel-to-v1-2-with-local-gravity-full-screen-sandbox-and-new-mseg-modes-70017",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-23T17:50:10.101550+00:00",
+    "sourceTitle": "Tech Audio Updates Shrapnel To V1.2 With Local Gravity Full Screen Sandbox And New Mseg Modes"
+  },
+  {
+    "id": "89f5152f8f8a",
+    "slug": "naive-lo-fi-tape-and-space-echo-sample-library",
+    "name": "Naive Lo Fi Tape And Space Echo Sample Library",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Naive Lo Fi Tape And Space Echo Sample Library is a sampler / sample library.",
+    "longDescription": "Naive Lo Fi Tape And Space Echo Sample Library is a sampler / sample library.",
+    "officialUrl": "https://www.kvraudio.com/news/sound-dust-releases-naive---lo-fi-tape-and-space-echo-sample-library-for-kontakt-70077",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-23T17:49:58.080287+00:00",
+    "sourceTitle": "Sound Dust Releases Naive Lo Fi Tape And Space Echo Sample Library For Kontakt"
+  },
+  {
     "id": "4d400d91b4a4",
     "slug": "pure-smooth-dynamic-resonance-suppressor",
     "name": "Pure Smooth Dynamic Resonance Suppressor",
@@ -786,208 +982,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-11-09T15:51:13.968037+00:00",
     "sourceTitle": "Neutone Announces Neusynth A Stem Generator That Works Inside Your Daw"
-  },
-  {
-    "id": "23d52b127375",
-    "slug": "smooth-7-dynamic-equalizer-plugin-au-and",
-    "name": "Smooth 7 Dynamic Equalizer Plugin Au And",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Smooth 7 Dynamic Equalizer Plugin Au And is a audio effects plugin.",
-    "longDescription": "Smooth 7 Dynamic Equalizer Plugin Au And is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/rockheyday-releases-smooth-7---dynamic-equalizer-plugin-au-and-vst3-69698",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-09T15:51:06.994050+00:00",
-    "sourceTitle": "Rockheyday Releases Smooth 7 Dynamic Equalizer Plugin Au And Vst3"
-  },
-  {
-    "id": "e797d2e2e6dd",
-    "slug": "currents-and-nostalgia-synthesizer-plugin-au-and",
-    "name": "Currents And Nostalgia Synthesizer Plugin Au And",
-    "developer": null,
-    "categoryId": "synth",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Currents And Nostalgia Synthesizer Plugin Au And is a synthesizer plugin.",
-    "longDescription": "Currents And Nostalgia Synthesizer Plugin Au And is a synthesizer plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/unusable-engineering-releases-currents-and-nostalgia-synthesizer-plugin-au-and-vst3-69692",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-09T15:50:46.421490+00:00",
-    "sourceTitle": "Unusable Engineering Releases Currents And Nostalgia Synthesizer Plugin Au And Vst3"
-  },
-  {
-    "id": "bfc6e2313798",
-    "slug": "drumod4-drums-vst-alesis-d4-inspired-drum-module-plugin",
-    "name": "Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin...",
-    "developer": null,
-    "categoryId": "drums",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin... is a drum machine plugin.",
-    "longDescription": "Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin... is a drum machine plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/force56-audio-software-releases-drumod4-drums-vst---alesis-d4-inspired-drum-module-plugin-vst3-and-au-69711",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "VST",
-      "AU"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "drums"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-09T15:50:37.149370+00:00",
-    "sourceTitle": "Force56 Audio Software Releases Drumod4 Drums Vst Alesis D4 Inspired Drum Module Plugin Vst3 And Au"
-  },
-  {
-    "id": "c40d2f4d3409",
-    "slug": "atavism-spectral-effect-for-ipad-auv3",
-    "name": "Atavism Spectral Effect For Ipad Auv3",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Atavism Spectral Effect For Ipad Auv3 is a audio plugin.",
-    "longDescription": "Atavism Spectral Effect For Ipad Auv3 is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/parallel-minds-releases-atavism-spectral-effect-for-ipad-auv3-69707",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "iOS"
-    ],
-    "formats": [
-      "AUv3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-09T15:50:24.867393+00:00",
-    "sourceTitle": "Parallel Minds Releases Atavism Spectral Effect For Ipad Auv3"
-  },
-  {
-    "id": "de624fb1b432",
-    "slug": "massive-xl",
-    "name": "Massive Xl",
-    "developer": "Native Instruments",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Native Instruments Massive Xl is a audio plugin.",
-    "longDescription": "Native Instruments Massive Xl is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/native-instruments-releases-massive-xl-69635",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-07T12:46:55.576258+00:00",
-    "sourceTitle": "Native Instruments Releases Massive Xl"
-  },
-  {
-    "id": "abc8cd49a30c",
-    "slug": "photon-gpu-accelerated-stem-separation-and-denoising",
-    "name": "Photon Gpu Accelerated Stem Separation And Denoising",
-    "developer": "iZotope",
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "iZotope Photon Gpu Accelerated Stem Separation And Denoising is a audio plugin.",
-    "longDescription": "iZotope Photon Gpu Accelerated Stem Separation And Denoising is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/izotope-releases-photon---gpu-accelerated-stem-separation-and-denoising-69616",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-05T14:27:49.234420+00:00",
-    "sourceTitle": "Izotope Releases Photon Gpu Accelerated Stem Separation And Denoising"
   }
 ]
