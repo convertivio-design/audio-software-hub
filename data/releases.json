@@ -1,5 +1,37 @@
 [
   {
+    "id": "1fc172658f35",
+    "slug": "integra-7-editor",
+    "name": "Integra 7 Editor",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Integra 7 Editor is a audio plugin.",
+    "longDescription": "Integra 7 Editor is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/samba-godschynski-updates-integra-7-editor-to-v1-0-4-70051",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-25T17:00:36.865580+00:00",
+    "sourceTitle": "Samba Godschynski Updates Integra 7 Editor To V1.0.4"
+  },
+  {
     "id": "4716c273a44b",
     "slug": "blox-grain-granular-effect-plugin-vst-au",
     "name": "Blox Grain Granular Effect Plugin Vst Au",
@@ -950,37 +982,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-11-09T15:51:25.017919+00:00",
     "sourceTitle": "Marula Music Updates Spek To 1 0 4 And Veld To 1 1"
-  },
-  {
-    "id": "dd9c69505998",
-    "slug": "neusynth-a-stem-generator-that-works-inside-your-daw",
-    "name": "Neusynth A Stem Generator That Works Inside Your Daw",
-    "developer": null,
-    "categoryId": "daw",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Neusynth A Stem Generator That Works Inside Your Daw is a digital audio workstation.",
-    "longDescription": "Neusynth A Stem Generator That Works Inside Your Daw is a digital audio workstation.",
-    "officialUrl": "https://www.kvraudio.com/news/neutone-announces-neusynth---a-stem-generator-that-works-inside-your-daw-69705",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "daw"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-09T15:51:13.968037+00:00",
-    "sourceTitle": "Neutone Announces Neusynth A Stem Generator That Works Inside Your Daw"
   }
 ]
