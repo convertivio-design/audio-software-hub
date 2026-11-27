@@ -1,5 +1,271 @@
 [
   {
+    "id": "06dcfa080bc1",
+    "slug": "valhallasupermassive",
+    "name": "Valhallasupermassive",
+    "developer": "Valhalla DSP",
+    "categoryId": "utility",
+    "price": 0.0,
+    "priceType": "free",
+    "shortDescription": "Valhalla DSP Valhallasupermassive is a audio plugin. Available free.",
+    "longDescription": "Valhalla DSP Valhallasupermassive is a audio plugin. Available free.",
+    "officialUrl": "https://www.kvraudio.com/news/valhalla-dsp-releases-valhallasupermassive-v6-0-free-vst-au-and-aax-70160",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:41.223985+00:00",
+    "sourceTitle": "Valhalla Dsp Releases Valhallasupermassive V6.0 Free Vst Au And Aax"
+  },
+  {
+    "id": "89d999e0ac08",
+    "slug": "super-909-drums",
+    "name": "Super 909 Drums",
+    "developer": null,
+    "categoryId": "drums",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Super 909 Drums is a drum machine plugin.",
+    "longDescription": "Super 909 Drums is a drum machine plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/audiokit-releases-super-909-drums---free-drum-machine-for-ios-and-mac-70177",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "macOS",
+      "iOS"
+    ],
+    "formats": [
+      "iOS"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "drums"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:37.360765+00:00",
+    "sourceTitle": "Audiokit Releases Super 909 Drums Free Drum Machine For Ios And Mac"
+  },
+  {
+    "id": "a74a3f927cda",
+    "slug": "sotto-sampler-plugin-vst-au",
+    "name": "Sotto Sampler Plugin Vst Au",
+    "developer": null,
+    "categoryId": "sampler",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Sotto Sampler Plugin Vst Au is a sampler / sample library.",
+    "longDescription": "Sotto Sampler Plugin Vst Au is a sampler / sample library.",
+    "officialUrl": "https://www.kvraudio.com/news/sottovoce-dsp-releases-sotto-sampler-plugin-vst-au-aax-70180",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [
+      "VST",
+      "AU",
+      "AAX"
+    ],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "sampler"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:34.179968+00:00",
+    "sourceTitle": "Sottovoce Dsp Releases Sotto Sampler Plugin Vst Au Aax"
+  },
+  {
+    "id": "0349c3e3bce9",
+    "slug": "mix-to-mobile",
+    "name": "Mix To Mobile",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Mix To Mobile is a audio plugin.",
+    "longDescription": "Mix To Mobile is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/sound-on-digital-releases-mix-to-mobile-v2-0-with-encrypted-streams-adaptive-latency-and-quality-per-stream-70190",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:29.357281+00:00",
+    "sourceTitle": "Sound On Digital Releases Mix To Mobile V2.0 With Encrypted Streams Adaptive Latency And Quality Per Stream"
+  },
+  {
+    "id": "1914e20bfbd5",
+    "slug": "melbourne-instruments-roto-control-gets-deep-integration",
+    "name": "Melbourne Instruments Roto Control Gets Deep Integration...",
+    "developer": null,
+    "categoryId": "daw",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Melbourne Instruments Roto Control Gets Deep Integration... is a digital audio workstation.",
+    "longDescription": "Melbourne Instruments Roto Control Gets Deep Integration... is a digital audio workstation.",
+    "officialUrl": "https://www.kvraudio.com/news/melbourne-instruments-roto-control-gets-deep-integration-with-cubase-and-fl-studio-70191",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "daw"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:24.721626+00:00",
+    "sourceTitle": "Melbourne Instruments Roto Control Gets Deep Integration With Cubase And Fl Studio"
+  },
+  {
+    "id": "62d447c4fd7f",
+    "slug": "sheenq-to",
+    "name": "Sheenq To",
+    "developer": null,
+    "categoryId": "utility",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Sheenq To is a audio plugin.",
+    "longDescription": "Sheenq To is a audio plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/noizplay-updates-sheenq-to-v1-1-0---adds-a-sweepable-mid-band-70200",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "utility"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:20.680336+00:00",
+    "sourceTitle": "Noizplay Updates Sheenq To V1.1.0 Adds A Sweepable Mid Band"
+  },
+  {
+    "id": "55583fd77b87",
+    "slug": "analyzer",
+    "name": "Analyzer",
+    "developer": null,
+    "categoryId": "mastering",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Analyzer is a mastering plugin.",
+    "longDescription": "Analyzer is a mastering plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/hofa-plugins-releases-analyzer-v3---gpu-accelerated-spectrum-analysis-and-metering-in-a-fully-customizable-layout-70206",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "mastering"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:15.863725+00:00",
+    "sourceTitle": "Hofa Plugins Releases Analyzer V3 Gpu Accelerated Spectrum Analysis And Metering In A Fully Customizable Layout"
+  },
+  {
+    "id": "34c1e776918d",
+    "slug": "sourcelab-to",
+    "name": "Sourcelab To",
+    "developer": "Initial Audio",
+    "categoryId": "synth",
+    "price": null,
+    "priceType": "unknown",
+    "shortDescription": "Initial Audio Sourcelab To is a synthesizer plugin.",
+    "longDescription": "Initial Audio Sourcelab To is a synthesizer plugin.",
+    "officialUrl": "https://www.kvraudio.com/news/initial-audio-updates-sourcelab-to-v2-7-with-scale-lock-and-wavetable-filter-effect-70223",
+    "rating": null,
+    "ratingCount": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "os": [
+      "Windows",
+      "macOS"
+    ],
+    "formats": [],
+    "features": [],
+    "pros": [],
+    "cons": [
+      "New — limited reviews"
+    ],
+    "tags": [
+      "synth"
+    ],
+    "targetAudience": "Music producers and audio engineers",
+    "dateAdded": "2026-11-27T16:27:11.817480+00:00",
+    "sourceTitle": "Initial Audio Updates Sourcelab To V2.7 With Scale Lock And Wavetable Filter Effect"
+  },
+  {
     "id": "1fc172658f35",
     "slug": "integra-7-editor",
     "name": "Integra 7 Editor",
@@ -720,267 +986,5 @@
     "targetAudience": "Music producers and audio engineers",
     "dateAdded": "2026-11-17T15:47:48.709307+00:00",
     "sourceTitle": "Eventide Releases Spliteq 2 Dynamic Eq Plugin Aax Au And Vst3"
-  },
-  {
-    "id": "3c0ba035a7a2",
-    "slug": "genome-to",
-    "name": "Genome To",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Genome To is a audio plugin.",
-    "longDescription": "Genome To is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/two-notes-audio-engineering-updates-genome-to-v2-2---live-mode-69783",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-13T14:23:16.125267+00:00",
-    "sourceTitle": "Two Notes Audio Engineering Updates Genome To V2.2 Live Mode"
-  },
-  {
-    "id": "5b43a8e8881d",
-    "slug": "cosmicsynth-released-free-vst3-synthesizer-that-turns",
-    "name": "Cosmicsynth Released Free Vst3 Synthesizer That Turns...",
-    "developer": null,
-    "categoryId": "synth",
-    "price": 0.0,
-    "priceType": "free",
-    "shortDescription": "Cosmicsynth Released Free Vst3 Synthesizer That Turns... is a synthesizer plugin. Available free.",
-    "longDescription": "Cosmicsynth Released Free Vst3 Synthesizer That Turns... is a synthesizer plugin. Available free.",
-    "officialUrl": "https://www.kvraudio.com/news/cosmicsynth-released---free-vst3-synthesizer-that-turns-gravitational-wave-physics-into-music-69786",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "synth"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-13T14:23:12.774386+00:00",
-    "sourceTitle": "Cosmicsynth Released Free Vst3 Synthesizer That Turns Gravitational Wave Physics Into Music"
-  },
-  {
-    "id": "0ca2d7a1f05d",
-    "slug": "native-cooper-time-cube-delay",
-    "name": "Native Cooper Time Cube Delay",
-    "developer": "Universal Audio",
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Universal Audio Native Cooper Time Cube Delay is a audio effects plugin.",
-    "longDescription": "Universal Audio Native Cooper Time Cube Delay is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/universal-audio-releases-native-cooper-time-cube-delay-for-macos-and-windows-69788",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-13T14:23:08.912784+00:00",
-    "sourceTitle": "Universal Audio Releases Native Cooper Time Cube Delay For Macos And Windows"
-  },
-  {
-    "id": "41a0d68d5d3d",
-    "slug": "apverb",
-    "name": "Apverb",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Apverb is a audio plugin.",
-    "longDescription": "Apverb is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/apulsoft-updates-apverb-to-v1-2-6-69796",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-13T14:23:03.918806+00:00",
-    "sourceTitle": "Apulsoft Updates Apverb To V1.2.6"
-  },
-  {
-    "id": "793354b09a13",
-    "slug": "new-id-desktop-range",
-    "name": "New Id Desktop Range",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "New Id Desktop Range is a audio plugin.",
-    "longDescription": "New Id Desktop Range is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/audient-announces-new-id-desktop-range-69773",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-13T14:22:59.683558+00:00",
-    "sourceTitle": "Audient Announces New Id Desktop Range"
-  },
-  {
-    "id": "a04de8e1aed6",
-    "slug": "attribute-audio-character-transfer-plugin-vst3-au-and",
-    "name": "Attribute Audio Character Transfer Plugin Vst3 Au And",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Attribute Audio Character Transfer Plugin Vst3 Au And is a audio plugin.",
-    "longDescription": "Attribute Audio Character Transfer Plugin Vst3 Au And is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/2b-played-music-releases-attribute---audio-character-transfer-plugin-vst3-au-and-aax-69800",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [
-      "VST3",
-      "AU",
-      "AAX"
-    ],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-13T14:22:53.509127+00:00",
-    "sourceTitle": "2B Played Music Releases Attribute Audio Character Transfer Plugin Vst3 Au And Aax"
-  },
-  {
-    "id": "54cb15150df2",
-    "slug": "seconds-spectral-sound-design-effect",
-    "name": "Seconds Spectral Sound Design Effect",
-    "developer": null,
-    "categoryId": "effects",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Seconds Spectral Sound Design Effect is a audio effects plugin.",
-    "longDescription": "Seconds Spectral Sound Design Effect is a audio effects plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/audiothing-releases-seconds---spectral-sound-design-effect-plugin-69805",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "effects"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-13T14:22:41.812153+00:00",
-    "sourceTitle": "Audiothing Releases Seconds Spectral Sound Design Effect Plugin"
-  },
-  {
-    "id": "902c048c49b6",
-    "slug": "spek-to-1-0-4-and-veld-to-1-1",
-    "name": "Spek To 1 0 4 And Veld To 1 1",
-    "developer": null,
-    "categoryId": "utility",
-    "price": null,
-    "priceType": "unknown",
-    "shortDescription": "Spek To 1 0 4 And Veld To 1 1 is a audio plugin.",
-    "longDescription": "Spek To 1 0 4 And Veld To 1 1 is a audio plugin.",
-    "officialUrl": "https://www.kvraudio.com/news/marula-music-updates-spek-to-1-0-4-and-veld-to-1-1-69704",
-    "rating": null,
-    "ratingCount": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "os": [
-      "Windows",
-      "macOS"
-    ],
-    "formats": [],
-    "features": [],
-    "pros": [],
-    "cons": [
-      "New — limited reviews"
-    ],
-    "tags": [
-      "utility"
-    ],
-    "targetAudience": "Music producers and audio engineers",
-    "dateAdded": "2026-11-09T15:51:25.017919+00:00",
-    "sourceTitle": "Marula Music Updates Spek To 1 0 4 And Veld To 1 1"
   }
 ]
